@@ -1,0 +1,15 @@
+C:\Users\EjeDesarrolloCS-165\source\repos\Wash2\Wash2\Wash2\bin\Debug\netstandard2.0\Wash2.deps.json
+C:\Users\EjeDesarrolloCS-165\source\repos\Wash2\Wash2\Wash2\bin\Debug\netstandard2.0\Wash2.dll
+C:\Users\EjeDesarrolloCS-165\source\repos\Wash2\Wash2\Wash2\bin\Debug\netstandard2.0\Wash2.pdb
+C:\Users\EjeDesarrolloCS-165\source\repos\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\EjeDesarrolloCS-165\source\repos\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\EjeDesarrolloCS-165\source\repos\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.csproj.CoreCompileInputs.cache
+C:\Users\EjeDesarrolloCS-165\source\repos\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.AssemblyInfoInputs.cache
+C:\Users\EjeDesarrolloCS-165\source\repos\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.AssemblyInfo.cs
+C:\Users\EjeDesarrolloCS-165\source\repos\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.dll
+C:\Users\EjeDesarrolloCS-165\source\repos\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.pdb
+C:\Users\EjeDesarrolloCS-165\source\repos\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.csprojAssemblyReference.cache
+C:\Users\EjeDesarrolloCS-165\source\repos\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Views\Login\Login.xaml.g.cs
+C:\Users\EjeDesarrolloCS-165\source\repos\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Views\Login\Banner.xaml.g.cs
+C:\Users\EjeDesarrolloCS-165\source\repos\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Views\Login\OnBoardingPageXaml.xaml.g.cs
+C:\Users\EjeDesarrolloCS-165\source\repos\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\XamlC.stamp

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cv="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
+             x:Class="Wash2.Views.Login.Banner">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <StackLayout HorizontalOptions="FillAndExpand"
+                         VerticalOptions="FillAndExpand"
+                         AbsoluteLayout.LayoutBounds="0, 0, 1, 0.9"
+                         AbsoluteLayout.LayoutFlags="All"
+                         x:Name="logoLayou">
+                <StackLayout Padding="30">
+                    <Image Source="iko.png"></Image>
+                </StackLayout>
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

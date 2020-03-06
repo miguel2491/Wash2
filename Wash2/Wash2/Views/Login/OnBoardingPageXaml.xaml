@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wash2.Views.Login.OnBoardingPageXaml"
+             xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             Title="Carousel View Xaml">
+    <ContentPage.Content>
+        <controls:CarouselViewControl
+            Orientation="Horizontal"
+            InterPageSpacing="0"
+            ShowIndicators="true"
+            ItemsSource="{Binding BoardingObjectsList}">
+            <controls:CarouselViewControl.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout
+                        BackgroundColor="{Binding Color}"
+                        VerticalOptions="FillAndExpand"
+                        HorizontalOptions="FillAndExpand"
+                        >
+                    </StackLayout>
+                </DataTemplate>
+            </controls:CarouselViewControl.ItemTemplate>
+        </controls:CarouselViewControl>
+    </ContentPage.Content>
+</ContentPage>
