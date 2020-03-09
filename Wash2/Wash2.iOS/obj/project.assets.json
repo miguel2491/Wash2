@@ -57,6 +57,18 @@
           "lib/xamarinios10/Plugin.Media.dll": {}
         }
       },
+      "Xam.Plugins.Forms.ImageCircle/3.0.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.1": {
         "type": "package",
         "frameworkAssemblies": [
@@ -266,6 +278,18 @@
         },
         "runtime": {
           "lib/xamarinios10/Plugin.Media.dll": {}
+        }
+      },
+      "Xam.Plugins.Forms.ImageCircle/3.0.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
         }
       },
       "Xamarin.Essentials/1.5.1": {
@@ -479,6 +503,18 @@
           "lib/xamarinios10/Plugin.Media.dll": {}
         }
       },
+      "Xam.Plugins.Forms.ImageCircle/3.0.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.1": {
         "type": "package",
         "frameworkAssemblies": [
@@ -688,6 +724,18 @@
         },
         "runtime": {
           "lib/xamarinios10/Plugin.Media.dll": {}
+        }
+      },
+      "Xam.Plugins.Forms.ImageCircle/3.0.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
         }
       },
       "Xamarin.Essentials/1.5.1": {
@@ -1014,6 +1062,28 @@
         "readme.txt",
         "xam.plugin.media.4.0.1.5.nupkg.sha512",
         "xam.plugin.media.nuspec"
+      ]
+    },
+    "Xam.Plugins.Forms.ImageCircle/3.0.0.4": {
+      "sha512": "Xc8ok2imLFkABfdfU8sHYzXmkLPZgYxQnaaCYmkeLr6kTez/ODEw1iSWqVs91vGAmQg9HjOV6zjBIqVq5naPPg==",
+      "type": "package",
+      "path": "xam.plugins.forms.imagecircle/3.0.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.dll",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.xml",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.dll",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.pri",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.xml",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.dll",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.xml",
+        "xam.plugins.forms.imagecircle.3.0.0.4.nupkg.sha512",
+        "xam.plugins.forms.imagecircle.nuspec"
       ]
     },
     "Xamarin.Essentials/1.5.1": {
@@ -1356,24 +1426,25 @@
     "Xamarin.iOS,Version=v1.0": [
       "CarouselView.FormsPlugin >= 5.2.0",
       "Wash2 >= 1.0.0",
+      "Xam.Plugins.Forms.ImageCircle >= 3.0.0.4",
       "Xamarin.Forms >= 4.5.0.356"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Miguelin\\.nuget\\packages\\": {}
+    "C:\\Users\\EjeDesarrolloCS-165\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2.iOS\\Wash2.iOS.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2.iOS\\Wash2.iOS.csproj",
       "projectName": "Wash2.iOS",
-      "projectPath": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2.iOS\\Wash2.iOS.csproj",
-      "packagesPath": "C:\\Users\\Miguelin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2.iOS\\obj\\",
+      "projectPath": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2.iOS\\Wash2.iOS.csproj",
+      "packagesPath": "C:\\Users\\EjeDesarrolloCS-165\\.nuget\\packages\\",
+      "outputPath": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Miguelin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\EjeDesarrolloCS-165\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1386,8 +1457,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2\\Wash2.csproj": {
-              "projectPath": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2\\Wash2.csproj"
+            "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2\\Wash2.csproj": {
+              "projectPath": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2\\Wash2.csproj"
             }
           }
         }
@@ -1399,6 +1470,10 @@
           "CarouselView.FormsPlugin": {
             "target": "Package",
             "version": "[5.2.0, )"
+          },
+          "Xam.Plugins.Forms.ImageCircle": {
+            "target": "Package",
+            "version": "[3.0.0.4, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

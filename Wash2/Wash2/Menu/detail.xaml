@@ -9,6 +9,7 @@
                 Source="menuCar.png"
                 HeightRequest="300"
                 WidthRequest="300"
+                
                 />
             <Button 
                     Text="SOLICITUDES"

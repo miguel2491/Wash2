@@ -66,3 +66,13 @@ C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2.iOS\obj\iPhoneSimulator\Debug
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2.iOS\obj\iPhoneSimulator\Debug\Wash2.iOS.csproj.CopyComplete
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2.iOS\obj\iPhoneSimulator\Debug\Wash2.iOS.exe
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2.iOS\obj\iPhoneSimulator\Debug\Wash2.iOS.pdb
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhoneSimulator\Debug\Wash2.iOS.csprojAssemblyReference.cache
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhoneSimulator\Debug\Wash2.iOS.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhoneSimulator\Debug\Wash2.iOS.exe
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhoneSimulator\Debug\Wash2.iOS.pdb

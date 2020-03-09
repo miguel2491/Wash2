@@ -84,6 +84,21 @@
           "lib/monoandroid71/Plugin.Media.dll": {}
         }
       },
+      "Xam.Plugins.Forms.ImageCircle/3.0.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid71/ImageCircle.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid71/ImageCircle.Forms.Plugin.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
         "type": "package",
         "dependencies": {
@@ -938,6 +953,7 @@
           "Newtonsoft.Json": "12.0.3",
           "Xam.Plugin.Connectivity": "3.2.0",
           "Xam.Plugin.Media": "4.0.1.5",
+          "Xam.Plugins.Forms.ImageCircle": "3.0.0.4",
           "Xamarin.Essentials": "1.5.1",
           "Xamarin.Forms": "4.5.0.356"
         },
@@ -1132,6 +1148,28 @@
         "readme.txt",
         "xam.plugin.media.4.0.1.5.nupkg.sha512",
         "xam.plugin.media.nuspec"
+      ]
+    },
+    "Xam.Plugins.Forms.ImageCircle/3.0.0.4": {
+      "sha512": "Xc8ok2imLFkABfdfU8sHYzXmkLPZgYxQnaaCYmkeLr6kTez/ODEw1iSWqVs91vGAmQg9HjOV6zjBIqVq5naPPg==",
+      "type": "package",
+      "path": "xam.plugins.forms.imagecircle/3.0.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.dll",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.xml",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.dll",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.pri",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.xml",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.dll",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.xml",
+        "xam.plugins.forms.imagecircle.3.0.0.4.nupkg.sha512",
+        "xam.plugins.forms.imagecircle.nuspec"
       ]
     },
     "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
@@ -2297,6 +2335,7 @@
       "Wash2 >= 1.0.0",
       "Xam.Plugin.Connectivity >= 3.2.0",
       "Xam.Plugin.Media >= 4.0.1.5",
+      "Xam.Plugins.Forms.ImageCircle >= 3.0.0.4",
       "Xamarin.Android.Support.Design >= 28.0.0.3",
       "Xamarin.Android.Support.v4 >= 28.0.0.3",
       "Xamarin.Android.Support.v7.AppCompat >= 28.0.0.3",
@@ -2306,20 +2345,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Miguelin\\.nuget\\packages\\": {}
+    "C:\\Users\\EjeDesarrolloCS-165\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2.Android\\Wash2.Android.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2.Android\\Wash2.Android.csproj",
       "projectName": "Wash2.Android",
-      "projectPath": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2.Android\\Wash2.Android.csproj",
-      "packagesPath": "C:\\Users\\Miguelin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2.Android\\obj\\",
+      "projectPath": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2.Android\\Wash2.Android.csproj",
+      "packagesPath": "C:\\Users\\EjeDesarrolloCS-165\\.nuget\\packages\\",
+      "outputPath": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Miguelin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\EjeDesarrolloCS-165\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2332,8 +2371,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2\\Wash2.csproj": {
-              "projectPath": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2\\Wash2.csproj"
+            "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2\\Wash2.csproj": {
+              "projectPath": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2\\Wash2.csproj"
             }
           }
         }
@@ -2357,6 +2396,10 @@
           "Xam.Plugin.Media": {
             "target": "Package",
             "version": "[4.0.1.5, )"
+          },
+          "Xam.Plugins.Forms.ImageCircle": {
+            "target": "Package",
+            "version": "[3.0.0.4, )"
           },
           "Xamarin.Android.Support.Design": {
             "target": "Package",

@@ -88,6 +88,18 @@
           "lib/netstandard2.0/Plugin.Media.dll": {}
         }
       },
+      "Xam.Plugins.Forms.ImageCircle/3.0.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.1": {
         "type": "package",
         "dependencies": {
@@ -143,12 +155,11 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "t+Yuzm93EMUJH793AJzEwj3tzZNif+4+m+piYX+PftWYOnwN5ZzGuedV4M6yR/n16rSQ5mMxaqCXke4k1sm+2A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -158,12 +169,11 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "80Ys3+WJCxuhh5psWTaFmeuXkyctxjAoVLCagUsVA8Y+Zczx4GwOsraAQPwjTJ/XR4A44QTTIATl0EDA3EDphA==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -478,6 +488,28 @@
         "readme.txt",
         "xam.plugin.media.4.0.1.5.nupkg.sha512",
         "xam.plugin.media.nuspec"
+      ]
+    },
+    "Xam.Plugins.Forms.ImageCircle/3.0.0.4": {
+      "sha512": "Xc8ok2imLFkABfdfU8sHYzXmkLPZgYxQnaaCYmkeLr6kTez/ODEw1iSWqVs91vGAmQg9HjOV6zjBIqVq5naPPg==",
+      "type": "package",
+      "path": "xam.plugins.forms.imagecircle/3.0.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.dll",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.xml",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.dll",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.pri",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.xml",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.dll",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.xml",
+        "xam.plugins.forms.imagecircle.3.0.0.4.nupkg.sha512",
+        "xam.plugins.forms.imagecircle.nuspec"
       ]
     },
     "Xamarin.Essentials/1.5.1": {
@@ -818,28 +850,29 @@
       "Newtonsoft.Json >= 12.0.3",
       "Xam.Plugin.Connectivity >= 3.2.0",
       "Xam.Plugin.Media >= 4.0.1.5",
+      "Xam.Plugins.Forms.ImageCircle >= 3.0.0.4",
       "Xamarin.Essentials >= 1.5.1",
       "Xamarin.Forms >= 4.5.0.356"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Miguelin\\.nuget\\packages\\": {},
+    "C:\\Users\\EjeDesarrolloCS-165\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2\\Wash2.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2\\Wash2.csproj",
       "projectName": "Wash2",
-      "projectPath": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2\\Wash2.csproj",
-      "packagesPath": "C:\\Users\\Miguelin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2\\obj\\",
+      "projectPath": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2\\Wash2.csproj",
+      "packagesPath": "C:\\Users\\EjeDesarrolloCS-165\\.nuget\\packages\\",
+      "outputPath": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Miguelin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\EjeDesarrolloCS-165\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -884,6 +917,10 @@
           "Xam.Plugin.Media": {
             "target": "Package",
             "version": "[4.0.1.5, )"
+          },
+          "Xam.Plugins.Forms.ImageCircle": {
+            "target": "Package",
+            "version": "[3.0.0.4, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",
