@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#225374"
+             x:Class="Wash2.Views.Login.RecuperarPass">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="50,20,50,20">
+                <Image Source="icono.png" 
+                                       Aspect="AspectFill"
+                                       HeightRequest="150"
+                                       WidthRequest="150"
+                                       HorizontalOptions="Center" />
+                <Label Text="RECUPERAR CONTRASEÑA"
+                   Margin="10,10,10,10"
+                   FontSize="30"
+                   TextColor="#70c795"
+                   HorizontalOptions="CenterAndExpand" />
+                <Entry
+                    BackgroundColor="#7691a6"
+                    Placeholder="Correo Electrónico"
+                    TextColor="#000000"
+                    x:Name="Correo_recupera"
+                />
+                <Button 
+                    Text="RECUPERAR"
+                    WidthRequest="90"
+                    x:Name="btnRecuperarPass"
+                    TextColor="#255371"
+                    BackgroundColor="#7ee596"
+                    Clicked="Recuperar_Pass_Clicked"
+                />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

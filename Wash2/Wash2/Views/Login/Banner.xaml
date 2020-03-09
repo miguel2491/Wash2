@@ -1,19 +1,50 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:cv="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
-             x:Class="Wash2.Views.Login.Banner">
-    <ContentPage.Content>
-        <AbsoluteLayout>
-            <StackLayout HorizontalOptions="FillAndExpand"
-                         VerticalOptions="FillAndExpand"
-                         AbsoluteLayout.LayoutBounds="0, 0, 1, 0.9"
-                         AbsoluteLayout.LayoutFlags="All"
-                         x:Name="logoLayou">
-                <StackLayout Padding="30">
-                    <Image Source="iko.png"></Image>
-                </StackLayout>
-            </StackLayout>
-        </AbsoluteLayout>
-    </ContentPage.Content>
+             xmlns:viewmodels="clr-namespace:Wash2.ViewModels"
+             x:Class="Wash2.Views.Login.Banner"
+             BackgroundColor="#225374"
+             Title="Indicators">
+    <ContentPage.BindingContext>
+        <viewmodels:MonkeysViewModel />
+    </ContentPage.BindingContext>
+    <StackLayout>
+        <Button  Text="Saltar" Clicked="Button_Clicked"/>
+        <CarouselView x:Name="carouselView"
+                      ItemsSource="{Binding Monkeys}">
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Frame HasShadow="True"
+                               BorderColor="DarkGray"
+                               CornerRadius="5"
+                               Margin="20"
+                               HeightRequest="300"
+                               HorizontalOptions="Center"
+                               VerticalOptions="CenterAndExpand">
+                            <StackLayout>
+                                <Label Text="{Binding Name}" 
+                                       FontAttributes="Bold"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Center" />
+                                <Image Source="{Binding ImageUrl}" 
+                                       Aspect="AspectFill"
+                                       HeightRequest="150"
+                                       WidthRequest="150"
+                                       HorizontalOptions="Center" />
+                                <Label Text="{Binding Location}"
+                                       HorizontalOptions="Center" />
+                                <Label Text="{Binding Details}"
+                                       FontAttributes="Italic"
+                                       HorizontalOptions="Center"
+                                       MaxLines="5"
+                                       LineBreakMode="TailTruncation" />
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+        
+    </StackLayout>
 </ContentPage>

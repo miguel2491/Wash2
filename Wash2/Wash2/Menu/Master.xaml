@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#225374"
+             x:Class="Wash2.Menu.Master" Title="Master">
+    <ContentPage.Content>
+        <StackLayout
+            BackgroundColor="Accent"
+            Orientation="Vertical"
+        >
+            <Image
+                Margin="10,20,10,10"
+                HeightRequest="150"
+                WidthRequest="150"
+                Source="icono.png" />
+            <Label
+                HorizontalOptions="Center"
+                Text="Nombre / Mail de usuario " />
+            <Button Text="estado de servicio"
+                x:Name="btnedoserv"
+                BackgroundColor="#075E54"  TextColor="#DCF8C6"
+            />
+
+            <Button Text="mis autos"
+                x:Name="btnautos"
+                BackgroundColor="#075E54"  TextColor="#DCF8C6"
+                
+            />
+            <Button Text="lavados"
+                x:Name="btnlavos"
+                Clicked="btnlavos_Clicked"
+                BackgroundColor="#075E54"  TextColor="#DCF8C6"
+            />
+
+            <Button Text="configuracion"
+                Clicked="btnconfiguracion_Clicked"
+                x:Name="btnconfiguracion"
+                BackgroundColor="#075E54"  TextColor="#DCF8C6"
+           />
+
+            <Button Text="compartir codigo"
+                x:Name="btncompartircod"
+                BackgroundColor="#075E54"  TextColor="#DCF8C6"
+           />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

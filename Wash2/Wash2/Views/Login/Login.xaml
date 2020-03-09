@@ -1,23 +1,74 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#225374"
              x:Class="Wash2.Views.Login.Login">
     <ContentPage.Content>
         <StackLayout Margin="50,20,50,20">
-            <Label Text="Bienvenido!"
-                 HorizontalOptions="CenterAndExpand" />
+            <Image Source="icono.png" 
+                                       Aspect="AspectFill"
+                                       HeightRequest="150"
+                                       WidthRequest="150"
+                                       HorizontalOptions="Center" />
+            <Label Text="INICIA SESIÓN"
+                   Margin="20,20,20,20"
+                   FontSize="26"
+                   TextColor="#70c795"
+                   HorizontalOptions="CenterAndExpand" />
+            
             <Entry
-                Placeholder="Usuario o mail"/>
-
+                Margin="10,10,10,10"
+                Placeholder="EMAIL"
+                PlaceholderColor="#ffffff"
+                BackgroundColor="#7691a6"
+                TextColor="#000000"
+                x:Name="Email_login"
+                />
             <Entry
-                Placeholder="Contraseña"
+                Placeholder="CONTRASEÑA"
                 x:Name="Pass"
+                TextColor="#ffffff"
+                PlaceholderColor="#ffffff"
+                BackgroundColor="#7691a6"
                 IsPassword="True"/>
+            <Label HorizontalOptions="End"
+       VerticalOptions="CenterAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="¿Olvidaste la constraseña?"
+                            TextColor="#ffffff" FontSize="16">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer
+                                    Tapped="RecuperarPass"
+                                    NumberOfTapsRequired="1" />
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
             <Button 
-                Text="Iniciar Sesion"
+                Text="INGRESAR"
                 x:Name="btnIniciarSesion"
+                TextColor="#255371"
+                BackgroundColor="#7ee596"
                 Clicked="Iniciar_Sesion_Clicked"
                 />
+            <Label HorizontalOptions="Center"
+       VerticalOptions="CenterAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="¿No tienes una cuenta?"
+                            TextColor="#ffffff">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer
+                                    Tapped="OnTapGestureRecognizerTapped"
+                                    NumberOfTapsRequired="1" />
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

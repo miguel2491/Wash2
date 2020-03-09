@@ -143,11 +143,12 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "t+Yuzm93EMUJH793AJzEwj3tzZNif+4+m+piYX+PftWYOnwN5ZzGuedV4M6yR/n16rSQ5mMxaqCXke4k1sm+2A==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -157,11 +158,12 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "80Ys3+WJCxuhh5psWTaFmeuXkyctxjAoVLCagUsVA8Y+Zczx4GwOsraAQPwjTJ/XR4A44QTTIATl0EDA3EDphA==",
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -821,23 +823,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EjeDesarrolloCS-165\\.nuget\\packages\\": {},
+    "C:\\Users\\Miguelin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EjeDesarrolloCS-165\\source\\repos\\Wash2\\Wash2\\Wash2\\Wash2.csproj",
+      "projectUniqueName": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2\\Wash2.csproj",
       "projectName": "Wash2",
-      "projectPath": "C:\\Users\\EjeDesarrolloCS-165\\source\\repos\\Wash2\\Wash2\\Wash2\\Wash2.csproj",
-      "packagesPath": "C:\\Users\\EjeDesarrolloCS-165\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EjeDesarrolloCS-165\\source\\repos\\Wash2\\Wash2\\Wash2\\obj\\",
+      "projectPath": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2\\Wash2.csproj",
+      "packagesPath": "C:\\Users\\Miguelin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\EjeDesarrolloCS-165\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Miguelin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

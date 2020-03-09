@@ -29,7 +29,7 @@ namespace Wash2.Splash
 
             sub.Children.Add(splashImage);
 
-            this.BackgroundColor = Color.FromHex("#170147");
+            this.BackgroundColor = Color.FromHex("#225374");
             this.Content = sub;
         }
 
@@ -42,7 +42,7 @@ namespace Wash2.Splash
             await splashImage.ScaleTo(0.6, 1500, Easing.BounceOut);
             await splashImage.FadeTo(0, 270, null);
 
-            Application.Current.MainPage = new NavigationPage(new OnBoardingPageXaml());
+            Application.Current.MainPage = new NavigationPage(new Banner());
         }
     }
 }
