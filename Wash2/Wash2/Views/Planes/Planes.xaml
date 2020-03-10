@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#225374"
+             x:Class="Wash2.Views.Planes.Planes">
+    <ContentPage.Content>
+        <StackLayout Margin="50,20,50,20">
+            <Button 
+                Text="ELEGIR"
+                x:Name="btnElegirPaquete"
+                TextColor="#255371"
+                BackgroundColor="#7ee596"
+                CornerRadius="20"
+                Clicked="BtnElegirPaquete_Clicked"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

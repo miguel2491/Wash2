@@ -213,6 +213,7 @@
           "Newtonsoft.Json": "12.0.3",
           "Xam.Plugin.Connectivity": "3.2.0",
           "Xam.Plugin.Media": "4.0.1.5",
+          "Xam.Plugins.Forms.ImageCircle": "3.0.0.4",
           "Xamarin.Essentials": "1.5.1",
           "Xamarin.Forms": "4.5.0.356"
         },
@@ -436,6 +437,7 @@
           "Newtonsoft.Json": "12.0.3",
           "Xam.Plugin.Connectivity": "3.2.0",
           "Xam.Plugin.Media": "4.0.1.5",
+          "Xam.Plugins.Forms.ImageCircle": "3.0.0.4",
           "Xamarin.Essentials": "1.5.1",
           "Xamarin.Forms": "4.5.0.356"
         },
@@ -659,6 +661,7 @@
           "Newtonsoft.Json": "12.0.3",
           "Xam.Plugin.Connectivity": "3.2.0",
           "Xam.Plugin.Media": "4.0.1.5",
+          "Xam.Plugins.Forms.ImageCircle": "3.0.0.4",
           "Xamarin.Essentials": "1.5.1",
           "Xamarin.Forms": "4.5.0.356"
         },
@@ -882,6 +885,7 @@
           "Newtonsoft.Json": "12.0.3",
           "Xam.Plugin.Connectivity": "3.2.0",
           "Xam.Plugin.Media": "4.0.1.5",
+          "Xam.Plugins.Forms.ImageCircle": "3.0.0.4",
           "Xamarin.Essentials": "1.5.1",
           "Xamarin.Forms": "4.5.0.356"
         },
@@ -1431,20 +1435,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EjeDesarrolloCS-165\\.nuget\\packages\\": {}
+    "C:\\Users\\Miguelin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2.iOS\\Wash2.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2.iOS\\Wash2.iOS.csproj",
       "projectName": "Wash2.iOS",
-      "projectPath": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2.iOS\\Wash2.iOS.csproj",
-      "packagesPath": "C:\\Users\\EjeDesarrolloCS-165\\.nuget\\packages\\",
-      "outputPath": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2.iOS\\Wash2.iOS.csproj",
+      "packagesPath": "C:\\Users\\Miguelin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\EjeDesarrolloCS-165\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Miguelin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1457,8 +1461,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2\\Wash2.csproj": {
-              "projectPath": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2\\Wash2.csproj"
+            "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2\\Wash2.csproj": {
+              "projectPath": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2\\Wash2.csproj"
             }
           }
         }

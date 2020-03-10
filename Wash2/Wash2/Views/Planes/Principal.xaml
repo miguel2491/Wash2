@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#225374"
+             x:Class="Wash2.Views.Planes.Principal">
+    <ContentPage.Content>
+        <StackLayout Margin="50,20,50,20">
+            <Label 
+                Margin="10,10,10,10"
+                Text="SELECCIONA TU PAQUETE"
+                FontSize="20"
+                TextColor="#DCF8C6"
+                HorizontalOptions="CenterAndExpand" />
+            <ListView x:Name="PaqueteList"   
+                      ItemsSource="{Binding Paquetes}"
+                  >
+                <!--Built in Cells-->
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout  Orientation="Horizontal">
+                                <Button 
+                                    WidthRequest="200"
+                                    HeightRequest="100"
+                                    Text="{Binding nombre}"
+                                    x:Name="btnSelPaquete"
+                                    FontSize="16"
+                                    CornerRadius="20"
+                                    BackgroundColor="#ffffff"
+                                    TextColor="#000000"
+                                />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button 
+                Text="ACEPTAR"
+                x:Name="btnSelPaquete"
+                TextColor="#255371"
+                CornerRadius="20"
+                BackgroundColor="#7ee596"
+                Clicked="BtnSelPaquete_Clicked"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -3,6 +3,7 @@ CarouselView.FormsPlugin.Android
 Com.Android.DeskClock
 Com.ViewPagerIndicator
 FormsViewGroup
+ImageCircle.Forms.Plugin
 Newtonsoft.Json
 Plugin.Connectivity.Abstractions
 Plugin.Connectivity
@@ -56,4 +57,3 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
-ImageCircle.Forms.Plugin

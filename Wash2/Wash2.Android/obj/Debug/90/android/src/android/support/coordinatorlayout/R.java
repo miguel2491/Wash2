@@ -5339,9 +5339,10 @@ containing a value of this type.
         public static int vertical_viewpager=0x7f040056;
     }
     public static final class mipmap {
-        public static int icon=0x7f030000;
-        public static int icon_round=0x7f030001;
-        public static int launcher_foreground=0x7f030002;
+        public static int ic_launcher=0x7f030000;
+        public static int icon=0x7f030001;
+        public static int icon_round=0x7f030002;
+        public static int launcher_foreground=0x7f030003;
     }
     public static final class string {
         public static int abc_action_bar_home_description=0x7f0c0018;

@@ -55,7 +55,7 @@
                 TextColor="white"
                 />
                 <Entry
-                Margin="10,10,10,10"
+                Margin="5,5,5,5"
                 BackgroundColor="#7691a6"
                 TextColor="#000000"
                 x:Name="telefono"
@@ -67,7 +67,7 @@
                 TextColor="white"
                 />
                 <Entry
-                Margin="10,10,10,10"
+                Margin="5,5,5,5"
                 BackgroundColor="#7691a6"
                 TextColor="#000000"
                 x:Name="correo"
@@ -97,6 +97,14 @@
                 TextColor="#000000"
                 x:Name="confirmar_pass"
                 IsPassword="True"
+                />
+                <Button 
+                Text="PAQUETE A OFRECER"
+                x:Name="btnPaquetes"
+                TextColor="#255371"
+                FontSize="20"
+                BackgroundColor="#c1f3d3"
+                Clicked="Paquetes_Clicked"
                 />
                 <Button 
                 Text="REGISTRAR"

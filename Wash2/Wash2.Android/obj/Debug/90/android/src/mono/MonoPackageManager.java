@@ -112,6 +112,7 @@ class MonoPackageManager_Resources {
 		"Com.Android.DeskClock.dll",
 		"Com.ViewPagerIndicator.dll",
 		"FormsViewGroup.dll",
+		"ImageCircle.Forms.Plugin.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.Connectivity.Abstractions.dll",
 		"Plugin.Connectivity.dll",

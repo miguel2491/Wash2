@@ -9,6 +9,21 @@
         <viewmodels:MonkeysViewModel />
     </ContentPage.BindingContext>
     <StackLayout>
+        <Label HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="SALTAR"
+                            TextColor="#ffffff">
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer
+                                    Tapped="Button_Clicked"
+                                    NumberOfTapsRequired="1" />
+                        </Span.GestureRecognizers>
+                    </Span>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
         <CarouselView x:Name="carouselView"
                       ItemsSource="{Binding Monkeys}">
             <CarouselView.ItemTemplate>
@@ -44,20 +59,6 @@
                 </DataTemplate>
             </CarouselView.ItemTemplate>
         </CarouselView>
-        <Label HorizontalOptions="Center"
-            VerticalOptions="CenterAndExpand">
-            <Label.FormattedText>
-                <FormattedString>
-                    <Span Text="SALTAR"
-                            TextColor="#ffffff">
-                        <Span.GestureRecognizers>
-                            <TapGestureRecognizer
-                                    Tapped="Button_Clicked"
-                                    NumberOfTapsRequired="1" />
-                        </Span.GestureRecognizers>
-                    </Span>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
+        
     </StackLayout>
 </ContentPage>

@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Wash2.Views.Planes;
 
 namespace Wash2.Views.Login
 {
@@ -73,5 +74,13 @@ namespace Wash2.Views.Login
             }
             Application.Current.MainPage = new NavigationPage(new Login());
         }
+        private async void Paquetes_Clicked(object sender, EventArgs e)
+        {
+            NavigationPage page = App.Current.MainPage as NavigationPage;
+            page.BarBackgroundColor = Color.Beige;
+            page.BarTextColor = Color.Black;
+            await Navigation.PushAsync(new Principal());
+        }
+
     }
 }
