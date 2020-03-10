@@ -13,23 +13,32 @@
                 HorizontalOptions="CenterAndExpand" />
             <ListView x:Name="PaqueteList"   
                       ItemsSource="{Binding Paquetes}"
+                      ItemTapped="PaqueteList_ItemTapped"
                   >
                 <!--Built in Cells-->
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout  Orientation="Horizontal">
-                                <Button 
-                                    WidthRequest="200"
-                                    HeightRequest="100"
-                                    Text="{Binding nombre}"
-                                    x:Name="btnSelPaquete"
-                                    FontSize="16"
-                                    CornerRadius="20"
-                                    BackgroundColor="#ffffff"
-                                    TextColor="#000000"
-                                />
-                            </StackLayout>
+                            <ViewCell.View>
+                                <Grid Margin="0,0,0,20">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+
+                                    <StackLayout Grid.Column="0" BackgroundColor="White" Margin="10,5,0,15">
+                                        <Label Text="{Binding nombre}"
+                                               TextColor="Black"
+                                               BackgroundColor="White"
+                                            VerticalTextAlignment="Center"
+                                            LineBreakMode="TailTruncation"/>
+                                    </StackLayout>
+
+                                </Grid>
+                            </ViewCell.View>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
@@ -40,7 +49,7 @@
                 TextColor="#255371"
                 CornerRadius="20"
                 BackgroundColor="#7ee596"
-                Clicked="BtnSelPaquete_Clicked"
+                
                 />
         </StackLayout>
     </ContentPage.Content>

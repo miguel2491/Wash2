@@ -48,12 +48,19 @@ namespace Wash2.Views.Planes
             }
         }
 
-        private async void BtnSelPaquete_Clicked(object sender, EventArgs e)
+        /*private async void BtnSelPaquete_Clicked(object sender, EventArgs e)
         {
             NavigationPage page = App.Current.MainPage as NavigationPage;
             page.BarBackgroundColor = Color.Beige;
             page.BarTextColor = Color.Black;
-            await Navigation.PushAsync(new Planes());
+            //await Navigation.PushAsync(new Planes());
+        }*/
+
+        private async void PaqueteList_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            var content_X = e.Item as Paquetes;
+
+            await Navigation.PushAsync(new Planes(content_X.id_paquete));
         }
     }
 }

@@ -1,3 +1,6 @@
+System.Runtime
+Wash2
+netstandard
 CarouselView.FormsPlugin.Abstractions
 CarouselView.FormsPlugin.Android
 Com.Android.DeskClock
@@ -10,8 +13,6 @@ Plugin.Connectivity
 Plugin.CurrentActivity
 Plugin.Media
 Plugin.Permissions
-System.Runtime
-Wash2
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Core.Runtime
 Xamarin.Android.Arch.Lifecycle.Common
@@ -56,4 +57,3 @@ Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
-netstandard
