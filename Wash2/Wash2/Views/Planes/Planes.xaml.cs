@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using Wash2.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Wash2.Views.Login;
 
 namespace Wash2.Views.Planes
 {
@@ -25,7 +26,6 @@ namespace Wash2.Views.Planes
 
         public async Task GetInfoPaquete(int id_paquete)
         {
-            await DisplayAlert("error", "ID" + id_paquete, "ok");
             HttpClient client = new HttpClient();
 
             var url = "http://www.washdryapp.com/app/public/paquete/individual/"+id_paquete;
@@ -41,8 +41,9 @@ namespace Wash2.Views.Planes
                         Console.WriteLine("----------------------------------------------_____:Here status 200");
                         HttpContent content = response.Content;
                         string xjson = await content.ReadAsStringAsync();
-
                         var json_ = JsonConvert.DeserializeObject<List<PaqueteDetalle>>(xjson);
+                        Titulo.Text = json_[0].nombre;
+                        Descripcion.Text = json_[0].descripcion;
                         PaqueteDetalleList.ItemsSource = json_;
                         break;
                 }
@@ -53,9 +54,10 @@ namespace Wash2.Views.Planes
             }
         }
 
-        private void BtnElegirPaquete_Clicked(object sender, EventArgs e)
+        private async void BtnElegirPaquete_Clicked(object sender, EventArgs e)
         {
-
+            await DisplayAlert("Aviso", "Paquete Seleccionado", "Ok");
+            await Navigation.PushAsync(new Registro());
         }
     }
 }

@@ -32,6 +32,12 @@
                 PlaceholderColor="#ffffff"
                 BackgroundColor="#7691a6"
                 IsPassword="True"/>
+            <Label
+                    x:Name="Errormsn"
+                    IsVisible="False"
+                    TextColor="red"
+                    HorizontalTextAlignment="Center"
+                    />
             <Label HorizontalOptions="End"
        VerticalOptions="CenterAndExpand" Margin="-10,-50,0,-10">
                 <Label.FormattedText>

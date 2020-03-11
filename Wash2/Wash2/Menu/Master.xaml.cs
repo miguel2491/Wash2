@@ -7,6 +7,8 @@ using Wash2.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using ImageCircle.Forms.Plugin;
+using Wash2.Views.Pagos;
+using Wash2.Views.Login;
 
 namespace Wash2.Menu
 {
@@ -21,14 +23,19 @@ namespace Wash2.Menu
             
             ((NavigationPage)Application.Current.MainPage).BarBackgroundColor = Color.Coral;
         }
-        private async void btnconfiguracion_Clicked(object sender, EventArgs e)
+
+
+
+        private async void btnpagos_Clicked(object sender, EventArgs e)
         {
-            await DisplayAlert("AQUI", "ALGO", "ok");
-        }
-        private async void btnlavos_Clicked(object sender, EventArgs e)
-        {
-            await DisplayAlert("AQUI", "ALGO", "ok");
+            //((NavigationPage)Application.Current.MainPage).BarBackgroundColor = Color.Coral;
+            await ((MainPage)App.Current.MainPage).Detail.Navigation.PushAsync(new Pagos());
         }
         
+
+        private void BtnCerrarSesion_Clicked(object sender, EventArgs e)
+        {
+            Application.Current.MainPage = new NavigationPage(new Login());
+        }
     }
 }

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#225374"
+             x:Class="Wash2.Views.Pagos.Pagos">
+    <ContentPage.Content>
+        <StackLayout Margin="20,20,20,20">
+            <Label Text="MIS PAGOS"
+                FontSize="20"
+                TextColor="#81e394"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="FECHA"
+                FontSize="16"
+                TextColor="#81e394"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button 
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand"
+                Text="CALENDARIO"
+                TextColor="#255371"
+                CornerRadius="20"
+                BackgroundColor="#7ee596"
+            />
+            <Label Text="$70"
+                FontSize="12"
+                TextColor="#ffffff"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="SALDO AL FINAL DE SEMANA"
+                FontSize="16"
+                TextColor="#81e394"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button 
+                Text="INFORMACIÓN"
+                FontSize="20"
+                TextColor="#255371"
+                CornerRadius="20"
+                BackgroundColor="#7ee596"
+                x:Name="btnInfo"
+                Clicked="BtnInfo_Clicked"
+            />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

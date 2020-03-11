@@ -2,11 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:custom="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
-             BackgroundColor="#225374"
+             BackgroundColor="#359d9e"
              x:Class="Wash2.Menu.Master" Title="Master">
     <ContentPage.Content>
         <StackLayout
             Orientation="Vertical"
+            Margin="20,10,20,40"
         >
             <Frame Margin="10"
                BorderColor="Black"
@@ -25,32 +26,28 @@
 
             <Label
                 HorizontalOptions="Center"
-                Text="Nombre / Mail de usuario " />
-            <Button Text="estado de servicio"
+                Text="ROBERTO HERNANDEZ"
+                TextColor="White"
+                />
+            <Button Text="Estado de servicio"
                 x:Name="btnedoserv"
-                BackgroundColor="#075E54"  TextColor="#DCF8C6"
+                TextColor="#DCF8C6"
+                BackgroundColor="transparent"
             />
 
-            <Button Text="mis autos"
-                x:Name="btnautos"
-                BackgroundColor="#075E54"  TextColor="#DCF8C6"
-                
+            <Button Text="Autos Lavados"
+                x:Name="btnautos" TextColor="White"
+                BackgroundColor="transparent"
             />
-            <Button Text="lavados"
-                x:Name="btnlavos"
-                Clicked="btnlavos_Clicked"
-                BackgroundColor="#075E54"  TextColor="#DCF8C6"
+            <Button Text="Pagos"
+                x:Name="btnPagos"
+                BackgroundColor="transparent"
+                Clicked="btnpagos_Clicked" TextColor="White"
             />
-
-            <Button Text="configuracion"
-                Clicked="btnconfiguracion_Clicked"
-                x:Name="btnconfiguracion"
-                BackgroundColor="#075E54"  TextColor="#DCF8C6"
-           />
-
-            <Button Text="compartir codigo"
-                x:Name="btncompartircod"
-                BackgroundColor="#075E54"  TextColor="#DCF8C6"
+            
+            <Button Text="Cerrar Sesión"
+                x:Name="btnCerrarSesion" BackgroundColor="transparent"  TextColor="White"
+                    Clicked="BtnCerrarSesion_Clicked"
            />
         </StackLayout>
     </ContentPage.Content>
