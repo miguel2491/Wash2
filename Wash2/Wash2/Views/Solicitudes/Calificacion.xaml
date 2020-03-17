@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             BackgroundColor="#225374"
+             xmlns:lv="clr-namespace:LaavorRatingConception;assembly=RatingConception"
+             mc:Ignorable="d"
+             x:Class="Wash2.Views.Solicitudes.Calificacion">
+    <ContentPage.Content>
+        <StackLayout Margin="10,10,10,10">
+            <StackLayout Margin="20,30,20,5">
+                <Label Text="CALIFICA A TU CLIENTE"
+                        FontSize="20"
+                        TextColor="#81e394"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+            <StackLayout Margin="10,10,10,10">
+                <Frame
+                    Margin="10"
+                    BorderColor="White"
+                    CornerRadius="100"
+                    HeightRequest="40"
+                    WidthRequest="40"
+                    IsClippedToBounds="True"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center">
+                    <Image Source="iko.png"
+                        Aspect="AspectFill"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                    />
+                </Frame>
+            </StackLayout>
+            <StackLayout>
+                <Label Text="Nombre Alguien Aqui"
+                        FontSize="14"
+                        TextColor="#81e394"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" />
+                <lv:RatingConception 
+                    ItemsNumber="5" DrawType="Star" 
+                    ImageWidth="35" ImageHeight="35"  InitialValue="4" DesignType="Standard" ColorUI="YellowLight" 
+                    x:Name="ratingStar"
+                    Margin="0,15,0,15" />
+            </StackLayout>
+            <StackLayout Margin="15,10,15,5">
+                <Entry 
+                    Placeholder="Deja Tu Comentario"
+                    PlaceholderColor="White"
+                    TextColor="White"
+                    x:Name="txt_comentario"
+                    />
+            </StackLayout>
+            <StackLayout Margin="15,30,15,30">
+                <Button 
+                    Text="ENVIAR"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    WidthRequest="110"
+                    CornerRadius="50"
+                    BackgroundColor="#81e394"
+                    FontAttributes="Bold"
+                    x:Name="Btn_EnviarCal"
+                />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

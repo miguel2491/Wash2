@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             BackgroundColor="#225374"
+             xmlns:lv="clr-namespace:LaavorRatingConception;assembly=RatingConception"
+             mc:Ignorable="d"
+             x:Class="Wash2.Views.AutoLavados.AutosLavados">
+        <ScrollView >
+            <StackLayout Margin="10,20,20,20">
+            <StackLayout>
+                <Label Text="TUS AUTOS LAVADOS"
+                        FontSize="20"
+                           FontAttributes="Bold"
+                        TextColor="#81e394"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+            <StackLayout Margin="10,10,10,0">
+                    <Label FontAttributes="Bold" Text="Hoy" TextColor="#81e394"/>
+                </StackLayout>
+                <StackLayout Margin="10,10,10,0">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="60" />
+                            <ColumnDefinition Width="60" />
+                            <ColumnDefinition Width="80" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Modelo" TextColor="#81e394" Grid.Column="0" Grid.Row="0"/>
+                        <Label Text="Placa" TextColor="#81e394" Grid.Column="1" Grid.Row="0"/>
+                        <Label Text="$70" HorizontalTextAlignment="End" TextColor="#81e394" Grid.Column="2" Grid.Row="0"/>
+                    </Grid>
+                </StackLayout>
+                <StackLayout Margin="10,10,10,0">
+                <StackLayout Orientation="Horizontal" HeightRequest="80" WidthRequest="450" Padding="1">
+                    <StackLayout Spacing="0" BackgroundColor="White" Orientation="Horizontal"  HorizontalOptions="Center">
+                        <Frame
+                                    Margin="10"
+                                    BorderColor="White"
+                                    CornerRadius="100"
+                                    HeightRequest="40"
+                                    WidthRequest="40"
+                                    IsClippedToBounds="True"
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="Center">
+                            <Image Source="icono.png"
+                                         Aspect="AspectFill"
+                                         HeightRequest="100"
+                                         WidthRequest="100"
+                                                   />
+
+                        </Frame>
+                        <Label HorizontalOptions="End"
+                                VerticalOptions="CenterAndExpand" Margin="10,10,10,10">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="ALGO AQUI"
+                                            TextColor="Black" FontSize="12" FontAttributes="Bold">
+                                        <Span.GestureRecognizers>
+                                            <TapGestureRecognizer
+                                                x:Name="descripcion"
+                                                    Tapped="Descripcion_Tapped"
+                                                    NumberOfTapsRequired="1" />
+                                        </Span.GestureRecognizers>
+                                    </Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <lv:RatingConception ItemsNumber="5" DrawType="Star" 
+                                        ImageWidth="15" ImageHeight="15"  InitialValue="3" DesignType="Standard" ColorUI="YellowLight" 
+                                        x:Name="ratingStar"
+                                        Margin="0,15,0,15" />
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            </StackLayout>
+        </ScrollView>
+</ContentPage>

@@ -1,2 +1,2 @@
-android.app.Application
+android.support.multidex.MultiDexApplication
 com.companyname.Wash2

@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             BackgroundColor="#225374"
+             xmlns:lv="clr-namespace:LaavorRatingConception;assembly=RatingConception"
+             mc:Ignorable="d"
+             x:Class="Wash2.Views.AutoLavados.DetalleSolicitud">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="10,20,10,20">
+                <StackLayout>
+                    <Label Text="DETALLE DE LAVADO"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        TextColor="#81e394"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" />
+                </StackLayout>
+                <StackLayout Margin="10,10,10,0">
+                    <Label FontAttributes="Bold" Text="Hoy" TextColor="#81e394"/>
+                </StackLayout>
+                <StackLayout Margin="10,10,10,0">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="60" />
+                            <ColumnDefinition Width="60" />
+                            <ColumnDefinition Width="80" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Modelo" TextColor="#81e394" Grid.Column="0" Grid.Row="0"/>
+                        <Label Text="Placa" TextColor="#81e394" Grid.Column="1" Grid.Row="0"/>
+                        <Label Text="$70" HorizontalTextAlignment="End" TextColor="#81e394" Grid.Column="2" Grid.Row="0"/>
+                    </Grid>
+                </StackLayout>
+                <StackLayout Margin="10,10,10,0">
+                    <StackLayout Orientation="Horizontal" HeightRequest="80" WidthRequest="450" Padding="1">
+                        <StackLayout Spacing="0" BackgroundColor="White" Orientation="Horizontal"  HorizontalOptions="Center">
+                            <Frame
+                                    Margin="10"
+                                    BorderColor="White"
+                                    CornerRadius="100"
+                                    HeightRequest="40"
+                                    WidthRequest="40"
+                                    IsClippedToBounds="True"
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="Center">
+                                <Image Source="icono.png"
+                                         Aspect="AspectFill"
+                                         HeightRequest="100"
+                                         WidthRequest="100"
+                                                   />
+
+                            </Frame>
+                            <Label HorizontalOptions="End"
+                                VerticalOptions="CenterAndExpand" Margin="10,10,10,10">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="ALGO AQUI"
+                                            TextColor="Black" FontSize="12" FontAttributes="Bold">
+                                        </Span>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <lv:RatingConception ItemsNumber="5" DrawType="Star" 
+                                ImageWidth="15" ImageHeight="15" 
+                                InitialValue="3" DesignType="Standard" 
+                                ColorUI="YellowLight" 
+                                BlockVote="True" Margin="0,15,0,15" />
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Margin="10,10,10,10">
+                    <Label 
+                        Text="Paquete Seleccionado"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        />
+                    <Label 
+                        x:Name="lbl_paquete"
+                        BackgroundColor="#1d5476"
+                        TextType="Text"
+                        TextColor="White"
+                        HorizontalTextAlignment="Center"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Text="PAQUETE 1"
+                        WidthRequest="70"
+                        Margin="40,10,40,5"
+                        />
+                </StackLayout>
+                <StackLayout Margin="10,10,10,10">
+                    <Label 
+                        Text="Cambiar Calificación"
+                        FontSize="14"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        />
+                    <lv:RatingConception ItemsNumber="5" DrawType="Star"
+                                x:Name="r_calif"
+                                ImageWidth="30" ImageHeight="30" 
+                                InitialValue="3" DesignType="Standard" 
+                                ColorUI="YellowLight" 
+                                BlockVote="True" Margin="0,15,0,15" />
+                </StackLayout>
+                <StackLayout Margin="10,10,10,10">
+                    <Label 
+                        Text="Cambiar Comentario"
+                        FontSize="14"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        />
+                    <Entry
+                        x:Name="txt_comentario"
+                        TextColor="White"
+                        />
+                </StackLayout>
+                <StackLayout Margin="10,10,10,10">
+                    <Label 
+                        Text="RECIBO"
+                        FontSize="14"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        />
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="90" />
+                            <ColumnDefinition Width="90" />
+                        </Grid.ColumnDefinitions>
+                        <Label Text="Tarifa de Lavado" TextColor="white" Grid.Column="0" Grid.Row="0"/>
+                        <Label Text="$70" TextColor="white" Grid.Column="1" Grid.Row="0"/>
+                        <Label Text="Subtotal" TextColor="white" Grid.Column="0" Grid.Row="1"/>
+                        <Label Text="$70" TextColor="white" Grid.Column="1" Grid.Row="1"/>
+                        <Label Text="Descuento" TextColor="white" Grid.Column="0" Grid.Row="2"/>
+                        <Label Text="$70" TextColor="white" Grid.Column="1" Grid.Row="2"/>
+                        <Label Text="TOTAL" HorizontalTextAlignment="Start" TextColor="#81e394" Grid.Column="0" Grid.Row="3"/>
+                        <Label Text="$70" TextColor="white" Grid.Column="1" Grid.Row="3"/>
+                    </Grid>
+                </StackLayout>
+                <StackLayout Margin="10,10,10,10">
+                    <Button 
+                        Text="ACEPTAR"
+                        VerticalOptions="CenterAndExpand"
+                        HorizontalOptions="Center"
+                        WidthRequest="100"
+                        CornerRadius="20"
+                        BackgroundColor="#81e394"
+                        FontAttributes="Bold"
+                        x:Name="Btn_Aceptar"
+                        />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

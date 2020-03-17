@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Wash2.Splash;
+using Wash2.Views.AutoLavados;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Wash2
@@ -13,6 +14,7 @@ namespace Wash2
         public App()
         {
             InitializeComponent();
+            //MainPage = new NavigationPage(new MainPage());
             MainPage = new NavigationPage(new SplashScreen());
         }
 

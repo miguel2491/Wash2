@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#225374"
+             x:Class="Wash2.Views.Estado.EdoServicio">
+    <ContentPage.Content>
+        <StackLayout Margin="10,5,10,5">
+            
+            <StackLayout Margin="15,20,10,0">
+                <Label Text="ESTADOS DE SERVICIO"
+                FontSize="20"
+                       HorizontalOptions="Center"
+                TextColor="#81e394" />
+                <Picker x:Name="Gender" 
+                        HorizontalOptions="FillAndExpand" 
+                        BackgroundColor="#7ee596"
+                        TextColor="#225c6b"
+                        WidthRequest="80"
+                        >
+                    <Picker.Items>
+                        <x:String>Male</x:String>
+                        <x:String>Female</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+            <StackLayout Margin="15,20,10,5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="80" />
+                    </Grid.ColumnDefinitions>
+                    <Label
+                        Text="Fecha de Emisión"
+                        TextColor="White"
+                        Grid.Column="0"
+                        Grid.Row="0"
+                        Margin="10,20,10,20"
+                        />
+                    <Label
+                        Text="HOY"
+                        TextColor="#7ad995"
+                        x:Name="lbl_fecha_emision"
+                        Grid.Column="1"
+                        Grid.Row="0"
+                        VerticalOptions="End"
+                        HorizontalOptions="End"
+                        Margin="10,20,10,20"
+                        />
+                    <Label
+                        Text="Fecha de Servicio"
+                        TextColor="White"
+                        Grid.Column="0"
+                        Grid.Row="1"
+                        VerticalOptions="End"
+                        HorizontalOptions="End"
+                        Margin="10,20,10,20"
+                        />
+                    <Label
+                        Text="HOY"
+                        TextColor="#7ad995"
+                        x:Name="lbl_fecha_Servicio"
+                        Grid.Column="1"
+                        Grid.Row="1"
+                        VerticalOptions="End"
+                        HorizontalOptions="End"
+                        Margin="10,20,10,20"
+                        />
+                    <Label
+                        Text="Estado de Servicio"
+                        TextColor="White"
+                        Grid.Column="0"
+                        Grid.Row="2"
+                        VerticalOptions="End"
+                        HorizontalOptions="End"
+                        Margin="10,20,10,20"
+                        />
+                    <Label
+                        Text="En Proceso"
+                        TextColor="#7ad995"
+                        x:Name="lbl_fecha_edoSer"
+                        Grid.Column="1"
+                        Grid.Row="2"
+                        VerticalOptions="End"
+                        HorizontalOptions="End"
+                        Margin="10,20,10,20"
+                        />
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

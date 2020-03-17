@@ -2344,6 +2344,2652 @@ namespace Wash2.Droid
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_tileMode = global::Wash2.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::Wash2.Droid.Resource.Styleable.GradientColor_android_type;
 			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::Wash2.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_fade_in = global::Wash2.Droid.Resource.Animation.abc_fade_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_fade_out = global::Wash2.Droid.Resource.Animation.abc_fade_out;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::Wash2.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_popup_enter = global::Wash2.Droid.Resource.Animation.abc_popup_enter;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_popup_exit = global::Wash2.Droid.Resource.Animation.abc_popup_exit;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Wash2.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_slide_in_bottom = global::Wash2.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_slide_in_top = global::Wash2.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_slide_out_bottom = global::Wash2.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_slide_out_top = global::Wash2.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_tooltip_enter = global::Wash2.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.abc_tooltip_exit = global::Wash2.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.design_bottom_sheet_slide_in = global::Wash2.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.design_bottom_sheet_slide_out = global::Wash2.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.design_snackbar_in = global::Wash2.Droid.Resource.Animation.design_snackbar_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.design_snackbar_out = global::Wash2.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.EnterFromLeft = global::Wash2.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.EnterFromRight = global::Wash2.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.ExitToLeft = global::Wash2.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Animation.ExitToRight = global::Wash2.Droid.Resource.Animation.ExitToRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.design_appbar_state_list_animator = global::Wash2.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.design_fab_hide_motion_spec = global::Wash2.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.design_fab_show_motion_spec = global::Wash2.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_btn_state_list_anim = global::Wash2.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Wash2.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_chip_state_list_anim = global::Wash2.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_fab_hide_motion_spec = global::Wash2.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_fab_show_motion_spec = global::Wash2.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::Wash2.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Xamarin.Forms.Maps.Android.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::Wash2.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarDivider = global::Wash2.Droid.Resource.Attribute.actionBarDivider;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarItemBackground = global::Wash2.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarPopupTheme = global::Wash2.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarSize = global::Wash2.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarSplitStyle = global::Wash2.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarStyle = global::Wash2.Droid.Resource.Attribute.actionBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarTabBarStyle = global::Wash2.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarTabStyle = global::Wash2.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarTabTextStyle = global::Wash2.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarTheme = global::Wash2.Droid.Resource.Attribute.actionBarTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionBarWidgetTheme = global::Wash2.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionButtonStyle = global::Wash2.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionDropDownStyle = global::Wash2.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionLayout = global::Wash2.Droid.Resource.Attribute.actionLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionMenuTextAppearance = global::Wash2.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionMenuTextColor = global::Wash2.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeBackground = global::Wash2.Droid.Resource.Attribute.actionModeBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeCloseButtonStyle = global::Wash2.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeCloseDrawable = global::Wash2.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeCopyDrawable = global::Wash2.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeCutDrawable = global::Wash2.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeFindDrawable = global::Wash2.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModePasteDrawable = global::Wash2.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModePopupWindowStyle = global::Wash2.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeSelectAllDrawable = global::Wash2.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeShareDrawable = global::Wash2.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeSplitBackground = global::Wash2.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeStyle = global::Wash2.Droid.Resource.Attribute.actionModeStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionModeWebSearchDrawable = global::Wash2.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionOverflowButtonStyle = global::Wash2.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionOverflowMenuStyle = global::Wash2.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionProviderClass = global::Wash2.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.actionViewClass = global::Wash2.Droid.Resource.Attribute.actionViewClass;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.activityChooserViewStyle = global::Wash2.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::Wash2.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.alertDialogCenterButtons = global::Wash2.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.alertDialogStyle = global::Wash2.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.alertDialogTheme = global::Wash2.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.allowStacking = global::Wash2.Droid.Resource.Attribute.allowStacking;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.alpha = global::Wash2.Droid.Resource.Attribute.alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.alphabeticModifiers = global::Wash2.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.ambientEnabled = global::Wash2.Droid.Resource.Attribute.ambientEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.arrowHeadLength = global::Wash2.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.arrowShaftLength = global::Wash2.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.autoCompleteTextViewStyle = global::Wash2.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.autoSizeMaxTextSize = global::Wash2.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.autoSizeMinTextSize = global::Wash2.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.autoSizePresetSizes = global::Wash2.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.autoSizeStepGranularity = global::Wash2.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.autoSizeTextType = global::Wash2.Droid.Resource.Attribute.autoSizeTextType;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.background = global::Wash2.Droid.Resource.Attribute.background;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.backgroundSplit = global::Wash2.Droid.Resource.Attribute.backgroundSplit;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.backgroundStacked = global::Wash2.Droid.Resource.Attribute.backgroundStacked;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.backgroundTint = global::Wash2.Droid.Resource.Attribute.backgroundTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.backgroundTintMode = global::Wash2.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.barLength = global::Wash2.Droid.Resource.Attribute.barLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.behavior_autoHide = global::Wash2.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.behavior_fitToContents = global::Wash2.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.behavior_hideable = global::Wash2.Droid.Resource.Attribute.behavior_hideable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.behavior_overlapTop = global::Wash2.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.behavior_peekHeight = global::Wash2.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.behavior_skipCollapsed = global::Wash2.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.borderlessButtonStyle = global::Wash2.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.borderWidth = global::Wash2.Droid.Resource.Attribute.borderWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.bottomAppBarStyle = global::Wash2.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.bottomNavigationStyle = global::Wash2.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.bottomSheetDialogTheme = global::Wash2.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.bottomSheetStyle = global::Wash2.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxBackgroundColor = global::Wash2.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxBackgroundMode = global::Wash2.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxCollapsedPaddingTop = global::Wash2.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxCornerRadiusBottomEnd = global::Wash2.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxCornerRadiusBottomStart = global::Wash2.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxCornerRadiusTopEnd = global::Wash2.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxCornerRadiusTopStart = global::Wash2.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxStrokeColor = global::Wash2.Droid.Resource.Attribute.boxStrokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.boxStrokeWidth = global::Wash2.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonBarButtonStyle = global::Wash2.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::Wash2.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::Wash2.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::Wash2.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonBarStyle = global::Wash2.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonGravity = global::Wash2.Droid.Resource.Attribute.buttonGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonIconDimen = global::Wash2.Droid.Resource.Attribute.buttonIconDimen;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonPanelSideLayout = global::Wash2.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonSize = global::Wash2.Droid.Resource.Attribute.buttonSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonStyle = global::Wash2.Droid.Resource.Attribute.buttonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonStyleSmall = global::Wash2.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonTint = global::Wash2.Droid.Resource.Attribute.buttonTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.buttonTintMode = global::Wash2.Droid.Resource.Attribute.buttonTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraBearing = global::Wash2.Droid.Resource.Attribute.cameraBearing;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraMaxZoomPreference = global::Wash2.Droid.Resource.Attribute.cameraMaxZoomPreference;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraMinZoomPreference = global::Wash2.Droid.Resource.Attribute.cameraMinZoomPreference;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraTargetLat = global::Wash2.Droid.Resource.Attribute.cameraTargetLat;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraTargetLng = global::Wash2.Droid.Resource.Attribute.cameraTargetLng;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraTilt = global::Wash2.Droid.Resource.Attribute.cameraTilt;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cameraZoom = global::Wash2.Droid.Resource.Attribute.cameraZoom;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardBackgroundColor = global::Wash2.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardCornerRadius = global::Wash2.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardElevation = global::Wash2.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardMaxElevation = global::Wash2.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardPreventCornerOverlap = global::Wash2.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardUseCompatPadding = global::Wash2.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cardViewStyle = global::Wash2.Droid.Resource.Attribute.cardViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.checkboxStyle = global::Wash2.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.checkedChip = global::Wash2.Droid.Resource.Attribute.checkedChip;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.checkedIcon = global::Wash2.Droid.Resource.Attribute.checkedIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.checkedIconEnabled = global::Wash2.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.checkedIconVisible = global::Wash2.Droid.Resource.Attribute.checkedIconVisible;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.checkedTextViewStyle = global::Wash2.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipBackgroundColor = global::Wash2.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipCornerRadius = global::Wash2.Droid.Resource.Attribute.chipCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipEndPadding = global::Wash2.Droid.Resource.Attribute.chipEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipGroupStyle = global::Wash2.Droid.Resource.Attribute.chipGroupStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipIcon = global::Wash2.Droid.Resource.Attribute.chipIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipIconEnabled = global::Wash2.Droid.Resource.Attribute.chipIconEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipIconSize = global::Wash2.Droid.Resource.Attribute.chipIconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipIconTint = global::Wash2.Droid.Resource.Attribute.chipIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipIconVisible = global::Wash2.Droid.Resource.Attribute.chipIconVisible;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipMinHeight = global::Wash2.Droid.Resource.Attribute.chipMinHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipSpacing = global::Wash2.Droid.Resource.Attribute.chipSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipSpacingHorizontal = global::Wash2.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipSpacingVertical = global::Wash2.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipStandaloneStyle = global::Wash2.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipStartPadding = global::Wash2.Droid.Resource.Attribute.chipStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipStrokeColor = global::Wash2.Droid.Resource.Attribute.chipStrokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipStrokeWidth = global::Wash2.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.chipStyle = global::Wash2.Droid.Resource.Attribute.chipStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.circleCrop = global::Wash2.Droid.Resource.Attribute.circleCrop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIcon = global::Wash2.Droid.Resource.Attribute.closeIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIconEnabled = global::Wash2.Droid.Resource.Attribute.closeIconEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIconEndPadding = global::Wash2.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIconSize = global::Wash2.Droid.Resource.Attribute.closeIconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIconStartPadding = global::Wash2.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIconTint = global::Wash2.Droid.Resource.Attribute.closeIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeIconVisible = global::Wash2.Droid.Resource.Attribute.closeIconVisible;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.closeItemLayout = global::Wash2.Droid.Resource.Attribute.closeItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.collapseContentDescription = global::Wash2.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.collapsedTitleGravity = global::Wash2.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.collapsedTitleTextAppearance = global::Wash2.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.collapseIcon = global::Wash2.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.color = global::Wash2.Droid.Resource.Attribute.color;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorAccent = global::Wash2.Droid.Resource.Attribute.colorAccent;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorBackgroundFloating = global::Wash2.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorButtonNormal = global::Wash2.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorControlActivated = global::Wash2.Droid.Resource.Attribute.colorControlActivated;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorControlHighlight = global::Wash2.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorControlNormal = global::Wash2.Droid.Resource.Attribute.colorControlNormal;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorError = global::Wash2.Droid.Resource.Attribute.colorError;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorPrimary = global::Wash2.Droid.Resource.Attribute.colorPrimary;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorPrimaryDark = global::Wash2.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorScheme = global::Wash2.Droid.Resource.Attribute.colorScheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorSecondary = global::Wash2.Droid.Resource.Attribute.colorSecondary;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.colorSwitchThumbNormal = global::Wash2.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.commitIcon = global::Wash2.Droid.Resource.Attribute.commitIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentDescription = global::Wash2.Droid.Resource.Attribute.contentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentInsetEnd = global::Wash2.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentInsetEndWithActions = global::Wash2.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentInsetLeft = global::Wash2.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentInsetRight = global::Wash2.Droid.Resource.Attribute.contentInsetRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentInsetStart = global::Wash2.Droid.Resource.Attribute.contentInsetStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentInsetStartWithNavigation = global::Wash2.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentPadding = global::Wash2.Droid.Resource.Attribute.contentPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentPaddingBottom = global::Wash2.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentPaddingLeft = global::Wash2.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentPaddingRight = global::Wash2.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentPaddingTop = global::Wash2.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.contentScrim = global::Wash2.Droid.Resource.Attribute.contentScrim;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.controlBackground = global::Wash2.Droid.Resource.Attribute.controlBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.coordinatorLayoutStyle = global::Wash2.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.cornerRadius = global::Wash2.Droid.Resource.Attribute.cornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.counterEnabled = global::Wash2.Droid.Resource.Attribute.counterEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.counterMaxLength = global::Wash2.Droid.Resource.Attribute.counterMaxLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.counterOverflowTextAppearance = global::Wash2.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.counterTextAppearance = global::Wash2.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.customNavigationLayout = global::Wash2.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.defaultQueryHint = global::Wash2.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dialogCornerRadius = global::Wash2.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dialogPreferredPadding = global::Wash2.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dialogTheme = global::Wash2.Droid.Resource.Attribute.dialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.displayOptions = global::Wash2.Droid.Resource.Attribute.displayOptions;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.divider = global::Wash2.Droid.Resource.Attribute.divider;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dividerHorizontal = global::Wash2.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dividerPadding = global::Wash2.Droid.Resource.Attribute.dividerPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dividerVertical = global::Wash2.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.drawableSize = global::Wash2.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.drawerArrowStyle = global::Wash2.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::Wash2.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.dropDownListViewStyle = global::Wash2.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.editTextBackground = global::Wash2.Droid.Resource.Attribute.editTextBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.editTextColor = global::Wash2.Droid.Resource.Attribute.editTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.editTextStyle = global::Wash2.Droid.Resource.Attribute.editTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.elevation = global::Wash2.Droid.Resource.Attribute.elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.enforceMaterialTheme = global::Wash2.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.enforceTextAppearance = global::Wash2.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.errorEnabled = global::Wash2.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.errorTextAppearance = global::Wash2.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Wash2.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expanded = global::Wash2.Droid.Resource.Attribute.expanded;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleGravity = global::Wash2.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleMargin = global::Wash2.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleMarginBottom = global::Wash2.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleMarginEnd = global::Wash2.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleMarginStart = global::Wash2.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleMarginTop = global::Wash2.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.expandedTitleTextAppearance = global::Wash2.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fabAlignmentMode = global::Wash2.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fabCradleMargin = global::Wash2.Droid.Resource.Attribute.fabCradleMargin;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fabCradleRoundedCornerRadius = global::Wash2.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fabCradleVerticalOffset = global::Wash2.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fabCustomSize = global::Wash2.Droid.Resource.Attribute.fabCustomSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fabSize = global::Wash2.Droid.Resource.Attribute.fabSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fastScrollEnabled = global::Wash2.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::Wash2.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::Wash2.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fastScrollVerticalThumbDrawable = global::Wash2.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fastScrollVerticalTrackDrawable = global::Wash2.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.firstBaselineToTopHeight = global::Wash2.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.floatingActionButtonStyle = global::Wash2.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.font = global::Wash2.Droid.Resource.Attribute.font;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontFamily = global::Wash2.Droid.Resource.Attribute.fontFamily;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontProviderAuthority = global::Wash2.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontProviderCerts = global::Wash2.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontProviderFetchStrategy = global::Wash2.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontProviderFetchTimeout = global::Wash2.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontProviderPackage = global::Wash2.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontProviderQuery = global::Wash2.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontStyle = global::Wash2.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontVariationSettings = global::Wash2.Droid.Resource.Attribute.fontVariationSettings;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.fontWeight = global::Wash2.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.foregroundInsidePadding = global::Wash2.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.gapBetweenBars = global::Wash2.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.goIcon = global::Wash2.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.headerLayout = global::Wash2.Droid.Resource.Attribute.headerLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.height = global::Wash2.Droid.Resource.Attribute.height;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.helperText = global::Wash2.Droid.Resource.Attribute.helperText;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.helperTextEnabled = global::Wash2.Droid.Resource.Attribute.helperTextEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.helperTextTextAppearance = global::Wash2.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hideMotionSpec = global::Wash2.Droid.Resource.Attribute.hideMotionSpec;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hideOnContentScroll = global::Wash2.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hideOnScroll = global::Wash2.Droid.Resource.Attribute.hideOnScroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hintAnimationEnabled = global::Wash2.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hintEnabled = global::Wash2.Droid.Resource.Attribute.hintEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hintTextAppearance = global::Wash2.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.homeAsUpIndicator = global::Wash2.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.homeLayout = global::Wash2.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.hoveredFocusedTranslationZ = global::Wash2.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.icon = global::Wash2.Droid.Resource.Attribute.icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconEndPadding = global::Wash2.Droid.Resource.Attribute.iconEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconGravity = global::Wash2.Droid.Resource.Attribute.iconGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconifiedByDefault = global::Wash2.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconPadding = global::Wash2.Droid.Resource.Attribute.iconPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconSize = global::Wash2.Droid.Resource.Attribute.iconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconStartPadding = global::Wash2.Droid.Resource.Attribute.iconStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconTint = global::Wash2.Droid.Resource.Attribute.iconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.iconTintMode = global::Wash2.Droid.Resource.Attribute.iconTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.imageAspectRatio = global::Wash2.Droid.Resource.Attribute.imageAspectRatio;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.imageAspectRatioAdjust = global::Wash2.Droid.Resource.Attribute.imageAspectRatioAdjust;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.imageButtonStyle = global::Wash2.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.indeterminateProgressStyle = global::Wash2.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.initialActivityCount = global::Wash2.Droid.Resource.Attribute.initialActivityCount;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.insetForeground = global::Wash2.Droid.Resource.Attribute.insetForeground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.isLightTheme = global::Wash2.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemBackground = global::Wash2.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemHorizontalPadding = global::Wash2.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemHorizontalTranslationEnabled = global::Wash2.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemIconPadding = global::Wash2.Droid.Resource.Attribute.itemIconPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemIconSize = global::Wash2.Droid.Resource.Attribute.itemIconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemIconTint = global::Wash2.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemPadding = global::Wash2.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemSpacing = global::Wash2.Droid.Resource.Attribute.itemSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemTextAppearance = global::Wash2.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemTextAppearanceActive = global::Wash2.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemTextAppearanceInactive = global::Wash2.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.itemTextColor = global::Wash2.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.keylines = global::Wash2.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.labelVisibilityMode = global::Wash2.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.lastBaselineToBottomHeight = global::Wash2.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.latLngBoundsNorthEastLatitude = global::Wash2.Droid.Resource.Attribute.latLngBoundsNorthEastLatitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.latLngBoundsNorthEastLongitude = global::Wash2.Droid.Resource.Attribute.latLngBoundsNorthEastLongitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.latLngBoundsSouthWestLatitude = global::Wash2.Droid.Resource.Attribute.latLngBoundsSouthWestLatitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.latLngBoundsSouthWestLongitude = global::Wash2.Droid.Resource.Attribute.latLngBoundsSouthWestLongitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout = global::Wash2.Droid.Resource.Attribute.layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layoutManager = global::Wash2.Droid.Resource.Attribute.layoutManager;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_anchor = global::Wash2.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_anchorGravity = global::Wash2.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_behavior = global::Wash2.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_collapseMode = global::Wash2.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::Wash2.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_dodgeInsetEdges = global::Wash2.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_insetEdge = global::Wash2.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_keyline = global::Wash2.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_scrollFlags = global::Wash2.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.layout_scrollInterpolator = global::Wash2.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.liftOnScroll = global::Wash2.Droid.Resource.Attribute.liftOnScroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.lineHeight = global::Wash2.Droid.Resource.Attribute.lineHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.lineSpacing = global::Wash2.Droid.Resource.Attribute.lineSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::Wash2.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listDividerAlertDialog = global::Wash2.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listItemLayout = global::Wash2.Droid.Resource.Attribute.listItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listLayout = global::Wash2.Droid.Resource.Attribute.listLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listMenuViewStyle = global::Wash2.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listPopupWindowStyle = global::Wash2.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listPreferredItemHeight = global::Wash2.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listPreferredItemHeightLarge = global::Wash2.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listPreferredItemHeightSmall = global::Wash2.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::Wash2.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.listPreferredItemPaddingRight = global::Wash2.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.liteMode = global::Wash2.Droid.Resource.Attribute.liteMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.logo = global::Wash2.Droid.Resource.Attribute.logo;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.logoDescription = global::Wash2.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.mapType = global::Wash2.Droid.Resource.Attribute.mapType;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.materialButtonStyle = global::Wash2.Droid.Resource.Attribute.materialButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.materialCardViewStyle = global::Wash2.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.maxActionInlineWidth = global::Wash2.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.maxButtonHeight = global::Wash2.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.maxImageSize = global::Wash2.Droid.Resource.Attribute.maxImageSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.measureWithLargestChild = global::Wash2.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.menu = global::Wash2.Droid.Resource.Attribute.menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.multiChoiceItemLayout = global::Wash2.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.navigationContentDescription = global::Wash2.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.navigationIcon = global::Wash2.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.navigationMode = global::Wash2.Droid.Resource.Attribute.navigationMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.navigationViewStyle = global::Wash2.Droid.Resource.Attribute.navigationViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.numericModifiers = global::Wash2.Droid.Resource.Attribute.numericModifiers;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.overlapAnchor = global::Wash2.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.paddingBottomNoButtons = global::Wash2.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.paddingEnd = global::Wash2.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.paddingStart = global::Wash2.Droid.Resource.Attribute.paddingStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.paddingTopNoTitle = global::Wash2.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.panelBackground = global::Wash2.Droid.Resource.Attribute.panelBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.panelMenuListTheme = global::Wash2.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.panelMenuListWidth = global::Wash2.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.passwordToggleContentDescription = global::Wash2.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.passwordToggleDrawable = global::Wash2.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.passwordToggleEnabled = global::Wash2.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.passwordToggleTint = global::Wash2.Droid.Resource.Attribute.passwordToggleTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.passwordToggleTintMode = global::Wash2.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.popupMenuStyle = global::Wash2.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.popupTheme = global::Wash2.Droid.Resource.Attribute.popupTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.popupWindowStyle = global::Wash2.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.preserveIconSpacing = global::Wash2.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.pressedTranslationZ = global::Wash2.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.progressBarPadding = global::Wash2.Droid.Resource.Attribute.progressBarPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.progressBarStyle = global::Wash2.Droid.Resource.Attribute.progressBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.queryBackground = global::Wash2.Droid.Resource.Attribute.queryBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.queryHint = global::Wash2.Droid.Resource.Attribute.queryHint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.radioButtonStyle = global::Wash2.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.ratingBarStyle = global::Wash2.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.ratingBarStyleIndicator = global::Wash2.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.ratingBarStyleSmall = global::Wash2.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.reverseLayout = global::Wash2.Droid.Resource.Attribute.reverseLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.rippleColor = global::Wash2.Droid.Resource.Attribute.rippleColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.scopeUris = global::Wash2.Droid.Resource.Attribute.scopeUris;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.scrimAnimationDuration = global::Wash2.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.scrimBackground = global::Wash2.Droid.Resource.Attribute.scrimBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::Wash2.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.searchHintIcon = global::Wash2.Droid.Resource.Attribute.searchHintIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.searchIcon = global::Wash2.Droid.Resource.Attribute.searchIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.searchViewStyle = global::Wash2.Droid.Resource.Attribute.searchViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.seekBarStyle = global::Wash2.Droid.Resource.Attribute.seekBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.selectableItemBackground = global::Wash2.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::Wash2.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.showAsAction = global::Wash2.Droid.Resource.Attribute.showAsAction;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.showDividers = global::Wash2.Droid.Resource.Attribute.showDividers;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.showMotionSpec = global::Wash2.Droid.Resource.Attribute.showMotionSpec;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.showText = global::Wash2.Droid.Resource.Attribute.showText;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.showTitle = global::Wash2.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.singleChoiceItemLayout = global::Wash2.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.singleLine = global::Wash2.Droid.Resource.Attribute.singleLine;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.singleSelection = global::Wash2.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.snackbarButtonStyle = global::Wash2.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.snackbarStyle = global::Wash2.Droid.Resource.Attribute.snackbarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.spanCount = global::Wash2.Droid.Resource.Attribute.spanCount;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.spinBars = global::Wash2.Droid.Resource.Attribute.spinBars;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.spinnerDropDownItemStyle = global::Wash2.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.spinnerStyle = global::Wash2.Droid.Resource.Attribute.spinnerStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.splitTrack = global::Wash2.Droid.Resource.Attribute.splitTrack;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.srcCompat = global::Wash2.Droid.Resource.Attribute.srcCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.stackFromEnd = global::Wash2.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.state_above_anchor = global::Wash2.Droid.Resource.Attribute.state_above_anchor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.state_collapsed = global::Wash2.Droid.Resource.Attribute.state_collapsed;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.state_collapsible = global::Wash2.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.state_liftable = global::Wash2.Droid.Resource.Attribute.state_liftable;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.state_lifted = global::Wash2.Droid.Resource.Attribute.state_lifted;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.statusBarBackground = global::Wash2.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.statusBarScrim = global::Wash2.Droid.Resource.Attribute.statusBarScrim;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.strokeColor = global::Wash2.Droid.Resource.Attribute.strokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.strokeWidth = global::Wash2.Droid.Resource.Attribute.strokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.subMenuArrow = global::Wash2.Droid.Resource.Attribute.subMenuArrow;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.submitBackground = global::Wash2.Droid.Resource.Attribute.submitBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.subtitle = global::Wash2.Droid.Resource.Attribute.subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.subtitleTextAppearance = global::Wash2.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.subtitleTextColor = global::Wash2.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.subtitleTextStyle = global::Wash2.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.suggestionRowLayout = global::Wash2.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.switchMinWidth = global::Wash2.Droid.Resource.Attribute.switchMinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.switchPadding = global::Wash2.Droid.Resource.Attribute.switchPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.switchStyle = global::Wash2.Droid.Resource.Attribute.switchStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.switchTextAppearance = global::Wash2.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabBackground = global::Wash2.Droid.Resource.Attribute.tabBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabContentStart = global::Wash2.Droid.Resource.Attribute.tabContentStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabGravity = global::Wash2.Droid.Resource.Attribute.tabGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIconTint = global::Wash2.Droid.Resource.Attribute.tabIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIconTintMode = global::Wash2.Droid.Resource.Attribute.tabIconTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIndicator = global::Wash2.Droid.Resource.Attribute.tabIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIndicatorAnimationDuration = global::Wash2.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIndicatorColor = global::Wash2.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIndicatorFullWidth = global::Wash2.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIndicatorGravity = global::Wash2.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabIndicatorHeight = global::Wash2.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabInlineLabel = global::Wash2.Droid.Resource.Attribute.tabInlineLabel;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabMaxWidth = global::Wash2.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabMinWidth = global::Wash2.Droid.Resource.Attribute.tabMinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabMode = global::Wash2.Droid.Resource.Attribute.tabMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabPadding = global::Wash2.Droid.Resource.Attribute.tabPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabPaddingBottom = global::Wash2.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabPaddingEnd = global::Wash2.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabPaddingStart = global::Wash2.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabPaddingTop = global::Wash2.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabRippleColor = global::Wash2.Droid.Resource.Attribute.tabRippleColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabSelectedTextColor = global::Wash2.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabStyle = global::Wash2.Droid.Resource.Attribute.tabStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabTextAppearance = global::Wash2.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabTextColor = global::Wash2.Droid.Resource.Attribute.tabTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tabUnboundedRipple = global::Wash2.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAllCaps = global::Wash2.Droid.Resource.Attribute.textAllCaps;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceBody1 = global::Wash2.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceBody2 = global::Wash2.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceButton = global::Wash2.Droid.Resource.Attribute.textAppearanceButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceCaption = global::Wash2.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceHeadline1 = global::Wash2.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceHeadline2 = global::Wash2.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceHeadline3 = global::Wash2.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceHeadline4 = global::Wash2.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceHeadline5 = global::Wash2.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceHeadline6 = global::Wash2.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::Wash2.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceListItem = global::Wash2.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceListItemSecondary = global::Wash2.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceListItemSmall = global::Wash2.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceOverline = global::Wash2.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::Wash2.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Wash2.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::Wash2.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::Wash2.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceSubtitle1 = global::Wash2.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textAppearanceSubtitle2 = global::Wash2.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textColorAlertDialogListItem = global::Wash2.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textColorSearchUrl = global::Wash2.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textEndPadding = global::Wash2.Droid.Resource.Attribute.textEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textInputStyle = global::Wash2.Droid.Resource.Attribute.textInputStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.textStartPadding = global::Wash2.Droid.Resource.Attribute.textStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.theme = global::Wash2.Droid.Resource.Attribute.theme;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.thickness = global::Wash2.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.thumbTextPadding = global::Wash2.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.thumbTint = global::Wash2.Droid.Resource.Attribute.thumbTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.thumbTintMode = global::Wash2.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tickMark = global::Wash2.Droid.Resource.Attribute.tickMark;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tickMarkTint = global::Wash2.Droid.Resource.Attribute.tickMarkTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tickMarkTintMode = global::Wash2.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tint = global::Wash2.Droid.Resource.Attribute.tint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tintMode = global::Wash2.Droid.Resource.Attribute.tintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.title = global::Wash2.Droid.Resource.Attribute.title;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleEnabled = global::Wash2.Droid.Resource.Attribute.titleEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleMargin = global::Wash2.Droid.Resource.Attribute.titleMargin;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleMarginBottom = global::Wash2.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleMarginEnd = global::Wash2.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleMargins = global::Wash2.Droid.Resource.Attribute.titleMargins;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleMarginStart = global::Wash2.Droid.Resource.Attribute.titleMarginStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleMarginTop = global::Wash2.Droid.Resource.Attribute.titleMarginTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleTextAppearance = global::Wash2.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleTextColor = global::Wash2.Droid.Resource.Attribute.titleTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.titleTextStyle = global::Wash2.Droid.Resource.Attribute.titleTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.toolbarId = global::Wash2.Droid.Resource.Attribute.toolbarId;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::Wash2.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.toolbarStyle = global::Wash2.Droid.Resource.Attribute.toolbarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tooltipForegroundColor = global::Wash2.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tooltipFrameBackground = global::Wash2.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.tooltipText = global::Wash2.Droid.Resource.Attribute.tooltipText;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.track = global::Wash2.Droid.Resource.Attribute.track;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.trackTint = global::Wash2.Droid.Resource.Attribute.trackTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.trackTintMode = global::Wash2.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.ttcIndex = global::Wash2.Droid.Resource.Attribute.ttcIndex;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiCompass = global::Wash2.Droid.Resource.Attribute.uiCompass;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiMapToolbar = global::Wash2.Droid.Resource.Attribute.uiMapToolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiRotateGestures = global::Wash2.Droid.Resource.Attribute.uiRotateGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiScrollGestures = global::Wash2.Droid.Resource.Attribute.uiScrollGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiScrollGesturesDuringRotateOrZoom = global::Wash2.Droid.Resource.Attribute.uiScrollGesturesDuringRotateOrZoom;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiTiltGestures = global::Wash2.Droid.Resource.Attribute.uiTiltGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiZoomControls = global::Wash2.Droid.Resource.Attribute.uiZoomControls;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.uiZoomGestures = global::Wash2.Droid.Resource.Attribute.uiZoomGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.useCompatPadding = global::Wash2.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.useViewLifecycle = global::Wash2.Droid.Resource.Attribute.useViewLifecycle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.viewInflaterClass = global::Wash2.Droid.Resource.Attribute.viewInflaterClass;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.voiceIcon = global::Wash2.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowActionBar = global::Wash2.Droid.Resource.Attribute.windowActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowActionBarOverlay = global::Wash2.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowActionModeOverlay = global::Wash2.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowFixedHeightMajor = global::Wash2.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowFixedHeightMinor = global::Wash2.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowFixedWidthMajor = global::Wash2.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowFixedWidthMinor = global::Wash2.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowMinWidthMajor = global::Wash2.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowMinWidthMinor = global::Wash2.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.windowNoTitle = global::Wash2.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Attribute.zOrderOnTop = global::Wash2.Droid.Resource.Attribute.zOrderOnTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::Wash2.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Forms.Maps.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::Wash2.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Wash2.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xamarin.Forms.Maps.Android.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::Wash2.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Wash2.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::Wash2.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::Wash2.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_btn_colored_text_material = global::Wash2.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_color_highlight_material = global::Wash2.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_hint_foreground_material_dark = global::Wash2.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_hint_foreground_material_light = global::Wash2.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_input_method_navigation_guard = global::Wash2.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::Wash2.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::Wash2.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_primary_text_material_dark = global::Wash2.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_primary_text_material_light = global::Wash2.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_search_url_text = global::Wash2.Droid.Resource.Color.abc_search_url_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_search_url_text_normal = global::Wash2.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_search_url_text_pressed = global::Wash2.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_search_url_text_selected = global::Wash2.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_secondary_text_material_dark = global::Wash2.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_secondary_text_material_light = global::Wash2.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_tint_btn_checkable = global::Wash2.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_tint_default = global::Wash2.Droid.Resource.Color.abc_tint_default;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_tint_edittext = global::Wash2.Droid.Resource.Color.abc_tint_edittext;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_tint_seek_thumb = global::Wash2.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_tint_spinner = global::Wash2.Droid.Resource.Color.abc_tint_spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.abc_tint_switch_track = global::Wash2.Droid.Resource.Color.abc_tint_switch_track;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.accent_material_dark = global::Wash2.Droid.Resource.Color.accent_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.accent_material_light = global::Wash2.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.background_floating_material_dark = global::Wash2.Droid.Resource.Color.background_floating_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.background_floating_material_light = global::Wash2.Droid.Resource.Color.background_floating_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.background_material_dark = global::Wash2.Droid.Resource.Color.background_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.background_material_light = global::Wash2.Droid.Resource.Color.background_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.bright_foreground_disabled_material_dark = global::Wash2.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.bright_foreground_disabled_material_light = global::Wash2.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.bright_foreground_inverse_material_dark = global::Wash2.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.bright_foreground_inverse_material_light = global::Wash2.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.bright_foreground_material_dark = global::Wash2.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.bright_foreground_material_light = global::Wash2.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.button_material_dark = global::Wash2.Droid.Resource.Color.button_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.button_material_light = global::Wash2.Droid.Resource.Color.button_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.cardview_dark_background = global::Wash2.Droid.Resource.Color.cardview_dark_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.cardview_light_background = global::Wash2.Droid.Resource.Color.cardview_light_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.cardview_shadow_end_color = global::Wash2.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.cardview_shadow_start_color = global::Wash2.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_dark = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_dark_default = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_dark_default;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_dark_disabled = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_dark_disabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_dark_focused = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_dark_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_dark_pressed = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_dark_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_light = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_light_default = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_light_default;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_light_disabled = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_light_disabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_light_focused = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_light_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_text_light_pressed = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_light_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.common_google_signin_btn_tint = global::Wash2.Droid.Resource.Color.common_google_signin_btn_tint;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_bottom_navigation_shadow_color = global::Wash2.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_default_color_primary = global::Wash2.Droid.Resource.Color.design_default_color_primary;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_default_color_primary_dark = global::Wash2.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_error = global::Wash2.Droid.Resource.Color.design_error;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_shadow_end_color = global::Wash2.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_shadow_mid_color = global::Wash2.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_shadow_start_color = global::Wash2.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_stroke_end_inner_color = global::Wash2.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_stroke_end_outer_color = global::Wash2.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_stroke_top_inner_color = global::Wash2.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_fab_stroke_top_outer_color = global::Wash2.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_snackbar_background_color = global::Wash2.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.design_tint_password_toggle = global::Wash2.Droid.Resource.Color.design_tint_password_toggle;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.dim_foreground_disabled_material_dark = global::Wash2.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.dim_foreground_disabled_material_light = global::Wash2.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.dim_foreground_material_dark = global::Wash2.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.dim_foreground_material_light = global::Wash2.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.error_color_material_dark = global::Wash2.Droid.Resource.Color.error_color_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.error_color_material_light = global::Wash2.Droid.Resource.Color.error_color_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.foreground_material_dark = global::Wash2.Droid.Resource.Color.foreground_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.foreground_material_light = global::Wash2.Droid.Resource.Color.foreground_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.highlighted_text_material_dark = global::Wash2.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.highlighted_text_material_light = global::Wash2.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_blue_grey_800 = global::Wash2.Droid.Resource.Color.material_blue_grey_800;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_blue_grey_900 = global::Wash2.Droid.Resource.Color.material_blue_grey_900;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_blue_grey_950 = global::Wash2.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_deep_teal_200 = global::Wash2.Droid.Resource.Color.material_deep_teal_200;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_deep_teal_500 = global::Wash2.Droid.Resource.Color.material_deep_teal_500;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_100 = global::Wash2.Droid.Resource.Color.material_grey_100;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_300 = global::Wash2.Droid.Resource.Color.material_grey_300;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_50 = global::Wash2.Droid.Resource.Color.material_grey_50;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_600 = global::Wash2.Droid.Resource.Color.material_grey_600;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_800 = global::Wash2.Droid.Resource.Color.material_grey_800;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_850 = global::Wash2.Droid.Resource.Color.material_grey_850;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.material_grey_900 = global::Wash2.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::Wash2.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_bottom_nav_item_tint = global::Wash2.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_bg_color_disabled = global::Wash2.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_bg_color_selector = global::Wash2.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_ripple_color = global::Wash2.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_stroke_color_selector = global::Wash2.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_text_btn_ripple_color = global::Wash2.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_text_color_disabled = global::Wash2.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_text_color_selector = global::Wash2.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_btn_transparent_bg_color = global::Wash2.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_chip_background_color = global::Wash2.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_chip_close_icon_tint = global::Wash2.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_chip_ripple_color = global::Wash2.Droid.Resource.Color.mtrl_chip_ripple_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_chip_text_color = global::Wash2.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_fab_ripple_color = global::Wash2.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_scrim_color = global::Wash2.Droid.Resource.Color.mtrl_scrim_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_tabs_colored_ripple_color = global::Wash2.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_tabs_icon_color_selector = global::Wash2.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::Wash2.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::Wash2.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_tabs_ripple_color = global::Wash2.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_textinput_default_box_stroke_color = global::Wash2.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_textinput_disabled_color = global::Wash2.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::Wash2.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::Wash2.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.mtrl_text_btn_text_color_selector = global::Wash2.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.notification_action_color_filter = global::Wash2.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.notification_icon_bg_color = global::Wash2.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.notification_material_background_media_default_color = global::Wash2.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_dark_material_dark = global::Wash2.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_dark_material_light = global::Wash2.Droid.Resource.Color.primary_dark_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_material_dark = global::Wash2.Droid.Resource.Color.primary_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_material_light = global::Wash2.Droid.Resource.Color.primary_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_text_default_material_dark = global::Wash2.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_text_default_material_light = global::Wash2.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_text_disabled_material_dark = global::Wash2.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.primary_text_disabled_material_light = global::Wash2.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.ripple_material_dark = global::Wash2.Droid.Resource.Color.ripple_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.ripple_material_light = global::Wash2.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.secondary_text_default_material_dark = global::Wash2.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.secondary_text_default_material_light = global::Wash2.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.secondary_text_disabled_material_dark = global::Wash2.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.secondary_text_disabled_material_light = global::Wash2.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.switch_thumb_disabled_material_dark = global::Wash2.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.switch_thumb_disabled_material_light = global::Wash2.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.switch_thumb_material_dark = global::Wash2.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.switch_thumb_material_light = global::Wash2.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.switch_thumb_normal_material_dark = global::Wash2.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.switch_thumb_normal_material_light = global::Wash2.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.tooltip_background_dark = global::Wash2.Droid.Resource.Color.tooltip_background_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Color.tooltip_background_light = global::Wash2.Droid.Resource.Color.tooltip_background_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::Wash2.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::Wash2.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_default_height_material = global::Wash2.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Wash2.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Wash2.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_elevation_material = global::Wash2.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Wash2.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Wash2.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Wash2.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::Wash2.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Wash2.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Wash2.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Wash2.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_button_min_height_material = global::Wash2.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_button_min_width_material = global::Wash2.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Wash2.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Wash2.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_alert_dialog_button_dimen = global::Wash2.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::Wash2.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_button_inset_vertical_material = global::Wash2.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::Wash2.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_button_padding_vertical_material = global::Wash2.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::Wash2.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_config_prefDialogWidth = global::Wash2.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_control_corner_material = global::Wash2.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_control_inset_material = global::Wash2.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_control_padding_material = global::Wash2.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_corner_radius_material = global::Wash2.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::Wash2.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::Wash2.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::Wash2.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::Wash2.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::Wash2.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::Wash2.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_min_width_major = global::Wash2.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_min_width_minor = global::Wash2.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_padding_material = global::Wash2.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_padding_top_material = global::Wash2.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dialog_title_divider_material = global::Wash2.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::Wash2.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::Wash2.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::Wash2.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Wash2.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Wash2.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Wash2.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Wash2.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::Wash2.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_floating_window_z = global::Wash2.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Wash2.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_panel_menu_list_width = global::Wash2.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_progress_bar_height_material = global::Wash2.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_search_view_preferred_height = global::Wash2.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_search_view_preferred_width = global::Wash2.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::Wash2.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Wash2.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::Wash2.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_switch_padding = global::Wash2.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_body_1_material = global::Wash2.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_body_2_material = global::Wash2.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_button_material = global::Wash2.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_caption_material = global::Wash2.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_display_1_material = global::Wash2.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_display_2_material = global::Wash2.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_display_3_material = global::Wash2.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_display_4_material = global::Wash2.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_headline_material = global::Wash2.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_large_material = global::Wash2.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_medium_material = global::Wash2.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_menu_header_material = global::Wash2.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_menu_material = global::Wash2.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_small_material = global::Wash2.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_subhead_material = global::Wash2.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Wash2.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_title_material = global::Wash2.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::Wash2.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.cardview_compat_inset_shadow = global::Wash2.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.cardview_default_elevation = global::Wash2.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.cardview_default_radius = global::Wash2.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::Wash2.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_button_inset_vertical_material = global::Wash2.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::Wash2.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_button_padding_vertical_material = global::Wash2.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_control_corner_material = global::Wash2.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_notification_large_icon_max_height = global::Wash2.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.compat_notification_large_icon_max_width = global::Wash2.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_appbar_elevation = global::Wash2.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Wash2.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::Wash2.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::Wash2.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_elevation = global::Wash2.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_height = global::Wash2.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_icon_size = global::Wash2.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::Wash2.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::Wash2.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_margin = global::Wash2.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::Wash2.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_navigation_text_size = global::Wash2.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Wash2.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::Wash2.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_border_width = global::Wash2.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_elevation = global::Wash2.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_image_size = global::Wash2.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_size_mini = global::Wash2.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_size_normal = global::Wash2.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_translation_z_hovered_focused = global::Wash2.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_fab_translation_z_pressed = global::Wash2.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_elevation = global::Wash2.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_icon_padding = global::Wash2.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_icon_size = global::Wash2.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_item_horizontal_padding = global::Wash2.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_item_icon_padding = global::Wash2.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_max_width = global::Wash2.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_padding_bottom = global::Wash2.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::Wash2.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::Wash2.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::Wash2.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_elevation = global::Wash2.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Wash2.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_max_width = global::Wash2.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_min_width = global::Wash2.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::Wash2.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_padding_vertical = global::Wash2.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Wash2.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_snackbar_text_size = global::Wash2.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_tab_max_width = global::Wash2.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_tab_scrollable_min_width = global::Wash2.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_tab_text_size = global::Wash2.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_tab_text_size_2line = global::Wash2.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.design_textinput_caption_translate_y = global::Wash2.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.disabled_alpha_material_dark = global::Wash2.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.disabled_alpha_material_light = global::Wash2.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.fastscroll_default_thickness = global::Wash2.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.fastscroll_margin = global::Wash2.Droid.Resource.Dimension.fastscroll_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.fastscroll_minimum_range = global::Wash2.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.highlight_alpha_material_colored = global::Wash2.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.highlight_alpha_material_dark = global::Wash2.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.highlight_alpha_material_light = global::Wash2.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.hint_alpha_material_dark = global::Wash2.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.hint_alpha_material_light = global::Wash2.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::Wash2.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::Wash2.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Wash2.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Wash2.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Wash2.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::Wash2.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::Wash2.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::Wash2.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::Wash2.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_bottomappbar_height = global::Wash2.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_corner_radius = global::Wash2.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::Wash2.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_disabled_elevation = global::Wash2.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_disabled_z = global::Wash2.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_elevation = global::Wash2.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_focused_z = global::Wash2.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_hovered_z = global::Wash2.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::Wash2.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_icon_padding = global::Wash2.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_inset = global::Wash2.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_letter_spacing = global::Wash2.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_padding_bottom = global::Wash2.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_padding_left = global::Wash2.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_padding_right = global::Wash2.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_padding_top = global::Wash2.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_pressed_z = global::Wash2.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_stroke_size = global::Wash2.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::Wash2.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::Wash2.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::Wash2.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_text_size = global::Wash2.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_btn_z = global::Wash2.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_card_elevation = global::Wash2.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_card_spacing = global::Wash2.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_chip_pressed_translation_z = global::Wash2.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_chip_text_size = global::Wash2.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_fab_elevation = global::Wash2.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::Wash2.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_fab_translation_z_pressed = global::Wash2.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_navigation_elevation = global::Wash2.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::Wash2.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_navigation_item_icon_padding = global::Wash2.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Wash2.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_snackbar_margin = global::Wash2.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::Wash2.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::Wash2.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::Wash2.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::Wash2.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_padding_end = global::Wash2.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::Wash2.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::Wash2.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::Wash2.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.mtrl_toolbar_default_height = global::Wash2.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_action_icon_size = global::Wash2.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_action_text_size = global::Wash2.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_big_circle_margin = global::Wash2.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_content_margin_start = global::Wash2.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_large_icon_height = global::Wash2.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_large_icon_width = global::Wash2.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_main_column_padding_top = global::Wash2.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_media_narrow_margin = global::Wash2.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_right_icon_size = global::Wash2.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_right_side_padding_top = global::Wash2.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_small_icon_background_padding = global::Wash2.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_small_icon_size_as_large = global::Wash2.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_subtext_size = global::Wash2.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_top_pad = global::Wash2.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.notification_top_pad_large_text = global::Wash2.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.subtitle_corner_radius = global::Wash2.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.subtitle_outline_width = global::Wash2.Droid.Resource.Dimension.subtitle_outline_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.subtitle_shadow_offset = global::Wash2.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.subtitle_shadow_radius = global::Wash2.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_corner_radius = global::Wash2.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_horizontal_padding = global::Wash2.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_margin = global::Wash2.Droid.Resource.Dimension.tooltip_margin;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::Wash2.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_precise_anchor_threshold = global::Wash2.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_vertical_padding = global::Wash2.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_y_offset_non_touch = global::Wash2.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Xamarin.Forms.Maps.Android.Resource.Dimension.tooltip_y_offset_touch = global::Wash2.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Wash2.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_action_bar_item_background_material = global::Wash2.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_borderless_material = global::Wash2.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_check_material = global::Wash2.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Wash2.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Wash2.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_colored_material = global::Wash2.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::Wash2.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_radio_material = global::Wash2.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Wash2.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Wash2.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Wash2.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Wash2.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_cab_background_internal_bg = global::Wash2.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_cab_background_top_material = global::Wash2.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Wash2.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_control_background_material = global::Wash2.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_dialog_material_background = global::Wash2.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_edit_text_material = global::Wash2.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_ab_back_material = global::Wash2.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::Wash2.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_clear_material = global::Wash2.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Wash2.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_go_search_api_material = global::Wash2.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Wash2.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Wash2.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::Wash2.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Wash2.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Wash2.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Wash2.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_search_api_material = global::Wash2.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_star_black_16dp = global::Wash2.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_star_black_36dp = global::Wash2.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_star_black_48dp = global::Wash2.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::Wash2.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::Wash2.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::Wash2.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::Wash2.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_item_background_holo_dark = global::Wash2.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_item_background_holo_light = global::Wash2.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_divider_material = global::Wash2.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Wash2.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_focused_holo = global::Wash2.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_longpressed_holo = global::Wash2.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::Wash2.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_pressed_holo_light = global::Wash2.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Wash2.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Wash2.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Wash2.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Wash2.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_selector_holo_dark = global::Wash2.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_list_selector_holo_light = global::Wash2.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Wash2.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::Wash2.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::Wash2.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ratingbar_material = global::Wash2.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_ratingbar_small_material = global::Wash2.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Wash2.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Wash2.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Wash2.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Wash2.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Wash2.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_seekbar_thumb_material = global::Wash2.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::Wash2.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_seekbar_track_material = global::Wash2.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Wash2.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::Wash2.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_switch_thumb_material = global::Wash2.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Wash2.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_tab_indicator_material = global::Wash2.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Wash2.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Wash2.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Wash2.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Wash2.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Wash2.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_textfield_search_material = global::Wash2.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_cursor_material = global::Wash2.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::Wash2.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::Wash2.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::Wash2.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::Wash2.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::Wash2.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::Wash2.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.abc_vector_test = global::Wash2.Droid.Resource.Drawable.abc_vector_test;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.avd_hide_password = global::Wash2.Droid.Resource.Drawable.avd_hide_password;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.avd_show_password = global::Wash2.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_full_open_on_phone = global::Wash2.Droid.Resource.Drawable.common_full_open_on_phone;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_dark = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_icon_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_dark_focused = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_dark_normal = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_dark_normal_background = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_normal_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_disabled = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_icon_disabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_light = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_icon_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_light_focused = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_icon_light_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_light_normal = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_icon_light_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_icon_light_normal_background = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_icon_light_normal_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_dark = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_text_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_dark_focused = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_text_dark_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_dark_normal = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_text_dark_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_dark_normal_background = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_text_dark_normal_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_disabled = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_text_disabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_light = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_text_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_light_focused = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_text_light_focused;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_light_normal = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_text_light_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.common_google_signin_btn_text_light_normal_background = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_text_light_normal_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.design_bottom_navigation_item_background = global::Wash2.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.design_fab_background = global::Wash2.Droid.Resource.Drawable.design_fab_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.design_ic_visibility = global::Wash2.Droid.Resource.Drawable.design_ic_visibility;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.design_ic_visibility_off = global::Wash2.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.design_password_eye = global::Wash2.Droid.Resource.Drawable.design_password_eye;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.design_snackbar_background = global::Wash2.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.googleg_disabled_color_18 = global::Wash2.Droid.Resource.Drawable.googleg_disabled_color_18;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.googleg_standard_color_18 = global::Wash2.Droid.Resource.Drawable.googleg_standard_color_18;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.ic_mtrl_chip_checked_black = global::Wash2.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.ic_mtrl_chip_checked_circle = global::Wash2.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.ic_mtrl_chip_close_circle = global::Wash2.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.mtrl_snackbar_background = global::Wash2.Droid.Resource.Drawable.mtrl_snackbar_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.mtrl_tabs_default_indicator = global::Wash2.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.navigation_empty_icon = global::Wash2.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_action_background = global::Wash2.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_bg = global::Wash2.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_bg_low = global::Wash2.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_bg_low_normal = global::Wash2.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_bg_low_pressed = global::Wash2.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_bg_normal = global::Wash2.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_bg_normal_pressed = global::Wash2.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_icon_background = global::Wash2.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_template_icon_bg = global::Wash2.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_template_icon_low_bg = global::Wash2.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notification_tile_bg = global::Wash2.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::Wash2.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.tooltip_frame_dark = global::Wash2.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Drawable.tooltip_frame_light = global::Wash2.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action0 = global::Wash2.Droid.Resource.Id.action0;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.actions = global::Wash2.Droid.Resource.Id.actions;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar = global::Wash2.Droid.Resource.Id.action_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar_activity_content = global::Wash2.Droid.Resource.Id.action_bar_activity_content;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar_container = global::Wash2.Droid.Resource.Id.action_bar_container;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar_root = global::Wash2.Droid.Resource.Id.action_bar_root;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar_spinner = global::Wash2.Droid.Resource.Id.action_bar_spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar_subtitle = global::Wash2.Droid.Resource.Id.action_bar_subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_bar_title = global::Wash2.Droid.Resource.Id.action_bar_title;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_container = global::Wash2.Droid.Resource.Id.action_container;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_context_bar = global::Wash2.Droid.Resource.Id.action_context_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_divider = global::Wash2.Droid.Resource.Id.action_divider;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_image = global::Wash2.Droid.Resource.Id.action_image;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_menu_divider = global::Wash2.Droid.Resource.Id.action_menu_divider;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_menu_presenter = global::Wash2.Droid.Resource.Id.action_menu_presenter;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_mode_bar = global::Wash2.Droid.Resource.Id.action_mode_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_mode_bar_stub = global::Wash2.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_mode_close_button = global::Wash2.Droid.Resource.Id.action_mode_close_button;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.action_text = global::Wash2.Droid.Resource.Id.action_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.activity_chooser_view_content = global::Wash2.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.add = global::Wash2.Droid.Resource.Id.add;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.adjust_height = global::Wash2.Droid.Resource.Id.adjust_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.adjust_width = global::Wash2.Droid.Resource.Id.adjust_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.alertTitle = global::Wash2.Droid.Resource.Id.alertTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.async = global::Wash2.Droid.Resource.Id.async;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.auto = global::Wash2.Droid.Resource.Id.auto;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.blocking = global::Wash2.Droid.Resource.Id.blocking;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.bottom = global::Wash2.Droid.Resource.Id.bottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.buttonPanel = global::Wash2.Droid.Resource.Id.buttonPanel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.cancel_action = global::Wash2.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.center = global::Wash2.Droid.Resource.Id.center;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.checkbox = global::Wash2.Droid.Resource.Id.checkbox;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.chronometer = global::Wash2.Droid.Resource.Id.chronometer;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.container = global::Wash2.Droid.Resource.Id.container;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.content = global::Wash2.Droid.Resource.Id.content;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.contentPanel = global::Wash2.Droid.Resource.Id.contentPanel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.coordinator = global::Wash2.Droid.Resource.Id.coordinator;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.custom = global::Wash2.Droid.Resource.Id.custom;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.customPanel = global::Wash2.Droid.Resource.Id.customPanel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.dark = global::Wash2.Droid.Resource.Id.dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.decor_content_parent = global::Wash2.Droid.Resource.Id.decor_content_parent;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.default_activity_button = global::Wash2.Droid.Resource.Id.default_activity_button;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.design_bottom_sheet = global::Wash2.Droid.Resource.Id.design_bottom_sheet;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.design_menu_item_action_area = global::Wash2.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.design_menu_item_action_area_stub = global::Wash2.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.design_menu_item_text = global::Wash2.Droid.Resource.Id.design_menu_item_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.design_navigation_view = global::Wash2.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.edit_query = global::Wash2.Droid.Resource.Id.edit_query;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.end = global::Wash2.Droid.Resource.Id.end;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.end_padder = global::Wash2.Droid.Resource.Id.end_padder;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.expanded_menu = global::Wash2.Droid.Resource.Id.expanded_menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.expand_activities_button = global::Wash2.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.fill = global::Wash2.Droid.Resource.Id.fill;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.filled = global::Wash2.Droid.Resource.Id.filled;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.@fixed = global::Wash2.Droid.Resource.Id.@fixed;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.flyoutcontent_appbar = global::Wash2.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.flyoutcontent_recycler = global::Wash2.Droid.Resource.Id.flyoutcontent_recycler;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.forever = global::Wash2.Droid.Resource.Id.forever;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.ghost_view = global::Wash2.Droid.Resource.Id.ghost_view;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.group_divider = global::Wash2.Droid.Resource.Id.group_divider;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.home = global::Wash2.Droid.Resource.Id.home;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.hybrid = global::Wash2.Droid.Resource.Id.hybrid;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.icon = global::Wash2.Droid.Resource.Id.icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.icon_group = global::Wash2.Droid.Resource.Id.icon_group;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.icon_only = global::Wash2.Droid.Resource.Id.icon_only;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.image = global::Wash2.Droid.Resource.Id.image;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.info = global::Wash2.Droid.Resource.Id.info;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.italic = global::Wash2.Droid.Resource.Id.italic;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.item_touch_helper_previous_elevation = global::Wash2.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.labeled = global::Wash2.Droid.Resource.Id.labeled;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.largeLabel = global::Wash2.Droid.Resource.Id.largeLabel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.left = global::Wash2.Droid.Resource.Id.left;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.light = global::Wash2.Droid.Resource.Id.light;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.line1 = global::Wash2.Droid.Resource.Id.line1;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.line3 = global::Wash2.Droid.Resource.Id.line3;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.listMode = global::Wash2.Droid.Resource.Id.listMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.list_item = global::Wash2.Droid.Resource.Id.list_item;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.masked = global::Wash2.Droid.Resource.Id.masked;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.media_actions = global::Wash2.Droid.Resource.Id.media_actions;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.message = global::Wash2.Droid.Resource.Id.message;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.mini = global::Wash2.Droid.Resource.Id.mini;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.mtrl_child_content_container = global::Wash2.Droid.Resource.Id.mtrl_child_content_container;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.mtrl_internal_children_alpha_tag = global::Wash2.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.multiply = global::Wash2.Droid.Resource.Id.multiply;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.navigation_header_container = global::Wash2.Droid.Resource.Id.navigation_header_container;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.none = global::Wash2.Droid.Resource.Id.none;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.normal = global::Wash2.Droid.Resource.Id.normal;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.notification_background = global::Wash2.Droid.Resource.Id.notification_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.notification_main_column = global::Wash2.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.notification_main_column_container = global::Wash2.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.outline = global::Wash2.Droid.Resource.Id.outline;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.parallax = global::Wash2.Droid.Resource.Id.parallax;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.parentPanel = global::Wash2.Droid.Resource.Id.parentPanel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.parent_matrix = global::Wash2.Droid.Resource.Id.parent_matrix;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.pin = global::Wash2.Droid.Resource.Id.pin;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.progress_circular = global::Wash2.Droid.Resource.Id.progress_circular;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.progress_horizontal = global::Wash2.Droid.Resource.Id.progress_horizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.radio = global::Wash2.Droid.Resource.Id.radio;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.right = global::Wash2.Droid.Resource.Id.right;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.right_icon = global::Wash2.Droid.Resource.Id.right_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.right_side = global::Wash2.Droid.Resource.Id.right_side;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.satellite = global::Wash2.Droid.Resource.Id.satellite;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.save_image_matrix = global::Wash2.Droid.Resource.Id.save_image_matrix;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.save_non_transition_alpha = global::Wash2.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.save_scale_type = global::Wash2.Droid.Resource.Id.save_scale_type;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.screen = global::Wash2.Droid.Resource.Id.screen;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.scrollable = global::Wash2.Droid.Resource.Id.scrollable;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.scrollIndicatorDown = global::Wash2.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.scrollIndicatorUp = global::Wash2.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.scrollView = global::Wash2.Droid.Resource.Id.scrollView;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_badge = global::Wash2.Droid.Resource.Id.search_badge;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_bar = global::Wash2.Droid.Resource.Id.search_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_button = global::Wash2.Droid.Resource.Id.search_button;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_close_btn = global::Wash2.Droid.Resource.Id.search_close_btn;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_edit_frame = global::Wash2.Droid.Resource.Id.search_edit_frame;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_go_btn = global::Wash2.Droid.Resource.Id.search_go_btn;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_mag_icon = global::Wash2.Droid.Resource.Id.search_mag_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_plate = global::Wash2.Droid.Resource.Id.search_plate;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_src_text = global::Wash2.Droid.Resource.Id.search_src_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.search_voice_btn = global::Wash2.Droid.Resource.Id.search_voice_btn;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.selected = global::Wash2.Droid.Resource.Id.selected;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.select_dialog_listview = global::Wash2.Droid.Resource.Id.select_dialog_listview;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.shortcut = global::Wash2.Droid.Resource.Id.shortcut;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.smallLabel = global::Wash2.Droid.Resource.Id.smallLabel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.snackbar_action = global::Wash2.Droid.Resource.Id.snackbar_action;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.snackbar_text = global::Wash2.Droid.Resource.Id.snackbar_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.spacer = global::Wash2.Droid.Resource.Id.spacer;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.split_action_bar = global::Wash2.Droid.Resource.Id.split_action_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.src_atop = global::Wash2.Droid.Resource.Id.src_atop;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.src_in = global::Wash2.Droid.Resource.Id.src_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.src_over = global::Wash2.Droid.Resource.Id.src_over;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.standard = global::Wash2.Droid.Resource.Id.standard;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.start = global::Wash2.Droid.Resource.Id.start;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.status_bar_latest_event_content = global::Wash2.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.stretch = global::Wash2.Droid.Resource.Id.stretch;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.submenuarrow = global::Wash2.Droid.Resource.Id.submenuarrow;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.submit_area = global::Wash2.Droid.Resource.Id.submit_area;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.tabMode = global::Wash2.Droid.Resource.Id.tabMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.tag_transition_group = global::Wash2.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.tag_unhandled_key_event_manager = global::Wash2.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.tag_unhandled_key_listeners = global::Wash2.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.terrain = global::Wash2.Droid.Resource.Id.terrain;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.text = global::Wash2.Droid.Resource.Id.text;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.text2 = global::Wash2.Droid.Resource.Id.text2;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.textinput_counter = global::Wash2.Droid.Resource.Id.textinput_counter;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.textinput_error = global::Wash2.Droid.Resource.Id.textinput_error;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.textinput_helper_text = global::Wash2.Droid.Resource.Id.textinput_helper_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.textSpacerNoButtons = global::Wash2.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.textSpacerNoTitle = global::Wash2.Droid.Resource.Id.textSpacerNoTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.text_input_password_toggle = global::Wash2.Droid.Resource.Id.text_input_password_toggle;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.time = global::Wash2.Droid.Resource.Id.time;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.title = global::Wash2.Droid.Resource.Id.title;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.titleDividerNoCustom = global::Wash2.Droid.Resource.Id.titleDividerNoCustom;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.title_template = global::Wash2.Droid.Resource.Id.title_template;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.top = global::Wash2.Droid.Resource.Id.top;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.topPanel = global::Wash2.Droid.Resource.Id.topPanel;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.touch_outside = global::Wash2.Droid.Resource.Id.touch_outside;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.transition_current_scene = global::Wash2.Droid.Resource.Id.transition_current_scene;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.transition_layout_save = global::Wash2.Droid.Resource.Id.transition_layout_save;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.transition_position = global::Wash2.Droid.Resource.Id.transition_position;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.transition_scene_layoutid_cache = global::Wash2.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.transition_transform = global::Wash2.Droid.Resource.Id.transition_transform;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.uniform = global::Wash2.Droid.Resource.Id.uniform;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.unlabeled = global::Wash2.Droid.Resource.Id.unlabeled;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.up = global::Wash2.Droid.Resource.Id.up;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.view_offset_helper = global::Wash2.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.visible = global::Wash2.Droid.Resource.Id.visible;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.wide = global::Wash2.Droid.Resource.Id.wide;
+			global::Xamarin.Forms.Maps.Android.Resource.Id.wrap_content = global::Wash2.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.abc_config_activityDefaultDur = global::Wash2.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.abc_config_activityShortDur = global::Wash2.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.app_bar_elevation_anim_duration = global::Wash2.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.bottom_sheet_slide_duration = global::Wash2.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.cancel_button_image_alpha = global::Wash2.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.config_tooltipAnimTime = global::Wash2.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.design_snackbar_text_max_lines = global::Wash2.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.design_tab_indicator_anim_duration_ms = global::Wash2.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.google_play_services_version = global::Wash2.Droid.Resource.Integer.google_play_services_version;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.hide_password_duration = global::Wash2.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.mtrl_btn_anim_delay_ms = global::Wash2.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.mtrl_btn_anim_duration_ms = global::Wash2.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.mtrl_chip_anim_duration = global::Wash2.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::Wash2.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.show_password_duration = global::Wash2.Droid.Resource.Integer.show_password_duration;
+			global::Xamarin.Forms.Maps.Android.Resource.Integer.status_bar_notification_info_maxnum = global::Wash2.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Forms.Maps.Android.Resource.Interpolator.mtrl_fast_out_linear_in = global::Wash2.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Interpolator.mtrl_fast_out_slow_in = global::Wash2.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Interpolator.mtrl_linear = global::Wash2.Droid.Resource.Interpolator.mtrl_linear;
+			global::Xamarin.Forms.Maps.Android.Resource.Interpolator.mtrl_linear_out_slow_in = global::Wash2.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_action_bar_title_item = global::Wash2.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_action_bar_up_container = global::Wash2.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_action_menu_item_layout = global::Wash2.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_action_menu_layout = global::Wash2.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_action_mode_bar = global::Wash2.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_action_mode_close_item_material = global::Wash2.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_activity_chooser_view = global::Wash2.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::Wash2.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::Wash2.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_alert_dialog_material = global::Wash2.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_alert_dialog_title_material = global::Wash2.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_cascading_menu_item_layout = global::Wash2.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_dialog_title_material = global::Wash2.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_expanded_menu_layout = global::Wash2.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_list_menu_item_checkbox = global::Wash2.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_list_menu_item_icon = global::Wash2.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_list_menu_item_layout = global::Wash2.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_list_menu_item_radio = global::Wash2.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::Wash2.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_popup_menu_item_layout = global::Wash2.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_screen_content_include = global::Wash2.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_screen_simple = global::Wash2.Droid.Resource.Layout.abc_screen_simple;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Wash2.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_screen_toolbar = global::Wash2.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Wash2.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_search_view = global::Wash2.Droid.Resource.Layout.abc_search_view;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_select_dialog_material = global::Wash2.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.abc_tooltip = global::Wash2.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.BottomTabLayout = global::Wash2.Droid.Resource.Layout.BottomTabLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_bottom_navigation_item = global::Wash2.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_bottom_sheet_dialog = global::Wash2.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_layout_snackbar = global::Wash2.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_layout_snackbar_include = global::Wash2.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_layout_tab_icon = global::Wash2.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_layout_tab_text = global::Wash2.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_menu_item_action_area = global::Wash2.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_navigation_item = global::Wash2.Droid.Resource.Layout.design_navigation_item;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_navigation_item_header = global::Wash2.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_navigation_item_separator = global::Wash2.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_navigation_item_subheader = global::Wash2.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_navigation_menu = global::Wash2.Droid.Resource.Layout.design_navigation_menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_navigation_menu_item = global::Wash2.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.design_text_input_password_icon = global::Wash2.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.FlyoutContent = global::Wash2.Droid.Resource.Layout.FlyoutContent;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.mtrl_layout_snackbar = global::Wash2.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.mtrl_layout_snackbar_include = global::Wash2.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_action = global::Wash2.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_action_tombstone = global::Wash2.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_media_action = global::Wash2.Droid.Resource.Layout.notification_media_action;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_media_cancel_action = global::Wash2.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_big_media = global::Wash2.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_big_media_custom = global::Wash2.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_big_media_narrow = global::Wash2.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::Wash2.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_custom_big = global::Wash2.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_icon_group = global::Wash2.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_lines_media = global::Wash2.Droid.Resource.Layout.notification_template_lines_media;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_media = global::Wash2.Droid.Resource.Layout.notification_template_media;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_media_custom = global::Wash2.Droid.Resource.Layout.notification_template_media_custom;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_part_chronometer = global::Wash2.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.notification_template_part_time = global::Wash2.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.RootLayout = global::Wash2.Droid.Resource.Layout.RootLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.select_dialog_item_material = global::Wash2.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.select_dialog_multichoice_material = global::Wash2.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.select_dialog_singlechoice_material = global::Wash2.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.ShellContent = global::Wash2.Droid.Resource.Layout.ShellContent;
+			global::Xamarin.Forms.Maps.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::Wash2.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_action_bar_home_description = global::Wash2.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_action_bar_up_description = global::Wash2.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_action_menu_overflow_description = global::Wash2.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_action_mode_done = global::Wash2.Droid.Resource.String.abc_action_mode_done;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_activitychooserview_choose_application = global::Wash2.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_activity_chooser_view_see_all = global::Wash2.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_capital_off = global::Wash2.Droid.Resource.String.abc_capital_off;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_capital_on = global::Wash2.Droid.Resource.String.abc_capital_on;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_body_1_material = global::Wash2.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_body_2_material = global::Wash2.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_button_material = global::Wash2.Droid.Resource.String.abc_font_family_button_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_caption_material = global::Wash2.Droid.Resource.String.abc_font_family_caption_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_display_1_material = global::Wash2.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_display_2_material = global::Wash2.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_display_3_material = global::Wash2.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_display_4_material = global::Wash2.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_headline_material = global::Wash2.Droid.Resource.String.abc_font_family_headline_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_menu_material = global::Wash2.Droid.Resource.String.abc_font_family_menu_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_subhead_material = global::Wash2.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_font_family_title_material = global::Wash2.Droid.Resource.String.abc_font_family_title_material;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_alt_shortcut_label = global::Wash2.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_ctrl_shortcut_label = global::Wash2.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_delete_shortcut_label = global::Wash2.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_enter_shortcut_label = global::Wash2.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_function_shortcut_label = global::Wash2.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_meta_shortcut_label = global::Wash2.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_shift_shortcut_label = global::Wash2.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_space_shortcut_label = global::Wash2.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_menu_sym_shortcut_label = global::Wash2.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_prepend_shortcut_label = global::Wash2.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_searchview_description_clear = global::Wash2.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_searchview_description_query = global::Wash2.Droid.Resource.String.abc_searchview_description_query;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_searchview_description_search = global::Wash2.Droid.Resource.String.abc_searchview_description_search;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_searchview_description_submit = global::Wash2.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_searchview_description_voice = global::Wash2.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_search_hint = global::Wash2.Droid.Resource.String.abc_search_hint;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_shareactionprovider_share_with = global::Wash2.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_shareactionprovider_share_with_application = global::Wash2.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xamarin.Forms.Maps.Android.Resource.String.abc_toolbar_collapse_description = global::Wash2.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.appbar_scrolling_view_behavior = global::Wash2.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.String.bottom_sheet_behavior = global::Wash2.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.String.character_counter_content_description = global::Wash2.Droid.Resource.String.character_counter_content_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.character_counter_pattern = global::Wash2.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_enable_button = global::Wash2.Droid.Resource.String.common_google_play_services_enable_button;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_enable_text = global::Wash2.Droid.Resource.String.common_google_play_services_enable_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_enable_title = global::Wash2.Droid.Resource.String.common_google_play_services_enable_title;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_install_button = global::Wash2.Droid.Resource.String.common_google_play_services_install_button;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_install_text = global::Wash2.Droid.Resource.String.common_google_play_services_install_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_install_title = global::Wash2.Droid.Resource.String.common_google_play_services_install_title;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_notification_channel_name = global::Wash2.Droid.Resource.String.common_google_play_services_notification_channel_name;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_notification_ticker = global::Wash2.Droid.Resource.String.common_google_play_services_notification_ticker;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_unknown_issue = global::Wash2.Droid.Resource.String.common_google_play_services_unknown_issue;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_unsupported_text = global::Wash2.Droid.Resource.String.common_google_play_services_unsupported_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_update_button = global::Wash2.Droid.Resource.String.common_google_play_services_update_button;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_update_text = global::Wash2.Droid.Resource.String.common_google_play_services_update_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_update_title = global::Wash2.Droid.Resource.String.common_google_play_services_update_title;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_updating_text = global::Wash2.Droid.Resource.String.common_google_play_services_updating_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_google_play_services_wear_update_text = global::Wash2.Droid.Resource.String.common_google_play_services_wear_update_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_open_on_phone = global::Wash2.Droid.Resource.String.common_open_on_phone;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_signin_button_text = global::Wash2.Droid.Resource.String.common_signin_button_text;
+			global::Xamarin.Forms.Maps.Android.Resource.String.common_signin_button_text_long = global::Wash2.Droid.Resource.String.common_signin_button_text_long;
+			global::Xamarin.Forms.Maps.Android.Resource.String.fab_transformation_scrim_behavior = global::Wash2.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.String.fab_transformation_sheet_behavior = global::Wash2.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.String.hide_bottom_view_on_scroll_behavior = global::Wash2.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.String.mtrl_chip_close_icon_content_description = global::Wash2.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.password_toggle_content_description = global::Wash2.Droid.Resource.String.password_toggle_content_description;
+			global::Xamarin.Forms.Maps.Android.Resource.String.path_password_eye = global::Wash2.Droid.Resource.String.path_password_eye;
+			global::Xamarin.Forms.Maps.Android.Resource.String.path_password_eye_mask_strike_through = global::Wash2.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Xamarin.Forms.Maps.Android.Resource.String.path_password_eye_mask_visible = global::Wash2.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Xamarin.Forms.Maps.Android.Resource.String.path_password_strike_through = global::Wash2.Droid.Resource.String.path_password_strike_through;
+			global::Xamarin.Forms.Maps.Android.Resource.String.search_menu_title = global::Wash2.Droid.Resource.String.search_menu_title;
+			global::Xamarin.Forms.Maps.Android.Resource.String.status_bar_notification_info_overflow = global::Wash2.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.AlertDialog_AppCompat = global::Wash2.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.AlertDialog_AppCompat_Light = global::Wash2.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Animation_AppCompat_Dialog = global::Wash2.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::Wash2.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Animation_AppCompat_Tooltip = global::Wash2.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::Wash2.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_AlertDialog_AppCompat = global::Wash2.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Wash2.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::Wash2.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Wash2.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Animation_AppCompat_Tooltip = global::Wash2.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_CardView = global::Wash2.Droid.Resource.Style.Base_CardView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Wash2.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Wash2.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Wash2.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Wash2.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Wash2.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Wash2.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::Wash2.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Wash2.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Wash2.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Wash2.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::Wash2.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::Wash2.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Wash2.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::Wash2.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Wash2.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat = global::Wash2.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Wash2.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::Wash2.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Wash2.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Wash2.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Wash2.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Wash2.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light = global::Wash2.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Wash2.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Wash2.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Wash2.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Wash2.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Wash2.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Wash2.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents = global::Wash2.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::Wash2.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::Wash2.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::Wash2.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::Wash2.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::Wash2.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::Wash2.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::Wash2.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light = global::Wash2.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::Wash2.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::Wash2.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Wash2.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::Wash2.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::Wash2.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::Wash2.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::Wash2.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::Wash2.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::Wash2.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Wash2.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents = global::Wash2.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::Wash2.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::Wash2.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::Wash2.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::Wash2.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Wash2.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::Wash2.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Wash2.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V21_Theme_AppCompat = global::Wash2.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Wash2.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Wash2.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Wash2.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V22_Theme_AppCompat = global::Wash2.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Wash2.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V23_Theme_AppCompat = global::Wash2.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Wash2.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V26_Theme_AppCompat = global::Wash2.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V26_Theme_AppCompat_Light = global::Wash2.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::Wash2.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V28_Theme_AppCompat = global::Wash2.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V28_Theme_AppCompat_Light = global::Wash2.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::Wash2.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Theme_AppCompat = global::Wash2.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Wash2.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Wash2.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Wash2.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Wash2.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Wash2.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::Wash2.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Button = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Wash2.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_Design_TabLayout = global::Wash2.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_MaterialComponents_Chip = global::Wash2.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::Wash2.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::Wash2.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.CardView = global::Wash2.Droid.Resource.Style.CardView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.CardView_Dark = global::Wash2.Droid.Resource.Style.CardView_Dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.CardView_Light = global::Wash2.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.collectionViewStyle = global::Wash2.Droid.Resource.Style.collectionViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.NestedScrollBarStyle = global::Wash2.Droid.Resource.Style.NestedScrollBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_AppCompat = global::Wash2.Droid.Resource.Style.Platform_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_AppCompat_Light = global::Wash2.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_MaterialComponents = global::Wash2.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_MaterialComponents_Dialog = global::Wash2.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_MaterialComponents_Light = global::Wash2.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::Wash2.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Wash2.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Wash2.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Wash2.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_V21_AppCompat = global::Wash2.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_V21_AppCompat_Light = global::Wash2.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_V25_AppCompat = global::Wash2.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_V25_AppCompat_Light = global::Wash2.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Wash2.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Wash2.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Wash2.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Wash2.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Wash2.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Wash2.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::Wash2.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::Wash2.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Wash2.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::Wash2.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Wash2.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Wash2.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Wash2.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Wash2.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Wash2.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Wash2.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Wash2.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Wash2.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Button = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Large = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Small = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Title = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Tooltip = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Wash2.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Wash2.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_Counter = global::Wash2.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Wash2.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_Error = global::Wash2.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_HelperText = global::Wash2.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_Hint = global::Wash2.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Wash2.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Design_Tab = global::Wash2.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::Wash2.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::Wash2.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Button = global::Wash2.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Caption = global::Wash2.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Chip = global::Wash2.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::Wash2.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::Wash2.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::Wash2.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::Wash2.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::Wash2.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::Wash2.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Overline = global::Wash2.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::Wash2.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::Wash2.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_MaterialComponents_Tab = global::Wash2.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Wash2.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Wash2.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Wash2.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat = global::Wash2.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Wash2.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Wash2.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Wash2.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Wash2.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Wash2.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::Wash2.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents = global::Wash2.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::Wash2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::Wash2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::Wash2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::Wash2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::Wash2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::Wash2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::Wash2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::Wash2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Wash2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::Wash2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Wash2.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat = global::Wash2.Droid.Resource.Style.Theme_AppCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::Wash2.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight = global::Wash2.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Wash2.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Wash2.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Wash2.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Wash2.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Wash2.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Wash2.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Dialog = global::Wash2.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Wash2.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Wash2.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Wash2.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light = global::Wash2.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Wash2.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::Wash2.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Wash2.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Wash2.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Wash2.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Wash2.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::Wash2.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_Design = global::Wash2.Droid.Resource.Style.Theme_Design;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::Wash2.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_Design_Light = global::Wash2.Droid.Resource.Style.Theme_Design_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Wash2.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::Wash2.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_Design_NoActionBar = global::Wash2.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Bridge = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_CompactMenu = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Dialog = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_NoActionBar = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::Wash2.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionBar = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionButton = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActionMode = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Wash2.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Button = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Button_Small = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Wash2.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Wash2.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Wash2.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Wash2.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Wash2.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_EditText = global::Wash2.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ImageButton = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ListView = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::Wash2.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Wash2.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::Wash2.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Wash2.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_RatingBar = global::Wash2.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Wash2.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Wash2.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_SearchView = global::Wash2.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Wash2.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_SeekBar = global::Wash2.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::Wash2.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Spinner = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Wash2.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Toolbar = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Wash2.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::Wash2.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Compat_NotificationActionText = global::Wash2.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_AppBarLayout = global::Wash2.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_BottomNavigationView = global::Wash2.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::Wash2.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::Wash2.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_FloatingActionButton = global::Wash2.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_NavigationView = global::Wash2.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Wash2.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_Snackbar = global::Wash2.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_TabLayout = global::Wash2.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Design_TextInputLayout = global::Wash2.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_Icon = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_CardView = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_ChipGroup = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Chip_Action = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_NavigationView = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Snackbar = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TabLayout = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_MaterialComponents_Toolbar = global::Wash2.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Style.Widget_Support_CoordinatorLayout = global::Wash2.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar = global::Wash2.Droid.Resource.Styleable.ActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBarLayout = global::Wash2.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Wash2.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_background = global::Wash2.Droid.Resource.Styleable.ActionBar_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_backgroundSplit = global::Wash2.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_backgroundStacked = global::Wash2.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::Wash2.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::Wash2.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::Wash2.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_contentInsetRight = global::Wash2.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_contentInsetStart = global::Wash2.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::Wash2.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::Wash2.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_displayOptions = global::Wash2.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_divider = global::Wash2.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_elevation = global::Wash2.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_height = global::Wash2.Droid.Resource.Styleable.ActionBar_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::Wash2.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Wash2.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_homeLayout = global::Wash2.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_icon = global::Wash2.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Wash2.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_itemPadding = global::Wash2.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_logo = global::Wash2.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_navigationMode = global::Wash2.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_popupTheme = global::Wash2.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_progressBarPadding = global::Wash2.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_progressBarStyle = global::Wash2.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_subtitle = global::Wash2.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::Wash2.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_title = global::Wash2.Droid.Resource.Styleable.ActionBar_title;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionBar_titleTextStyle = global::Wash2.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMenuItemView = global::Wash2.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Wash2.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMenuView = global::Wash2.Droid.Resource.Styleable.ActionMenuView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode = global::Wash2.Droid.Resource.Styleable.ActionMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode_background = global::Wash2.Droid.Resource.Styleable.ActionMode_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode_backgroundSplit = global::Wash2.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode_closeItemLayout = global::Wash2.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode_height = global::Wash2.Droid.Resource.Styleable.ActionMode_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::Wash2.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActionMode_titleTextStyle = global::Wash2.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActivityChooserView = global::Wash2.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Wash2.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Wash2.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog = global::Wash2.Droid.Resource.Styleable.AlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_android_layout = global::Wash2.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_buttonIconDimen = global::Wash2.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Wash2.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_listItemLayout = global::Wash2.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_listLayout = global::Wash2.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Wash2.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_showTitle = global::Wash2.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Wash2.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat = global::Wash2.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::Wash2.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::Wash2.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::Wash2.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::Wash2.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::Wash2.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::Wash2.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableItem = global::Wash2.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::Wash2.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::Wash2.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableTransition = global::Wash2.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::Wash2.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::Wash2.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::Wash2.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::Wash2.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout = global::Wash2.Droid.Resource.Styleable.AppBarLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayoutStates = global::Wash2.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::Wash2.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::Wash2.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayoutStates_state_liftable = global::Wash2.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayoutStates_state_lifted = global::Wash2.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_android_background = global::Wash2.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::Wash2.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::Wash2.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_elevation = global::Wash2.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_expanded = global::Wash2.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_Layout = global::Wash2.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Wash2.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Wash2.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppBarLayout_liftOnScroll = global::Wash2.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatImageView = global::Wash2.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatImageView_android_src = global::Wash2.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::Wash2.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatImageView_tint = global::Wash2.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatImageView_tintMode = global::Wash2.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatSeekBar = global::Wash2.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::Wash2.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::Wash2.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::Wash2.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::Wash2.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper = global::Wash2.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::Wash2.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::Wash2.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::Wash2.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::Wash2.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::Wash2.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::Wash2.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::Wash2.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView = global::Wash2.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Wash2.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::Wash2.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::Wash2.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::Wash2.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::Wash2.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::Wash2.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::Wash2.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::Wash2.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::Wash2.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_lineHeight = global::Wash2.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::Wash2.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme = global::Wash2.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorError = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Wash2.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar = global::Wash2.Droid.Resource.Styleable.BottomAppBar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar_backgroundTint = global::Wash2.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::Wash2.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar_fabCradleMargin = global::Wash2.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::Wash2.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::Wash2.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomAppBar_hideOnScroll = global::Wash2.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView = global::Wash2.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_elevation = global::Wash2.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::Wash2.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::Wash2.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemIconSize = global::Wash2.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::Wash2.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::Wash2.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::Wash2.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::Wash2.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::Wash2.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomNavigationView_menu = global::Wash2.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::Wash2.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::Wash2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Wash2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Wash2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Wash2.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ButtonBarLayout = global::Wash2.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::Wash2.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView = global::Wash2.Droid.Resource.Styleable.CardView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_android_minHeight = global::Wash2.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_android_minWidth = global::Wash2.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_cardBackgroundColor = global::Wash2.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_cardCornerRadius = global::Wash2.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_cardElevation = global::Wash2.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_cardMaxElevation = global::Wash2.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Wash2.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::Wash2.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_contentPadding = global::Wash2.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_contentPaddingBottom = global::Wash2.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_contentPaddingLeft = global::Wash2.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_contentPaddingRight = global::Wash2.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CardView_contentPaddingTop = global::Wash2.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip = global::Wash2.Droid.Resource.Styleable.Chip;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup = global::Wash2.Droid.Resource.Styleable.ChipGroup;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup_checkedChip = global::Wash2.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup_chipSpacing = global::Wash2.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::Wash2.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup_chipSpacingVertical = global::Wash2.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup_singleLine = global::Wash2.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ChipGroup_singleSelection = global::Wash2.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_android_checkable = global::Wash2.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_android_ellipsize = global::Wash2.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_android_maxWidth = global::Wash2.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_android_text = global::Wash2.Droid.Resource.Styleable.Chip_android_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_android_textAppearance = global::Wash2.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_checkedIcon = global::Wash2.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_checkedIconEnabled = global::Wash2.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_checkedIconVisible = global::Wash2.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipBackgroundColor = global::Wash2.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipCornerRadius = global::Wash2.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipEndPadding = global::Wash2.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipIcon = global::Wash2.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipIconEnabled = global::Wash2.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipIconSize = global::Wash2.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipIconTint = global::Wash2.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipIconVisible = global::Wash2.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipMinHeight = global::Wash2.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipStartPadding = global::Wash2.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipStrokeColor = global::Wash2.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_chipStrokeWidth = global::Wash2.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIcon = global::Wash2.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIconEnabled = global::Wash2.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIconEndPadding = global::Wash2.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIconSize = global::Wash2.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIconStartPadding = global::Wash2.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIconTint = global::Wash2.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_closeIconVisible = global::Wash2.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_hideMotionSpec = global::Wash2.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_iconEndPadding = global::Wash2.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_iconStartPadding = global::Wash2.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_rippleColor = global::Wash2.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_showMotionSpec = global::Wash2.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_textEndPadding = global::Wash2.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Chip_textStartPadding = global::Wash2.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Wash2.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ColorStateListItem = global::Wash2.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ColorStateListItem_alpha = global::Wash2.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::Wash2.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ColorStateListItem_android_color = global::Wash2.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CompoundButton = global::Wash2.Droid.Resource.Styleable.CompoundButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CompoundButton_android_button = global::Wash2.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CompoundButton_buttonTint = global::Wash2.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::Wash2.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_keylines = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DesignTheme = global::Wash2.Droid.Resource.Styleable.DesignTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::Wash2.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::Wash2.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle = global::Wash2.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Wash2.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Wash2.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::Wash2.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_color = global::Wash2.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Wash2.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Wash2.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::Wash2.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::Wash2.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton = global::Wash2.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::Wash2.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Wash2.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Wash2.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Wash2.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::Wash2.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_elevation = global::Wash2.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_fabCustomSize = global::Wash2.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_fabSize = global::Wash2.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::Wash2.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::Wash2.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_maxImageSize = global::Wash2.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Wash2.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::Wash2.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_showMotionSpec = global::Wash2.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Wash2.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FlowLayout = global::Wash2.Droid.Resource.Styleable.FlowLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FlowLayout_itemSpacing = global::Wash2.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FlowLayout_lineSpacing = global::Wash2.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily = global::Wash2.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont = global::Wash2.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_android_font = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_font = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamilyFont_ttcIndex = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::Wash2.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::Wash2.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Wash2.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Wash2.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::Wash2.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::Wash2.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ForegroundLinearLayout = global::Wash2.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Wash2.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Wash2.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Wash2.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor = global::Wash2.Droid.Resource.Styleable.GradientColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColorItem = global::Wash2.Droid.Resource.Styleable.GradientColorItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColorItem_android_color = global::Wash2.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColorItem_android_offset = global::Wash2.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_centerColor = global::Wash2.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_centerX = global::Wash2.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_centerY = global::Wash2.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_endColor = global::Wash2.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_endX = global::Wash2.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_endY = global::Wash2.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_gradientRadius = global::Wash2.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_startColor = global::Wash2.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_startX = global::Wash2.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_startY = global::Wash2.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_tileMode = global::Wash2.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.GradientColor_android_type = global::Wash2.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat = global::Wash2.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Wash2.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Wash2.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Wash2.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Wash2.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Wash2.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_divider = global::Wash2.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Wash2.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::Wash2.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Wash2.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Wash2.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Wash2.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Wash2.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Wash2.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::Wash2.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ListPopupWindow = global::Wash2.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Wash2.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Wash2.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LoadingImageView = global::Wash2.Droid.Resource.Styleable.LoadingImageView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LoadingImageView_circleCrop = global::Wash2.Droid.Resource.Styleable.LoadingImageView_circleCrop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LoadingImageView_imageAspectRatio = global::Wash2.Droid.Resource.Styleable.LoadingImageView_imageAspectRatio;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.LoadingImageView_imageAspectRatioAdjust = global::Wash2.Droid.Resource.Styleable.LoadingImageView_imageAspectRatioAdjust;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs = global::Wash2.Droid.Resource.Styleable.MapAttrs;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_ambientEnabled = global::Wash2.Droid.Resource.Styleable.MapAttrs_ambientEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraBearing = global::Wash2.Droid.Resource.Styleable.MapAttrs_cameraBearing;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraMaxZoomPreference = global::Wash2.Droid.Resource.Styleable.MapAttrs_cameraMaxZoomPreference;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraMinZoomPreference = global::Wash2.Droid.Resource.Styleable.MapAttrs_cameraMinZoomPreference;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraTargetLat = global::Wash2.Droid.Resource.Styleable.MapAttrs_cameraTargetLat;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraTargetLng = global::Wash2.Droid.Resource.Styleable.MapAttrs_cameraTargetLng;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraTilt = global::Wash2.Droid.Resource.Styleable.MapAttrs_cameraTilt;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_cameraZoom = global::Wash2.Droid.Resource.Styleable.MapAttrs_cameraZoom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_latLngBoundsNorthEastLatitude = global::Wash2.Droid.Resource.Styleable.MapAttrs_latLngBoundsNorthEastLatitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_latLngBoundsNorthEastLongitude = global::Wash2.Droid.Resource.Styleable.MapAttrs_latLngBoundsNorthEastLongitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_latLngBoundsSouthWestLatitude = global::Wash2.Droid.Resource.Styleable.MapAttrs_latLngBoundsSouthWestLatitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_latLngBoundsSouthWestLongitude = global::Wash2.Droid.Resource.Styleable.MapAttrs_latLngBoundsSouthWestLongitude;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_liteMode = global::Wash2.Droid.Resource.Styleable.MapAttrs_liteMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_mapType = global::Wash2.Droid.Resource.Styleable.MapAttrs_mapType;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiCompass = global::Wash2.Droid.Resource.Styleable.MapAttrs_uiCompass;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiMapToolbar = global::Wash2.Droid.Resource.Styleable.MapAttrs_uiMapToolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiRotateGestures = global::Wash2.Droid.Resource.Styleable.MapAttrs_uiRotateGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiScrollGestures = global::Wash2.Droid.Resource.Styleable.MapAttrs_uiScrollGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiScrollGesturesDuringRotateOrZoom = global::Wash2.Droid.Resource.Styleable.MapAttrs_uiScrollGesturesDuringRotateOrZoom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiTiltGestures = global::Wash2.Droid.Resource.Styleable.MapAttrs_uiTiltGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiZoomControls = global::Wash2.Droid.Resource.Styleable.MapAttrs_uiZoomControls;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_uiZoomGestures = global::Wash2.Droid.Resource.Styleable.MapAttrs_uiZoomGestures;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_useViewLifecycle = global::Wash2.Droid.Resource.Styleable.MapAttrs_useViewLifecycle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MapAttrs_zOrderOnTop = global::Wash2.Droid.Resource.Styleable.MapAttrs_zOrderOnTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton = global::Wash2.Droid.Resource.Styleable.MaterialButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_android_insetBottom = global::Wash2.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_android_insetLeft = global::Wash2.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_android_insetRight = global::Wash2.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_android_insetTop = global::Wash2.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_backgroundTint = global::Wash2.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_backgroundTintMode = global::Wash2.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_cornerRadius = global::Wash2.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_icon = global::Wash2.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_iconGravity = global::Wash2.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_iconPadding = global::Wash2.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_iconSize = global::Wash2.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_iconTint = global::Wash2.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_iconTintMode = global::Wash2.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_rippleColor = global::Wash2.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_strokeColor = global::Wash2.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialButton_strokeWidth = global::Wash2.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialCardView = global::Wash2.Droid.Resource.Styleable.MaterialCardView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialCardView_strokeColor = global::Wash2.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialCardView_strokeWidth = global::Wash2.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::Wash2.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup = global::Wash2.Droid.Resource.Styleable.MenuGroup;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Wash2.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup_android_enabled = global::Wash2.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup_android_id = global::Wash2.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::Wash2.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::Wash2.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuGroup_android_visible = global::Wash2.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem = global::Wash2.Droid.Resource.Styleable.MenuItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_actionLayout = global::Wash2.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_actionProviderClass = global::Wash2.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_actionViewClass = global::Wash2.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_alphabeticModifiers = global::Wash2.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Wash2.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_checkable = global::Wash2.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_checked = global::Wash2.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_enabled = global::Wash2.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_icon = global::Wash2.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_id = global::Wash2.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_menuCategory = global::Wash2.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::Wash2.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_onClick = global::Wash2.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::Wash2.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_title = global::Wash2.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::Wash2.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_android_visible = global::Wash2.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_contentDescription = global::Wash2.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_iconTint = global::Wash2.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_iconTintMode = global::Wash2.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_numericModifiers = global::Wash2.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_showAsAction = global::Wash2.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuItem_tooltipText = global::Wash2.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView = global::Wash2.Droid.Resource.Styleable.MenuView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_headerBackground = global::Wash2.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::Wash2.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_itemBackground = global::Wash2.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Wash2.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::Wash2.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_verticalDivider = global::Wash2.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Wash2.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::Wash2.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.MenuView_subMenuArrow = global::Wash2.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView = global::Wash2.Droid.Resource.Styleable.NavigationView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_android_background = global::Wash2.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Wash2.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_android_maxWidth = global::Wash2.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_elevation = global::Wash2.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_headerLayout = global::Wash2.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_itemBackground = global::Wash2.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_itemHorizontalPadding = global::Wash2.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_itemIconPadding = global::Wash2.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_itemIconTint = global::Wash2.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::Wash2.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_itemTextColor = global::Wash2.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.NavigationView_menu = global::Wash2.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.PopupWindow = global::Wash2.Droid.Resource.Styleable.PopupWindow;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.PopupWindowBackgroundState = global::Wash2.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Wash2.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Wash2.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::Wash2.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::Wash2.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecycleListView = global::Wash2.Droid.Resource.Styleable.RecycleListView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Wash2.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Wash2.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView = global::Wash2.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::Wash2.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_android_orientation = global::Wash2.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::Wash2.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::Wash2.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::Wash2.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::Wash2.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::Wash2.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_layoutManager = global::Wash2.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_reverseLayout = global::Wash2.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_spanCount = global::Wash2.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::Wash2.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::Wash2.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Wash2.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::Wash2.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::Wash2.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView = global::Wash2.Droid.Resource.Styleable.SearchView;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_android_focusable = global::Wash2.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_android_imeOptions = global::Wash2.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_android_inputType = global::Wash2.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_android_maxWidth = global::Wash2.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_closeIcon = global::Wash2.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_commitIcon = global::Wash2.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_defaultQueryHint = global::Wash2.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_goIcon = global::Wash2.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::Wash2.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_layout = global::Wash2.Droid.Resource.Styleable.SearchView_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_queryBackground = global::Wash2.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_queryHint = global::Wash2.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_searchHintIcon = global::Wash2.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_searchIcon = global::Wash2.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_submitBackground = global::Wash2.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::Wash2.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SearchView_voiceIcon = global::Wash2.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SignInButton = global::Wash2.Droid.Resource.Styleable.SignInButton;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SignInButton_buttonSize = global::Wash2.Droid.Resource.Styleable.SignInButton_buttonSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SignInButton_colorScheme = global::Wash2.Droid.Resource.Styleable.SignInButton_colorScheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SignInButton_scopeUris = global::Wash2.Droid.Resource.Styleable.SignInButton_scopeUris;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Snackbar = global::Wash2.Droid.Resource.Styleable.Snackbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SnackbarLayout = global::Wash2.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Wash2.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SnackbarLayout_elevation = global::Wash2.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Wash2.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Snackbar_snackbarButtonStyle = global::Wash2.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Snackbar_snackbarStyle = global::Wash2.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Spinner = global::Wash2.Droid.Resource.Styleable.Spinner;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::Wash2.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Spinner_android_entries = global::Wash2.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Spinner_android_popupBackground = global::Wash2.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Spinner_android_prompt = global::Wash2.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Spinner_popupTheme = global::Wash2.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable = global::Wash2.Droid.Resource.Styleable.StateListDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawableItem = global::Wash2.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawableItem_android_drawable = global::Wash2.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable_android_constantSize = global::Wash2.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable_android_dither = global::Wash2.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::Wash2.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::Wash2.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable_android_variablePadding = global::Wash2.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.StateListDrawable_android_visible = global::Wash2.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat = global::Wash2.Droid.Resource.Styleable.SwitchCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_android_textOff = global::Wash2.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_android_textOn = global::Wash2.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_android_thumb = global::Wash2.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_showText = global::Wash2.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_splitTrack = global::Wash2.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::Wash2.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_switchPadding = global::Wash2.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Wash2.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Wash2.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_thumbTint = global::Wash2.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::Wash2.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_track = global::Wash2.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_trackTint = global::Wash2.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::Wash2.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabItem = global::Wash2.Droid.Resource.Styleable.TabItem;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabItem_android_icon = global::Wash2.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabItem_android_layout = global::Wash2.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabItem_android_text = global::Wash2.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout = global::Wash2.Droid.Resource.Styleable.TabLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabBackground = global::Wash2.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabContentStart = global::Wash2.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabGravity = global::Wash2.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIconTint = global::Wash2.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIconTintMode = global::Wash2.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIndicator = global::Wash2.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::Wash2.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::Wash2.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::Wash2.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIndicatorGravity = global::Wash2.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Wash2.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabInlineLabel = global::Wash2.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::Wash2.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabMinWidth = global::Wash2.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabMode = global::Wash2.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabPadding = global::Wash2.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::Wash2.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::Wash2.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::Wash2.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::Wash2.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabRippleColor = global::Wash2.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Wash2.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::Wash2.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabTextColor = global::Wash2.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TabLayout_tabUnboundedRipple = global::Wash2.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance = global::Wash2.Droid.Resource.Styleable.TextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_fontFamily = global::Wash2.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::Wash2.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::Wash2.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::Wash2.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::Wash2.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_textColor = global::Wash2.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::Wash2.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_textColorLink = global::Wash2.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_textSize = global::Wash2.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_textStyle = global::Wash2.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_android_typeface = global::Wash2.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_fontFamily = global::Wash2.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextAppearance_textAllCaps = global::Wash2.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout = global::Wash2.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_android_hint = global::Wash2.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::Wash2.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::Wash2.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::Wash2.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::Wash2.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::Wash2.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::Wash2.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::Wash2.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::Wash2.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxStrokeColor = global::Wash2.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::Wash2.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::Wash2.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::Wash2.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Wash2.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Wash2.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::Wash2.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Wash2.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_helperText = global::Wash2.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_helperTextEnabled = global::Wash2.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::Wash2.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Wash2.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::Wash2.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Wash2.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::Wash2.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::Wash2.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Wash2.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Wash2.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Wash2.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ThemeEnforcement = global::Wash2.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::Wash2.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::Wash2.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::Wash2.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar = global::Wash2.Droid.Resource.Styleable.Toolbar;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_android_gravity = global::Wash2.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_android_minHeight = global::Wash2.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_buttonGravity = global::Wash2.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::Wash2.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_collapseIcon = global::Wash2.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::Wash2.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::Wash2.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::Wash2.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_contentInsetRight = global::Wash2.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_contentInsetStart = global::Wash2.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::Wash2.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_logo = global::Wash2.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_logoDescription = global::Wash2.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::Wash2.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::Wash2.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_navigationIcon = global::Wash2.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_popupTheme = global::Wash2.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_subtitle = global::Wash2.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Wash2.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::Wash2.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_title = global::Wash2.Droid.Resource.Styleable.Toolbar_title;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleMargin = global::Wash2.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::Wash2.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::Wash2.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleMargins = global::Wash2.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleMarginStart = global::Wash2.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleMarginTop = global::Wash2.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::Wash2.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.Toolbar_titleTextColor = global::Wash2.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.View = global::Wash2.Droid.Resource.Styleable.View;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewBackgroundHelper = global::Wash2.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::Wash2.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Wash2.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Wash2.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewStubCompat = global::Wash2.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewStubCompat_android_id = global::Wash2.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Wash2.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.ViewStubCompat_android_layout = global::Wash2.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.View_android_focusable = global::Wash2.Droid.Resource.Styleable.View_android_focusable;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.View_android_theme = global::Wash2.Droid.Resource.Styleable.View_android_theme;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.View_paddingEnd = global::Wash2.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.View_paddingStart = global::Wash2.Droid.Resource.Styleable.View_paddingStart;
+			global::Xamarin.Forms.Maps.Android.Resource.Styleable.View_theme = global::Wash2.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::Wash2.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::Wash2.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::Wash2.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -7632,6 +10278,9 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F040029
 			public const int alphabeticModifiers = 2130968617;
 			
+			// aapt resource value: 0x1
+			public const int ambientEnabled = 1;
+			
 			// aapt resource value: 0x7F04002A
 			public const int arrowHeadLength = 2130968618;
 			
@@ -7761,6 +10410,9 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F040054
 			public const int buttonPanelSideLayout = 2130968660;
 			
+			// aapt resource value: 0x1
+			public const int buttonSize = 1;
+			
 			// aapt resource value: 0x7F040055
 			public const int buttonStyle = 2130968661;
 			
@@ -7772,6 +10424,27 @@ namespace Wash2.Droid
 			
 			// aapt resource value: 0x7F040058
 			public const int buttonTintMode = 2130968664;
+			
+			// aapt resource value: 0x1
+			public const int cameraBearing = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraMaxZoomPreference = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraMinZoomPreference = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraTargetLat = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraTargetLng = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraTilt = 1;
+			
+			// aapt resource value: 0x1
+			public const int cameraZoom = 1;
 			
 			// aapt resource value: 0x7F040059
 			public const int cardBackgroundColor = 2130968665;
@@ -7866,6 +10539,9 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F040077
 			public const int chipStyle = 2130968695;
 			
+			// aapt resource value: 0x1
+			public const int circleCrop = 1;
+			
 			// aapt resource value: 0x7F040078
 			public const int closeIcon = 2130968696;
 			
@@ -7931,6 +10607,9 @@ namespace Wash2.Droid
 			
 			// aapt resource value: 0x7F04008D
 			public const int colorPrimaryDark = 2130968717;
+			
+			// aapt resource value: 0x1
+			public const int colorScheme = 1;
 			
 			// aapt resource value: 0x7F04008E
 			public const int colorSecondary = 2130968718;
@@ -8247,6 +10926,12 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0400F4
 			public const int iconTintMode = 2130968820;
 			
+			// aapt resource value: 0x1
+			public const int imageAspectRatio = 1;
+			
+			// aapt resource value: 0x1
+			public const int imageAspectRatioAdjust = 1;
+			
 			// aapt resource value: 0x7F0400F6
 			public const int imageButtonStyle = 2130968822;
 			
@@ -8306,6 +10991,18 @@ namespace Wash2.Droid
 			
 			// aapt resource value: 0x7F040109
 			public const int lastBaselineToBottomHeight = 2130968841;
+			
+			// aapt resource value: 0x1
+			public const int latLngBoundsNorthEastLatitude = 1;
+			
+			// aapt resource value: 0x1
+			public const int latLngBoundsNorthEastLongitude = 1;
+			
+			// aapt resource value: 0x1
+			public const int latLngBoundsSouthWestLatitude = 1;
+			
+			// aapt resource value: 0x1
+			public const int latLngBoundsSouthWestLongitude = 1;
 			
 			// aapt resource value: 0x7F04010A
 			public const int layout = 2130968842;
@@ -8385,11 +11082,17 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F040123
 			public const int listPreferredItemPaddingRight = 2130968867;
 			
+			// aapt resource value: 0x1
+			public const int liteMode = 1;
+			
 			// aapt resource value: 0x7F040124
 			public const int logo = 2130968868;
 			
 			// aapt resource value: 0x7F040125
 			public const int logoDescription = 2130968869;
+			
+			// aapt resource value: 0x1
+			public const int mapType = 1;
 			
 			// aapt resource value: 0x7F040126
 			public const int materialButtonStyle = 2130968870;
@@ -8552,6 +11255,9 @@ namespace Wash2.Droid
 			
 			// aapt resource value: 0x7F04014E
 			public const int rippleColor = 2130968910;
+			
+			// aapt resource value: 0x1
+			public const int scopeUris = 1;
 			
 			// aapt resource value: 0x7F04014F
 			public const int scrimAnimationDuration = 2130968911;
@@ -8943,8 +11649,35 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F04000C
 			public const int ttcIndex = 2130968588;
 			
+			// aapt resource value: 0x1
+			public const int uiCompass = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiMapToolbar = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiRotateGestures = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiScrollGestures = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiScrollGesturesDuringRotateOrZoom = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiTiltGestures = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiZoomControls = 1;
+			
+			// aapt resource value: 0x1
+			public const int uiZoomGestures = 1;
+			
 			// aapt resource value: 0x7F0401D1
 			public const int useCompatPadding = 2130969041;
+			
+			// aapt resource value: 0x1
+			public const int useViewLifecycle = 1;
 			
 			// aapt resource value: 0x7F0401D2
 			public const int viewInflaterClass = 2130969042;
@@ -8952,32 +11685,32 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0401D3
 			public const int voiceIcon = 2130969043;
 			
-			// aapt resource value: 0x7F090003
-			public const int vpiCentered = 2131296259;
+			// aapt resource value: 0x7F100003
+			public const int vpiCentered = 2131755011;
 			
-			// aapt resource value: 0x7F090002
-			public const int vpiCirclePageIndicatorStyle = 2131296258;
+			// aapt resource value: 0x7F100002
+			public const int vpiCirclePageIndicatorStyle = 2131755010;
 			
-			// aapt resource value: 0x7F090008
-			public const int vpiFillColor = 2131296264;
+			// aapt resource value: 0x7F100008
+			public const int vpiFillColor = 2131755016;
 			
-			// aapt resource value: 0x7F090005
-			public const int vpiOrientation = 2131296261;
+			// aapt resource value: 0x7F100005
+			public const int vpiOrientation = 2131755013;
 			
-			// aapt resource value: 0x7F090004
-			public const int vpiPageColor = 2131296260;
+			// aapt resource value: 0x7F100004
+			public const int vpiPageColor = 2131755012;
 			
-			// aapt resource value: 0x7F090007
-			public const int vpiRadius = 2131296263;
+			// aapt resource value: 0x7F100007
+			public const int vpiRadius = 2131755015;
 			
-			// aapt resource value: 0x7F090006
-			public const int vpiSnap = 2131296262;
+			// aapt resource value: 0x7F100006
+			public const int vpiSnap = 2131755014;
 			
-			// aapt resource value: 0x7F090009
-			public const int vpiStrokeColor = 2131296265;
+			// aapt resource value: 0x7F100009
+			public const int vpiStrokeColor = 2131755017;
 			
-			// aapt resource value: 0x7F090010
-			public const int vpiStrokeWidth = 2131296272;
+			// aapt resource value: 0x7F100010
+			public const int vpiStrokeWidth = 2131755024;
 			
 			// aapt resource value: 0x7F0401D4
 			public const int windowActionBar = 2130969044;
@@ -9009,6 +11742,9 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0401DD
 			public const int windowNoTitle = 2130969053;
 			
+			// aapt resource value: 0x1
+			public const int zOrderOnTop = 1;
+			
 			static Attribute()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -9031,11 +11767,11 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F050003
 			public const int abc_config_actionMenuItemAllCaps = 2131034115;
 			
-			// aapt resource value: 0x7F100002
-			public const int default_circle_indicator_centered = 2131755010;
+			// aapt resource value: 0x7F110002
+			public const int default_circle_indicator_centered = 2131820546;
 			
-			// aapt resource value: 0x7F100003
-			public const int default_circle_indicator_snap = 2131755011;
+			// aapt resource value: 0x7F110003
+			public const int default_circle_indicator_snap = 2131820547;
 			
 			// aapt resource value: 0x7F050004
 			public const int mtrl_btn_textappearance_all_caps = 2131034116;
@@ -9199,6 +11935,39 @@ namespace Wash2.Droid
 			
 			// aapt resource value: 0x7F050004
 			public const int colorPrimaryDark = 2131034116;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_default = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_disabled = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_focused = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_pressed = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_default = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_disabled = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_focused = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_pressed = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_tint = 1;
 			
 			// aapt resource value: 0x7F050014
 			public const int default_circle_indicator_fill_color = 2131034132;
@@ -9768,11 +12537,11 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F080007
 			public const int compat_notification_large_icon_max_width = 2131230727;
 			
-			// aapt resource value: 0x7F120002
-			public const int default_circle_indicator_radius = 2131886082;
+			// aapt resource value: 0x7F130002
+			public const int default_circle_indicator_radius = 2131951618;
 			
-			// aapt resource value: 0x7F120003
-			public const int default_circle_indicator_stroke_width = 2131886083;
+			// aapt resource value: 0x7F130003
+			public const int default_circle_indicator_stroke_width = 2131951619;
 			
 			// aapt resource value: 0x7F080056
 			public const int design_appbar_elevation = 2131230806;
@@ -10465,6 +13234,63 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F090056
 			public const int avd_show_password = 2131296342;
 			
+			// aapt resource value: 0x1
+			public const int common_full_open_on_phone = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_dark_focused = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_dark_normal = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_dark_normal_background = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_disabled = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_light_focused = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_light_normal = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_icon_light_normal_background = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_focused = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_normal = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_dark_normal_background = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_disabled = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_focused = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_normal = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_signin_btn_text_light_normal_background = 1;
+			
 			// aapt resource value: 0x7F090057
 			public const int design_bottom_navigation_item_background = 2131296343;
 			
@@ -10485,6 +13311,12 @@ namespace Wash2.Droid
 			
 			// aapt resource value: 0x7F010007
 			public const int Down = 2130771975;
+			
+			// aapt resource value: 0x1
+			public const int googleg_disabled_color_18 = 1;
+			
+			// aapt resource value: 0x1
+			public const int googleg_standard_color_18 = 1;
 			
 			// aapt resource value: 0x7F010002
 			public const int icono = 2130771970;
@@ -11237,6 +14069,12 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0C0014
 			public const int add = 2131492884;
 			
+			// aapt resource value: 0x1
+			public const int adjust_height = 1;
+			
+			// aapt resource value: 0x1
+			public const int adjust_width = 1;
+			
 			// aapt resource value: 0x7F0C0015
 			public const int alertTitle = 2131492885;
 			
@@ -11252,11 +14090,11 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0C0008
 			public const int bottom = 2131492872;
 			
-			// aapt resource value: 0x7F020221
-			public const int bottomtab.navarea = 2130838049;
-			
 			// aapt resource value: 0x7F020222
-			public const int bottomtab.tabbar = 2130838050;
+			public const int bottomtab.navarea = 2130838050;
+			
+			// aapt resource value: 0x7F020223
+			public const int bottomtab.tabbar = 2130838051;
 			
 			// aapt resource value: 0x7F0C0009
 			public const int browser_actions_header_text = 2131492873;
@@ -11288,8 +14126,8 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0C0008
 			public const int chronometer = 2131492872;
 			
-			// aapt resource value: 0x7F020231
-			public const int collectionViewStyle = 2130838065;
+			// aapt resource value: 0x7F020232
+			public const int collectionViewStyle = 2130838066;
 			
 			// aapt resource value: 0x7F0C001E
 			public const int container = 2131492894;
@@ -11308,6 +14146,9 @@ namespace Wash2.Droid
 			
 			// aapt resource value: 0x7F0C0023
 			public const int customPanel = 2131492899;
+			
+			// aapt resource value: 0x1
+			public const int dark = 1;
 			
 			// aapt resource value: 0x7F0C0024
 			public const int decor_content_parent = 2131492900;
@@ -11354,11 +14195,11 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0C0031
 			public const int @fixed = 2131492913;
 			
-			// aapt resource value: 0x7F020223
-			public const int flyoutcontent_appbar = 2130838051;
-			
 			// aapt resource value: 0x7F020224
-			public const int flyoutcontent_recycler = 2130838052;
+			public const int flyoutcontent_appbar = 2130838052;
+			
+			// aapt resource value: 0x7F020225
+			public const int flyoutcontent_recycler = 2130838053;
 			
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
@@ -11372,8 +14213,11 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0C0035
 			public const int home = 2131492917;
 			
-			// aapt resource value: 0x7F020010
-			public const int horizontal = 2130837520;
+			// aapt resource value: 0x7F020011
+			public const int horizontal = 2130837521;
+			
+			// aapt resource value: 0x1
+			public const int hybrid = 1;
 			
 			// aapt resource value: 0x7F0C000A
 			public const int icon = 2131492874;
@@ -11381,11 +14225,14 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0C000B
 			public const int icon_group = 2131492875;
 			
+			// aapt resource value: 0x1
+			public const int icon_only = 1;
+			
 			// aapt resource value: 0x7F0C0038
 			public const int image = 2131492920;
 			
-			// aapt resource value: 0x7F020009
-			public const int indicator = 2130837513;
+			// aapt resource value: 0x7F020010
+			public const int indicator = 2130837520;
 			
 			// aapt resource value: 0x7F0C000C
 			public const int info = 2131492876;
@@ -11405,6 +14252,9 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0C0010
 			public const int left = 2131492880;
 			
+			// aapt resource value: 0x1
+			public const int light = 1;
+			
 			// aapt resource value: 0x7F0C000E
 			public const int line1 = 2131492878;
 			
@@ -11417,17 +14267,17 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0C0042
 			public const int list_item = 2131492930;
 			
-			// aapt resource value: 0x7F020225
-			public const int main.appbar = 2130838053;
-			
-			// aapt resource value: 0x7F020227
-			public const int main.tablayout = 2130838055;
-			
 			// aapt resource value: 0x7F020226
-			public const int main.toolbar = 2130838054;
+			public const int main.appbar = 2130838054;
 			
 			// aapt resource value: 0x7F020228
-			public const int main.viewpager = 2130838056;
+			public const int main.tablayout = 2130838056;
+			
+			// aapt resource value: 0x7F020227
+			public const int main.toolbar = 2130838055;
+			
+			// aapt resource value: 0x7F020229
+			public const int main.viewpager = 2130838057;
 			
 			// aapt resource value: 0x7F0C0043
 			public const int masked = 2131492931;
@@ -11591,14 +14441,14 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0C0049
 			public const int navigation_header_container = 2131492937;
 			
-			// aapt resource value: 0x7F020232
-			public const int nestedScrollViewStyle = 2130838066;
-			
-			// aapt resource value: 0x7F020007
-			public const int next = 2130837511;
+			// aapt resource value: 0x7F020233
+			public const int nestedScrollViewStyle = 2130838067;
 			
 			// aapt resource value: 0x7F020008
-			public const int nextArrow = 2130837512;
+			public const int next = 2130837512;
+			
+			// aapt resource value: 0x7F020009
+			public const int nextArrow = 2130837513;
 			
 			// aapt resource value: 0x7F0C0013
 			public const int none = 2131492883;
@@ -11618,8 +14468,8 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0C004F
 			public const int outline = 2131492943;
 			
-			// aapt resource value: 0x7F020004
-			public const int pager = 2130837508;
+			// aapt resource value: 0x7F020005
+			public const int pager = 2130837509;
 			
 			// aapt resource value: 0x7F0C0050
 			public const int parallax = 2131492944;
@@ -11633,11 +14483,11 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0C0053
 			public const int pin = 2131492947;
 			
-			// aapt resource value: 0x7F020005
-			public const int prev = 2130837509;
-			
 			// aapt resource value: 0x7F020006
-			public const int prevArrow = 2130837510;
+			public const int prev = 2130837510;
+			
+			// aapt resource value: 0x7F020007
+			public const int prevArrow = 2130837511;
 			
 			// aapt resource value: 0x7F0C0054
 			public const int progress_circular = 2131492948;
@@ -11648,6 +14498,9 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0C0056
 			public const int radio = 2131492950;
 			
+			// aapt resource value: 0x7F020002
+			public const int ratingbar = 2130837506;
+			
 			// aapt resource value: 0x7F0C0018
 			public const int right = 2131492888;
 			
@@ -11656,6 +14509,9 @@ namespace Wash2.Droid
 			
 			// aapt resource value: 0x7F0C0015
 			public const int right_side = 2131492885;
+			
+			// aapt resource value: 0x1
+			public const int satellite = 1;
 			
 			// aapt resource value: 0x7F0C005A
 			public const int save_image_matrix = 2131492954;
@@ -11717,17 +14573,17 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0C006C
 			public const int select_dialog_listview = 2131492972;
 			
-			// aapt resource value: 0x7F020229
-			public const int shellcontent.appbar = 2130838057;
-			
 			// aapt resource value: 0x7F020230
-			public const int shellcontent.toolbar = 2130838064;
+			public const int shellcontent.appbar = 2130838064;
+			
+			// aapt resource value: 0x7F020231
+			public const int shellcontent.toolbar = 2130838065;
 			
 			// aapt resource value: 0x7F0C006E
 			public const int shortcut = 2131492974;
 			
-			// aapt resource value: 0x7F020002
-			public const int sliding_tabs = 2130837506;
+			// aapt resource value: 0x7F020003
+			public const int sliding_tabs = 2130837507;
 			
 			// aapt resource value: 0x7F0C006F
 			public const int smallLabel = 2131492975;
@@ -11752,6 +14608,9 @@ namespace Wash2.Droid
 			
 			// aapt resource value: 0x7F0C0076
 			public const int src_over = 2131492982;
+			
+			// aapt resource value: 0x1
+			public const int standard = 1;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int start = 2131492891;
@@ -11779,6 +14638,9 @@ namespace Wash2.Droid
 			
 			// aapt resource value: 0x7F0C0018
 			public const int tag_unhandled_key_listeners = 2131492888;
+			
+			// aapt resource value: 0x1
+			public const int terrain = 1;
 			
 			// aapt resource value: 0x7F0C0019
 			public const int text = 2131492889;
@@ -11816,8 +14678,8 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0C008A
 			public const int title_template = 2131493002;
 			
-			// aapt resource value: 0x7F020003
-			public const int toolbar = 2130837507;
+			// aapt resource value: 0x7F020004
+			public const int toolbar = 2130837508;
 			
 			// aapt resource value: 0x7F0C0023
 			public const int top = 2131492899;
@@ -11852,8 +14714,8 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0C0095
 			public const int up = 2131493013;
 			
-			// aapt resource value: 0x7F020011
-			public const int vertical = 2130837521;
+			// aapt resource value: 0x7F020012
+			public const int vertical = 2130837522;
 			
 			// aapt resource value: 0x7F0C0096
 			public const int view_offset_helper = 2131493014;
@@ -11863,6 +14725,9 @@ namespace Wash2.Droid
 			
 			// aapt resource value: 0x7F0C009D
 			public const int volume_item_container = 2131493021;
+			
+			// aapt resource value: 0x1
+			public const int wide = 1;
 			
 			// aapt resource value: 0x7F0C0098
 			public const int wrap_content = 2131493016;
@@ -11898,14 +14763,17 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0D0006
 			public const int config_tooltipAnimTime = 2131558406;
 			
-			// aapt resource value: 0x7F110002
-			public const int default_circle_indicator_orientation = 2131820546;
+			// aapt resource value: 0x7F120002
+			public const int default_circle_indicator_orientation = 2131886082;
 			
 			// aapt resource value: 0x7F0D0007
 			public const int design_snackbar_text_max_lines = 2131558407;
 			
 			// aapt resource value: 0x7F0D0008
 			public const int design_tab_indicator_anim_duration_ms = 2131558408;
+			
+			// aapt resource value: 0x1
+			public const int google_play_services_version = 1;
 			
 			// aapt resource value: 0x7F0D0009
 			public const int hide_password_duration = 2131558409;
@@ -12068,8 +14936,8 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0F001C
 			public const int abc_tooltip = 2131689500;
 			
-			// aapt resource value: 0x7F030085
-			public const int BottomTabLayout = 2130903173;
+			// aapt resource value: 0x7F030086
+			public const int BottomTabLayout = 2130903174;
 			
 			// aapt resource value: 0x7F0F0001
 			public const int browser_actions_context_menu_page = 2131689473;
@@ -12119,11 +14987,11 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0F002A
 			public const int design_text_input_password_icon = 2131689514;
 			
-			// aapt resource value: 0x7F030086
-			public const int FlyoutContent = 2130903174;
+			// aapt resource value: 0x7F030087
+			public const int FlyoutContent = 2130903175;
 			
-			// aapt resource value: 0x7F030004
-			public const int horizontal_viewpager = 2130903044;
+			// aapt resource value: 0x7F030005
+			public const int horizontal_viewpager = 2130903045;
 			
 			// aapt resource value: 0x7F0F001D
 			public const int mr_cast_dialog = 2131689501;
@@ -12218,8 +15086,11 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
-			// aapt resource value: 0x7F030087
-			public const int RootLayout = 2130903175;
+			// aapt resource value: 0x7F030002
+			public const int Raiting = 2130903042;
+			
+			// aapt resource value: 0x7F030088
+			public const int RootLayout = 2130903176;
 			
 			// aapt resource value: 0x7F0F0033
 			public const int select_dialog_item_material = 2131689523;
@@ -12230,20 +15101,20 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F0F0035
 			public const int select_dialog_singlechoice_material = 2131689525;
 			
-			// aapt resource value: 0x7F030088
-			public const int ShellContent = 2130903176;
+			// aapt resource value: 0x7F030089
+			public const int ShellContent = 2130903177;
 			
 			// aapt resource value: 0x7F0F0036
 			public const int support_simple_spinner_dropdown_item = 2131689526;
 			
-			// aapt resource value: 0x7F030002
-			public const int Tabbar = 2130903042;
-			
 			// aapt resource value: 0x7F030003
-			public const int Toolbar = 2130903043;
+			public const int Tabbar = 2130903043;
 			
-			// aapt resource value: 0x7F030005
-			public const int vertical_viewpager = 2130903045;
+			// aapt resource value: 0x7F030004
+			public const int Toolbar = 2130903044;
+			
+			// aapt resource value: 0x7F030006
+			public const int vertical_viewpager = 2130903046;
 			
 			static Layout()
 			{
@@ -12412,6 +15283,60 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F15002B
 			public const int character_counter_pattern = 2132082731;
 			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_enable_button = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_enable_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_enable_title = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_install_button = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_install_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_install_title = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_notification_channel_name = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_notification_ticker = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_unknown_issue = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_unsupported_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_update_button = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_update_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_update_title = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_updating_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_google_play_services_wear_update_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_open_on_phone = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_signin_button_text = 1;
+			
+			// aapt resource value: 0x1
+			public const int common_signin_button_text_long = 1;
+			
 			// aapt resource value: 0x7F15002C
 			public const int fab_transformation_scrim_behavior = 2132082732;
 			
@@ -12421,8 +15346,8 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7F15002E
 			public const int hide_bottom_view_on_scroll_behavior = 2132082734;
 			
-			// aapt resource value: 0x7F070002
-			public const int library_name = 2131165186;
+			// aapt resource value: 0x7F080002
+			public const int library_name = 2131230722;
 			
 			// aapt resource value: 0x7F150028
 			public const int mr_button_content_description = 2132082728;
@@ -14137,11 +17062,11 @@ namespace Wash2.Droid
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F080093
-			public const int ActionBarLayout_android_layout_gravity = 2131230867;
+			// aapt resource value: 0x7F090093
+			public const int ActionBarLayout_android_layout_gravity = 2131296403;
 			
-			// aapt resource value: 0x7F080063
-			public const int ActionBar_background = 2131230819;
+			// aapt resource value: 0x7F090063
+			public const int ActionBar_background = 2131296355;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -14230,8 +17155,8 @@ namespace Wash2.Droid
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F080095
-			public const int ActionMenuItemView_android_minWidth = 2131230869;
+			// aapt resource value: 0x7F090095
+			public const int ActionMenuItemView_android_minWidth = 2131296405;
 			
 			public static int[] ActionMenuView = new int[] {
 					0};
@@ -14244,8 +17169,8 @@ namespace Wash2.Droid
 					2130968951,
 					2130969030};
 			
-			// aapt resource value: 0x7F080097
-			public const int ActionMode_background = 2131230871;
+			// aapt resource value: 0x7F090097
+			public const int ActionMode_background = 2131296407;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -14266,8 +17191,8 @@ namespace Wash2.Droid
 					2130968763,
 					2130968824};
 			
-			// aapt resource value: 0x7F080104
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131230980;
+			// aapt resource value: 0x7F090104
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131296516;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
@@ -14282,8 +17207,8 @@ namespace Wash2.Droid
 					2130968924,
 					2130968925};
 			
-			// aapt resource value: 0x7F080107
-			public const int AlertDialog_android_layout = 2131230983;
+			// aapt resource value: 0x7F090107
+			public const int AlertDialog_android_layout = 2131296519;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonIconDimen = 1;
@@ -14314,8 +17239,8 @@ namespace Wash2.Droid
 					16843157,
 					16843156};
 			
-			// aapt resource value: 0x7F080741
-			public const int AnimatedStateListDrawableCompat_android_constantSize = 2131232577;
+			// aapt resource value: 0x7F090741
+			public const int AnimatedStateListDrawableCompat_android_constantSize = 2131298113;
 			
 			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableCompat_android_dither = 1;
@@ -14336,8 +17261,8 @@ namespace Wash2.Droid
 					16843161,
 					16842960};
 			
-			// aapt resource value: 0x7F080748
-			public const int AnimatedStateListDrawableItem_android_drawable = 2131232584;
+			// aapt resource value: 0x7F090748
+			public const int AnimatedStateListDrawableItem_android_drawable = 2131298120;
 			
 			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableItem_android_id = 1;
@@ -14348,8 +17273,8 @@ namespace Wash2.Droid
 					16843851,
 					16843849};
 			
-			// aapt resource value: 0x7F080751
-			public const int AnimatedStateListDrawableTransition_android_drawable = 2131232593;
+			// aapt resource value: 0x7F090751
+			public const int AnimatedStateListDrawableTransition_android_drawable = 2131298129;
 			
 			// aapt resource value: 0x1
 			public const int AnimatedStateListDrawableTransition_android_fromId = 1;
@@ -14374,8 +17299,8 @@ namespace Wash2.Droid
 					2130968940,
 					2130968941};
 			
-			// aapt resource value: 0x7F080123
-			public const int AppBarLayoutStates_state_collapsed = 2131231011;
+			// aapt resource value: 0x7F090123
+			public const int AppBarLayoutStates_state_collapsed = 2131296547;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
@@ -14386,8 +17311,8 @@ namespace Wash2.Droid
 			// aapt resource value: 0x3
 			public const int AppBarLayoutStates_state_lifted = 3;
 			
-			// aapt resource value: 0x7F080116
-			public const int AppBarLayout_android_background = 2131230998;
+			// aapt resource value: 0x7F090116
+			public const int AppBarLayout_android_background = 2131296534;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_android_keyboardNavigationCluster = 1;
@@ -14405,8 +17330,8 @@ namespace Wash2.Droid
 					2130968852,
 					2130968853};
 			
-			// aapt resource value: 0x7F080128
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131231016;
+			// aapt resource value: 0x7F090128
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131296552;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -14420,8 +17345,8 @@ namespace Wash2.Droid
 					2130969018,
 					2130969019};
 			
-			// aapt resource value: 0x7F080131
-			public const int AppCompatImageView_android_src = 2131231025;
+			// aapt resource value: 0x7F090131
+			public const int AppCompatImageView_android_src = 2131296561;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -14438,8 +17363,8 @@ namespace Wash2.Droid
 					2130969016,
 					2130969017};
 			
-			// aapt resource value: 0x7F080136
-			public const int AppCompatSeekBar_android_thumb = 2131231030;
+			// aapt resource value: 0x7F090136
+			public const int AppCompatSeekBar_android_thumb = 2131296566;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -14459,8 +17384,8 @@ namespace Wash2.Droid
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F080141
-			public const int AppCompatTextHelper_android_drawableBottom = 2131231041;
+			// aapt resource value: 0x7F090141
+			public const int AppCompatTextHelper_android_drawableBottom = 2131296577;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -14493,8 +17418,8 @@ namespace Wash2.Droid
 					2130968855,
 					2130968983};
 			
-			// aapt resource value: 0x7F080149
-			public const int AppCompatTextView_android_textAppearance = 2131231049;
+			// aapt resource value: 0x7F090149
+			public const int AppCompatTextView_android_textAppearance = 2131296585;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -14649,8 +17574,8 @@ namespace Wash2.Droid
 					2130969052,
 					2130969053};
 			
-			// aapt resource value: 0x7F080161
-			public const int AppCompatTheme_actionBarDivider = 2131231073;
+			// aapt resource value: 0x7F090161
+			public const int AppCompatTheme_actionBarDivider = 2131296609;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -15020,8 +17945,8 @@ namespace Wash2.Droid
 					2130968775,
 					2130968806};
 			
-			// aapt resource value: 0x7F080283
-			public const int BottomAppBar_backgroundTint = 2131231363;
+			// aapt resource value: 0x7F090283
+			public const int BottomAppBar_backgroundTint = 2131296899;
 			
 			// aapt resource value: 0x1
 			public const int BottomAppBar_fabAlignmentMode = 1;
@@ -15050,8 +17975,8 @@ namespace Wash2.Droid
 					2130968840,
 					2130968876};
 			
-			// aapt resource value: 0x7F080290
-			public const int BottomNavigationView_elevation = 2131231376;
+			// aapt resource value: 0x7F090290
+			public const int BottomNavigationView_elevation = 2131296912;
 			
 			// aapt resource value: 0x1
 			public const int BottomNavigationView_itemBackground = 1;
@@ -15086,8 +18011,8 @@ namespace Wash2.Droid
 					2130968636,
 					2130968637};
 			
-			// aapt resource value: 0x7F080301
-			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 2131231489;
+			// aapt resource value: 0x7F090301
+			public const int BottomSheetBehavior_Layout_behavior_fitToContents = 2131297025;
 			
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_hideable = 1;
@@ -15101,8 +18026,8 @@ namespace Wash2.Droid
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F080306
-			public const int ButtonBarLayout_allowStacking = 2131231494;
+			// aapt resource value: 0x7F090306
+			public const int ButtonBarLayout_allowStacking = 2131297030;
 			
 			public static int[] CardView = new int[] {
 					16843072,
@@ -15119,8 +18044,8 @@ namespace Wash2.Droid
 					2130968731,
 					2130968732};
 			
-			// aapt resource value: 0x7F080308
-			public const int CardView_android_minHeight = 2131231496;
+			// aapt resource value: 0x7F090308
+			public const int CardView_android_minHeight = 2131297032;
 			
 			// aapt resource value: 0x1
 			public const int CardView_android_minWidth = 1;
@@ -15202,8 +18127,8 @@ namespace Wash2.Droid
 					2130968926,
 					2130968927};
 			
-			// aapt resource value: 0x7F080357
-			public const int ChipGroup_checkedChip = 2131231575;
+			// aapt resource value: 0x7F090357
+			public const int ChipGroup_checkedChip = 2131297111;
 			
 			// aapt resource value: 0x1
 			public const int ChipGroup_chipSpacing = 1;
@@ -15220,8 +18145,8 @@ namespace Wash2.Droid
 			// aapt resource value: 0x5
 			public const int ChipGroup_singleSelection = 5;
 			
-			// aapt resource value: 0x7F080322
-			public const int Chip_android_checkable = 2131231522;
+			// aapt resource value: 0x7F090322
+			public const int Chip_android_checkable = 2131297058;
 			
 			// aapt resource value: 0x1
 			public const int Chip_android_ellipsize = 1;
@@ -15332,29 +18257,29 @@ namespace Wash2.Droid
 					0,
 					0};
 			
-			// aapt resource value: 0x7F080004
-			public const int CirclePageIndicator_vpiCentered = 2131230724;
+			// aapt resource value: 0x7F090004
+			public const int CirclePageIndicator_vpiCentered = 2131296260;
 			
-			// aapt resource value: 0x7F080009
-			public const int CirclePageIndicator_vpiFillColor = 2131230729;
+			// aapt resource value: 0x7F090009
+			public const int CirclePageIndicator_vpiFillColor = 2131296265;
 			
-			// aapt resource value: 0x7F080006
-			public const int CirclePageIndicator_vpiOrientation = 2131230726;
+			// aapt resource value: 0x7F090006
+			public const int CirclePageIndicator_vpiOrientation = 2131296262;
 			
-			// aapt resource value: 0x7F080005
-			public const int CirclePageIndicator_vpiPageColor = 2131230725;
+			// aapt resource value: 0x7F090005
+			public const int CirclePageIndicator_vpiPageColor = 2131296261;
 			
-			// aapt resource value: 0x7F080008
-			public const int CirclePageIndicator_vpiRadius = 2131230728;
+			// aapt resource value: 0x7F090008
+			public const int CirclePageIndicator_vpiRadius = 2131296264;
 			
-			// aapt resource value: 0x7F080007
-			public const int CirclePageIndicator_vpiSnap = 2131230727;
+			// aapt resource value: 0x7F090007
+			public const int CirclePageIndicator_vpiSnap = 2131296263;
 			
-			// aapt resource value: 0x7F080010
-			public const int CirclePageIndicator_vpiStrokeColor = 2131230736;
+			// aapt resource value: 0x7F090010
+			public const int CirclePageIndicator_vpiStrokeColor = 2131296272;
 			
-			// aapt resource value: 0x7F080011
-			public const int CirclePageIndicator_vpiStrokeWidth = 2131230737;
+			// aapt resource value: 0x7F090011
+			public const int CirclePageIndicator_vpiStrokeWidth = 2131296273;
 			
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130968706,
@@ -15374,8 +18299,8 @@ namespace Wash2.Droid
 					2130969021,
 					2130969031};
 			
-			// aapt resource value: 0x7F080364
-			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131231588;
+			// aapt resource value: 0x7F090364
+			public const int CollapsingToolbarLayout_collapsedTitleGravity = 2131297124;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_collapsedTitleTextAppearance = 1;
@@ -15408,8 +18333,8 @@ namespace Wash2.Droid
 					2130968847,
 					2130968848};
 			
-			// aapt resource value: 0x7F080381
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131231617;
+			// aapt resource value: 0x7F090381
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131297153;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -15437,8 +18362,8 @@ namespace Wash2.Droid
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F080014
-			public const int ColorStateListItem_alpha = 2131230740;
+			// aapt resource value: 0x7F090014
+			public const int ColorStateListItem_alpha = 2131296276;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -15451,8 +18376,8 @@ namespace Wash2.Droid
 					2130968663,
 					2130968664};
 			
-			// aapt resource value: 0x7F080384
-			public const int CompoundButton_android_button = 2131231620;
+			// aapt resource value: 0x7F090384
+			public const int CompoundButton_android_button = 2131297156;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -15464,8 +18389,8 @@ namespace Wash2.Droid
 					2130968589,
 					2130968596};
 			
-			// aapt resource value: 0x7F080052
-			public const int CoordinatorLayout_keylines = 2131230802;
+			// aapt resource value: 0x7F090052
+			public const int CoordinatorLayout_keylines = 2131296338;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -15476,8 +18401,8 @@ namespace Wash2.Droid
 					2130968594,
 					2130968595};
 			
-			// aapt resource value: 0x7F080055
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131230805;
+			// aapt resource value: 0x7F090055
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131296341;
 			
 			// aapt resource value: 0x1
 			public const int CoordinatorLayout_Layout_layout_anchor = 1;
@@ -15504,8 +18429,8 @@ namespace Wash2.Droid
 					2130968642,
 					2130968643};
 			
-			// aapt resource value: 0x7F080388
-			public const int DesignTheme_bottomSheetDialogTheme = 2131231624;
+			// aapt resource value: 0x7F090388
+			public const int DesignTheme_bottomSheetDialogTheme = 2131297160;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
@@ -15520,8 +18445,8 @@ namespace Wash2.Droid
 					2130968931,
 					2130969011};
 			
-			// aapt resource value: 0x7F080391
-			public const int DrawerArrowToggle_arrowHeadLength = 2131231633;
+			// aapt resource value: 0x7F090391
+			public const int DrawerArrowToggle_arrowHeadLength = 2131297169;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -15559,8 +18484,8 @@ namespace Wash2.Droid
 					2130968922,
 					2130969041};
 			
-			// aapt resource value: 0x7F080400
-			public const int FloatingActionButton_backgroundTint = 2131231744;
+			// aapt resource value: 0x7F090400
+			public const int FloatingActionButton_backgroundTint = 2131297280;
 			
 			// aapt resource value: 0x1
 			public const int FloatingActionButton_backgroundTintMode = 1;
@@ -15568,8 +18493,8 @@ namespace Wash2.Droid
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130968632};
 			
-			// aapt resource value: 0x7F080414
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131231764;
+			// aapt resource value: 0x7F090414
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131297300;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_borderWidth = 2;
@@ -15608,8 +18533,8 @@ namespace Wash2.Droid
 					2130968834,
 					2130968856};
 			
-			// aapt resource value: 0x7F080416
-			public const int FlowLayout_itemSpacing = 2131231766;
+			// aapt resource value: 0x7F090416
+			public const int FlowLayout_itemSpacing = 2131297302;
 			
 			// aapt resource value: 0x1
 			public const int FlowLayout_lineSpacing = 1;
@@ -15634,8 +18559,8 @@ namespace Wash2.Droid
 					2130968587,
 					2130968588};
 			
-			// aapt resource value: 0x7F080025
-			public const int FontFamilyFont_android_font = 2131230757;
+			// aapt resource value: 0x7F090025
+			public const int FontFamilyFont_android_font = 2131296293;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
@@ -15664,8 +18589,8 @@ namespace Wash2.Droid
 			// aapt resource value: 0x9
 			public const int FontFamilyFont_ttcIndex = 9;
 			
-			// aapt resource value: 0x7F080018
-			public const int FontFamily_fontProviderAuthority = 2131230744;
+			// aapt resource value: 0x7F090018
+			public const int FontFamily_fontProviderAuthority = 2131296280;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -15687,8 +18612,8 @@ namespace Wash2.Droid
 					16843264,
 					2130968796};
 			
-			// aapt resource value: 0x7F080419
-			public const int ForegroundLinearLayout_android_foreground = 2131231769;
+			// aapt resource value: 0x7F090419
+			public const int ForegroundLinearLayout_android_foreground = 2131297305;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
@@ -15714,14 +18639,14 @@ namespace Wash2.Droid
 					16843173,
 					16844052};
 			
-			// aapt resource value: 0x7F080049
-			public const int GradientColorItem_android_color = 2131230793;
+			// aapt resource value: 0x7F090049
+			public const int GradientColorItem_android_color = 2131296329;
 			
 			// aapt resource value: 0x1
 			public const int GradientColorItem_android_offset = 1;
 			
-			// aapt resource value: 0x7F080036
-			public const int GradientColor_android_centerColor = 2131230774;
+			// aapt resource value: 0x7F090036
+			public const int GradientColor_android_centerColor = 2131296310;
 			
 			// aapt resource value: 0x1
 			public const int GradientColor_android_centerX = 1;
@@ -15767,8 +18692,8 @@ namespace Wash2.Droid
 					2130968875,
 					2130968921};
 			
-			// aapt resource value: 0x7F080423
-			public const int LinearLayoutCompat_android_baselineAligned = 2131231779;
+			// aapt resource value: 0x7F090423
+			public const int LinearLayoutCompat_android_baselineAligned = 2131297315;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -15794,8 +18719,8 @@ namespace Wash2.Droid
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F080433
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131231795;
+			// aapt resource value: 0x7F090433
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131297331;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -15816,11 +18741,123 @@ namespace Wash2.Droid
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F080438
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131231800;
+			// aapt resource value: 0x7F090438
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131297336;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
+			
+			public static int[] LoadingImageView = new int[] {
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x2
+			public const int LoadingImageView_circleCrop = 2;
+			
+			// aapt resource value: 0x1
+			public const int LoadingImageView_imageAspectRatio = 1;
+			
+			// aapt resource value: 0x7F090772
+			public const int LoadingImageView_imageAspectRatioAdjust = 2131298162;
+			
+			public static int[] MapAttrs = new int[] {
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x17
+			public const int MapAttrs_ambientEnabled = 23;
+			
+			// aapt resource value: 0x1
+			public const int MapAttrs_cameraBearing = 1;
+			
+			// aapt resource value: 0x19
+			public const int MapAttrs_cameraMaxZoomPreference = 25;
+			
+			// aapt resource value: 0x18
+			public const int MapAttrs_cameraMinZoomPreference = 24;
+			
+			// aapt resource value: 0x2
+			public const int MapAttrs_cameraTargetLat = 2;
+			
+			// aapt resource value: 0x3
+			public const int MapAttrs_cameraTargetLng = 3;
+			
+			// aapt resource value: 0x4
+			public const int MapAttrs_cameraTilt = 4;
+			
+			// aapt resource value: 0x5
+			public const int MapAttrs_cameraZoom = 5;
+			
+			// aapt resource value: 0x22
+			public const int MapAttrs_latLngBoundsNorthEastLatitude = 34;
+			
+			// aapt resource value: 0x23
+			public const int MapAttrs_latLngBoundsNorthEastLongitude = 35;
+			
+			// aapt resource value: 0x20
+			public const int MapAttrs_latLngBoundsSouthWestLatitude = 32;
+			
+			// aapt resource value: 0x21
+			public const int MapAttrs_latLngBoundsSouthWestLongitude = 33;
+			
+			// aapt resource value: 0x6
+			public const int MapAttrs_liteMode = 6;
+			
+			// aapt resource value: 0x7F090791
+			public const int MapAttrs_mapType = 2131298193;
+			
+			// aapt resource value: 0x7
+			public const int MapAttrs_uiCompass = 7;
+			
+			// aapt resource value: 0x16
+			public const int MapAttrs_uiMapToolbar = 22;
+			
+			// aapt resource value: 0x8
+			public const int MapAttrs_uiRotateGestures = 8;
+			
+			// aapt resource value: 0x9
+			public const int MapAttrs_uiScrollGestures = 9;
+			
+			// aapt resource value: 0x10
+			public const int MapAttrs_uiScrollGesturesDuringRotateOrZoom = 16;
+			
+			// aapt resource value: 0x11
+			public const int MapAttrs_uiTiltGestures = 17;
+			
+			// aapt resource value: 0x12
+			public const int MapAttrs_uiZoomControls = 18;
+			
+			// aapt resource value: 0x13
+			public const int MapAttrs_uiZoomGestures = 19;
+			
+			// aapt resource value: 0x14
+			public const int MapAttrs_useViewLifecycle = 20;
+			
+			// aapt resource value: 0x15
+			public const int MapAttrs_zOrderOnTop = 21;
 			
 			public static int[] MaterialButton = new int[] {
 					16843194,
@@ -15840,8 +18877,8 @@ namespace Wash2.Droid
 					2130968944,
 					2130968945};
 			
-			// aapt resource value: 0x7F080441
-			public const int MaterialButton_android_insetBottom = 2131231809;
+			// aapt resource value: 0x7F090441
+			public const int MaterialButton_android_insetBottom = 2131297345;
 			
 			// aapt resource value: 0x1
 			public const int MaterialButton_android_insetLeft = 1;
@@ -15892,8 +18929,8 @@ namespace Wash2.Droid
 					2130968944,
 					2130968945};
 			
-			// aapt resource value: 0x7F080458
-			public const int MaterialCardView_strokeColor = 2131231832;
+			// aapt resource value: 0x7F090458
+			public const int MaterialCardView_strokeColor = 2131297368;
 			
 			// aapt resource value: 0x1
 			public const int MaterialCardView_strokeWidth = 1;
@@ -15932,8 +18969,8 @@ namespace Wash2.Droid
 					2130969004,
 					2130969008};
 			
-			// aapt resource value: 0x7F080461
-			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 2131231841;
+			// aapt resource value: 0x7F090461
+			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 2131297377;
 			
 			// aapt resource value: 0x1
 			public const int MaterialComponentsTheme_bottomSheetStyle = 1;
@@ -16034,8 +19071,8 @@ namespace Wash2.Droid
 					2130968691,
 					2130968752};
 			
-			// aapt resource value: 0x7F080765
-			public const int MediaRouteButton_android_minHeight = 2131232613;
+			// aapt resource value: 0x7F090765
+			public const int MediaRouteButton_android_minHeight = 2131298149;
 			
 			// aapt resource value: 0x1
 			public const int MediaRouteButton_android_minWidth = 1;
@@ -16054,8 +19091,8 @@ namespace Wash2.Droid
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F080494
-			public const int MenuGroup_android_checkableBehavior = 2131231892;
+			// aapt resource value: 0x7F090494
+			public const int MenuGroup_android_checkableBehavior = 2131297428;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -16097,8 +19134,8 @@ namespace Wash2.Droid
 					2130968920,
 					2130969036};
 			
-			// aapt resource value: 0x7F080501
-			public const int MenuItem_actionLayout = 2131232001;
+			// aapt resource value: 0x7F090501
+			public const int MenuItem_actionLayout = 2131297537;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -16177,8 +19214,8 @@ namespace Wash2.Droid
 					2130968899,
 					2130968946};
 			
-			// aapt resource value: 0x7F080525
-			public const int MenuView_android_headerBackground = 2131232037;
+			// aapt resource value: 0x7F090525
+			public const int MenuView_android_headerBackground = 2131297573;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -16218,8 +19255,8 @@ namespace Wash2.Droid
 					2130968838,
 					2130968876};
 			
-			// aapt resource value: 0x7F080535
-			public const int NavigationView_android_background = 2131232053;
+			// aapt resource value: 0x7F090535
+			public const int NavigationView_android_background = 2131297589;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -16262,11 +19299,11 @@ namespace Wash2.Droid
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968937};
 			
-			// aapt resource value: 0x7F080552
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131232082;
+			// aapt resource value: 0x7F090552
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131297618;
 			
-			// aapt resource value: 0x7F080548
-			public const int PopupWindow_android_popupAnimationStyle = 2131232072;
+			// aapt resource value: 0x7F090548
+			public const int PopupWindow_android_popupAnimationStyle = 2131297608;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -16278,8 +19315,8 @@ namespace Wash2.Droid
 					2130968884,
 					2130968887};
 			
-			// aapt resource value: 0x7F080554
-			public const int RecycleListView_paddingBottomNoButtons = 2131232084;
+			// aapt resource value: 0x7F090554
+			public const int RecycleListView_paddingBottomNoButtons = 2131297620;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -16297,8 +19334,8 @@ namespace Wash2.Droid
 					2130968930,
 					2130968936};
 			
-			// aapt resource value: 0x7F080557
-			public const int RecyclerView_android_descendantFocusability = 2131232087;
+			// aapt resource value: 0x7F090557
+			public const int RecyclerView_android_descendantFocusability = 2131297623;
 			
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_orientation = 1;
@@ -16333,14 +19370,14 @@ namespace Wash2.Droid
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130968825};
 			
-			// aapt resource value: 0x7F080569
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131232105;
+			// aapt resource value: 0x7F090569
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131297641;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130968635};
 			
-			// aapt resource value: 0x7F080571
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131232113;
+			// aapt resource value: 0x7F090571
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131297649;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -16361,8 +19398,8 @@ namespace Wash2.Droid
 					2130968952,
 					2130969043};
 			
-			// aapt resource value: 0x7F080573
-			public const int SearchView_android_focusable = 2131232115;
+			// aapt resource value: 0x7F090573
+			public const int SearchView_android_focusable = 2131297651;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -16412,6 +19449,20 @@ namespace Wash2.Droid
 			// aapt resource value: 0x16
 			public const int SearchView_voiceIcon = 22;
 			
+			public static int[] SignInButton = new int[] {
+					1,
+					1,
+					1};
+			
+			// aapt resource value: 0x7F090774
+			public const int SignInButton_buttonSize = 2131298164;
+			
+			// aapt resource value: 0x1
+			public const int SignInButton_colorScheme = 1;
+			
+			// aapt resource value: 0x2
+			public const int SignInButton_scopeUris = 2;
+			
 			public static int[] Snackbar = new int[] {
 					2130968928,
 					2130968929};
@@ -16421,8 +19472,8 @@ namespace Wash2.Droid
 					2130968758,
 					2130968872};
 			
-			// aapt resource value: 0x7F080594
-			public const int SnackbarLayout_android_maxWidth = 2131232148;
+			// aapt resource value: 0x7F090594
+			public const int SnackbarLayout_android_maxWidth = 2131297684;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -16430,8 +19481,8 @@ namespace Wash2.Droid
 			// aapt resource value: 0x2
 			public const int SnackbarLayout_maxActionInlineWidth = 2;
 			
-			// aapt resource value: 0x7F080591
-			public const int Snackbar_snackbarButtonStyle = 2131232145;
+			// aapt resource value: 0x7F090591
+			public const int Snackbar_snackbarButtonStyle = 2131297681;
 			
 			// aapt resource value: 0x1
 			public const int Snackbar_snackbarStyle = 1;
@@ -16443,8 +19494,8 @@ namespace Wash2.Droid
 					16843131,
 					2130968897};
 			
-			// aapt resource value: 0x7F080598
-			public const int Spinner_android_dropDownWidth = 2131232152;
+			// aapt resource value: 0x7F090598
+			public const int Spinner_android_dropDownWidth = 2131297688;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -16469,11 +19520,11 @@ namespace Wash2.Droid
 			public static int[] StateListDrawableItem = new int[] {
 					16843161};
 			
-			// aapt resource value: 0x7F080763
-			public const int StateListDrawableItem_android_drawable = 2131232611;
+			// aapt resource value: 0x7F090763
+			public const int StateListDrawableItem_android_drawable = 2131298147;
 			
-			// aapt resource value: 0x7F080756
-			public const int StateListDrawable_android_constantSize = 2131232598;
+			// aapt resource value: 0x7F090756
+			public const int StateListDrawable_android_constantSize = 2131298134;
 			
 			// aapt resource value: 0x1
 			public const int StateListDrawable_android_dither = 1;
@@ -16506,8 +19557,8 @@ namespace Wash2.Droid
 					2130969038,
 					2130969039};
 			
-			// aapt resource value: 0x7F080604
-			public const int SwitchCompat_android_textOff = 2131232260;
+			// aapt resource value: 0x7F090604
+			public const int SwitchCompat_android_textOff = 2131297796;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -16553,8 +19604,8 @@ namespace Wash2.Droid
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F080619
-			public const int TabItem_android_icon = 2131232281;
+			// aapt resource value: 0x7F090619
+			public const int TabItem_android_icon = 2131297817;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -16589,8 +19640,8 @@ namespace Wash2.Droid
 					2130968981,
 					2130968982};
 			
-			// aapt resource value: 0x7F080623
-			public const int TabLayout_tabBackground = 2131232291;
+			// aapt resource value: 0x7F090623
+			public const int TabLayout_tabBackground = 2131297827;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabContentStart = 1;
@@ -16679,8 +19730,8 @@ namespace Wash2.Droid
 					2130968786,
 					2130968983};
 			
-			// aapt resource value: 0x7F080649
-			public const int TextAppearance_android_fontFamily = 2131232329;
+			// aapt resource value: 0x7F090649
+			public const int TextAppearance_android_fontFamily = 2131297865;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -16748,8 +19799,8 @@ namespace Wash2.Droid
 					2130968894,
 					2130968895};
 			
-			// aapt resource value: 0x7F080663
-			public const int TextInputLayout_android_hint = 2131232355;
+			// aapt resource value: 0x7F090663
+			public const int TextInputLayout_android_hint = 2131297891;
 			
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_textColorHint = 1;
@@ -16837,8 +19888,8 @@ namespace Wash2.Droid
 					2130968759,
 					2130968760};
 			
-			// aapt resource value: 0x7F080692
-			public const int ThemeEnforcement_android_textAppearance = 2131232402;
+			// aapt resource value: 0x7F090692
+			public const int ThemeEnforcement_android_textAppearance = 2131297938;
 			
 			// aapt resource value: 0x1
 			public const int ThemeEnforcement_enforceMaterialTheme = 1;
@@ -16877,8 +19928,8 @@ namespace Wash2.Droid
 					2130969028,
 					2130969029};
 			
-			// aapt resource value: 0x7F080696
-			public const int Toolbar_android_gravity = 2131232406;
+			// aapt resource value: 0x7F090696
+			public const int Toolbar_android_gravity = 2131297942;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -16976,8 +20027,8 @@ namespace Wash2.Droid
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F080732
-			public const int ViewBackgroundHelper_android_background = 2131232562;
+			// aapt resource value: 0x7F090732
+			public const int ViewBackgroundHelper_android_background = 2131298098;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -16988,16 +20039,16 @@ namespace Wash2.Droid
 			public static int[] ViewPagerIndicator = new int[] {
 					0};
 			
-			// aapt resource value: 0x7F080002
-			public const int ViewPagerIndicator_vpiCirclePageIndicatorStyle = 2131230722;
+			// aapt resource value: 0x7F090002
+			public const int ViewPagerIndicator_vpiCirclePageIndicatorStyle = 2131296258;
 			
 			public static int[] ViewStubCompat = new int[] {
 					16842960,
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F080736
-			public const int ViewStubCompat_android_id = 2131232566;
+			// aapt resource value: 0x7F090736
+			public const int ViewStubCompat_android_id = 2131298102;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -17005,8 +20056,8 @@ namespace Wash2.Droid
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F080726
-			public const int View_android_focusable = 2131232550;
+			// aapt resource value: 0x7F090726
+			public const int View_android_focusable = 2131298086;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;
@@ -17033,8 +20084,11 @@ namespace Wash2.Droid
 		public partial class Xml
 		{
 			
-			// aapt resource value: 0x7F130002
-			public const int xamarin_essentials_fileprovider_file_paths = 2131951618;
+			// aapt resource value: 0x7F070002
+			public const int file_paths = 2131165186;
+			
+			// aapt resource value: 0x7F070003
+			public const int xamarin_essentials_fileprovider_file_paths = 2131165187;
 			
 			static Xml()
 			{

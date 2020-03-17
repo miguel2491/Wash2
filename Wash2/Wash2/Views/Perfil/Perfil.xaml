@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#225374"
+             x:Class="Wash2.Views.Perfil.Perfil">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="15,10,15,10">
+                <StackLayout>
+                    <Label Text="PERFIL"
+                        FontSize="20"
+                        TextColor="#81e394"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" />
+                    <Frame Margin="10"
+                        BorderColor="White"
+                        CornerRadius="100"
+                        HeightRequest="60"
+                        WidthRequest="60"
+                        IsClippedToBounds="True"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center">
+                        <Image Source="icono.png"
+                            Aspect="AspectFill"
+                            Margin="-20"
+                            HeightRequest="80"
+                            WidthRequest="80" />
+                    </Frame>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Nombre"
+                        FontSize="12"
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" />
+                    <Entry
+                        Margin="10,10,10,10"
+                        BackgroundColor="#7691a6"
+                        TextColor="#000000"
+                        x:Name="Nombre"
+                    />
+                    <Label Text="Apellidos"
+                        FontSize="12"
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" />
+                    <Entry
+                        Margin="10,10,10,10"
+                        BackgroundColor="#7691a6"
+                        TextColor="#000000"
+                        x:Name="Apellidos"
+                    />
+                    <Label Text="Fecha de Nacimiento"
+                        FontSize="12"
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" />
+                    <Entry
+                        Margin="10,10,10,10"
+                        BackgroundColor="#7691a6"
+                        TextColor="#000000"
+                        x:Name="fca_nac"
+                    />
+                    <Label Text="Teléfono"
+                        FontSize="12"
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" />
+                    <Entry
+                        Margin="10,10,10,10"
+                        BackgroundColor="#7691a6"
+                        TextColor="#000000"
+                        x:Name="telefono"
+                    />
+                    <Label Text="Correo"
+                        FontSize="12"
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" />
+                    <Entry
+                        Margin="10,10,10,10"
+                        BackgroundColor="#7691a6"
+                        TextColor="#000000"
+                        x:Name="Correo"
+                    />
+                    <Label Text="Contraseña"
+                        FontSize="12"
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" />
+                    <Entry
+                        Margin="10,10,10,10"
+                        BackgroundColor="#7691a6"
+                        TextColor="#000000"
+                        x:Name="Contraseña"
+                    />
+                    <Label Text="Confirmar Contraseña"
+                        FontSize="12"
+                        TextColor="White"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" />
+                    <Entry
+                        Margin="10,10,10,10"
+                        BackgroundColor="#7691a6"
+                        TextColor="#000000"
+                        x:Name="ConfirmarContraseña"
+                    />
+                </StackLayout>
+                <StackLayout>
+                    <Button Text="Fotos de INE"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        x:Name="btnIne"
+                        BackgroundColor="#d0f3d3"
+                        TextColor="#406e80"
+                            Clicked="BtnIne_Clicked"
+                    />
+                    <Image
+                    x:Name="imgx"
+                    WidthRequest="200"
+                   
+                    />
+                    <Button Text="Paquete a Ofrecer"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        x:Name="btnPaquete"
+                        BackgroundColor="#d0f3d3"
+                        TextColor="#406e80"
+                    />
+                    <Button Text="ACTUALIZAR"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        x:Name="btnActualizar"
+                        BackgroundColor="#7ee596"
+                        TextColor="#406e80"
+                    />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

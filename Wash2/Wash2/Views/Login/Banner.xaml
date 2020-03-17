@@ -10,7 +10,7 @@
     </ContentPage.BindingContext>
     <StackLayout>
         <Label HorizontalOptions="Center"
-            VerticalOptions="CenterAndExpand">
+            VerticalOptions="CenterAndExpand" Margin="10,50,20,20">
             <Label.FormattedText>
                 <FormattedString>
                     <Span Text="SALTAR"

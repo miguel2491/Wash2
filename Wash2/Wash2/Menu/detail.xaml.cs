@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Wash2.Views.Solicitudes;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -24,7 +24,7 @@ namespace Wash2.Menu
 
         private async void Solicitudes_Clicked(object sender, EventArgs e)
         {
-            await DisplayAlert("ErroR", "error status 500 InternalServerError", "ok");
+            await ((MainPage)App.Current.MainPage).Detail.Navigation.PushAsync(new SolicitaSolicitud());
         }
     }
 }

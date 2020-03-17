@@ -4,5 +4,16 @@
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 	<uses-permission android:name="android.permission.INTERNET" />
-	<application android:label="Wash2.Android" android:icon="@mipmap/icon"></application>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+	<uses-permission android:name="android.permission.CAMERA" />
+	<application android:label="Wash2.Android" android:icon="@mipmap/icon">
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyDnxt86h-PIfB-KtbTUqoaI4LSgF13Dq6I" />
+    <provider android:name="android.support.v4.content.FileProvider" android:authorities="${applicationId}.fileprovider" android:exported="false" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
+    </provider>
+    <uses-library android:name="org.apache.http.legacy"
+                  android:required="false" />
+  </application>
 </manifest>

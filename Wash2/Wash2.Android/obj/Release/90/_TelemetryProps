@@ -1,13 +1,13 @@
 AndroidUseAapt2=False
 UseSharedRuntime=false
 UseFastDeployment=false
-EnableMultidex=False
+EnableMultidex=true
 EnableProGuard=
 GenerateOnePackagePerABI=
-BundleAssemblies=False
+BundleAssemblies=false
 EnableDeveloperInstrumentation=true
 Debugger=Xamarin
-EnableAOT=False
+EnableAOT=false
 UseConcurrentGC=
 AdditionalSupportedEncodings=
 SupportedArchitectures=armeabi-v7a
