@@ -12,13 +12,17 @@ using Wash2.Menu;
 using Wash2.Models;
 using Newtonsoft.Json;
 using static System.Net.WebRequestMethods;
+using Wash2.SQLiteDB;
 
 namespace Wash2.Views.Login
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Login : ContentPage
 	{
-		public Login ()
+        public Usuario user;
+        private UserDB userdb;
+
+        public Login ()
 		{
             NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent ();
@@ -42,7 +46,7 @@ namespace Wash2.Views.Login
 
                 var content = new FormUrlEncodedContent(value_check);
                 var responseMsg = await httpClient.PostAsync(url, content);
-
+                //var responseMsg = await httpClient.GetAsync(url);
                 switch (responseMsg.StatusCode)
                 {
                     case System.Net.HttpStatusCode.InternalServerError:
@@ -73,12 +77,15 @@ namespace Wash2.Views.Login
                             }
                             else
                             {
-                                /*var userFS = new Usuario();
-                                userFS.Nombre = xn;
-                                userFS.Email_login= userResult[0].Email;
-                                userFS.Id = userResult[0].Id;
-                                userFS.Sucursal = userResult[0].Sucursal;
-                                UserDb.AddMember(userFS);*/
+                                var userW = new Usuario();
+                                userdb = new UserDB();
+                                userW.google_id = userResult[0].google_id;
+                                userW.id = userResult[0].id;
+                                userW.name = userResult[0].name;
+                                userW.nombre = userResult[0].nombre;
+                                userW.password = userResult[0].password;
+                                userW.email = userResult[0].email;
+                                userdb.AddMember(userW);
                                 Application.Current.MainPage = new MainPage();
                             }
                         }

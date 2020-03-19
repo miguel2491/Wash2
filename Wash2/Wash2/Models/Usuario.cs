@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,6 +7,8 @@ namespace Wash2.Models
 {
     public class Usuario
     {
+        [PrimaryKey]
+
         public int id { set; get; }
         public string nombre { set; get; }
         public string username { set; get; }

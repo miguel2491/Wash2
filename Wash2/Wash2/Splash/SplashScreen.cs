@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using Wash2.Models;
+using Wash2.SQLiteDB;
 using Wash2.Views.Login;
 using Xamarin.Forms;
 
@@ -32,7 +35,8 @@ namespace Wash2.Splash
             this.BackgroundColor = Color.FromHex("#225374");
             this.Content = sub;
         }
-
+        public Usuario user;
+        public UserDB userDataBase;
         protected override async void OnAppearing()
         {
             base.OnAppearing();
@@ -41,8 +45,21 @@ namespace Wash2.Splash
             await splashImage.ScaleTo(1, 1000);
             await splashImage.ScaleTo(0.6, 1500, Easing.BounceOut);
             await splashImage.FadeTo(0, 270, null);
+            userDataBase = new UserDB();
+            var user_exist = userDataBase.GetMembers();
+            int RowCount = 0;
+            int usercount = user_exist.Count();
+            RowCount = Convert.ToInt32(usercount);
 
-            Application.Current.MainPage = new NavigationPage(new Banner());
+            if (RowCount > 0)
+            {
+
+                Application.Current.MainPage = new MainPage();
+            }
+            else {
+                Application.Current.MainPage = new NavigationPage(new Banner());
+            }
+
         }
     }
 }
