@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1088855416229",
+    "firebase_url": "https://washdry-13228.firebaseio.com",
+    "project_id": "washdry-13228",
+    "storage_bucket": "washdry-13228.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088855416229:android:61fe00c041efe2b1761c4c",
+        "android_client_info": {
+          "package_name": "com.companyname.Wash2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088855416229-eecd117tviabc9cvabfuufu5fhck747q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0NmYbvRuxu825M9EolVUSiM-3PBkagYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088855416229-eecd117tviabc9cvabfuufu5fhck747q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088855416229:android:2d883a990b301526761c4c",
+        "android_client_info": {
+          "package_name": "com.companyname.washdry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088855416229-eecd117tviabc9cvabfuufu5fhck747q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0NmYbvRuxu825M9EolVUSiM-3PBkagYQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088855416229-eecd117tviabc9cvabfuufu5fhck747q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

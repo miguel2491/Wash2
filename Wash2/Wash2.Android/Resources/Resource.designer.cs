@@ -2200,6 +2200,275 @@ namespace Wash2.Droid
 			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth = global::Wash2.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth;
 			global::Com.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator = global::Wash2.Droid.Resource.Styleable.ViewPagerIndicator;
 			global::Com.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle = global::Wash2.Droid.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.alpha = global::Wash2.Droid.Resource.Attribute.alpha;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.buttonSize = global::Wash2.Droid.Resource.Attribute.buttonSize;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.circleCrop = global::Wash2.Droid.Resource.Attribute.circleCrop;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.colorScheme = global::Wash2.Droid.Resource.Attribute.colorScheme;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.coordinatorLayoutStyle = global::Wash2.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.font = global::Wash2.Droid.Resource.Attribute.font;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.fontProviderAuthority = global::Wash2.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.fontProviderCerts = global::Wash2.Droid.Resource.Attribute.fontProviderCerts;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.fontProviderFetchStrategy = global::Wash2.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.fontProviderFetchTimeout = global::Wash2.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.fontProviderPackage = global::Wash2.Droid.Resource.Attribute.fontProviderPackage;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.fontProviderQuery = global::Wash2.Droid.Resource.Attribute.fontProviderQuery;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.fontStyle = global::Wash2.Droid.Resource.Attribute.fontStyle;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.fontVariationSettings = global::Wash2.Droid.Resource.Attribute.fontVariationSettings;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.fontWeight = global::Wash2.Droid.Resource.Attribute.fontWeight;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.imageAspectRatio = global::Wash2.Droid.Resource.Attribute.imageAspectRatio;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.imageAspectRatioAdjust = global::Wash2.Droid.Resource.Attribute.imageAspectRatioAdjust;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.keylines = global::Wash2.Droid.Resource.Attribute.keylines;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.layout_anchor = global::Wash2.Droid.Resource.Attribute.layout_anchor;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.layout_anchorGravity = global::Wash2.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.layout_behavior = global::Wash2.Droid.Resource.Attribute.layout_behavior;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.layout_dodgeInsetEdges = global::Wash2.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.layout_insetEdge = global::Wash2.Droid.Resource.Attribute.layout_insetEdge;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.layout_keyline = global::Wash2.Droid.Resource.Attribute.layout_keyline;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.scopeUris = global::Wash2.Droid.Resource.Attribute.scopeUris;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.statusBarBackground = global::Wash2.Droid.Resource.Attribute.statusBarBackground;
+			global::Plugin.FirebasePushNotification.Resource.Attribute.ttcIndex = global::Wash2.Droid.Resource.Attribute.ttcIndex;
+			global::Plugin.FirebasePushNotification.Resource.Color.common_google_signin_btn_text_dark = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_dark;
+			global::Plugin.FirebasePushNotification.Resource.Color.common_google_signin_btn_text_dark_default = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_dark_default;
+			global::Plugin.FirebasePushNotification.Resource.Color.common_google_signin_btn_text_dark_disabled = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_dark_disabled;
+			global::Plugin.FirebasePushNotification.Resource.Color.common_google_signin_btn_text_dark_focused = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_dark_focused;
+			global::Plugin.FirebasePushNotification.Resource.Color.common_google_signin_btn_text_dark_pressed = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_dark_pressed;
+			global::Plugin.FirebasePushNotification.Resource.Color.common_google_signin_btn_text_light = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_light;
+			global::Plugin.FirebasePushNotification.Resource.Color.common_google_signin_btn_text_light_default = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_light_default;
+			global::Plugin.FirebasePushNotification.Resource.Color.common_google_signin_btn_text_light_disabled = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_light_disabled;
+			global::Plugin.FirebasePushNotification.Resource.Color.common_google_signin_btn_text_light_focused = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_light_focused;
+			global::Plugin.FirebasePushNotification.Resource.Color.common_google_signin_btn_text_light_pressed = global::Wash2.Droid.Resource.Color.common_google_signin_btn_text_light_pressed;
+			global::Plugin.FirebasePushNotification.Resource.Color.common_google_signin_btn_tint = global::Wash2.Droid.Resource.Color.common_google_signin_btn_tint;
+			global::Plugin.FirebasePushNotification.Resource.Color.notification_action_color_filter = global::Wash2.Droid.Resource.Color.notification_action_color_filter;
+			global::Plugin.FirebasePushNotification.Resource.Color.notification_icon_bg_color = global::Wash2.Droid.Resource.Color.notification_icon_bg_color;
+			global::Plugin.FirebasePushNotification.Resource.Color.notification_material_background_media_default_color = global::Wash2.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Plugin.FirebasePushNotification.Resource.Color.primary_text_default_material_dark = global::Wash2.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Plugin.FirebasePushNotification.Resource.Color.ripple_material_light = global::Wash2.Droid.Resource.Color.ripple_material_light;
+			global::Plugin.FirebasePushNotification.Resource.Color.secondary_text_default_material_dark = global::Wash2.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Plugin.FirebasePushNotification.Resource.Color.secondary_text_default_material_light = global::Wash2.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.compat_button_inset_horizontal_material = global::Wash2.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.compat_button_inset_vertical_material = global::Wash2.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.compat_button_padding_horizontal_material = global::Wash2.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.compat_button_padding_vertical_material = global::Wash2.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.compat_control_corner_material = global::Wash2.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.compat_notification_large_icon_max_height = global::Wash2.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.compat_notification_large_icon_max_width = global::Wash2.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.notification_action_icon_size = global::Wash2.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.notification_action_text_size = global::Wash2.Droid.Resource.Dimension.notification_action_text_size;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.notification_big_circle_margin = global::Wash2.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.notification_content_margin_start = global::Wash2.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.notification_large_icon_height = global::Wash2.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.notification_large_icon_width = global::Wash2.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.notification_main_column_padding_top = global::Wash2.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.notification_media_narrow_margin = global::Wash2.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.notification_right_icon_size = global::Wash2.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.notification_right_side_padding_top = global::Wash2.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.notification_small_icon_background_padding = global::Wash2.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.notification_small_icon_size_as_large = global::Wash2.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.notification_subtext_size = global::Wash2.Droid.Resource.Dimension.notification_subtext_size;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.notification_top_pad = global::Wash2.Droid.Resource.Dimension.notification_top_pad;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.notification_top_pad_large_text = global::Wash2.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.subtitle_corner_radius = global::Wash2.Droid.Resource.Dimension.subtitle_corner_radius;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.subtitle_outline_width = global::Wash2.Droid.Resource.Dimension.subtitle_outline_width;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.subtitle_shadow_offset = global::Wash2.Droid.Resource.Dimension.subtitle_shadow_offset;
+			global::Plugin.FirebasePushNotification.Resource.Dimension.subtitle_shadow_radius = global::Wash2.Droid.Resource.Dimension.subtitle_shadow_radius;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_full_open_on_phone = global::Wash2.Droid.Resource.Drawable.common_full_open_on_phone;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_google_signin_btn_icon_dark = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_icon_dark;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_google_signin_btn_icon_dark_focused = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_focused;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_google_signin_btn_icon_dark_normal = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_normal;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_google_signin_btn_icon_dark_normal_background = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_icon_dark_normal_background;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_google_signin_btn_icon_disabled = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_icon_disabled;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_google_signin_btn_icon_light = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_icon_light;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_google_signin_btn_icon_light_focused = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_icon_light_focused;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_google_signin_btn_icon_light_normal = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_icon_light_normal;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_google_signin_btn_icon_light_normal_background = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_icon_light_normal_background;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_google_signin_btn_text_dark = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_text_dark;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_google_signin_btn_text_dark_focused = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_text_dark_focused;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_google_signin_btn_text_dark_normal = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_text_dark_normal;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_google_signin_btn_text_dark_normal_background = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_text_dark_normal_background;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_google_signin_btn_text_disabled = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_text_disabled;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_google_signin_btn_text_light = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_text_light;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_google_signin_btn_text_light_focused = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_text_light_focused;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_google_signin_btn_text_light_normal = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_text_light_normal;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.common_google_signin_btn_text_light_normal_background = global::Wash2.Droid.Resource.Drawable.common_google_signin_btn_text_light_normal_background;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.googleg_disabled_color_18 = global::Wash2.Droid.Resource.Drawable.googleg_disabled_color_18;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.googleg_standard_color_18 = global::Wash2.Droid.Resource.Drawable.googleg_standard_color_18;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.notification_action_background = global::Wash2.Droid.Resource.Drawable.notification_action_background;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.notification_bg = global::Wash2.Droid.Resource.Drawable.notification_bg;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.notification_bg_low = global::Wash2.Droid.Resource.Drawable.notification_bg_low;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.notification_bg_low_normal = global::Wash2.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.notification_bg_low_pressed = global::Wash2.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.notification_bg_normal = global::Wash2.Droid.Resource.Drawable.notification_bg_normal;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.notification_bg_normal_pressed = global::Wash2.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.notification_icon_background = global::Wash2.Droid.Resource.Drawable.notification_icon_background;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.notification_template_icon_bg = global::Wash2.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.notification_template_icon_low_bg = global::Wash2.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.notification_tile_bg = global::Wash2.Droid.Resource.Drawable.notification_tile_bg;
+			global::Plugin.FirebasePushNotification.Resource.Drawable.notify_panel_notification_icon_bg = global::Wash2.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.FirebasePushNotification.Resource.Id.action0 = global::Wash2.Droid.Resource.Id.action0;
+			global::Plugin.FirebasePushNotification.Resource.Id.actions = global::Wash2.Droid.Resource.Id.actions;
+			global::Plugin.FirebasePushNotification.Resource.Id.action_container = global::Wash2.Droid.Resource.Id.action_container;
+			global::Plugin.FirebasePushNotification.Resource.Id.action_divider = global::Wash2.Droid.Resource.Id.action_divider;
+			global::Plugin.FirebasePushNotification.Resource.Id.action_image = global::Wash2.Droid.Resource.Id.action_image;
+			global::Plugin.FirebasePushNotification.Resource.Id.action_text = global::Wash2.Droid.Resource.Id.action_text;
+			global::Plugin.FirebasePushNotification.Resource.Id.adjust_height = global::Wash2.Droid.Resource.Id.adjust_height;
+			global::Plugin.FirebasePushNotification.Resource.Id.adjust_width = global::Wash2.Droid.Resource.Id.adjust_width;
+			global::Plugin.FirebasePushNotification.Resource.Id.all = global::Wash2.Droid.Resource.Id.all;
+			global::Plugin.FirebasePushNotification.Resource.Id.async = global::Wash2.Droid.Resource.Id.async;
+			global::Plugin.FirebasePushNotification.Resource.Id.auto = global::Wash2.Droid.Resource.Id.auto;
+			global::Plugin.FirebasePushNotification.Resource.Id.blocking = global::Wash2.Droid.Resource.Id.blocking;
+			global::Plugin.FirebasePushNotification.Resource.Id.bottom = global::Wash2.Droid.Resource.Id.bottom;
+			global::Plugin.FirebasePushNotification.Resource.Id.cancel_action = global::Wash2.Droid.Resource.Id.cancel_action;
+			global::Plugin.FirebasePushNotification.Resource.Id.center = global::Wash2.Droid.Resource.Id.center;
+			global::Plugin.FirebasePushNotification.Resource.Id.center_horizontal = global::Wash2.Droid.Resource.Id.center_horizontal;
+			global::Plugin.FirebasePushNotification.Resource.Id.center_vertical = global::Wash2.Droid.Resource.Id.center_vertical;
+			global::Plugin.FirebasePushNotification.Resource.Id.chronometer = global::Wash2.Droid.Resource.Id.chronometer;
+			global::Plugin.FirebasePushNotification.Resource.Id.clip_horizontal = global::Wash2.Droid.Resource.Id.clip_horizontal;
+			global::Plugin.FirebasePushNotification.Resource.Id.clip_vertical = global::Wash2.Droid.Resource.Id.clip_vertical;
+			global::Plugin.FirebasePushNotification.Resource.Id.dark = global::Wash2.Droid.Resource.Id.dark;
+			global::Plugin.FirebasePushNotification.Resource.Id.end = global::Wash2.Droid.Resource.Id.end;
+			global::Plugin.FirebasePushNotification.Resource.Id.end_padder = global::Wash2.Droid.Resource.Id.end_padder;
+			global::Plugin.FirebasePushNotification.Resource.Id.fill = global::Wash2.Droid.Resource.Id.fill;
+			global::Plugin.FirebasePushNotification.Resource.Id.fill_horizontal = global::Wash2.Droid.Resource.Id.fill_horizontal;
+			global::Plugin.FirebasePushNotification.Resource.Id.fill_vertical = global::Wash2.Droid.Resource.Id.fill_vertical;
+			global::Plugin.FirebasePushNotification.Resource.Id.forever = global::Wash2.Droid.Resource.Id.forever;
+			global::Plugin.FirebasePushNotification.Resource.Id.icon = global::Wash2.Droid.Resource.Id.icon;
+			global::Plugin.FirebasePushNotification.Resource.Id.icon_group = global::Wash2.Droid.Resource.Id.icon_group;
+			global::Plugin.FirebasePushNotification.Resource.Id.icon_only = global::Wash2.Droid.Resource.Id.icon_only;
+			global::Plugin.FirebasePushNotification.Resource.Id.info = global::Wash2.Droid.Resource.Id.info;
+			global::Plugin.FirebasePushNotification.Resource.Id.italic = global::Wash2.Droid.Resource.Id.italic;
+			global::Plugin.FirebasePushNotification.Resource.Id.left = global::Wash2.Droid.Resource.Id.left;
+			global::Plugin.FirebasePushNotification.Resource.Id.light = global::Wash2.Droid.Resource.Id.light;
+			global::Plugin.FirebasePushNotification.Resource.Id.line1 = global::Wash2.Droid.Resource.Id.line1;
+			global::Plugin.FirebasePushNotification.Resource.Id.line3 = global::Wash2.Droid.Resource.Id.line3;
+			global::Plugin.FirebasePushNotification.Resource.Id.media_actions = global::Wash2.Droid.Resource.Id.media_actions;
+			global::Plugin.FirebasePushNotification.Resource.Id.none = global::Wash2.Droid.Resource.Id.none;
+			global::Plugin.FirebasePushNotification.Resource.Id.normal = global::Wash2.Droid.Resource.Id.normal;
+			global::Plugin.FirebasePushNotification.Resource.Id.notification_background = global::Wash2.Droid.Resource.Id.notification_background;
+			global::Plugin.FirebasePushNotification.Resource.Id.notification_main_column = global::Wash2.Droid.Resource.Id.notification_main_column;
+			global::Plugin.FirebasePushNotification.Resource.Id.notification_main_column_container = global::Wash2.Droid.Resource.Id.notification_main_column_container;
+			global::Plugin.FirebasePushNotification.Resource.Id.right = global::Wash2.Droid.Resource.Id.right;
+			global::Plugin.FirebasePushNotification.Resource.Id.right_icon = global::Wash2.Droid.Resource.Id.right_icon;
+			global::Plugin.FirebasePushNotification.Resource.Id.right_side = global::Wash2.Droid.Resource.Id.right_side;
+			global::Plugin.FirebasePushNotification.Resource.Id.standard = global::Wash2.Droid.Resource.Id.standard;
+			global::Plugin.FirebasePushNotification.Resource.Id.start = global::Wash2.Droid.Resource.Id.start;
+			global::Plugin.FirebasePushNotification.Resource.Id.status_bar_latest_event_content = global::Wash2.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Plugin.FirebasePushNotification.Resource.Id.tag_transition_group = global::Wash2.Droid.Resource.Id.tag_transition_group;
+			global::Plugin.FirebasePushNotification.Resource.Id.tag_unhandled_key_event_manager = global::Wash2.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Plugin.FirebasePushNotification.Resource.Id.tag_unhandled_key_listeners = global::Wash2.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Plugin.FirebasePushNotification.Resource.Id.text = global::Wash2.Droid.Resource.Id.text;
+			global::Plugin.FirebasePushNotification.Resource.Id.text2 = global::Wash2.Droid.Resource.Id.text2;
+			global::Plugin.FirebasePushNotification.Resource.Id.time = global::Wash2.Droid.Resource.Id.time;
+			global::Plugin.FirebasePushNotification.Resource.Id.title = global::Wash2.Droid.Resource.Id.title;
+			global::Plugin.FirebasePushNotification.Resource.Id.top = global::Wash2.Droid.Resource.Id.top;
+			global::Plugin.FirebasePushNotification.Resource.Id.wide = global::Wash2.Droid.Resource.Id.wide;
+			global::Plugin.FirebasePushNotification.Resource.Integer.cancel_button_image_alpha = global::Wash2.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Plugin.FirebasePushNotification.Resource.Integer.google_play_services_version = global::Wash2.Droid.Resource.Integer.google_play_services_version;
+			global::Plugin.FirebasePushNotification.Resource.Integer.status_bar_notification_info_maxnum = global::Wash2.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.FirebasePushNotification.Resource.Layout.notification_action = global::Wash2.Droid.Resource.Layout.notification_action;
+			global::Plugin.FirebasePushNotification.Resource.Layout.notification_action_tombstone = global::Wash2.Droid.Resource.Layout.notification_action_tombstone;
+			global::Plugin.FirebasePushNotification.Resource.Layout.notification_media_action = global::Wash2.Droid.Resource.Layout.notification_media_action;
+			global::Plugin.FirebasePushNotification.Resource.Layout.notification_media_cancel_action = global::Wash2.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_big_media = global::Wash2.Droid.Resource.Layout.notification_template_big_media;
+			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_big_media_custom = global::Wash2.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_big_media_narrow = global::Wash2.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_big_media_narrow_custom = global::Wash2.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_custom_big = global::Wash2.Droid.Resource.Layout.notification_template_custom_big;
+			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_icon_group = global::Wash2.Droid.Resource.Layout.notification_template_icon_group;
+			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_lines_media = global::Wash2.Droid.Resource.Layout.notification_template_lines_media;
+			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_media = global::Wash2.Droid.Resource.Layout.notification_template_media;
+			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_media_custom = global::Wash2.Droid.Resource.Layout.notification_template_media_custom;
+			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_part_chronometer = global::Wash2.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.FirebasePushNotification.Resource.Layout.notification_template_part_time = global::Wash2.Droid.Resource.Layout.notification_template_part_time;
+			global::Plugin.FirebasePushNotification.Resource.String.common_google_play_services_enable_button = global::Wash2.Droid.Resource.String.common_google_play_services_enable_button;
+			global::Plugin.FirebasePushNotification.Resource.String.common_google_play_services_enable_text = global::Wash2.Droid.Resource.String.common_google_play_services_enable_text;
+			global::Plugin.FirebasePushNotification.Resource.String.common_google_play_services_enable_title = global::Wash2.Droid.Resource.String.common_google_play_services_enable_title;
+			global::Plugin.FirebasePushNotification.Resource.String.common_google_play_services_install_button = global::Wash2.Droid.Resource.String.common_google_play_services_install_button;
+			global::Plugin.FirebasePushNotification.Resource.String.common_google_play_services_install_text = global::Wash2.Droid.Resource.String.common_google_play_services_install_text;
+			global::Plugin.FirebasePushNotification.Resource.String.common_google_play_services_install_title = global::Wash2.Droid.Resource.String.common_google_play_services_install_title;
+			global::Plugin.FirebasePushNotification.Resource.String.common_google_play_services_notification_channel_name = global::Wash2.Droid.Resource.String.common_google_play_services_notification_channel_name;
+			global::Plugin.FirebasePushNotification.Resource.String.common_google_play_services_notification_ticker = global::Wash2.Droid.Resource.String.common_google_play_services_notification_ticker;
+			global::Plugin.FirebasePushNotification.Resource.String.common_google_play_services_unknown_issue = global::Wash2.Droid.Resource.String.common_google_play_services_unknown_issue;
+			global::Plugin.FirebasePushNotification.Resource.String.common_google_play_services_unsupported_text = global::Wash2.Droid.Resource.String.common_google_play_services_unsupported_text;
+			global::Plugin.FirebasePushNotification.Resource.String.common_google_play_services_update_button = global::Wash2.Droid.Resource.String.common_google_play_services_update_button;
+			global::Plugin.FirebasePushNotification.Resource.String.common_google_play_services_update_text = global::Wash2.Droid.Resource.String.common_google_play_services_update_text;
+			global::Plugin.FirebasePushNotification.Resource.String.common_google_play_services_update_title = global::Wash2.Droid.Resource.String.common_google_play_services_update_title;
+			global::Plugin.FirebasePushNotification.Resource.String.common_google_play_services_updating_text = global::Wash2.Droid.Resource.String.common_google_play_services_updating_text;
+			global::Plugin.FirebasePushNotification.Resource.String.common_google_play_services_wear_update_text = global::Wash2.Droid.Resource.String.common_google_play_services_wear_update_text;
+			global::Plugin.FirebasePushNotification.Resource.String.common_open_on_phone = global::Wash2.Droid.Resource.String.common_open_on_phone;
+			global::Plugin.FirebasePushNotification.Resource.String.common_signin_button_text = global::Wash2.Droid.Resource.String.common_signin_button_text;
+			global::Plugin.FirebasePushNotification.Resource.String.common_signin_button_text_long = global::Wash2.Droid.Resource.String.common_signin_button_text_long;
+			global::Plugin.FirebasePushNotification.Resource.String.fcm_fallback_notification_channel_label = global::Wash2.Droid.Resource.String.fcm_fallback_notification_channel_label;
+			global::Plugin.FirebasePushNotification.Resource.String.status_bar_notification_info_overflow = global::Wash2.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification_Info = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification_Media = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification_Time = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification_Title = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Plugin.FirebasePushNotification.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::Wash2.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Plugin.FirebasePushNotification.Resource.Style.Widget_Compat_NotificationActionContainer = global::Wash2.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Plugin.FirebasePushNotification.Resource.Style.Widget_Compat_NotificationActionText = global::Wash2.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Plugin.FirebasePushNotification.Resource.Style.Widget_Support_CoordinatorLayout = global::Wash2.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.ColorStateListItem = global::Wash2.Droid.Resource.Styleable.ColorStateListItem;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.ColorStateListItem_alpha = global::Wash2.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.ColorStateListItem_android_alpha = global::Wash2.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.ColorStateListItem_android_color = global::Wash2.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_keylines = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_Layout = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Wash2.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamily = global::Wash2.Droid.Resource.Styleable.FontFamily;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamilyFont = global::Wash2.Droid.Resource.Styleable.FontFamilyFont;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamilyFont_android_font = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamilyFont_font = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamilyFont_fontStyle = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamilyFont_fontWeight = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamilyFont_ttcIndex = global::Wash2.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamily_fontProviderAuthority = global::Wash2.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamily_fontProviderCerts = global::Wash2.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Wash2.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Wash2.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamily_fontProviderPackage = global::Wash2.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.FontFamily_fontProviderQuery = global::Wash2.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColor = global::Wash2.Droid.Resource.Styleable.GradientColor;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColorItem = global::Wash2.Droid.Resource.Styleable.GradientColorItem;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColorItem_android_color = global::Wash2.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColorItem_android_offset = global::Wash2.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColor_android_centerColor = global::Wash2.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColor_android_centerX = global::Wash2.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColor_android_centerY = global::Wash2.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColor_android_endColor = global::Wash2.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColor_android_endX = global::Wash2.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColor_android_endY = global::Wash2.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColor_android_gradientRadius = global::Wash2.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColor_android_startColor = global::Wash2.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColor_android_startX = global::Wash2.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColor_android_startY = global::Wash2.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColor_android_tileMode = global::Wash2.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.GradientColor_android_type = global::Wash2.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.LoadingImageView = global::Wash2.Droid.Resource.Styleable.LoadingImageView;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.LoadingImageView_circleCrop = global::Wash2.Droid.Resource.Styleable.LoadingImageView_circleCrop;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.LoadingImageView_imageAspectRatio = global::Wash2.Droid.Resource.Styleable.LoadingImageView_imageAspectRatio;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.LoadingImageView_imageAspectRatioAdjust = global::Wash2.Droid.Resource.Styleable.LoadingImageView_imageAspectRatioAdjust;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.SignInButton = global::Wash2.Droid.Resource.Styleable.SignInButton;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.SignInButton_buttonSize = global::Wash2.Droid.Resource.Styleable.SignInButton_buttonSize;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.SignInButton_colorScheme = global::Wash2.Droid.Resource.Styleable.SignInButton_colorScheme;
+			global::Plugin.FirebasePushNotification.Resource.Styleable.SignInButton_scopeUris = global::Wash2.Droid.Resource.Styleable.SignInButton_scopeUris;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::Wash2.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::Wash2.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::Wash2.Droid.Resource.Attribute.font;
@@ -15426,134 +15695,134 @@ namespace Wash2.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f0a002a
-			public const int abc_action_bar_home_description = 2131361834;
-			
 			// aapt resource value: 0x7f0a002b
-			public const int abc_action_bar_up_description = 2131361835;
+			public const int abc_action_bar_home_description = 2131361835;
 			
 			// aapt resource value: 0x7f0a002c
-			public const int abc_action_menu_overflow_description = 2131361836;
+			public const int abc_action_bar_up_description = 2131361836;
 			
 			// aapt resource value: 0x7f0a002d
-			public const int abc_action_mode_done = 2131361837;
+			public const int abc_action_menu_overflow_description = 2131361837;
 			
 			// aapt resource value: 0x7f0a002e
-			public const int abc_activity_chooser_view_see_all = 2131361838;
+			public const int abc_action_mode_done = 2131361838;
 			
 			// aapt resource value: 0x7f0a002f
-			public const int abc_activitychooserview_choose_application = 2131361839;
+			public const int abc_activity_chooser_view_see_all = 2131361839;
 			
 			// aapt resource value: 0x7f0a0030
-			public const int abc_capital_off = 2131361840;
+			public const int abc_activitychooserview_choose_application = 2131361840;
 			
 			// aapt resource value: 0x7f0a0031
-			public const int abc_capital_on = 2131361841;
-			
-			// aapt resource value: 0x7f0a0046
-			public const int abc_font_family_body_1_material = 2131361862;
-			
-			// aapt resource value: 0x7f0a0047
-			public const int abc_font_family_body_2_material = 2131361863;
-			
-			// aapt resource value: 0x7f0a0048
-			public const int abc_font_family_button_material = 2131361864;
-			
-			// aapt resource value: 0x7f0a0049
-			public const int abc_font_family_caption_material = 2131361865;
-			
-			// aapt resource value: 0x7f0a004a
-			public const int abc_font_family_display_1_material = 2131361866;
-			
-			// aapt resource value: 0x7f0a004b
-			public const int abc_font_family_display_2_material = 2131361867;
-			
-			// aapt resource value: 0x7f0a004c
-			public const int abc_font_family_display_3_material = 2131361868;
-			
-			// aapt resource value: 0x7f0a004d
-			public const int abc_font_family_display_4_material = 2131361869;
-			
-			// aapt resource value: 0x7f0a004e
-			public const int abc_font_family_headline_material = 2131361870;
-			
-			// aapt resource value: 0x7f0a004f
-			public const int abc_font_family_menu_material = 2131361871;
-			
-			// aapt resource value: 0x7f0a0050
-			public const int abc_font_family_subhead_material = 2131361872;
-			
-			// aapt resource value: 0x7f0a0051
-			public const int abc_font_family_title_material = 2131361873;
+			public const int abc_capital_off = 2131361841;
 			
 			// aapt resource value: 0x7f0a0032
-			public const int abc_menu_alt_shortcut_label = 2131361842;
+			public const int abc_capital_on = 2131361842;
 			
-			// aapt resource value: 0x7f0a0033
-			public const int abc_menu_ctrl_shortcut_label = 2131361843;
+			// aapt resource value: 0x7f0a0047
+			public const int abc_font_family_body_1_material = 2131361863;
 			
-			// aapt resource value: 0x7f0a0034
-			public const int abc_menu_delete_shortcut_label = 2131361844;
+			// aapt resource value: 0x7f0a0048
+			public const int abc_font_family_body_2_material = 2131361864;
 			
-			// aapt resource value: 0x7f0a0035
-			public const int abc_menu_enter_shortcut_label = 2131361845;
+			// aapt resource value: 0x7f0a0049
+			public const int abc_font_family_button_material = 2131361865;
 			
-			// aapt resource value: 0x7f0a0036
-			public const int abc_menu_function_shortcut_label = 2131361846;
+			// aapt resource value: 0x7f0a004a
+			public const int abc_font_family_caption_material = 2131361866;
 			
-			// aapt resource value: 0x7f0a0037
-			public const int abc_menu_meta_shortcut_label = 2131361847;
+			// aapt resource value: 0x7f0a004b
+			public const int abc_font_family_display_1_material = 2131361867;
 			
-			// aapt resource value: 0x7f0a0038
-			public const int abc_menu_shift_shortcut_label = 2131361848;
+			// aapt resource value: 0x7f0a004c
+			public const int abc_font_family_display_2_material = 2131361868;
 			
-			// aapt resource value: 0x7f0a0039
-			public const int abc_menu_space_shortcut_label = 2131361849;
+			// aapt resource value: 0x7f0a004d
+			public const int abc_font_family_display_3_material = 2131361869;
 			
-			// aapt resource value: 0x7f0a003a
-			public const int abc_menu_sym_shortcut_label = 2131361850;
+			// aapt resource value: 0x7f0a004e
+			public const int abc_font_family_display_4_material = 2131361870;
 			
-			// aapt resource value: 0x7f0a003b
-			public const int abc_prepend_shortcut_label = 2131361851;
+			// aapt resource value: 0x7f0a004f
+			public const int abc_font_family_headline_material = 2131361871;
 			
-			// aapt resource value: 0x7f0a003c
-			public const int abc_search_hint = 2131361852;
+			// aapt resource value: 0x7f0a0050
+			public const int abc_font_family_menu_material = 2131361872;
 			
-			// aapt resource value: 0x7f0a003d
-			public const int abc_searchview_description_clear = 2131361853;
-			
-			// aapt resource value: 0x7f0a003e
-			public const int abc_searchview_description_query = 2131361854;
-			
-			// aapt resource value: 0x7f0a003f
-			public const int abc_searchview_description_search = 2131361855;
-			
-			// aapt resource value: 0x7f0a0040
-			public const int abc_searchview_description_submit = 2131361856;
-			
-			// aapt resource value: 0x7f0a0041
-			public const int abc_searchview_description_voice = 2131361857;
-			
-			// aapt resource value: 0x7f0a0042
-			public const int abc_shareactionprovider_share_with = 2131361858;
-			
-			// aapt resource value: 0x7f0a0043
-			public const int abc_shareactionprovider_share_with_application = 2131361859;
-			
-			// aapt resource value: 0x7f0a0044
-			public const int abc_toolbar_collapse_description = 2131361860;
+			// aapt resource value: 0x7f0a0051
+			public const int abc_font_family_subhead_material = 2131361873;
 			
 			// aapt resource value: 0x7f0a0052
-			public const int appbar_scrolling_view_behavior = 2131361874;
+			public const int abc_font_family_title_material = 2131361874;
+			
+			// aapt resource value: 0x7f0a0033
+			public const int abc_menu_alt_shortcut_label = 2131361843;
+			
+			// aapt resource value: 0x7f0a0034
+			public const int abc_menu_ctrl_shortcut_label = 2131361844;
+			
+			// aapt resource value: 0x7f0a0035
+			public const int abc_menu_delete_shortcut_label = 2131361845;
+			
+			// aapt resource value: 0x7f0a0036
+			public const int abc_menu_enter_shortcut_label = 2131361846;
+			
+			// aapt resource value: 0x7f0a0037
+			public const int abc_menu_function_shortcut_label = 2131361847;
+			
+			// aapt resource value: 0x7f0a0038
+			public const int abc_menu_meta_shortcut_label = 2131361848;
+			
+			// aapt resource value: 0x7f0a0039
+			public const int abc_menu_shift_shortcut_label = 2131361849;
+			
+			// aapt resource value: 0x7f0a003a
+			public const int abc_menu_space_shortcut_label = 2131361850;
+			
+			// aapt resource value: 0x7f0a003b
+			public const int abc_menu_sym_shortcut_label = 2131361851;
+			
+			// aapt resource value: 0x7f0a003c
+			public const int abc_prepend_shortcut_label = 2131361852;
+			
+			// aapt resource value: 0x7f0a003d
+			public const int abc_search_hint = 2131361853;
+			
+			// aapt resource value: 0x7f0a003e
+			public const int abc_searchview_description_clear = 2131361854;
+			
+			// aapt resource value: 0x7f0a003f
+			public const int abc_searchview_description_query = 2131361855;
+			
+			// aapt resource value: 0x7f0a0040
+			public const int abc_searchview_description_search = 2131361856;
+			
+			// aapt resource value: 0x7f0a0041
+			public const int abc_searchview_description_submit = 2131361857;
+			
+			// aapt resource value: 0x7f0a0042
+			public const int abc_searchview_description_voice = 2131361858;
+			
+			// aapt resource value: 0x7f0a0043
+			public const int abc_shareactionprovider_share_with = 2131361859;
+			
+			// aapt resource value: 0x7f0a0044
+			public const int abc_shareactionprovider_share_with_application = 2131361860;
+			
+			// aapt resource value: 0x7f0a0045
+			public const int abc_toolbar_collapse_description = 2131361861;
 			
 			// aapt resource value: 0x7f0a0053
-			public const int bottom_sheet_behavior = 2131361875;
+			public const int appbar_scrolling_view_behavior = 2131361875;
 			
 			// aapt resource value: 0x7f0a0054
-			public const int character_counter_content_description = 2131361876;
+			public const int bottom_sheet_behavior = 2131361876;
 			
 			// aapt resource value: 0x7f0a0055
-			public const int character_counter_pattern = 2131361877;
+			public const int character_counter_content_description = 2131361877;
+			
+			// aapt resource value: 0x7f0a0056
+			public const int character_counter_pattern = 2131361878;
 			
 			// aapt resource value: 0x7f0a0001
 			public const int common_google_play_services_enable_button = 2131361793;
@@ -15609,113 +15878,140 @@ namespace Wash2.Droid
 			// aapt resource value: 0x7f0a0011
 			public const int common_signin_button_text_long = 2131361809;
 			
-			// aapt resource value: 0x7f0a0056
-			public const int fab_transformation_scrim_behavior = 2131361878;
+			// aapt resource value: 0x7f0a0064
+			public const int default_web_client_id = 2131361892;
 			
 			// aapt resource value: 0x7f0a0057
-			public const int fab_transformation_sheet_behavior = 2131361879;
+			public const int fab_transformation_scrim_behavior = 2131361879;
 			
 			// aapt resource value: 0x7f0a0058
-			public const int hide_bottom_view_on_scroll_behavior = 2131361880;
-			
-			// aapt resource value: 0x7f0a0060
-			public const int library_name = 2131361888;
+			public const int fab_transformation_sheet_behavior = 2131361880;
 			
 			// aapt resource value: 0x7f0a0012
-			public const int mr_button_content_description = 2131361810;
+			public const int fcm_fallback_notification_channel_label = 2131361810;
 			
-			// aapt resource value: 0x7f0a0013
-			public const int mr_cast_button_connected = 2131361811;
+			// aapt resource value: 0x7f0a0065
+			public const int firebase_database_url = 2131361893;
 			
-			// aapt resource value: 0x7f0a0014
-			public const int mr_cast_button_connecting = 2131361812;
+			// aapt resource value: 0x7f0a0062
+			public const int gcm_defaultSenderId = 2131361890;
 			
-			// aapt resource value: 0x7f0a0015
-			public const int mr_cast_button_disconnected = 2131361813;
+			// aapt resource value: 0x7f0a0066
+			public const int google_api_key = 2131361894;
 			
-			// aapt resource value: 0x7f0a0027
-			public const int mr_cast_dialog_title_view_placeholder = 2131361831;
+			// aapt resource value: 0x7f0a0063
+			public const int google_app_id = 2131361891;
 			
-			// aapt resource value: 0x7f0a0016
-			public const int mr_chooser_searching = 2131361814;
+			// aapt resource value: 0x7f0a0067
+			public const int google_crash_reporting_api_key = 2131361895;
 			
-			// aapt resource value: 0x7f0a0017
-			public const int mr_chooser_title = 2131361815;
-			
-			// aapt resource value: 0x7f0a0018
-			public const int mr_controller_album_art = 2131361816;
-			
-			// aapt resource value: 0x7f0a0019
-			public const int mr_controller_casting_screen = 2131361817;
-			
-			// aapt resource value: 0x7f0a001a
-			public const int mr_controller_close_description = 2131361818;
-			
-			// aapt resource value: 0x7f0a001b
-			public const int mr_controller_collapse_group = 2131361819;
-			
-			// aapt resource value: 0x7f0a001c
-			public const int mr_controller_disconnect = 2131361820;
-			
-			// aapt resource value: 0x7f0a001d
-			public const int mr_controller_expand_group = 2131361821;
-			
-			// aapt resource value: 0x7f0a001e
-			public const int mr_controller_no_info_available = 2131361822;
-			
-			// aapt resource value: 0x7f0a001f
-			public const int mr_controller_no_media_selected = 2131361823;
-			
-			// aapt resource value: 0x7f0a0020
-			public const int mr_controller_pause = 2131361824;
-			
-			// aapt resource value: 0x7f0a0021
-			public const int mr_controller_play = 2131361825;
-			
-			// aapt resource value: 0x7f0a0022
-			public const int mr_controller_stop = 2131361826;
-			
-			// aapt resource value: 0x7f0a0023
-			public const int mr_controller_stop_casting = 2131361827;
-			
-			// aapt resource value: 0x7f0a0024
-			public const int mr_controller_volume_slider = 2131361828;
-			
-			// aapt resource value: 0x7f0a0028
-			public const int mr_dialog_device_header = 2131361832;
-			
-			// aapt resource value: 0x7f0a0029
-			public const int mr_dialog_route_header = 2131361833;
-			
-			// aapt resource value: 0x7f0a0025
-			public const int mr_system_route_name = 2131361829;
-			
-			// aapt resource value: 0x7f0a0026
-			public const int mr_user_route_category_name = 2131361830;
+			// aapt resource value: 0x7f0a0068
+			public const int google_storage_bucket = 2131361896;
 			
 			// aapt resource value: 0x7f0a0059
-			public const int mtrl_chip_close_icon_content_description = 2131361881;
+			public const int hide_bottom_view_on_scroll_behavior = 2131361881;
+			
+			// aapt resource value: 0x7f0a0061
+			public const int library_name = 2131361889;
+			
+			// aapt resource value: 0x7f0a0013
+			public const int mr_button_content_description = 2131361811;
+			
+			// aapt resource value: 0x7f0a0014
+			public const int mr_cast_button_connected = 2131361812;
+			
+			// aapt resource value: 0x7f0a0015
+			public const int mr_cast_button_connecting = 2131361813;
+			
+			// aapt resource value: 0x7f0a0016
+			public const int mr_cast_button_disconnected = 2131361814;
+			
+			// aapt resource value: 0x7f0a0028
+			public const int mr_cast_dialog_title_view_placeholder = 2131361832;
+			
+			// aapt resource value: 0x7f0a0017
+			public const int mr_chooser_searching = 2131361815;
+			
+			// aapt resource value: 0x7f0a0018
+			public const int mr_chooser_title = 2131361816;
+			
+			// aapt resource value: 0x7f0a0019
+			public const int mr_controller_album_art = 2131361817;
+			
+			// aapt resource value: 0x7f0a001a
+			public const int mr_controller_casting_screen = 2131361818;
+			
+			// aapt resource value: 0x7f0a001b
+			public const int mr_controller_close_description = 2131361819;
+			
+			// aapt resource value: 0x7f0a001c
+			public const int mr_controller_collapse_group = 2131361820;
+			
+			// aapt resource value: 0x7f0a001d
+			public const int mr_controller_disconnect = 2131361821;
+			
+			// aapt resource value: 0x7f0a001e
+			public const int mr_controller_expand_group = 2131361822;
+			
+			// aapt resource value: 0x7f0a001f
+			public const int mr_controller_no_info_available = 2131361823;
+			
+			// aapt resource value: 0x7f0a0020
+			public const int mr_controller_no_media_selected = 2131361824;
+			
+			// aapt resource value: 0x7f0a0021
+			public const int mr_controller_pause = 2131361825;
+			
+			// aapt resource value: 0x7f0a0022
+			public const int mr_controller_play = 2131361826;
+			
+			// aapt resource value: 0x7f0a0023
+			public const int mr_controller_stop = 2131361827;
+			
+			// aapt resource value: 0x7f0a0024
+			public const int mr_controller_stop_casting = 2131361828;
+			
+			// aapt resource value: 0x7f0a0025
+			public const int mr_controller_volume_slider = 2131361829;
+			
+			// aapt resource value: 0x7f0a0029
+			public const int mr_dialog_device_header = 2131361833;
+			
+			// aapt resource value: 0x7f0a002a
+			public const int mr_dialog_route_header = 2131361834;
+			
+			// aapt resource value: 0x7f0a0026
+			public const int mr_system_route_name = 2131361830;
+			
+			// aapt resource value: 0x7f0a0027
+			public const int mr_user_route_category_name = 2131361831;
 			
 			// aapt resource value: 0x7f0a005a
-			public const int password_toggle_content_description = 2131361882;
+			public const int mtrl_chip_close_icon_content_description = 2131361882;
 			
 			// aapt resource value: 0x7f0a005b
-			public const int path_password_eye = 2131361883;
+			public const int password_toggle_content_description = 2131361883;
 			
 			// aapt resource value: 0x7f0a005c
-			public const int path_password_eye_mask_strike_through = 2131361884;
+			public const int path_password_eye = 2131361884;
 			
 			// aapt resource value: 0x7f0a005d
-			public const int path_password_eye_mask_visible = 2131361885;
+			public const int path_password_eye_mask_strike_through = 2131361885;
 			
 			// aapt resource value: 0x7f0a005e
-			public const int path_password_strike_through = 2131361886;
-			
-			// aapt resource value: 0x7f0a0045
-			public const int search_menu_title = 2131361861;
+			public const int path_password_eye_mask_visible = 2131361886;
 			
 			// aapt resource value: 0x7f0a005f
-			public const int status_bar_notification_info_overflow = 2131361887;
+			public const int path_password_strike_through = 2131361887;
+			
+			// aapt resource value: 0x7f0a0069
+			public const int project_id = 2131361897;
+			
+			// aapt resource value: 0x7f0a0046
+			public const int search_menu_title = 2131361862;
+			
+			// aapt resource value: 0x7f0a0060
+			public const int status_bar_notification_info_overflow = 2131361888;
 			
 			static String()
 			{
