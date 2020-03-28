@@ -21,15 +21,22 @@ namespace Wash2.Views.Login
 	{
         public Usuario user;
         private UserDB userdb;
-
+        
         public Login ()
 		{
             NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent ();
-		}
+
+            userdb = new UserDB();
+            var user_exist = userdb.GetMembers().ToList();
+            Console.WriteLine("AQUI-->"+user_exist[0].token);
+            //namelbl.Text = user_exist[0].name;
+            Console.WriteLine("AQUI-->" + user_exist[1].token);
+        }
 
         private async void Iniciar_Sesion_Clicked(object sender, EventArgs e)
         {
+            
             try
             {
                 var usuario = Email_login.Text;

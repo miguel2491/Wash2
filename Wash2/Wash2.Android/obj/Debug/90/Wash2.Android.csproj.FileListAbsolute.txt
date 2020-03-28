@@ -343,5 +343,7 @@ C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2.Android\obj\Debug\90\android\
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2.Android\obj\Debug\90\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2.Android\obj\Debug\90\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2.Android\obj\Debug\90\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\bin\Debug\netstandard2.0\Wash2.dll
+C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2.Android\bin\Debug\Wash2.dll.mdb
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2.Android\obj\Debug\90\linksrc\Plugin.Connectivity.dll.mdb
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2.Android\obj\Debug\90\linksrc\Wash2.dll.mdb

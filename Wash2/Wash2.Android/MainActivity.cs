@@ -10,12 +10,16 @@ using Android.Gms.Common;
 using Firebase.Messaging;
 using Firebase.Iid;
 using Android.Util;
+using Wash2.Models;
+using Wash2.SQLiteDB;
 
 namespace Wash2.Droid
 {
     [Activity(Label = "Washers Dry", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
+        public Usuario user;
+        private UserDB userdb;
         const string TAG = "MainActivity";
 
         internal static readonly string CHANNEL_ID = "my_notification_channel";
@@ -37,6 +41,12 @@ namespace Wash2.Droid
             IsPlayServicesAvailable();
 
             Log.Debug(TAG, "InstanceID token: " + FirebaseInstanceId.Instance.Token);
+            var token = FirebaseInstanceId.Instance.Token;
+            var userW = new Usuario();
+            userdb = new UserDB();
+            userW.id = 1;
+            userW.token = token;
+            userdb.AddMember(userW);
         }
 
         public bool IsPlayServicesAvailable()

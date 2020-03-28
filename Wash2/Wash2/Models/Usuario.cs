@@ -17,5 +17,6 @@ namespace Wash2.Models
         public string remember_token { set; get; }
         public string name { set; get; }
         public string google_id { set; get; }
+        public string token { set; get; }
     }
 }
