@@ -27,7 +27,7 @@ namespace Wash2.Droid
 
             var body = message.GetNotification().Body;
             Log.Debug(TAG, "Notification Message Body: " + body);
-            SendNotification(body, message.Data);
+            //SendNotification(body, message.Data);
         }
 
         void SendNotification(string messageBody, IDictionary<string, string> data)
@@ -42,7 +42,7 @@ namespace Wash2.Droid
             var pendingIntent = PendingIntent.GetActivity(this, MainActivity.NOTIFICATION_ID, intent, PendingIntentFlags.OneShot);
 
             var notificationBuilder = new NotificationCompat.Builder(this, MainActivity.CHANNEL_ID)
-                                      .SetSmallIcon(Resource.Drawable.ic_stat_ic_notification)
+                                      //.SetSmallIcon(Resource.Drawable.ic_stat_ic_notification)
                                       .SetContentTitle("FCM Message")
                                       .SetContentText(messageBody)
                                       .SetAutoCancel(true)

@@ -40,22 +40,6 @@
           "lib/monoandroid44/Plugin.CurrentActivity.dll": {}
         }
       },
-      "Plugin.FirebasePushNotification/3.1.6": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Android.Support.v4": "28.0.0.1",
-          "Xamarin.Firebase.Messaging": "71.1740.0"
-        },
-        "frameworkAssemblies": [
-          "Java.Interop"
-        ],
-        "compile": {
-          "lib/monoandroid90/Plugin.FirebasePushNotification.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid90/Plugin.FirebasePushNotification.dll": {}
-        }
-      },
       "Plugin.Permissions/3.0.0.12": {
         "type": "package",
         "dependencies": {
@@ -1075,10 +1059,11 @@
           "lib/MonoAndroid/Com.Android.DeskClock.dll": {}
         }
       },
-      "Xamarin.Build.Download/0.4.11": {
+      "Xamarin.Build.Download/0.4.9": {
         "type": "package",
         "build": {
-          "build/_._": {}
+          "build/Xamarin.Build.Download.props": {},
+          "build/Xamarin.Build.Download.targets": {}
         }
       },
       "Xamarin.Essentials/1.5.1": {
@@ -1094,110 +1079,53 @@
           "lib/monoandroid90/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Firebase.Common/71.1610.0": {
+      "Xamarin.Firebase.Common/60.1142.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Build.Download": "0.4.11",
-          "Xamarin.Google.AutoValue.Annotations": "1.6.5",
-          "Xamarin.GooglePlayServices.Basement": "71.1620.0",
-          "Xamarin.GooglePlayServices.Tasks": "71.1601.0"
+          "Xamarin.GooglePlayServices.Basement": "[60.1142.1]",
+          "Xamarin.GooglePlayServices.Tasks": "[60.1142.1]"
         },
-        "frameworkAssemblies": [
-          "Java.Interop"
-        ],
         "compile": {
-          "lib/monoandroid90/Xamarin.Firebase.Common.dll": {}
+          "lib/MonoAndroid80/Xamarin.Firebase.Common.dll": {}
         },
         "runtime": {
-          "lib/monoandroid90/Xamarin.Firebase.Common.dll": {}
+          "lib/MonoAndroid80/Xamarin.Firebase.Common.dll": {}
         },
         "build": {
-          "build/MonoAndroid90/Xamarin.Firebase.Common.targets": {}
+          "build/MonoAndroid80/Xamarin.Firebase.Common.targets": {}
         }
       },
-      "Xamarin.Firebase.Iid/71.1710.0": {
+      "Xamarin.Firebase.Iid/60.1142.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Build.Download": "0.4.11",
-          "Xamarin.Firebase.Common": "71.1610.0",
-          "Xamarin.Firebase.Iid.Interop": "71.1601.0",
-          "Xamarin.GooglePlayServices.Basement": "71.1620.0",
-          "Xamarin.GooglePlayServices.Stats": "71.1601.0",
-          "Xamarin.GooglePlayServices.Tasks": "71.1601.0"
+          "Xamarin.Firebase.Common": "[60.1142.1]",
+          "Xamarin.GooglePlayServices.Basement": "[60.1142.1]"
         },
-        "frameworkAssemblies": [
-          "Java.Interop"
-        ],
         "compile": {
-          "lib/monoandroid90/Xamarin.Firebase.Iid.dll": {}
+          "lib/MonoAndroid80/Xamarin.Firebase.Iid.dll": {}
         },
         "runtime": {
-          "lib/monoandroid90/Xamarin.Firebase.Iid.dll": {}
+          "lib/MonoAndroid80/Xamarin.Firebase.Iid.dll": {}
         },
         "build": {
-          "build/MonoAndroid90/Xamarin.Firebase.Iid.targets": {}
+          "build/MonoAndroid80/Xamarin.Firebase.Iid.targets": {}
         }
       },
-      "Xamarin.Firebase.Iid.Interop/71.1601.0": {
+      "Xamarin.Firebase.Messaging/60.1142.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Build.Download": "0.4.11",
-          "Xamarin.GooglePlayServices.Base": "71.1610.0",
-          "Xamarin.GooglePlayServices.Basement": "71.1620.0"
+          "Xamarin.Firebase.Common": "[60.1142.1]",
+          "Xamarin.Firebase.Iid": "[60.1142.1]",
+          "Xamarin.GooglePlayServices.Basement": "[60.1142.1]"
         },
-        "frameworkAssemblies": [
-          "Java.Interop"
-        ],
         "compile": {
-          "lib/monoandroid90/Xamarin.Firebase.Iid.Interop.dll": {}
+          "lib/MonoAndroid80/Xamarin.Firebase.Messaging.dll": {}
         },
         "runtime": {
-          "lib/monoandroid90/Xamarin.Firebase.Iid.Interop.dll": {}
+          "lib/MonoAndroid80/Xamarin.Firebase.Messaging.dll": {}
         },
         "build": {
-          "build/MonoAndroid90/Xamarin.Firebase.Iid.Interop.targets": {}
-        }
-      },
-      "Xamarin.Firebase.Measurement.Connector/71.1701.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.4.11",
-          "Xamarin.GooglePlayServices.Basement": "71.1620.0"
-        },
-        "frameworkAssemblies": [
-          "Java.Interop"
-        ],
-        "compile": {
-          "lib/monoandroid90/Xamarin.Firebase.Measurement.Connector.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid90/Xamarin.Firebase.Measurement.Connector.dll": {}
-        },
-        "build": {
-          "build/MonoAndroid90/Xamarin.Firebase.Measurement.Connector.targets": {}
-        }
-      },
-      "Xamarin.Firebase.Messaging/71.1740.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.4.11",
-          "Xamarin.Firebase.Common": "71.1610.0",
-          "Xamarin.Firebase.Iid": "71.1710.0",
-          "Xamarin.Firebase.Measurement.Connector": "71.1701.0",
-          "Xamarin.GooglePlayServices.Basement": "71.1620.0",
-          "Xamarin.GooglePlayServices.Tasks": "71.1601.0"
-        },
-        "frameworkAssemblies": [
-          "Java.Interop"
-        ],
-        "compile": {
-          "lib/monoandroid90/Xamarin.Firebase.Messaging.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid90/Xamarin.Firebase.Messaging.dll": {}
-        },
-        "build": {
-          "build/MonoAndroid90/Xamarin.Firebase.Messaging.targets": {}
+          "build/MonoAndroid80/Xamarin.Firebase.Messaging.targets": {}
         }
       },
       "Xamarin.Forms/4.5.0.356": {
@@ -1228,130 +1156,55 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.5.0.356": {
+      "Xamarin.GooglePlayServices.Base/60.1142.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.v7.AppCompat": "28.0.0.3",
-          "Xamarin.Forms": "4.5.0.356",
-          "Xamarin.GooglePlayServices.Maps": "71.1610.0"
+          "Xamarin.GooglePlayServices.Basement": "[60.1142.1]",
+          "Xamarin.GooglePlayServices.Tasks": "[60.1142.1]"
         },
         "compile": {
-          "lib/MonoAndroid90/Xamarin.Forms.Maps.Android.dll": {},
-          "lib/MonoAndroid90/Xamarin.Forms.Maps.dll": {}
+          "lib/MonoAndroid80/Xamarin.GooglePlayServices.Base.dll": {}
         },
         "runtime": {
-          "lib/MonoAndroid90/Xamarin.Forms.Maps.Android.dll": {},
-          "lib/MonoAndroid90/Xamarin.Forms.Maps.dll": {}
-        }
-      },
-      "Xamarin.Google.AutoValue.Annotations/1.6.5": {
-        "type": "package",
-        "frameworkAssemblies": [
-          "Java.Interop",
-          "Mono.Android"
-        ],
-        "compile": {
-          "lib/monoandroid80/Xamarin.Google.AutoValue.Annotations.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid80/Xamarin.Google.AutoValue.Annotations.dll": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Base/71.1610.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.4.11",
-          "Xamarin.GooglePlayServices.Basement": "71.1620.0",
-          "Xamarin.GooglePlayServices.Tasks": "71.1601.0"
-        },
-        "frameworkAssemblies": [
-          "Java.Interop"
-        ],
-        "compile": {
-          "lib/monoandroid90/Xamarin.GooglePlayServices.Base.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid90/Xamarin.GooglePlayServices.Base.dll": {}
+          "lib/MonoAndroid80/Xamarin.GooglePlayServices.Base.dll": {}
         },
         "build": {
-          "build/MonoAndroid90/Xamarin.GooglePlayServices.Base.targets": {}
+          "build/MonoAndroid80/Xamarin.GooglePlayServices.Base.targets": {}
         }
       },
-      "Xamarin.GooglePlayServices.Basement/71.1620.0": {
+      "Xamarin.GooglePlayServices.Basement/60.1142.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Android.Support.v4": "28.0.0.1",
-          "Xamarin.Build.Download": "0.4.11"
+          "Xamarin.Android.Support.Compat": "26.0.2",
+          "Xamarin.Android.Support.Core.UI": "26.0.2",
+          "Xamarin.Android.Support.Core.Utils": "26.0.2",
+          "Xamarin.Android.Support.Fragment": "26.0.2",
+          "Xamarin.Android.Support.Media.Compat": "26.0.2",
+          "Xamarin.Build.Download": "0.4.9"
         },
-        "frameworkAssemblies": [
-          "Java.Interop"
-        ],
         "compile": {
-          "lib/monoandroid90/Xamarin.GooglePlayServices.Basement.dll": {}
+          "lib/MonoAndroid80/Xamarin.GooglePlayServices.Basement.dll": {}
         },
         "runtime": {
-          "lib/monoandroid90/Xamarin.GooglePlayServices.Basement.dll": {}
+          "lib/MonoAndroid80/Xamarin.GooglePlayServices.Basement.dll": {}
         },
         "build": {
-          "build/MonoAndroid90/Xamarin.GooglePlayServices.Basement.targets": {}
+          "build/MonoAndroid80/Xamarin.GooglePlayServices.Basement.targets": {}
         }
       },
-      "Xamarin.GooglePlayServices.Maps/71.1610.0": {
+      "Xamarin.GooglePlayServices.Tasks/60.1142.1": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Build.Download": "0.4.11",
-          "Xamarin.GooglePlayServices.Base": "71.1610.0",
-          "Xamarin.GooglePlayServices.Basement": "71.1620.0"
+          "Xamarin.GooglePlayServices.Basement": "[60.1142.1]"
         },
-        "frameworkAssemblies": [
-          "Java.Interop"
-        ],
         "compile": {
-          "lib/monoandroid90/Xamarin.GooglePlayServices.Maps.dll": {}
+          "lib/MonoAndroid80/Xamarin.GooglePlayServices.Tasks.dll": {}
         },
         "runtime": {
-          "lib/monoandroid90/Xamarin.GooglePlayServices.Maps.dll": {}
+          "lib/MonoAndroid80/Xamarin.GooglePlayServices.Tasks.dll": {}
         },
         "build": {
-          "build/MonoAndroid90/Xamarin.GooglePlayServices.Maps.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Stats/71.1601.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.4.11",
-          "Xamarin.GooglePlayServices.Basement": "71.1620.0"
-        },
-        "frameworkAssemblies": [
-          "Java.Interop"
-        ],
-        "compile": {
-          "lib/monoandroid90/Xamarin.GooglePlayServices.Stats.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid90/Xamarin.GooglePlayServices.Stats.dll": {}
-        },
-        "build": {
-          "build/MonoAndroid90/Xamarin.GooglePlayServices.Stats.targets": {}
-        }
-      },
-      "Xamarin.GooglePlayServices.Tasks/71.1601.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Build.Download": "0.4.11",
-          "Xamarin.GooglePlayServices.Basement": "71.1620.0"
-        },
-        "frameworkAssemblies": [
-          "Java.Interop"
-        ],
-        "compile": {
-          "lib/monoandroid90/Xamarin.GooglePlayServices.Tasks.dll": {}
-        },
-        "runtime": {
-          "lib/monoandroid90/Xamarin.GooglePlayServices.Tasks.dll": {}
-        },
-        "build": {
-          "build/MonoAndroid90/Xamarin.GooglePlayServices.Tasks.targets": {}
+          "build/MonoAndroid80/Xamarin.GooglePlayServices.Tasks.targets": {}
         }
       },
       "Wash2/1.0.0": {
@@ -1368,7 +1221,6 @@
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.4",
           "Xamarin.Essentials": "1.5.1",
           "Xamarin.Forms": "4.5.0.356",
-          "Xamarin.Forms.Maps": "4.5.0.356",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -1446,27 +1298,6 @@
         "plugin.currentactivity.2.1.0.2.nupkg.sha512",
         "plugin.currentactivity.nuspec",
         "readme.txt"
-      ]
-    },
-    "Plugin.FirebasePushNotification/3.1.6": {
-      "sha512": "ogTiEngNc3l/BQhQEOStn3yeIZv9C+EUEN1oKjykN3gSpOT6jeclg0OQms1IrtAx6uEaqQdn0Nz7CC3D1nIbpA==",
-      "type": "package",
-      "path": "plugin.firebasepushnotification/3.1.6",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/monoandroid10.0/Plugin.FirebasePushNotification.dll",
-        "lib/monoandroid10.0/Plugin.FirebasePushNotification.xml",
-        "lib/monoandroid90/Plugin.FirebasePushNotification.dll",
-        "lib/monoandroid90/Plugin.FirebasePushNotification.xml",
-        "lib/netstandard1.0/Plugin.FirebasePushNotification.dll",
-        "lib/netstandard1.0/Plugin.FirebasePushNotification.xml",
-        "lib/netstandard2.0/Plugin.FirebasePushNotification.dll",
-        "lib/netstandard2.0/Plugin.FirebasePushNotification.xml",
-        "lib/xamarinios10/Plugin.FirebasePushNotification.dll",
-        "lib/xamarinios10/Plugin.FirebasePushNotification.xml",
-        "plugin.firebasepushnotification.3.1.6.nupkg.sha512",
-        "plugin.firebasepushnotification.nuspec"
       ]
     },
     "Plugin.Permissions/3.0.0.12": {
@@ -2724,10 +2555,10 @@
         "xamarin.android.verticalviewpager.nuspec"
       ]
     },
-    "Xamarin.Build.Download/0.4.11": {
-      "sha512": "svGAoBnMVQwUbIv1+j7vDypY+2R7jruefJRmVsxhuvSFXMP8dV+yZK3UGuZa3zV5ThKimk9eqHuvRcl/JVipbA==",
+    "Xamarin.Build.Download/0.4.9": {
+      "sha512": "HDQzyew/2Kb8sOjbzcHtFFxLbCclln+1T8bssKx9zAs9HNuK/1mugf077A9VxzID/fFBMmBXvL/z2jUpNlgX2A==",
       "type": "package",
-      "path": "xamarin.build.download/0.4.11",
+      "path": "xamarin.build.download/0.4.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2738,7 +2569,7 @@
         "build/Xamarin.Build.Download.dll",
         "build/Xamarin.Build.Download.props",
         "build/Xamarin.Build.Download.targets",
-        "xamarin.build.download.0.4.11.nupkg.sha512",
+        "xamarin.build.download.0.4.9.nupkg.sha512",
         "xamarin.build.download.nuspec"
       ]
     },
@@ -2790,70 +2621,42 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Firebase.Common/71.1610.0": {
-      "sha512": "aJdDzG5JPXDb82ROgsrwN3e8HKLWPJhKZEuz1FxRTM7XhW1DbUp+gcjCtSU3wP5ZUg0SB+g7V9hoaT5Oen1bdw==",
+    "Xamarin.Firebase.Common/60.1142.1": {
+      "sha512": "lBkdcgaqAvAkkkBzZGvYviGl3C7J4n2B3CXY3izVR7M1xPZ6Q9scrm0tZJMwwEP+/z3qqZRL/DBVH1dNChGJ4A==",
       "type": "package",
-      "path": "xamarin.firebase.common/71.1610.0",
+      "path": "xamarin.firebase.common/60.1142.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/MonoAndroid90/Xamarin.Firebase.Common.targets",
-        "lib/monoandroid90/Xamarin.Firebase.Common.dll",
-        "proguard/MonoAndroid90/proguard.txt",
-        "xamarin.firebase.common.71.1610.0.nupkg.sha512",
+        "build/MonoAndroid80/Xamarin.Firebase.Common.targets",
+        "lib/MonoAndroid80/Xamarin.Firebase.Common.dll",
+        "xamarin.firebase.common.60.1142.1.nupkg.sha512",
         "xamarin.firebase.common.nuspec"
       ]
     },
-    "Xamarin.Firebase.Iid/71.1710.0": {
-      "sha512": "4i2fN9iypc9NArFBOC5V5bol9fSgKiVpqB//RasdvCzdvayJKtUGhdqZfHCTD8xx0nXsPsetySlUObAznlQiHg==",
+    "Xamarin.Firebase.Iid/60.1142.1": {
+      "sha512": "cHauaYNySwKJPBhTFhPujlFLUkr/2CzXHes2DMXDkBi6BcKcnuClwyQ9izY/PuDzflyaqfX5rJGtrkwwZ8pQxw==",
       "type": "package",
-      "path": "xamarin.firebase.iid/71.1710.0",
+      "path": "xamarin.firebase.iid/60.1142.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/MonoAndroid90/Xamarin.Firebase.Iid.targets",
-        "lib/monoandroid90/Xamarin.Firebase.Iid.dll",
-        "xamarin.firebase.iid.71.1710.0.nupkg.sha512",
+        "build/MonoAndroid80/Xamarin.Firebase.Iid.targets",
+        "lib/MonoAndroid80/Xamarin.Firebase.Iid.dll",
+        "xamarin.firebase.iid.60.1142.1.nupkg.sha512",
         "xamarin.firebase.iid.nuspec"
       ]
     },
-    "Xamarin.Firebase.Iid.Interop/71.1601.0": {
-      "sha512": "1WwOSiNnAoCV06BL7+Z3kFFV9bsPEy6hQwzVxsHNiGq0ZXrie4kSt9jUD4qYb+K3aaUcTl4Sm0dREVeB7xYtcA==",
+    "Xamarin.Firebase.Messaging/60.1142.1": {
+      "sha512": "RuSRm4QpsDMuQ+hoBf1K0fFiREhuJRzQxL/9cz3ApNfXz58zqrLCGanmaAn/ZBhoQRz/l0OKJRHEfiL4B4bCeQ==",
       "type": "package",
-      "path": "xamarin.firebase.iid.interop/71.1601.0",
+      "path": "xamarin.firebase.messaging/60.1142.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/MonoAndroid90/Xamarin.Firebase.Iid.Interop.targets",
-        "lib/monoandroid90/Xamarin.Firebase.Iid.Interop.dll",
-        "xamarin.firebase.iid.interop.71.1601.0.nupkg.sha512",
-        "xamarin.firebase.iid.interop.nuspec"
-      ]
-    },
-    "Xamarin.Firebase.Measurement.Connector/71.1701.0": {
-      "sha512": "p4JSSM68KWzbX7jshgrLCTI/Mi1tMrirU8fUOmJTj7Sce7Ch3qRofbhdsusNflkYGylWcZfkrpEjRagXcRKKyw==",
-      "type": "package",
-      "path": "xamarin.firebase.measurement.connector/71.1701.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/MonoAndroid90/Xamarin.Firebase.Measurement.Connector.targets",
-        "lib/monoandroid90/Xamarin.Firebase.Measurement.Connector.dll",
-        "xamarin.firebase.measurement.connector.71.1701.0.nupkg.sha512",
-        "xamarin.firebase.measurement.connector.nuspec"
-      ]
-    },
-    "Xamarin.Firebase.Messaging/71.1740.0": {
-      "sha512": "co000hNCobVGaT2ZZ59DVCWZu8DXRCqHY1WbwflTyr0s6bX3DpqoP5Kt2bpl5ZaTgSiXVBnTNwOpwVO9d6JB7A==",
-      "type": "package",
-      "path": "xamarin.firebase.messaging/71.1740.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/MonoAndroid90/Xamarin.Firebase.Messaging.targets",
-        "lib/monoandroid90/Xamarin.Firebase.Messaging.dll",
-        "proguard/MonoAndroid90/proguard.txt",
-        "xamarin.firebase.messaging.71.1740.0.nupkg.sha512",
+        "build/MonoAndroid80/Xamarin.Firebase.Messaging.targets",
+        "lib/MonoAndroid80/Xamarin.Firebase.Messaging.dll",
+        "xamarin.firebase.messaging.60.1142.1.nupkg.sha512",
         "xamarin.firebase.messaging.nuspec"
       ]
     },
@@ -3139,120 +2942,43 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.Maps/4.5.0.356": {
-      "sha512": "U1yUOMqFmyPVvkGXAQFcZRsOaHiQv5xnBtKLtIW4/I11a1R0tC20utWaw+qtk1tL9CmNWJLlAjJEjqHawI5QPw==",
+    "Xamarin.GooglePlayServices.Base/60.1142.1": {
+      "sha512": "XI1JjQRV3sYgZ8AfMzL67ttVtlELkXf2wUQr8XI06MbCAX7lCC7yw/Bdwyf6atTsDCa7CRIrL0PkWMf0riAbOA==",
       "type": "package",
-      "path": "xamarin.forms.maps/4.5.0.356",
+      "path": "xamarin.googleplayservices.base/60.1142.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.Android.dll",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.dll",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.xml",
-        "lib/MonoAndroid90/Xamarin.Forms.Maps.Android.dll",
-        "lib/MonoAndroid90/Xamarin.Forms.Maps.dll",
-        "lib/MonoAndroid90/Xamarin.Forms.Maps.xml",
-        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
-        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
-        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
-        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
-        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
-        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
-        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
-        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
-        "lib/tizen40/Xamarin.Forms.Maps.dll",
-        "lib/tizen40/Xamarin.Forms.Maps.xml",
-        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.dll",
-        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.pri",
-        "lib/uap10.0.14393/Xamarin.Forms.Maps.dll",
-        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll",
-        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.pri",
-        "lib/uap10.0.16299/Xamarin.Forms.Maps.dll",
-        "xamarin.forms.maps.4.5.0.356.nupkg.sha512",
-        "xamarin.forms.maps.nuspec"
-      ]
-    },
-    "Xamarin.Google.AutoValue.Annotations/1.6.5": {
-      "sha512": "4TMqHEr5vYjyj81sr43aCrrEyPIvCmXGI788kKQMsTct/D30tNpUy4kaw7ZuPiEWBE62iqt5dXnSNtU66Ydwtg==",
-      "type": "package",
-      "path": "xamarin.google.autovalue.annotations/1.6.5",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "THIRD-PARTY-NOTICES.txt",
-        "lib/monoandroid80/Xamarin.Google.AutoValue.Annotations.dll",
-        "xamarin.google.autovalue.annotations.1.6.5.nupkg.sha512",
-        "xamarin.google.autovalue.annotations.nuspec"
-      ]
-    },
-    "Xamarin.GooglePlayServices.Base/71.1610.0": {
-      "sha512": "OfCNkkmxU96KkTs94wEL2bbFEuHJWw5rZg70lyF+BAr5t59/+bSc/jyi7wVn3BTJy4NjiFi7NTQDzJYuJg5DJg==",
-      "type": "package",
-      "path": "xamarin.googleplayservices.base/71.1610.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/MonoAndroid90/Xamarin.GooglePlayServices.Base.targets",
-        "lib/monoandroid90/Xamarin.GooglePlayServices.Base.dll",
-        "proguard/MonoAndroid90/proguard.txt",
-        "xamarin.googleplayservices.base.71.1610.0.nupkg.sha512",
+        "build/MonoAndroid80/Xamarin.GooglePlayServices.Base.targets",
+        "lib/MonoAndroid80/Xamarin.GooglePlayServices.Base.dll",
+        "xamarin.googleplayservices.base.60.1142.1.nupkg.sha512",
         "xamarin.googleplayservices.base.nuspec"
       ]
     },
-    "Xamarin.GooglePlayServices.Basement/71.1620.0": {
-      "sha512": "PUm6rz7if+8k0dp/lf9Klnujj9Wc0JZDtExNQKUBpHhG9X1dWHAJcyYL5XwVnBQFeQwgKwkADPRfL2ImsWffOA==",
+    "Xamarin.GooglePlayServices.Basement/60.1142.1": {
+      "sha512": "G4PFBPoAovRwmCdO7jpdeZ5N974JsOjiLKDnOcZxC+4IjYs0ZvoBP/dyYDI32tCbpzNEbb/00oqx35Gjgl5f2g==",
       "type": "package",
-      "path": "xamarin.googleplayservices.basement/71.1620.0",
+      "path": "xamarin.googleplayservices.basement/60.1142.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/MonoAndroid90/Xamarin.GooglePlayServices.Basement.targets",
-        "build/MonoAndroid90/Xamarin.GooglePlayServices.Tasks.dll",
-        "lib/monoandroid90/Xamarin.GooglePlayServices.Basement.dll",
-        "proguard/MonoAndroid90/proguard.txt",
-        "xamarin.googleplayservices.basement.71.1620.0.nupkg.sha512",
+        "build/MonoAndroid80/Xamarin.GooglePlayServices.Basement.targets",
+        "build/MonoAndroid80/Xamarin.GooglePlayServices.Tasks.dll",
+        "lib/MonoAndroid80/Xamarin.GooglePlayServices.Basement.dll",
+        "xamarin.googleplayservices.basement.60.1142.1.nupkg.sha512",
         "xamarin.googleplayservices.basement.nuspec"
       ]
     },
-    "Xamarin.GooglePlayServices.Maps/71.1610.0": {
-      "sha512": "zU0haiLNzg++mDqVMg36yhHVBiRYM9u3O7vgTLEp+fgDN3Nh133k5SJtjHBhooXxZ/2tFvaYWakHvF4kzqIw1A==",
+    "Xamarin.GooglePlayServices.Tasks/60.1142.1": {
+      "sha512": "DS4MgQWwbAuAf5gXGPAPCpuCVkElQSTv/iguZ9Ca5vmiXpbrbvCpN5JhxBYu2qGkSn1wwX37bI+EHib/FVQthg==",
       "type": "package",
-      "path": "xamarin.googleplayservices.maps/71.1610.0",
+      "path": "xamarin.googleplayservices.tasks/60.1142.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/MonoAndroid90/Xamarin.GooglePlayServices.Maps.targets",
-        "lib/monoandroid90/Xamarin.GooglePlayServices.Maps.dll",
-        "xamarin.googleplayservices.maps.71.1610.0.nupkg.sha512",
-        "xamarin.googleplayservices.maps.nuspec"
-      ]
-    },
-    "Xamarin.GooglePlayServices.Stats/71.1601.0": {
-      "sha512": "Euyb1MSwNzDyHMlw8uXLl37kyPp+E7D7roq86vv3Dch3IaSByuVTzAqCSE7XGxN95WMf4dRcFwc2v22hhI9EBA==",
-      "type": "package",
-      "path": "xamarin.googleplayservices.stats/71.1601.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/MonoAndroid90/Xamarin.GooglePlayServices.Stats.targets",
-        "lib/monoandroid90/Xamarin.GooglePlayServices.Stats.dll",
-        "xamarin.googleplayservices.stats.71.1601.0.nupkg.sha512",
-        "xamarin.googleplayservices.stats.nuspec"
-      ]
-    },
-    "Xamarin.GooglePlayServices.Tasks/71.1601.0": {
-      "sha512": "1+vlOECCQhcIhnuzBW72sXTWdsR9hvNqa/jre61R7IuG+UkqREnL+Zm9jaG1i/dLBV9hUlzAikbxvM+wYqLjpQ==",
-      "type": "package",
-      "path": "xamarin.googleplayservices.tasks/71.1601.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "build/MonoAndroid90/Xamarin.GooglePlayServices.Tasks.targets",
-        "lib/monoandroid90/Xamarin.GooglePlayServices.Tasks.dll",
-        "xamarin.googleplayservices.tasks.71.1601.0.nupkg.sha512",
+        "build/MonoAndroid80/Xamarin.GooglePlayServices.Tasks.targets",
+        "lib/MonoAndroid80/Xamarin.GooglePlayServices.Tasks.dll",
+        "xamarin.googleplayservices.tasks.60.1142.1.nupkg.sha512",
         "xamarin.googleplayservices.tasks.nuspec"
       ]
     },
@@ -3266,7 +2992,6 @@
     "MonoAndroid,Version=v9.0": [
       "CarouselView.FormsPlugin >= 5.2.0",
       "Newtonsoft.Json >= 12.0.3",
-      "Plugin.FirebasePushNotification >= 3.1.6",
       "RatingConception >= 1.4.0",
       "Stripe.net >= 35.6.0",
       "Wash2 >= 1.0.0",
@@ -3278,10 +3003,13 @@
       "Xamarin.Android.Support.v4 >= 28.0.0.3",
       "Xamarin.Android.Support.v7.AppCompat >= 28.0.0.3",
       "Xamarin.Android.Support.v7.MediaRouter >= 28.0.0.3",
-      "Xamarin.Firebase.Messaging >= 71.1740.0",
+      "Xamarin.Firebase.Common >= 60.1142.1",
+      "Xamarin.Firebase.Iid >= 60.1142.1",
+      "Xamarin.Firebase.Messaging >= 60.1142.1",
       "Xamarin.Forms >= 4.5.0.356",
-      "Xamarin.Forms.Maps >= 4.5.0.356",
-      "Xamarin.GooglePlayServices.Base >= 71.1610.0",
+      "Xamarin.GooglePlayServices.Base >= 60.1142.1",
+      "Xamarin.GooglePlayServices.Basement >= 60.1142.1",
+      "Xamarin.GooglePlayServices.Tasks >= 60.1142.1",
       "sqlite-net-pcl >= 1.6.292"
     ]
   },
@@ -3330,10 +3058,6 @@
             "target": "Package",
             "version": "[12.0.3, )"
           },
-          "Plugin.FirebasePushNotification": {
-            "target": "Package",
-            "version": "[3.1.6, )"
-          },
           "RatingConception": {
             "target": "Package",
             "version": "[1.4.0, )"
@@ -3374,21 +3098,33 @@
             "target": "Package",
             "version": "[28.0.0.3, )"
           },
+          "Xamarin.Firebase.Common": {
+            "target": "Package",
+            "version": "[60.1142.1, )"
+          },
+          "Xamarin.Firebase.Iid": {
+            "target": "Package",
+            "version": "[60.1142.1, )"
+          },
           "Xamarin.Firebase.Messaging": {
             "target": "Package",
-            "version": "[71.1740.0, )"
+            "version": "[60.1142.1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[4.5.0.356, )"
           },
-          "Xamarin.Forms.Maps": {
-            "target": "Package",
-            "version": "[4.5.0.356, )"
-          },
           "Xamarin.GooglePlayServices.Base": {
             "target": "Package",
-            "version": "[71.1610.0, )"
+            "version": "[60.1142.1, )"
+          },
+          "Xamarin.GooglePlayServices.Basement": {
+            "target": "Package",
+            "version": "[60.1142.1, )"
+          },
+          "Xamarin.GooglePlayServices.Tasks": {
+            "target": "Package",
+            "version": "[60.1142.1, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",

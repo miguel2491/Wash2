@@ -347,20 +347,6 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.5.0.356": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "4.5.0.356"
-        },
-        "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
-        }
-      },
       "Wash2/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -375,7 +361,6 @@
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.4",
           "Xamarin.Essentials": "1.5.1",
           "Xamarin.Forms": "4.5.0.356",
-          "Xamarin.Forms.Maps": "4.5.0.356",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -720,20 +705,6 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.5.0.356": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "4.5.0.356"
-        },
-        "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
-        }
-      },
       "Wash2/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -748,7 +719,6 @@
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.4",
           "Xamarin.Essentials": "1.5.1",
           "Xamarin.Forms": "4.5.0.356",
-          "Xamarin.Forms.Maps": "4.5.0.356",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -1093,20 +1063,6 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.5.0.356": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "4.5.0.356"
-        },
-        "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
-        }
-      },
       "Wash2/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1121,7 +1077,6 @@
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.4",
           "Xamarin.Essentials": "1.5.1",
           "Xamarin.Forms": "4.5.0.356",
-          "Xamarin.Forms.Maps": "4.5.0.356",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -1466,20 +1421,6 @@
           "build/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.5.0.356": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "4.5.0.356"
-        },
-        "compile": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll": {},
-          "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll": {}
-        }
-      },
       "Wash2/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1494,7 +1435,6 @@
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.4",
           "Xamarin.Essentials": "1.5.1",
           "Xamarin.Forms": "4.5.0.356",
-          "Xamarin.Forms.Maps": "4.5.0.356",
           "sqlite-net-pcl": "1.6.292"
         },
         "compile": {
@@ -2313,42 +2253,6 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.Maps/4.5.0.356": {
-      "sha512": "U1yUOMqFmyPVvkGXAQFcZRsOaHiQv5xnBtKLtIW4/I11a1R0tC20utWaw+qtk1tL9CmNWJLlAjJEjqHawI5QPw==",
-      "type": "package",
-      "path": "xamarin.forms.maps/4.5.0.356",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.Android.dll",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.dll",
-        "lib/MonoAndroid10.0/Xamarin.Forms.Maps.xml",
-        "lib/MonoAndroid90/Xamarin.Forms.Maps.Android.dll",
-        "lib/MonoAndroid90/Xamarin.Forms.Maps.dll",
-        "lib/MonoAndroid90/Xamarin.Forms.Maps.xml",
-        "lib/Xamarin.Mac/Xamarin.Forms.Maps.dll",
-        "lib/Xamarin.Mac/Xamarin.Forms.Maps.macOS.dll",
-        "lib/Xamarin.Mac/Xamarin.Forms.Maps.xml",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
-        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
-        "lib/netstandard1.0/Xamarin.Forms.Maps.dll",
-        "lib/netstandard1.0/Xamarin.Forms.Maps.xml",
-        "lib/netstandard2.0/Xamarin.Forms.Maps.dll",
-        "lib/netstandard2.0/Xamarin.Forms.Maps.xml",
-        "lib/tizen40/Xamarin.Forms.Maps.Tizen.dll",
-        "lib/tizen40/Xamarin.Forms.Maps.dll",
-        "lib/tizen40/Xamarin.Forms.Maps.xml",
-        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.dll",
-        "lib/uap10.0.14393/Xamarin.Forms.Maps.UWP.pri",
-        "lib/uap10.0.14393/Xamarin.Forms.Maps.dll",
-        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll",
-        "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.pri",
-        "lib/uap10.0.16299/Xamarin.Forms.Maps.dll",
-        "xamarin.forms.maps.4.5.0.356.nupkg.sha512",
-        "xamarin.forms.maps.nuspec"
-      ]
-    },
     "Wash2/1.0.0": {
       "type": "project",
       "path": "../Wash2/Wash2.csproj",
@@ -2364,7 +2268,6 @@
       "Xam.Plugin.Geolocator >= 4.5.0.6",
       "Xam.Plugins.Forms.ImageCircle >= 3.0.0.4",
       "Xamarin.Forms >= 4.5.0.356",
-      "Xamarin.Forms.Maps >= 4.5.0.356",
       "sqlite-net-pcl >= 1.6.292"
     ]
   },
@@ -2426,10 +2329,6 @@
             "version": "[3.0.0.4, )"
           },
           "Xamarin.Forms": {
-            "target": "Package",
-            "version": "[4.5.0.356, )"
-          },
-          "Xamarin.Forms.Maps": {
             "target": "Package",
             "version": "[4.5.0.356, )"
           },

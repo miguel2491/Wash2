@@ -30,7 +30,7 @@ namespace Wash2.Views.Solicitudes
         private async void Btn_CheckIn_Clicked(object sender, EventArgs e)
         {
             
-            await Navigation.PushAsync(new EstadoServicio());
+            //await Navigation.PushAsync(new EstadoServicio());
         }
     }
 }

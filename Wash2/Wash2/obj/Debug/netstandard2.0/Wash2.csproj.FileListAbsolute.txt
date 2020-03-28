@@ -37,7 +37,6 @@ C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.csprojAssemblyR
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\bin\Debug\netstandard2.0\Wash2.deps.json
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\bin\Debug\netstandard2.0\Wash2.dll
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\bin\Debug\netstandard2.0\Wash2.pdb
-C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.csprojAssemblyReference.cache
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Menu\detail.xaml.g.cs
@@ -55,7 +54,6 @@ C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\View
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Views\Planes\Planes.xaml.g.cs
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Views\Planes\Principal.xaml.g.cs
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Views\Solicitudes\Calificacion.xaml.g.cs
-C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Views\Solicitudes\EstadoServicio.xaml.g.cs
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Views\Solicitudes\SolicitaSolicitud.xaml.g.cs
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.csproj.CoreCompileInputs.cache
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.AssemblyInfoInputs.cache
