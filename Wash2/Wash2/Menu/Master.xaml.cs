@@ -12,14 +12,18 @@ using Wash2.Views.Login;
 using Wash2.Views.AutoLavados;
 using Wash2.Views.Estado;
 using Wash2.Views.Perfil;
+using Wash2.SQLiteDB;
+using Wash2.Models;
 
 namespace Wash2.Menu
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Master : ContentPage
 	{
+        public Usuario user;
+        private UserDB userdb;
 
-		public Master ()
+        public Master ()
 		{
 
 			InitializeComponent ();
@@ -54,6 +58,9 @@ namespace Wash2.Menu
 
         private void BtnCerrarSesion_Clicked(object sender, EventArgs e)
         {
+            userdb = new UserDB();
+            var user_exist = userdb.GetMembers().ToList();
+            userdb.CerrarSesion(user_exist[0].id,0);
             Application.Current.MainPage = new NavigationPage(new Login());
         }
 

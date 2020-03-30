@@ -9,6 +9,7 @@ using Wash2.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Wash2.Views.Login;
+using Wash2.SQLiteDB;
 
 namespace Wash2.Views.Planes
 {
@@ -26,6 +27,7 @@ namespace Wash2.Views.Planes
 
         public async Task GetInfoPaquete(int id_paquete)
         {
+
             HttpClient client = new HttpClient();
 
             var url = "http://www.washdryapp.com/app/public/paquete/individual/"+id_paquete;
@@ -45,6 +47,7 @@ namespace Wash2.Views.Planes
                         Titulo.Text = json_[0].nombre;
                         Descripcion.Text = json_[0].descripcion;
                         PaqueteDetalleList.ItemsSource = json_;
+                        Paquete.Text = id_paquete.ToString();
                         break;
                 }
             }
@@ -54,9 +57,20 @@ namespace Wash2.Views.Planes
             }
         }
 
+        public Registros regs;
+        private RegistrosDB regsdb; 
+
         private async void BtnElegirPaquete_Clicked(object sender, EventArgs e)
         {
-            await DisplayAlert("Aviso", "Paquete Seleccionado", "Ok");
+            var paqueteS = Convert.ToInt32(Paquete.Text);
+
+            regsdb = new RegistrosDB();
+            var reg_exist = regsdb.GetRegistro().ToList();
+            var idReg = reg_exist[0].id;
+
+            regsdb.UpdateRegPaquete(idReg, paqueteS);
+
+            await DisplayAlert("Aviso", "Paquete Seleccionado: "+paqueteS, "Ok");
             await Navigation.PushAsync(new Registro());
         }
     }

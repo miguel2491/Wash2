@@ -41,9 +41,81 @@ namespace Wash2.SQLiteDB
 
         }
 
+        public string UpdateMember(int id, string nombre, string username, int status)
+        {
+            try {
+                var res = "Fallo";
+                var data = conn.Table<Usuario>();
+                var d1 = (from values in data
+                          where values.id == id
+                          select values).Single();
+                if (true)
+                {
+                    d1.nombre = nombre;
+                    d1.username = username;
+                    d1.status = status;
+                    conn.Update(d1);
+                    res = "Correcto";
+                }
+                return "Res->"+res;
+            }
+            catch (Exception ex)
+            {
+                return ex.ToString();
+            }
+        }
+        public string UpdateMemberToken(int id, string token, int status)
+        {
+            try
+            {
+                var res = "Fallo";
+                var data = conn.Table<Usuario>();
+                var d1 = (from values in data
+                          where values.id == id
+                          select values).Single();
+                if (true)
+                {
+                    d1.token = token;
+                    d1.status = status;
+                    conn.Update(d1);
+                    res = "Correcto";
+                }
+                return "Res->" + res;
+            }
+            catch (Exception ex)
+            {
+                return ex.ToString();
+            }
+        }
+        public string CerrarSesion(int id, int status)
+        {
+            try
+            {
+                var res = "Fallo";
+                var data = conn.Table<Usuario>();
+                var d1 = (from values in data
+                          where values.id == id
+                          select values).Single();
+                if (true)
+                {
+                    d1.status = status;
+                    conn.Update(d1);
+                    res = "Correcto";
+                }
+                return "Res->" + res;
+            }
+            catch (Exception ex)
+            {
+                return ex.ToString();
+            }
+        }
         public void DeleteMember(int ID)
         {
             conn.Delete<Usuario>(ID);
+        }
+        public void DeleteMembers()
+        {
+            conn.DeleteAll<Usuario>();
         }
     }
 }

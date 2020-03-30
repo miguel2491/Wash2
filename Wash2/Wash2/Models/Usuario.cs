@@ -7,8 +7,7 @@ namespace Wash2.Models
 {
     public class Usuario
     {
-        [PrimaryKey]
-
+        [PrimaryKey, AutoIncrement]
         public int id { set; get; }
         public string nombre { set; get; }
         public string username { set; get; }
@@ -18,5 +17,6 @@ namespace Wash2.Models
         public string name { set; get; }
         public string google_id { set; get; }
         public string token { set; get; }
+        public int status { set; get; }
     }
 }

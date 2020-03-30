@@ -26,12 +26,6 @@ namespace Wash2.Views.Login
 		{
             NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent ();
-
-            userdb = new UserDB();
-            var user_exist = userdb.GetMembers().ToList();
-            Console.WriteLine("AQUI-->"+user_exist[0].token);
-            //namelbl.Text = user_exist[0].name;
-            Console.WriteLine("AQUI-->" + user_exist[1].token);
         }
 
         private async void Iniciar_Sesion_Clicked(object sender, EventArgs e)
@@ -39,8 +33,12 @@ namespace Wash2.Views.Login
             
             try
             {
+                userdb = new UserDB();
+                var user_exist = userdb.GetMembers().ToList();
+
                 var usuario = Email_login.Text;
                 var pass = Pass.Text;
+                var token = user_exist[0].token;
                 
                 var httpClient = new HttpClient();
                 var url = "http://www.washdryapp.com/app/public/washer/login";
@@ -48,7 +46,8 @@ namespace Wash2.Views.Login
                 var value_check = new Dictionary<string, string>
                          {
                             {"usuario", usuario},
-                            {"pass" , pass }
+                            {"pass" , pass },
+                            {"token", token }
                          };
 
                 var content = new FormUrlEncodedContent(value_check);
@@ -86,13 +85,19 @@ namespace Wash2.Views.Login
                             {
                                 var userW = new Usuario();
                                 userdb = new UserDB();
-                                userW.google_id = userResult[0].google_id;
-                                userW.id = userResult[0].id;
-                                userW.name = userResult[0].name;
-                                userW.nombre = userResult[0].nombre;
-                                userW.password = userResult[0].password;
-                                userW.email = userResult[0].email;
-                                userdb.AddMember(userW);
+                                var user_existe = userdb.GetMembers().ToList();
+                                var idUser = user_existe[0].id;
+                                Console.WriteLine("TOKEEN-->" + user_existe[0].token);
+
+                                var id = userResult[0].id;
+                                var name = userResult[0].name;
+                                var nombre = userResult[0].nombre;
+                                var google_id = userResult[0].google_id;
+                                var password = userResult[0].password;
+                                var email = userResult[0].email;
+                                var status = 1;
+                                
+                                userdb.UpdateMember(idUser, name, nombre, status);
                                 Application.Current.MainPage = new MainPage();
                             }
                         }

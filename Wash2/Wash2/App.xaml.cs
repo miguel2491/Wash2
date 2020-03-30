@@ -3,6 +3,10 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Wash2.Splash;
 using Wash2.Views.AutoLavados;
+using System.Threading.Tasks;
+using System.Net.Http;
+using static System.Net.WebRequestMethods;
+
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Wash2
@@ -26,6 +30,16 @@ namespace Wash2
         protected override void OnSleep()
         {
             // Handle when your app sleeps
+            Device.StartTimer(TimeSpan.FromMinutes(1), () => //Will start after 1 min
+            {
+                Task.Run(() =>
+                {
+                    Console.WriteLine("CADA MINUTE");
+                // do something with time...
+            });
+
+                return false; // To repeat timer,always return true.If you want to stop the timer,return false
+            });
         }
 
         protected override void OnResume()

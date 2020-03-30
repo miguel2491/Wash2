@@ -5,99 +5,92 @@
              x:Class="Wash2.Views.Login.Registro">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Margin="50,20,50,20">
+            <StackLayout Margin="30,20,30,20">
                 <Label 
                 Margin="10,10,10,10"
                 Text="REGISTRO"
                 FontSize="26"
                 TextColor="#DCF8C6"
                 HorizontalOptions="CenterAndExpand" />
-                <Label
-                Margin="5,5,5,5"
-                Text="NOMBRE"
-                HorizontalOptions="CenterAndExpand"
-                TextColor="white"
-                />
-                <Entry
-                Margin="10,10,10,10"
-                BackgroundColor="#7691a6"
-                TextColor="#000000"
-                x:Name="Nombre"
-                />
-                <Label
-                Margin="5,5,5,5"
-                Text="APELLIDOS"
-                HorizontalOptions="CenterAndExpand"
-                TextColor="white"
-                />
-                <Entry
-                Margin="10,10,10,10"
-                BackgroundColor="#7691a6"
-                TextColor="#000000"
-                x:Name="Apps"
-                />
-                <Label
-                Margin="5,5,5,5"
-                Text="FECHA DE NACIMIENTO"
-                HorizontalOptions="CenterAndExpand"
-                TextColor="white"
-                />
-                <Entry
-                Margin="10,10,10,10"
-                BackgroundColor="#7691a6"
-                TextColor="#000000"
-                x:Name="fca_nac"
-                />
-                <Label
-                Margin="5,5,5,5"
-                Text="TELÉFONO"
-                HorizontalOptions="CenterAndExpand"
-                TextColor="white"
-                />
-                <Entry
-                Margin="5,5,5,5"
-                BackgroundColor="#7691a6"
-                TextColor="#000000"
-                x:Name="telefono"
-                />
-                <Label
-                Margin="5,5,5,5"
-                Text="CORREO"
-                HorizontalOptions="CenterAndExpand"
-                TextColor="white"
-                />
-                <Entry
-                Margin="5,5,5,5"
-                BackgroundColor="#7691a6"
-                TextColor="#000000"
-                x:Name="correo"
-                />
-                <Label
-                Margin="5,5,5,5"
-                Text="CONTRASEÑA"
-                HorizontalOptions="CenterAndExpand"
-                TextColor="white"
-                />
-                <Entry
-                Margin="10,10,10,10"
-                BackgroundColor="#7691a6"
-                TextColor="#000000"
-                x:Name="pass"
-                IsPassword="True"
-                />
-                <Label
-                Margin="5,5,5,5"
-                Text="CONFIRMAR CONTRASEÑA"
-                HorizontalOptions="CenterAndExpand"
-                TextColor="white"
-                />
-                <Entry
-                Margin="10,10,10,10"
-                BackgroundColor="#7691a6"
-                TextColor="#000000"
-                x:Name="confirmar_pass"
-                IsPassword="True"
-                />
+                <Label 
+                    x:Name="IdPaquete" 
+                    IsVisible="False"/>
+                <StackLayout Margin="5,5,5,5">
+                    <Label 
+                       Text="Nombre"
+                       TextColor="white"
+                       HorizontalOptions="CenterAndExpand" />
+                    <Entry
+                        BackgroundColor="transparent"
+                        TextColor="white"
+                        x:Name="Nombre"
+                    />
+                </StackLayout>
+                <StackLayout Margin="5,5,5,5">
+                    <Label 
+                       Text="Apellido Paterno"
+                       TextColor="white"
+                       HorizontalOptions="CenterAndExpand" />
+                    <Entry
+                        TextColor="white"
+                        x:Name="Appaterno"
+                    />
+                    <Label 
+                       Text="Apellido Materno"
+                       TextColor="white"
+                       HorizontalOptions="CenterAndExpand" />
+                    <Entry
+                        TextColor="white"
+                        x:Name="Apmaterno"
+                    />
+                </StackLayout>
+                <StackLayout Margin="5,5,5,5">
+                    <Label 
+                       Text="Fecha Nacimiento"
+                       TextColor="white"
+                       HorizontalOptions="CenterAndExpand" />
+                    <Entry
+                        TextColor="white"
+                        x:Name="Fca_nac"
+                    />
+                    <Label 
+                       Text="Telefono"
+                       TextColor="white"
+                       HorizontalOptions="CenterAndExpand" />
+                    <Entry
+                        TextColor="white"
+                        x:Name="Telefono"
+                        MaxLength="10"
+                    />
+                </StackLayout>
+                <StackLayout Margin="5,5,5,5">
+                    <Label 
+                       Text="Correo"
+                       TextColor="white"
+                       HorizontalOptions="CenterAndExpand" />
+                    <Entry
+                        TextColor="white"
+                        x:Name="Correo"
+                    />
+                    <Label 
+                       Text="Password"
+                       TextColor="white"
+                       HorizontalOptions="CenterAndExpand" />
+                    <Entry
+                        TextColor="white"
+                        x:Name="Password"
+                        IsPassword="True"
+                    />
+                    <Label 
+                       Text="Confirmar Password"
+                       TextColor="white"
+                       HorizontalOptions="CenterAndExpand" />
+                    <Entry
+                        TextColor="white"
+                        x:Name="ConfirmaPass"
+                        IsPassword="True"
+                    />
+                </StackLayout>
                 <Button 
                 Text="PAQUETE A OFRECER"
                 x:Name="btnPaquetes"

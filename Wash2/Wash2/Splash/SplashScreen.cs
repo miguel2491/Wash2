@@ -47,22 +47,19 @@ namespace Wash2.Splash
             await splashImage.FadeTo(0, 270, null);
             userDataBase = new UserDB();
             var user_exista = userDataBase.GetMembers().ToList();
-            Console.WriteLine("AQUI-->" + user_exista[0].token+"<---->"+user_exista[0].id);
-            var idT = user_exista[0].id;
+            var status = user_exista[0].status;
             var user_exist = userDataBase.GetMembers();
             int RowCount = 0;
             int usercount = user_exist.Count();
             RowCount = Convert.ToInt32(usercount);
 
-            if (idT > 1)
+            if (status == 1)
             {
-
                 Application.Current.MainPage = new MainPage();
             }
             else {
                 Application.Current.MainPage = new NavigationPage(new Banner());
             }
-
         }
     }
 }

@@ -20,16 +20,20 @@ namespace Wash2.Views.Login
 
         private async void Recuperar_Pass_Clicked(object sender, EventArgs e)
         {
-            await DisplayAlert("Alert", "You have been alerted", "OK");
+            //await DisplayAlert("Alert", "You have been alerted", "OK");
             try {
-                var email = Correo_recupera.ToString();
-                StringContent Emails = new StringContent(email);
-
-                var content = new MultipartFormDataContent();
-
-                content.Add(Emails, "correo");
+                var email = Correo_recupera.Text;
+                //StringContent Emails = new StringContent(email);
+                
                 var httpClient = new System.Net.Http.HttpClient();
                 var url = "http://www.washdryapp.com/app/public/washer/recupera_pass";
+
+                var value_check = new Dictionary<string, string>
+                {
+                    {"correo", email}
+                };
+
+                var content = new FormUrlEncodedContent(value_check);
                 var responseMsg = await httpClient.PostAsync(url, content);
 
                 switch (responseMsg.StatusCode)
@@ -48,7 +52,7 @@ namespace Wash2.Views.Login
                         break;
                     case System.Net.HttpStatusCode.OK:
                         string xjson = await responseMsg.Content.ReadAsStringAsync();
-                        await DisplayAlert("error", "Correcto : " + xjson, "ok");
+                        await DisplayAlert("Actualizado", "Su Contraseña temporal es : " + xjson, "ok");
                         break;
                     case System.Net.HttpStatusCode.RequestEntityTooLarge:
                         await DisplayAlert("error", "error status 413  ", "ok");

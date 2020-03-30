@@ -12,6 +12,7 @@ using Firebase.Iid;
 using Android.Util;
 using Wash2.Models;
 using Wash2.SQLiteDB;
+using System.Linq;
 
 namespace Wash2.Droid
 {
@@ -20,6 +21,7 @@ namespace Wash2.Droid
     {
         public Usuario user;
         private UserDB userdb;
+
         const string TAG = "MainActivity";
 
         internal static readonly string CHANNEL_ID = "my_notification_channel";
@@ -42,11 +44,35 @@ namespace Wash2.Droid
 
             Log.Debug(TAG, "InstanceID token: " + FirebaseInstanceId.Instance.Token);
             var token = FirebaseInstanceId.Instance.Token;
-            var userW = new Usuario();
+            //CONSULTAR BD
             userdb = new UserDB();
-            userW.id = 1;
-            userW.token = token;
-            userdb.AddMember(userW);
+            var userW = new Usuario();
+            var user_exista = userdb.GetMembers().ToList();
+            var user_exist = userdb.GetMembers();
+            int RowCount = 0;
+            int usercount = user_exist.Count();
+            RowCount = Convert.ToInt32(usercount);
+            if (RowCount > 1)
+            {
+                userdb.DeleteMembers();
+                userW.token = token;
+                userW.status = 0;
+                userdb.AddMember(userW);
+            }
+            else if (RowCount == 1)
+            {
+                if (token != user_exista[0].token)
+                {
+                    userdb.UpdateMemberToken(user_exista[0].id, token, 0);
+                }
+                
+                //Console.WriteLine("USARIO EXISTE-->" + user_exista[0].nombre + "<--->"+ user_exista[0].status);
+            }
+            else {
+                userW.token = token;
+                userW.status= 0;
+                userdb.AddMember(userW);
+            }
         }
 
         public bool IsPlayServicesAvailable()
