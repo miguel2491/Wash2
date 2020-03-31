@@ -95,9 +95,10 @@ namespace Wash2.Views.Login
                                 var google_id = userResult[0].google_id;
                                 var password = pass;
                                 var email = userResult[0].email;
+                                var idWasher = userResult[0].idWasher;
                                 var status = 1;
                                 
-                                userdb.UpdateMember(idUser, id, name, nombre, password, status);
+                                userdb.UpdateMember(idUser, id, name, nombre, password, idWasher, status);
                                 Application.Current.MainPage = new MainPage();
                             }
                         }

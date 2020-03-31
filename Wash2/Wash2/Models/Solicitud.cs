@@ -17,5 +17,12 @@ namespace Wash2.Models
         public string comentario { get; set; }
         public string nombre { get; set; }
         public int status { get; set; }
+        //JOINS
+        public string placas { get; set; }
+        public string marca { get; set; }
+        public string modelo { get; set; }
+        public string ann { get; set; }
+        public string paquete { get; set; }
+        public string precio { get; set; }
     }
 }

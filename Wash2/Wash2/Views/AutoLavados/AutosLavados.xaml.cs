@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Wash2.Models;
+using Wash2.SQLiteDB;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,19 +16,24 @@ namespace Wash2.Views.AutoLavados
 	public partial class AutosLavados : ContentPage
 	{
         public int id_usuario;
+        public Usuario user;
+        private UserDB userdb;
 
         public AutosLavados ()
 		{
 
 			InitializeComponent ();
-            _ = GetAutos(13);
+            userdb = new UserDB();
+            var user_exist = userdb.GetMembers().ToList();
+            var idW = user_exist[0].idWasher;
+            _ = GetAutos(idW);
         }
 
-        public async Task GetAutos(int id_usuario)
+        public async Task GetAutos(int id_washer)
         {
             HttpClient client = new HttpClient();
 
-            var url = "http://www.washdryapp.com/app/public/washer/get_solicitud/" + id_usuario;
+            var url = "http://www.washdryapp.com/app/public/washer/get_solicitud/" + id_washer;
             try
             {
                 var response = await client.GetAsync(url);
@@ -42,6 +48,7 @@ namespace Wash2.Views.AutoLavados
                         HttpContent content = response.Content;
                         string xjson = await content.ReadAsStringAsync();
                         var json_ = JsonConvert.DeserializeObject<List<Solicitud>>(xjson);
+                        ListAutos.ItemsSource = json_;
                         //SolicitudList.ItemsSource = json_;
                         break;
                 }
@@ -57,5 +64,12 @@ namespace Wash2.Views.AutoLavados
         {
             await Navigation.PushAsync(new DetalleSolicitud());
         }
+
+        private async void ListSolicitud_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            //var content = e.Item as AutosModel;
+            //await Navigation.PushAsync(new CarInfo(Int32.Parse(content.id_auto)));
+        }
+
     }
 }
