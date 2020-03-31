@@ -80,6 +80,7 @@ namespace Wash2.Views.Login
                                 Pass.Focus();
                                 Errormsn.IsVisible = true;
                                 Errormsn.Text = "Usuario o contraseña invalidos";
+                                await DisplayAlert("Error", "Usuario y Contraseña Incorrecto", "OK");
                             }
                             else
                             {
@@ -87,7 +88,6 @@ namespace Wash2.Views.Login
                                 userdb = new UserDB();
                                 var user_existe = userdb.GetMembers().ToList();
                                 var idUser = user_existe[0].id;
-                                Console.WriteLine("TOKEEN-->" + user_existe[0].token);
 
                                 var id = userResult[0].id;
                                 var name = userResult[0].name;
@@ -97,7 +97,7 @@ namespace Wash2.Views.Login
                                 var email = userResult[0].email;
                                 var status = 1;
                                 
-                                userdb.UpdateMember(idUser, name, nombre, status);
+                                userdb.UpdateMember(idUser, id, name, nombre, status);
                                 Application.Current.MainPage = new MainPage();
                             }
                         }

@@ -7,6 +7,10 @@
         <ScrollView>
             <StackLayout Margin="15,10,15,10">
                 <StackLayout>
+                    <Label 
+                        x:Name="IdPaquete"
+                        IsVisible="False" 
+                     />
                     <Label Text="PERFIL"
                         FontSize="20"
                         TextColor="#81e394"
@@ -28,27 +32,39 @@
                     </Frame>
                 </StackLayout>
                 <StackLayout>
-                    <Label Text="Nombre"
+                    <Label 
+                        Text="Nombre"
                         FontSize="12"
                         TextColor="White"
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" />
                     <Entry
                         Margin="10,10,10,10"
-                        BackgroundColor="#7691a6"
-                        TextColor="#000000"
+                        BackgroundColor="transparent"
+                        TextColor="white"
                         x:Name="Nombre"
                     />
-                    <Label Text="Apellidos"
+                    <Label Text="Apellido Paterno"
                         FontSize="12"
-                        TextColor="White"
+                        TextColor="white"
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" />
                     <Entry
                         Margin="10,10,10,10"
-                        BackgroundColor="#7691a6"
+                        BackgroundColor="transparent"
                         TextColor="#000000"
-                        x:Name="Apellidos"
+                        x:Name="Appaterno"
+                    />
+                    <Label Text="Apellido Materno"
+                        FontSize="12"
+                        TextColor="white"
+                        VerticalOptions="CenterAndExpand" 
+                        HorizontalOptions="CenterAndExpand" />
+                    <Entry
+                        Margin="10,10,10,10"
+                        BackgroundColor="transparent"
+                        TextColor="white"
+                        x:Name="Apmaterno"
                     />
                     <Label Text="Fecha de Nacimiento"
                         FontSize="12"
