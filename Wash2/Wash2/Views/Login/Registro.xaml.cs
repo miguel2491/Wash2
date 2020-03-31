@@ -150,7 +150,7 @@ namespace Wash2.Views.Login
             var telefono = Telefono.Text;
             var correo = Correo.Text;
             var password = Password.Text;
-            regsdb.UpdateAll(idReg, nombre, app, apm, fca_nac, telefono, correo, password);
+            regsdb.UpdateAll(idReg, nombre, app, apm, fca_nac, telefono, correo, password, 1);
 
             NavigationPage page = App.Current.MainPage as NavigationPage;
             page.BarBackgroundColor = Color.Beige;

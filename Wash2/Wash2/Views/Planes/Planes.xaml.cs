@@ -9,6 +9,7 @@ using Wash2.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Wash2.Views.Login;
+using Wash2.Views.Perfil;
 using Wash2.SQLiteDB;
 
 namespace Wash2.Views.Planes
@@ -67,11 +68,15 @@ namespace Wash2.Views.Planes
             regsdb = new RegistrosDB();
             var reg_exist = regsdb.GetRegistro().ToList();
             var idReg = reg_exist[0].id;
-
+            var Pagina = reg_exist[0].pagina;
             regsdb.UpdateRegPaquete(idReg, paqueteS);
-
-            await DisplayAlert("Aviso", "Paquete Seleccionado: "+paqueteS, "Ok");
-            await Navigation.PushAsync(new Registro());
+            await DisplayAlert("Aviso", "Paquete Seleccionado: " + paqueteS, "Ok");
+            if (Pagina != 2) {
+                await Navigation.PushAsync(new Registro());
+            }
+            else {
+                await Navigation.PushAsync(new Wash2.Views.Perfil.Perfil());
+            }
         }
     }
 }

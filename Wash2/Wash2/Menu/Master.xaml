@@ -26,8 +26,11 @@
                 VerticalOptions="CenterAndExpand">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="ROBERTO HERNANDEZ"
-                                TextColor="#ffffff" FontSize="14" FontAttributes="Bold" >
+                            <Span 
+                                x:Name="Lbl_usuario"
+                                TextColor="#ffffff" 
+                                FontSize="14"
+                                FontAttributes="Bold" >
                                 <Span.GestureRecognizers>
                                     <TapGestureRecognizer
                                         Tapped="Perfil_Tapped"

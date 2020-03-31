@@ -13,6 +13,8 @@ namespace Wash2.Models
         public string nombre { set; get; }
         public string app { set; get; }
         public string apm { set; get; }
+        public string fecha { set; get; }
+        public string telefono { set; get; }
         public string username { set; get; }
         public string password { set; get; }
         public string email { set; get; }

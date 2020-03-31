@@ -36,7 +36,7 @@ namespace Wash2.SQLiteDB
             }
         }
 
-        public string UpdateAll(int id, string nombre, string app, string apm, string fca_nac, string telefono, string correo, string password)
+        public string UpdateAll(int id, string nombre, string app, string apm, string fca_nac, string telefono, string correo, string password, int pagina)
         {
             try
             {
@@ -53,6 +53,7 @@ namespace Wash2.SQLiteDB
                     d1.telefono = telefono;
                     d1.correo = correo;
                     d1.password = password;
+                    d1.pagina = pagina;
                     conn.Update(d1);
                 }
                 return "Success";

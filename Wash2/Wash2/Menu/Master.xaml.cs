@@ -27,7 +27,9 @@ namespace Wash2.Menu
 		{
 
 			InitializeComponent ();
-            
+            userdb = new UserDB();
+            var user_exist = userdb.GetMembers().ToList();
+            Lbl_usuario.Text = user_exist[0].nombre + " " + user_exist[0].app+" "+user_exist[0].apm;
             ((NavigationPage)Application.Current.MainPage).BarBackgroundColor = Color.Coral;
         }
 

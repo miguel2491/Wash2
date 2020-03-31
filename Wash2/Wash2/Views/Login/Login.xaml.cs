@@ -93,11 +93,11 @@ namespace Wash2.Views.Login
                                 var name = userResult[0].name;
                                 var nombre = userResult[0].nombre;
                                 var google_id = userResult[0].google_id;
-                                var password = userResult[0].password;
+                                var password = pass;
                                 var email = userResult[0].email;
                                 var status = 1;
                                 
-                                userdb.UpdateMember(idUser, id, name, nombre, status);
+                                userdb.UpdateMember(idUser, id, name, nombre, password, status);
                                 Application.Current.MainPage = new MainPage();
                             }
                         }

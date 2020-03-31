@@ -17,5 +17,6 @@ namespace Wash2.Models
         public string correo { set; get; }
         public string password { set; get; }
         public int paquete { set; get; }
+        public int pagina { set; get; }
     }
 }

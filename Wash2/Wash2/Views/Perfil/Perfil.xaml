@@ -52,7 +52,7 @@
                     <Entry
                         Margin="10,10,10,10"
                         BackgroundColor="transparent"
-                        TextColor="#000000"
+                        TextColor="white"
                         x:Name="Appaterno"
                     />
                     <Label Text="Apellido Materno"
@@ -71,11 +71,10 @@
                         TextColor="White"
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" />
-                    <Entry
-                        Margin="10,10,10,10"
-                        BackgroundColor="#7691a6"
-                        TextColor="#000000"
-                        x:Name="fca_nac"
+                    <DatePicker
+                        x:Name="Ann_"
+                        TextColor="#DCF8C6"
+                        Format="yyyy-MM-dd"
                     />
                     <Label Text="Teléfono"
                         FontSize="12"
@@ -83,10 +82,11 @@
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" />
                     <Entry
+                        Keyboard="Telephone"
+                        MaxLength="10"
                         Margin="10,10,10,10"
-                        BackgroundColor="#7691a6"
-                        TextColor="#000000"
-                        x:Name="telefono"
+                        TextColor="white"
+                        x:Name="Telefono"
                     />
                     <Label Text="Correo"
                         FontSize="12"
@@ -95,8 +95,8 @@
                         HorizontalOptions="CenterAndExpand" />
                     <Entry
                         Margin="10,10,10,10"
-                        BackgroundColor="#7691a6"
-                        TextColor="#000000"
+                        BackgroundColor="transparent"
+                        TextColor="white"
                         x:Name="Correo"
                     />
                     <Label Text="Contraseña"
@@ -106,9 +106,9 @@
                         HorizontalOptions="CenterAndExpand" />
                     <Entry
                         Margin="10,10,10,10"
-                        BackgroundColor="#7691a6"
-                        TextColor="#000000"
+                        TextColor="white"
                         x:Name="Contraseña"
+                        IsPassword="True"
                     />
                     <Label Text="Confirmar Contraseña"
                         FontSize="12"
@@ -117,12 +117,13 @@
                         HorizontalOptions="CenterAndExpand" />
                     <Entry
                         Margin="10,10,10,10"
-                        BackgroundColor="#7691a6"
-                        TextColor="#000000"
+                        TextColor="white"
+                        IsPassword="True"
                         x:Name="ConfirmarContraseña"
                     />
                 </StackLayout>
                 <StackLayout>
+                    <!--
                     <Button Text="Fotos de INE"
                         HorizontalOptions="CenterAndExpand"
                         VerticalOptions="CenterAndExpand"
@@ -136,12 +137,15 @@
                     WidthRequest="200"
                    
                     />
-                    <Button Text="Paquete a Ofrecer"
+                    -->
+                    <Button 
+                        Text="Paquete a Ofrecer"
                         HorizontalOptions="CenterAndExpand"
                         VerticalOptions="CenterAndExpand"
                         x:Name="btnPaquete"
                         BackgroundColor="#d0f3d3"
                         TextColor="#406e80"
+                        Clicked="BtnPaquete_Clicked"    
                     />
                     <Button Text="ACTUALIZAR"
                         HorizontalOptions="CenterAndExpand"
@@ -149,6 +153,7 @@
                         x:Name="btnActualizar"
                         BackgroundColor="#7ee596"
                         TextColor="#406e80"
+                        Clicked="BtnActualiza_Clicked"    
                     />
                 </StackLayout>
             </StackLayout>
