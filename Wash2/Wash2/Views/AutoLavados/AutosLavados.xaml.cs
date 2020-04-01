@@ -37,7 +37,6 @@ namespace Wash2.Views.AutoLavados
             try
             {
                 var response = await client.GetAsync(url);
-                //await DisplayAlert("", "A->" + response.StatusCode, "ok");
                 switch (response.StatusCode)
                 {
                     case System.Net.HttpStatusCode.InternalServerError:
@@ -60,15 +59,12 @@ namespace Wash2.Views.AutoLavados
             }
         }
 
-        private async void Descripcion_Tapped(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new DetalleSolicitud());
-        }
+        
 
-        private async void ListSolicitud_ItemTapped(object sender, ItemTappedEventArgs e)
+        private async void ListAutos_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            //var content = e.Item as AutosModel;
-            //await Navigation.PushAsync(new CarInfo(Int32.Parse(content.id_auto)));
+            var content = e.Item as Solicitud;
+            await Navigation.PushAsync(new DetalleSolicitud(content.id_solicitud));
         }
 
     }

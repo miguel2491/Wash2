@@ -18,78 +18,100 @@
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" />
                 </StackLayout>
-                <StackLayout Margin="10,10,10,0">
-                    <Label FontAttributes="Bold" Text="Hoy" TextColor="#81e394"/>
-                </StackLayout>
-                <StackLayout Margin="10,10,10,0">
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*" />
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="60" />
-                            <ColumnDefinition Width="60" />
-                            <ColumnDefinition Width="80" />
-                        </Grid.ColumnDefinitions>
-                        <Label Text="Modelo" TextColor="#81e394" Grid.Column="0" Grid.Row="0"/>
-                        <Label Text="Placa" TextColor="#81e394" Grid.Column="1" Grid.Row="0"/>
-                        <Label Text="$70" HorizontalTextAlignment="End" TextColor="#81e394" Grid.Column="2" Grid.Row="0"/>
-                    </Grid>
-                </StackLayout>
-                <StackLayout Margin="10,10,10,0">
-                    <StackLayout Orientation="Horizontal" HeightRequest="80" WidthRequest="450" Padding="1">
-                        <StackLayout Spacing="0" BackgroundColor="White" Orientation="Horizontal"  HorizontalOptions="Center">
-                            <Frame
-                                    Margin="10"
-                                    BorderColor="White"
-                                    CornerRadius="100"
-                                    HeightRequest="40"
-                                    WidthRequest="40"
-                                    IsClippedToBounds="True"
-                                    HorizontalOptions="Center"
-                                    VerticalOptions="Center">
-                                <Image Source="icono.png"
-                                         Aspect="AspectFill"
-                                         HeightRequest="100"
-                                         WidthRequest="100"
-                                                   />
-
-                            </Frame>
-                            <Label HorizontalOptions="End"
-                                VerticalOptions="CenterAndExpand" Margin="10,10,10,10">
-                                <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span Text="ALGO AQUI"
-                                            TextColor="Black" FontSize="12" FontAttributes="Bold">
-                                            <Span.GestureRecognizers>
-                                                <TapGestureRecognizer
-                                                    Tapped="TapGestureRecognizer_Tapped"
-                                                    NumberOfTapsRequired="1" />
-                                            </Span.GestureRecognizers>
-                                        </Span>
-                                    </FormattedString>
-                                </Label.FormattedText>
-                            </Label>
-                            <lv:RatingConception ItemsNumber="5" DrawType="Star" 
-                                        ImageWidth="15" ImageHeight="15"  InitialValue="3" DesignType="Standard" ColorUI="YellowLight" 
-                                        x:Name="ratingStar"
-                                        Margin="0,15,0,15" />
-                        </StackLayout>
-                    </StackLayout>
-                </StackLayout>
-                <StackLayout Margin="10,10,10,0">
-                    <Button 
-                        Text="CHECK IN"
-                        VerticalOptions="CenterAndExpand"
-                        HorizontalOptions="Center"
-                        WidthRequest="100"
-                        CornerRadius="20"
-                        BackgroundColor="#81e394"
-                        FontAttributes="Bold"
-                        x:Name="Btn_CheckIn"
-                        Clicked="Btn_CheckIn_Clicked"
-                        />
-                </StackLayout>
+                <ListView 
+                        x:Name="ListSolicitudes"                      
+                        ItemsSource="{Binding Solicitud}"
+                        ItemTapped="ListSolicitud_ItemTapped"
+                        RowHeight="250"
+                        SelectionMode="None" 
+                      >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+                                    <Label FontAttributes="Bold" Text="{Binding fecha}" TextColor="#81e394" Padding="5,5,5,5" />
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto" />
+                                            <RowDefinition Height="Auto" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="60" />
+                                            <ColumnDefinition Width="90" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <Label FontAttributes="Bold" Text="{Binding modelo}" 
+                                           TextColor="#81e394" Padding="5,5,5,5" 
+                                           Grid.Row="0" Grid.Column="0" />
+                                        <Label FontAttributes="Bold" Text="{Binding ann}" 
+                                           TextColor="#81e394" Padding="5,5,5,5" 
+                                           Grid.Row="0" Grid.Column="1" />
+                                        <Label FontAttributes="Bold" Text="{Binding placas}" 
+                                           TextColor="#81e394" Padding="5,5,5,5" 
+                                           Grid.Row="0" Grid.Column="2" />
+                                        <Label FontAttributes="Bold" Text="{Binding paquete}" 
+                                           TextColor="#81e394" Padding="5,5,5,5" 
+                                           Grid.Row="0" Grid.Column="3"
+                                           FontSize="12"/>
+                                        <Label FontAttributes="Bold" Text="{Binding precio}" 
+                                           TextColor="#81e394" Padding="5,5,5,5" 
+                                           Grid.Row="1" Grid.Column="3"
+                                           FontSize="12"/>
+                                    </Grid>
+                                    <Frame 
+                                    x:Name="frame" CornerRadius="10" OutlineColor="#DCF8C6"
+                                    BackgroundColor="white" Padding="0" HeightRequest="80">
+                                        <StackLayout Orientation="Vertical" Margin="10,10,10,10">
+                                            <StackLayout Orientation="Horizontal" >
+                                                <Grid>
+                                                    <Grid.RowDefinitions>
+                                                        <RowDefinition Height="Auto"  />
+                                                        <RowDefinition Height="Auto" />
+                                                        <RowDefinition Height="Auto" />
+                                                    </Grid.RowDefinitions>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="Auto" />
+                                                        <ColumnDefinition Width="Auto" />
+                                                        <ColumnDefinition Width="Auto" />
+                                                    </Grid.ColumnDefinitions>
+                                                    <Image Source="iko" Grid.Row="0" Grid.Column="0"  HeightRequest="50" HorizontalOptions="Center"   />
+                                                    <Label Text="{Binding nombre}" 
+                                                    FontSize="12" HorizontalOptions="EndAndExpand" 
+                                                    Margin="0,16,0,0"
+                                                    TextColor="#128C7E"
+                                                    Grid.Row="0" Grid.Column="1"   />
+                                                    <lv:RatingConception ItemsNumber="5" DrawType="Star" 
+                                                    ImageWidth="10" ImageHeight="10"  
+                                                    InitialValue="3" DesignType="Standard"
+                                                    ColorUI="YellowLight" 
+                                                    x:Name="ratingStar"
+                                                    Margin="0,15,0,15" 
+                                                    Grid.Row="0" Grid.Column="2"/>
+                                                </Grid>
+                                                <Button 
+                                                    x:Name="btnCheck"
+                                                    Text="CHECK IN"
+                                                    IsVisible="False"
+                                                    VerticalOptions="CenterAndExpand"
+                                                    HorizontalOptions="Center"
+                                                    WidthRequest="100"
+                                                    CornerRadius="20"
+                                                    BackgroundColor="#81e394"
+                                                    FontAttributes="Bold"
+                                                />
+                                                <Label 
+                                                    IsVisible="True" 
+                                                    x:Name="LabIdPaq"
+                                                    FontSize="12"/>
+                                            </StackLayout>
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -36,7 +36,9 @@
     <ManifestDocument>obj\Release\90\lp\63\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Release\90\lp\64\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Release\90\lp\65\jl\AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj\Release\90\lp\73\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Release\90\lp\67\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Release\90\lp\68\jl\AndroidManifest.xml</ManifestDocument>
+    <ManifestDocument>obj\Release\90\lp\69\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Release\90\lp\74\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Release\90\lp\75\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Release\90\lp\76\jl\AndroidManifest.xml</ManifestDocument>
@@ -83,9 +85,11 @@
     <Jar>obj\Release\90\lp\63\jl\bin\classes.jar</Jar>
     <Jar>obj\Release\90\lp\64\jl\bin\classes.jar</Jar>
     <Jar>obj\Release\90\lp\65\jl\bin\classes.jar</Jar>
-    <Jar>obj\Release\90\lp\73\jl\bin\classes.jar</Jar>
-    <Jar>obj\Release\90\lp\74\jl\bin\classes.jar</Jar>
-    <Jar>obj\Release\90\lp\75\jl\bin\classes.jar</Jar>
-    <Jar>obj\Release\90\lp\76\jl\bin\classes.jar</Jar>
+    <Jar>obj\Release\90\lp\67\jl\classes.jar</Jar>
+    <Jar>obj\Release\90\lp\68\jl\classes.jar</Jar>
+    <Jar>obj\Release\90\lp\69\jl\classes.jar</Jar>
+    <Jar>obj\Release\90\lp\74\jl\classes.jar</Jar>
+    <Jar>obj\Release\90\lp\75\jl\classes.jar</Jar>
+    <Jar>obj\Release\90\lp\76\jl\classes.jar</Jar>
   </Jars>
 </Paths>

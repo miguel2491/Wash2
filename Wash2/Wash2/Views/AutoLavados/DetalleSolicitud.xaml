@@ -18,99 +18,114 @@
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" />
                 </StackLayout>
-                <StackLayout Margin="10,10,10,0">
-                    <Label FontAttributes="Bold" Text="Hoy" TextColor="#81e394"/>
-                </StackLayout>
-                <StackLayout Margin="10,10,10,0">
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*" />
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="60" />
-                            <ColumnDefinition Width="60" />
-                            <ColumnDefinition Width="80" />
-                        </Grid.ColumnDefinitions>
-                        <Label Text="Modelo" TextColor="#81e394" Grid.Column="0" Grid.Row="0"/>
-                        <Label Text="Placa" TextColor="#81e394" Grid.Column="1" Grid.Row="0"/>
-                        <Label Text="$70" HorizontalTextAlignment="End" TextColor="#81e394" Grid.Column="2" Grid.Row="0"/>
-                    </Grid>
-                </StackLayout>
-                <StackLayout Margin="10,10,10,0">
-                    <StackLayout Orientation="Horizontal" HeightRequest="80" WidthRequest="450" Padding="1">
-                        <StackLayout Spacing="0" BackgroundColor="White" Orientation="Horizontal"  HorizontalOptions="Center">
-                            <Frame
-                                    Margin="10"
-                                    BorderColor="White"
-                                    CornerRadius="100"
-                                    HeightRequest="40"
-                                    WidthRequest="40"
-                                    IsClippedToBounds="True"
-                                    HorizontalOptions="Center"
-                                    VerticalOptions="Center">
-                                <Image Source="icono.png"
-                                         Aspect="AspectFill"
-                                         HeightRequest="100"
-                                         WidthRequest="100"
-                                                   />
-
-                            </Frame>
-                            <Label HorizontalOptions="End"
-                                VerticalOptions="CenterAndExpand" Margin="10,10,10,10">
-                                <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span Text="ALGO AQUI"
-                                            TextColor="Black" FontSize="12" FontAttributes="Bold">
-                                        </Span>
-                                    </FormattedString>
-                                </Label.FormattedText>
-                            </Label>
-                            <lv:RatingConception ItemsNumber="5" DrawType="Star" 
-                                ImageWidth="15" ImageHeight="15" 
-                                InitialValue="3" DesignType="Standard" 
-                                ColorUI="YellowLight" 
-                                BlockVote="True" Margin="0,15,0,15" />
-                        </StackLayout>
-                    </StackLayout>
-                </StackLayout>
-                <StackLayout Margin="10,10,10,10">
-                    <Label 
-                        Text="Paquete Seleccionado"
-                        TextColor="White"
-                        FontAttributes="Bold"
-                        HorizontalOptions="CenterAndExpand"
-                        VerticalOptions="CenterAndExpand"
-                        />
-                    <Label 
-                        x:Name="lbl_paquete"
-                        BackgroundColor="#1d5476"
-                        TextType="Text"
-                        TextColor="White"
-                        HorizontalTextAlignment="Center"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        Text="PAQUETE 1"
-                        WidthRequest="70"
-                        Margin="40,10,40,5"
-                        />
-                </StackLayout>
-                <StackLayout Margin="10,10,10,10">
-                    <Label 
-                        Text="Cambiar Calificación"
-                        FontSize="14"
-                        TextColor="White"
-                        FontAttributes="Bold"
-                        HorizontalOptions="CenterAndExpand"
-                        VerticalOptions="CenterAndExpand"
-                        />
-                    <lv:RatingConception ItemsNumber="5" DrawType="Star"
-                                x:Name="r_calif"
-                                ImageWidth="30" ImageHeight="30" 
-                                InitialValue="3" DesignType="Standard" 
-                                ColorUI="YellowLight" 
-                                BlockVote="True" Margin="0,15,0,15" />
-                </StackLayout>
-                <StackLayout Margin="10,10,10,10">
+                <!---->
+                <ListView 
+                        x:Name="ListSolicitud"                      
+                        ItemsSource="{Binding Solicitud}"
+                        RowHeight="650"
+                        SelectionMode="None" 
+                      >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <Label FontAttributes="Bold" Text="{Binding fecha}" TextColor="#81e394" Padding="5,5,5,5" />
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="60" />
+                                        <ColumnDefinition Width="90" />
+                                        <ColumnDefinition Width="Auto" />
+                                    </Grid.ColumnDefinitions>
+                                    <Label FontAttributes="Bold" Text="{Binding modelo}" 
+                                           TextColor="#81e394" Padding="5,5,5,5" 
+                                           Grid.Row="0" Grid.Column="0" />
+                                    <Label FontAttributes="Bold" Text="{Binding ann}" 
+                                           TextColor="#81e394" Padding="5,5,5,5" 
+                                           Grid.Row="0" Grid.Column="1" />
+                                    <Label FontAttributes="Bold" Text="{Binding placas}" 
+                                           TextColor="#81e394" Padding="5,5,5,5" 
+                                           Grid.Row="0" Grid.Column="2" />
+                                    <Label FontAttributes="Bold" Text="{Binding precio}" 
+                                           TextColor="#81e394" Padding="5,5,5,5" 
+                                           Grid.Row="0" Grid.Column="3"
+                                           FontSize="12"/>
+                                </Grid>
+                                <Frame 
+                                    x:Name="frame" CornerRadius="10" OutlineColor="#DCF8C6"
+                                    BackgroundColor="white" Padding="0" HeightRequest="80">
+                                    <StackLayout Orientation="Vertical" Margin="10,10,10,10">
+                                        <StackLayout Orientation="Horizontal" >
+                                            <Grid>
+                                                <Grid.RowDefinitions>
+                                                    <RowDefinition Height="Auto"  />
+                                                    <RowDefinition Height="Auto" />
+                                                    <RowDefinition Height="Auto" />
+                                                </Grid.RowDefinitions>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="Auto" />
+                                                </Grid.ColumnDefinitions>
+                                                <Image Source="iko" Grid.Row="0" Grid.Column="0"  HeightRequest="50" HorizontalOptions="Center"   />
+                                                <Label Text="{Binding nombre}" 
+                                                    FontSize="12" HorizontalOptions="EndAndExpand" 
+                                                    Margin="0,16,0,0"
+                                                    TextColor="#128C7E"
+                                                    Grid.Row="0" Grid.Column="1"   />
+                                                <lv:RatingConception ItemsNumber="5" DrawType="Star" 
+                                                    ImageWidth="10" ImageHeight="10"  
+                                                    InitialValue="3" DesignType="Standard"
+                                                    ColorUI="YellowLight" 
+                                                    x:Name="ratingStar"
+                                                    Margin="0,15,0,15" 
+                                                    Grid.Row="0" Grid.Column="2"/>
+                                            </Grid>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+                                <StackLayout Margin="10,10,10,10">
+                                                <Label 
+                                                    Text="Paquete Seleccionado"
+                                                    TextColor="White"
+                                                    FontAttributes="Bold"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    VerticalOptions="CenterAndExpand"
+                                                    />
+                                                <Label 
+                                                    x:Name="Lbl_paquete"
+                                                    BackgroundColor="#1d5476"
+                                                    TextType="Text"
+                                                    TextColor="White"
+                                                    HorizontalTextAlignment="Center"
+                                                    HorizontalOptions="Center"
+                                                    VerticalOptions="Center"
+                                                    Text="{Binding paquete}"
+                                                    WidthRequest="70"
+                                                    Margin="40,10,40,5"
+                                                    />
+                                            </StackLayout>
+                                            <StackLayout Margin="10,10,10,10">
+                                                <Label 
+                                                    Text="Cambiar Calificación"
+                                                    FontSize="14"
+                                                    TextColor="White"
+                                                    FontAttributes="Bold"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    VerticalOptions="CenterAndExpand"
+                                                    />
+                                                <lv:RatingConception ItemsNumber="5" DrawType="Star"
+                                                            x:Name="r_calif"
+                                                            ImageWidth="30" ImageHeight="30" 
+                                                            InitialValue="{Binding calificacion}" DesignType="Standard" 
+                                                            ColorUI="YellowLight" 
+                                                            BlockVote="True" Margin="0,15,0,15" />
+                                            </StackLayout>
+                                <StackLayout Margin="10,10,10,10">
                     <Label 
                         Text="Cambiar Comentario"
                         FontSize="14"
@@ -121,6 +136,7 @@
                         />
                     <Entry
                         x:Name="txt_comentario"
+                        Text="{Binding comentario}"
                         TextColor="White"
                         />
                 </StackLayout>
@@ -135,10 +151,10 @@
                         />
                     <Grid>
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="*" />
-                            <RowDefinition Height="*" />
-                            <RowDefinition Height="*" />
-                            <RowDefinition Height="*" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
                         </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="90" />
@@ -154,6 +170,13 @@
                         <Label Text="$70" TextColor="white" Grid.Column="1" Grid.Row="3"/>
                     </Grid>
                 </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+                <!---->
+                
                 <StackLayout Margin="10,10,10,10">
                     <Button 
                         Text="ACEPTAR"
@@ -164,6 +187,7 @@
                         BackgroundColor="#81e394"
                         FontAttributes="Bold"
                         x:Name="Btn_Aceptar"
+                        Clicked="Btn_Aceptar_Clicked"
                         />
                 </StackLayout>
             </StackLayout>

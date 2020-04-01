@@ -19,7 +19,7 @@
                 <ListView 
                         x:Name="ListAutos"                      
                         ItemsSource="{Binding Solicitud}"
-                        ItemTapped="ListSolicitud_ItemTapped"
+                        ItemTapped="ListAutos_ItemTapped"
                         RowHeight="250"
                         SelectionMode="None" 
                       >
@@ -75,7 +75,7 @@
                                                 </Grid.ColumnDefinitions>
                                                 <Image Source="iko" Grid.Row="0" Grid.Column="0"  HeightRequest="50" HorizontalOptions="Center"   />
                                                 <Label Text="{Binding nombre}" 
-                                                    FontSize="Small" HorizontalOptions="EndAndExpand" 
+                                                    FontSize="12" HorizontalOptions="EndAndExpand" 
                                                     Margin="0,16,0,0"
                                                     TextColor="#128C7E"
                                                     Grid.Row="0" Grid.Column="1"   />
