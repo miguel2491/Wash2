@@ -36,7 +36,7 @@ namespace Wash2.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             //Xamarin.FormsMaps.Init(this, savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
-            LoadApplication(new App());
+            LoadApplication(new App()); 
 
             CreateNotificationChannel();
 
@@ -65,8 +65,6 @@ namespace Wash2.Droid
                 {
                     userdb.UpdateMemberToken(user_exista[0].id, token, 0);
                 }
-                
-                //Console.WriteLine("USARIO EXISTE-->" + user_exista[0].nombre + "<--->"+ user_exista[0].status);
             }
             else {
                 userW.token = token;

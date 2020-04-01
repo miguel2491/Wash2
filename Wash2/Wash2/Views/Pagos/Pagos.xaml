@@ -7,15 +7,18 @@
         <StackLayout Margin="20,20,20,20">
             <Label Text="MIS PAGOS"
                 FontSize="20"
+                FontAttributes="Bold"   
                 TextColor="#81e394"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
             <Label Text="FECHA"
                 FontSize="16"
                 TextColor="#81e394"
+                Margin="-10,0,-10,0"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
             <Button 
+                Margin="-20,0,-10,0"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="CenterAndExpand"
                 Text="CALENDARIO"
@@ -23,19 +26,22 @@
                 CornerRadius="20"
                 BackgroundColor="#7ee596"
             />
-            <Label Text="$70"
-                FontSize="12"
-                TextColor="#ffffff"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Entry 
+                Margin="10,10,10,10"
+                Placeholder="$70"
+                PlaceholderColor="white"
+                TextColor="White"
+                VerticalTextAlignment="Center"
+                HorizontalOptions="Center"
+                />
             <Label Text="SALDO AL FINAL DE SEMANA"
                 FontSize="16"
                 TextColor="#81e394"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-
             <Button 
                 Text="INFORMACIÓN"
+                FontAttributes="Bold"
                 FontSize="20"
                 TextColor="#255371"
                 CornerRadius="20"

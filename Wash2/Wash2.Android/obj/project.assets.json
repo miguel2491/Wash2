@@ -3014,20 +3014,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Miguelin\\.nuget\\packages\\": {}
+    "C:\\Users\\EjeDesarrolloCS-165\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2.Android\\Wash2.Android.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2.Android\\Wash2.Android.csproj",
       "projectName": "Wash2.Android",
-      "projectPath": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2.Android\\Wash2.Android.csproj",
-      "packagesPath": "C:\\Users\\Miguelin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2.Android\\obj\\",
+      "projectPath": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2.Android\\Wash2.Android.csproj",
+      "packagesPath": "C:\\Users\\EjeDesarrolloCS-165\\.nuget\\packages\\",
+      "outputPath": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Miguelin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\EjeDesarrolloCS-165\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3040,8 +3040,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2\\Wash2.csproj": {
-              "projectPath": "C:\\Users\\Miguelin\\Documents\\APPS\\Wash2\\Wash2\\Wash2\\Wash2.csproj"
+            "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2\\Wash2.csproj": {
+              "projectPath": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2\\Wash2.csproj"
             }
           }
         }

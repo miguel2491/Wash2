@@ -10,45 +10,28 @@
             Orientation="Vertical"
             Margin="30,20,30,10"
         >
-            
-                <controls1:CircleImage 
-                  Source="menuCar.jpg" 
-                  Aspect="AspectFill"
-                  WidthRequest="100"
-                  HeightRequest="100">
-                </controls1:CircleImage>
-                
-                <!--
-            <Frame
-               BorderColor="Black"
-               CornerRadius="100"
-               HeightRequest="100"
-               WidthRequest="100"
-               IsClippedToBounds="True"
-               HorizontalOptions="Center"
-               VerticalOptions="Center">
-            <Image Source="menuCar.jpg"
-                 Aspect="AspectFill"
-                 HeightRequest="150"
-                 WidthRequest="150" />
-                </Frame>
-                -->
-            
+        <controls1:CircleImage 
+            Source="menuCar.jpg" 
+            Aspect="AspectFill"
+            WidthRequest="100"
+            HeightRequest="100">
+        </controls1:CircleImage>
             <StackLayout Margin="10,20,10,5">
                 <Label HorizontalOptions="StartAndExpand"
-                VerticalOptions="StartAndExpand">
+                    VerticalOptions="StartAndExpand">
                     <Label.FormattedText>
                         <FormattedString>
                             <Span 
                                 x:Name="Lbl_usuario"
                                 TextColor="#ffffff" 
                                 FontSize="14"
-                                FontAttributes="Bold" >
-                                <Span.GestureRecognizers>
-                                    <TapGestureRecognizer
-                                        Tapped="Perfil_Tapped"
-                                        NumberOfTapsRequired="1" />
-                                </Span.GestureRecognizers>
+                                FontAttributes="Bold" 
+                            >
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer
+                                    Tapped="Perfil_Tapped"
+                                    NumberOfTapsRequired="1" />
+                            </Span.GestureRecognizers>
                             </Span>
                         </FormattedString>
                     </Label.FormattedText>

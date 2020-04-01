@@ -80,3 +80,12 @@ C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2.iOS\obj\iPhone\Release\Wash2.
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2.iOS\obj\iPhone\Release\XamlC.stamp
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2.iOS\obj\iPhone\Release\Wash2.iOS.csproj.CopyComplete
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2.iOS\obj\iPhone\Release\Wash2.iOS.exe
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhone\Release\ibtool\_BundleResourceWithLogicalName.items
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhone\Release\actool\_PartialAppManifest.items
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhone\Release\actool\_BundleResourceWithLogicalName.items
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhone\Release\coremlc\_PartialAppManifest.items
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhone\Release\coremlc\_BundleResourceWithLogicalName.items
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhone\Release\optimized\
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhone\Release\Wash2.iOS.csprojAssemblyReference.cache
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhone\Release\Wash2.iOS.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Wash2\Wash2\Wash2.iOS\obj\iPhone\Release\Wash2.iOS.exe

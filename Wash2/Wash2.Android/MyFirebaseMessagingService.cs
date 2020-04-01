@@ -27,7 +27,7 @@ namespace Wash2.Droid
 
             var body = message.GetNotification().Body;
             Log.Debug(TAG, "Notification Message Body: " + body);
-            //SendNotification(body, message.Data);
+            SendNotification(body, message.Data);
         }
 
         void SendNotification(string messageBody, IDictionary<string, string> data)

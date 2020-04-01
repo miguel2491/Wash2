@@ -30,7 +30,7 @@ namespace Wash2.Menu
             userdb = new UserDB();
             var user_exist = userdb.GetMembers().ToList();
             Lbl_usuario.Text = user_exist[0].nombre + " " + user_exist[0].app+" "+user_exist[0].apm;
-            ((NavigationPage)Application.Current.MainPage).BarBackgroundColor = Color.Coral;
+            //((NavigationPage)Application.Current.MainPage).BarBackgroundColor = Color.Coral;
         }
 
         private async void Perfil_Tapped(object sender, EventArgs args)
