@@ -2272,7 +2272,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\EjeDesarrolloCS-165\\.nuget\\packages\\": {}
+    "C:\\Users\\Miguelin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -2280,12 +2280,12 @@
       "projectUniqueName": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2.iOS\\Wash2.iOS.csproj",
       "projectName": "Wash2.iOS",
       "projectPath": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2.iOS\\Wash2.iOS.csproj",
-      "packagesPath": "C:\\Users\\EjeDesarrolloCS-165\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Miguelin\\.nuget\\packages\\",
       "outputPath": "C:\\xampp\\htdocs\\Wash2\\Wash2\\Wash2.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\EjeDesarrolloCS-165\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Miguelin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

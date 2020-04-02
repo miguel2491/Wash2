@@ -49,15 +49,19 @@
                        Text="Fecha Nacimiento"
                        TextColor="white"
                        HorizontalOptions="CenterAndExpand" />
-                    <Entry
-                        TextColor="white"
+                    <DatePicker
                         x:Name="Fca_nac"
+                        TextColor="white"
+                        MinimumDate="01/01/1970"
+                        MaximumDate="12/31/2003"
+                        Format="yyyy-MM-dd"
                     />
                     <Label 
                        Text="Telefono"
                        TextColor="white"
                        HorizontalOptions="CenterAndExpand" />
                     <Entry
+                        Keyboard="Telephone"
                         TextColor="white"
                         x:Name="Telefono"
                         MaxLength="10"

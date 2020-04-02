@@ -18,5 +18,6 @@ namespace Wash2.Models
         public string password { set; get; }
         public int paquete { set; get; }
         public int pagina { set; get; }
+        public string tokenReg { set; get; }
     }
 }

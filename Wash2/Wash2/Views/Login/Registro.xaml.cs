@@ -28,15 +28,19 @@ namespace Wash2.Views.Login
             Title = "WASH DRY";
             regsdb = new RegistrosDB();
             //PropertyMaximumDate = DateTime.Now;
+            userdb = new UserDB();
+            var user_token = userdb.GetMembers().ToList();
             var regsW = new Registros();
             var regs_exist = regsdb.GetRegistro();
             int RowCount = 0;
             int regcount = regs_exist.Count();
             RowCount = Convert.ToInt32(regcount);
+            var token = user_token[0].token;
             if (RowCount > 1)
             {
                 regsdb.DeleteAllReg();
                 regsW.paquete = 1;
+                regsW.tokenReg = user_token[0].token;
                 regsdb.AddRegs(regsW);
             }
             else if (RowCount == 1)
@@ -47,16 +51,15 @@ namespace Wash2.Views.Login
                 var nombre = reg_exist[0].nombre;
                 var app = reg_exist[0].app;
                 var apm = reg_exist[0].apm;
-                var fca = reg_exist[0].fecha;
+                var fca = Convert.ToDateTime(reg_exist[0].fecha);
                 var tel = reg_exist[0].telefono;
                 var correo = reg_exist[0].correo;
                 var passw = reg_exist[0].password;
-
                 IdPaquete.Text = idPaq.ToString();
                 Nombre.Text = nombre;
                 Appaterno.Text = app;
                 Apmaterno.Text = apm;
-                Fca_nac.Text = fca;
+                Fca_nac.Date = fca;
                 Telefono.Text = tel;
                 Correo.Text = correo;
                 Password.Text = passw;
@@ -64,6 +67,7 @@ namespace Wash2.Views.Login
             else
             {
                 regsW.paquete = 1;
+                regsW.tokenReg = user_token[0].token;
                 regsdb.AddRegs(regsW);
             }
         }
@@ -73,10 +77,7 @@ namespace Wash2.Views.Login
             {
                 var reg_exist = regsdb.GetRegistro().ToList();
                 var paquete = reg_exist[0].paquete;
-                userdb = new UserDB();
-                var user_token = userdb.GetMembers().ToList();
-                var token = user_token[0].token;
-
+                
                 var nombre = reg_exist[0].nombre;
                 var app = reg_exist[0].app;
                 var apm = reg_exist[0].apm;
@@ -85,6 +86,17 @@ namespace Wash2.Views.Login
                 var correo = reg_exist[0].correo;
                 var password = reg_exist[0].password;
                 var confPass = ConfirmaPass.Text;
+                var tokens = reg_exist[0].tokenReg;
+                if (tokens == null || tokens == "") {
+                    userdb = new UserDB();
+                    var user_token = userdb.GetMembers().ToList();
+                    var tokenUsuario = user_token[0].token;
+                    tokens = tokenUsuario;
+                }
+                if (password == "" || password == null) {
+                    password = Password.Text;
+                    confPass = ConfirmaPass.Text;
+                }
                 if (password == confPass)
                 {
                     var httpClient = new HttpClient();
@@ -99,7 +111,7 @@ namespace Wash2.Views.Login
                     {"telefono", telefono },
                     {"correo", correo },
                     {"password", password },
-                    {"token", token },
+                    {"token", tokens },
                     {"id_paquete", paquete.ToString() }
                 };
                     var content = new FormUrlEncodedContent(value_check);
@@ -146,11 +158,11 @@ namespace Wash2.Views.Login
             var nombre = Nombre.Text;
             var app = Appaterno.Text;
             var apm = Apmaterno.Text;
-            var fca_nac = Fca_nac.Text;
+            var fca_nac = Fca_nac.Date.ToString("yyyy-MM-dd");//Fca_nac.Date.ToString();
             var telefono = Telefono.Text;
             var correo = Correo.Text;
             var password = Password.Text;
-            regsdb.UpdateAll(idReg, nombre, app, apm, fca_nac, telefono, correo, password, 1);
+            regsdb.UpdateAll(idReg, nombre, app, apm, fca_nac.ToString(), telefono, correo, password, 1);
 
             NavigationPage page = App.Current.MainPage as NavigationPage;
             page.BarBackgroundColor = Color.Beige;

@@ -61,12 +61,17 @@ namespace Wash2.Droid
             }
             else if (RowCount == 1)
             {
-                if (token != user_exista[0].token)
+                userdb.UpdateMemberToken(user_exista[0].id, token, 0);
+                /*if (token != user_exista[0].token)
                 {
-                    userdb.UpdateMemberToken(user_exista[0].id, token, 0);
-                }
+                    
+                }*/
             }
             else {
+                if (token == null || token == "")
+                {
+                    FinishAffinity();
+                }
                 userW.token = token;
                 userW.status= 0;
                 userdb.AddMember(userW);
