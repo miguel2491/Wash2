@@ -11,6 +11,7 @@ namespace Wash2.Models
         public int id { set; get; }
         public int idB { set; get; }
         public int idWasher { set; get; }
+        [MaxLength(200)]
         public string nombre { set; get; }
         public string app { set; get; }
         public string apm { set; get; }

@@ -18,9 +18,7 @@
             <Entry
                 Margin="10,10,10,10"
                 Placeholder="EMAIL"
-                PlaceholderColor="#ffffff"
-                BackgroundColor="#7691a6"
-                TextColor="#000000"
+                TextColor="White"
                 x:Name="Email_login"
                 />
 
@@ -28,9 +26,8 @@
                 Margin="10,10,10,10"
                 Placeholder="CONTRASEÑA"
                 x:Name="Pass"
-                TextColor="#ffffff"
+                TextColor="white"
                 PlaceholderColor="#ffffff"
-                BackgroundColor="#7691a6"
                 IsPassword="True"/>
             <Label
                     x:Name="Errormsn"

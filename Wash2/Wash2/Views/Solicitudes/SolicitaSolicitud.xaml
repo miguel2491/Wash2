@@ -13,7 +13,8 @@
                 <StackLayout>
                     <Label Text="TUS AUTOS LAVADOS"
                         FontSize="20"
-                           FontAttributes="Bold"
+                        FontAttributes="Bold"
+                        x:Name="lblMainlavados"
                         TextColor="#81e394"
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" />

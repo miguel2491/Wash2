@@ -44,9 +44,15 @@ namespace Wash2.Views.Solicitudes
                     case System.Net.HttpStatusCode.OK:
                         Console.WriteLine("----------------------------------------------_____:Here status 200");
                         HttpContent content = response.Content;
-                        string xjson = await content.ReadAsStringAsync();
-                        var json_ = JsonConvert.DeserializeObject<List<Solicitud>>(xjson);
-                        ListSolicitudes.ItemsSource = json_;
+                        var xjson = await content.ReadAsStringAsync();
+                        if (xjson.Count() <= 0 || xjson.Length <= 2)
+                        {
+                            lblMainlavados.Text = "NO TIENES SOLICITUDES DE LAVADO AÚN";
+                        }
+                        else {
+                            var json_ = JsonConvert.DeserializeObject<List<Solicitud>>(xjson);
+                            ListSolicitudes.ItemsSource = json_;
+                        }
                         break;
                 }
             }

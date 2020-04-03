@@ -41,7 +41,7 @@ namespace Wash2.SQLiteDB
 
         }
 
-        public string UpdateMember(int id, int idB, string nombre, string username, string password, int idWasher,int status)
+        public string UpdateMember(int id, int idB, string username, string nombre, string password, int idWasher,int status)
         {
             try {
                 var res = "Fallo";
