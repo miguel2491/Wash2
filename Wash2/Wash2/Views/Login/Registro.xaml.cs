@@ -11,6 +11,8 @@ using Newtonsoft.Json;
 using static System.Net.WebRequestMethods;
 using Wash2.SQLiteDB;
 using Wash2.Models;
+using Plugin.Media;
+using Plugin.Media.Abstractions;
 
 namespace Wash2.Views.Login
 {
@@ -21,6 +23,8 @@ namespace Wash2.Views.Login
         public Usuario user;
         private RegistrosDB regsdb;
         private UserDB userdb;
+        private MediaFile _image;
+        private string idx;
 
         public Registro()
         {
@@ -71,12 +75,30 @@ namespace Wash2.Views.Login
                 regsdb.AddRegs(regsW);
             }
         }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            idx = "13";
+        }
+
         private async void Registrar_Clicked(object sender, EventArgs e)
         {
+            regsdb = new RegistrosDB();
+            var reg_existL = regsdb.GetRegistro().ToList();
+            var idRegL = reg_existL[0].id;
+            var nombreL = Nombre.Text;
+            var appL = Appaterno.Text;
+            var apmL = Apmaterno.Text;
+            var fca_nacL = Fca_nac.Date.ToString("yyyy-MM-dd");//Fca_nac.Date.ToString();
+            var telefonoL = Telefono.Text;
+            var correoL = Correo.Text;
+            var passwordL = Password.Text;
+            regsdb.UpdateAll(idRegL, nombreL, appL, apmL, fca_nacL.ToString(), telefonoL, correoL, passwordL, 1);
             try
             {
                 var reg_exist = regsdb.GetRegistro().ToList();
-                var paquete = reg_exist[0].paquete;
+                var paquete = 1;
                 
                 var nombre = reg_exist[0].nombre;
                 var app = reg_exist[0].app;
@@ -150,6 +172,7 @@ namespace Wash2.Views.Login
             }
             Application.Current.MainPage = new NavigationPage(new Login());
         }
+
         private async void Paquetes_Clicked(object sender, EventArgs e)
         {
             regsdb = new RegistrosDB();
@@ -170,5 +193,30 @@ namespace Wash2.Views.Login
             await Navigation.PushAsync(new Principal());
         }
 
+        private async void BtnFoto_Clicked(object sender, EventArgs e)
+        {
+            await CrossMedia.Current.Initialize();
+
+            if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
+            {
+                await DisplayAlert("No Camera", ":( No camera soportada.", "OK");
+                return;
+            }
+            _image = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
+            {
+                Directory = "auto_" + idx,
+                Name = "auto.jpg"
+            });
+            if (_image == null)
+                return;
+            // await DisplayAlert("File Location Error", "Error parece que hubo un problema con la camara, confirme espacio en memoria o notifique a sistemas", "OK");
+            var xlocal = _image.Path;
+            imgx.Source = ImageSource.FromStream(() => {
+
+                return _image.GetStream();
+
+
+            });
+        }
     }
 }

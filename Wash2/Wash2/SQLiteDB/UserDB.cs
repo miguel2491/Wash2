@@ -67,7 +67,7 @@ namespace Wash2.SQLiteDB
                 return ex.ToString();
             }
         }
-        public string UpdateMemberToken(int id, string token, int status)
+        public string UpdateMemberToken(int id, string token)
         {
             try
             {
@@ -79,7 +79,7 @@ namespace Wash2.SQLiteDB
                 if (true)
                 {
                     d1.token = token;
-                    d1.status = status;
+                    //d1.status = status;
                     conn.Update(d1);
                     res = "Correcto";
                 }

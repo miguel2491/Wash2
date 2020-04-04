@@ -15,6 +15,7 @@
                         FontSize="20"
                         FontAttributes="Bold"
                         x:Name="lblMainlavados"
+                           IsVisible="False"
                         TextColor="#81e394"
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" />

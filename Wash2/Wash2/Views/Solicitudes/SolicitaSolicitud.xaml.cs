@@ -53,6 +53,7 @@ namespace Wash2.Views.Solicitudes
                             var json_ = JsonConvert.DeserializeObject<List<Solicitud>>(xjson);
                             ListSolicitudes.ItemsSource = json_;
                         }
+                        lblMainlavados.IsVisible = true;
                         break;
                 }
             }
@@ -67,7 +68,7 @@ namespace Wash2.Views.Solicitudes
         {
             var idP = e.Item as Solicitud;
             var id_s = idP.id_solicitud;
-            bool answer = await DisplayAlert("Solicitud", "Aceptar Solicitud:"+idP.id_solicitud, "Si", "No");
+            bool answer = await DisplayAlert("Solicitud", "Aceptar Solicitud", "Si", "No");
             if (answer == true) {
                 var httpClient = new HttpClient();
                 var url = "http://www.washdryapp.com/app/public/solicitud/aceptar_solicitud";

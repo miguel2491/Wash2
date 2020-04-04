@@ -13,13 +13,13 @@
                                        HorizontalOptions="Center" />
                 <Label Text="RECUPERAR CONTRASEÑA"
                    Margin="10,10,10,10"
-                   FontSize="30"
+                   FontSize="24"
                    TextColor="#70c795"
                    HorizontalOptions="CenterAndExpand" />
                 <Entry
-                    BackgroundColor="#7691a6"
-                    Placeholder="Correo Electrónico"
-                    TextColor="#000000"
+                    Placeholder="E-MAIL"
+                    PlaceholderColor="white"
+                    TextColor="white"
                     x:Name="Correo_recupera"
                 />
                 <Button 

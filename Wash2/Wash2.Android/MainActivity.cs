@@ -61,7 +61,7 @@ namespace Wash2.Droid
             }
             else if (RowCount == 1)
             {
-                userdb.UpdateMemberToken(user_exista[0].id, token, 0);
+                userdb.UpdateMemberToken(user_exista[0].id, token);
                 /*if (token != user_exista[0].token)
                 {
                     

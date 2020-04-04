@@ -95,6 +95,7 @@
                         IsPassword="True"
                     />
                 </StackLayout>
+                <!--
                 <Button 
                 Text="PAQUETE A OFRECER"
                 x:Name="btnPaquetes"
@@ -103,6 +104,20 @@
                 BackgroundColor="#c1f3d3"
                 Clicked="Paquetes_Clicked"
                 />
+                -->
+                <Button 
+                Text="FOTO INE"
+                x:Name="btnFoto"
+                TextColor="#255371"
+                FontSize="20"
+                BackgroundColor="#c1f3d3"
+                    Clicked="BtnFoto_Clicked"
+                />
+                <Image
+                    x:Name="imgx"
+                    WidthRequest="200"
+                   
+                    />
                 <Button 
                 Text="REGISTRAR"
                 x:Name="btnRegistrar"

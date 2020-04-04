@@ -18,7 +18,8 @@
             <Entry
                 Margin="10,10,10,10"
                 Placeholder="EMAIL"
-                TextColor="White"
+                PlaceholderColor="white"
+                TextColor="white"
                 x:Name="Email_login"
                 />
 
