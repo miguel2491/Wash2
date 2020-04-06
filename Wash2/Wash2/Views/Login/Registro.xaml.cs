@@ -99,8 +99,6 @@ namespace Wash2.Views.Login
             try
             {
                 var reg_exist = regsdb.GetRegistro().ToList();
-                var paquete = 1;
-                
                 var nombre = reg_exist[0].nombre;
                 var app = reg_exist[0].app;
                 var apm = reg_exist[0].apm;
@@ -122,14 +120,15 @@ namespace Wash2.Views.Login
                 }
                 if (password == confPass)
                 {
-                    var content = new MultipartFormDataContent();
-                    content.Add(new StreamContent(_image.GetStream()),
-                        "\"file\"",
-                        $"\"{_image.Path}\"");
+                    //var content = new MultipartFormDataContent();
+                    /*content.Add(new StreamContent(_image.GetStream()),
+                    "\"file\"",
+                    $"\"{_image.Path}\"");*/
+                    //var img_b = imgx.Source;
                     var httpClient = new HttpClient();
-                    //var url = "http://www.washdryapp.com/app/public/washer/guardar";
-                    var url = "http://www.washdryapp.com/app/public/washer/guardar_img";
-                    /*
+                    //var url = /washer/guardar_img;
+                    var url = "http://www.washdryapp.com/app/public/washer/guardar";
+                    
                     var value_check = new Dictionary<string, string>
                 {
                     {"nombre", nombre },
@@ -140,12 +139,11 @@ namespace Wash2.Views.Login
                     {"correo", correo },
                     {"password", password },
                     {"token", tokens },
-                    {"id_paquete", paquete.ToString() }
+                    {"id_paquete", "1" }
                 };
-                */
-                    //var content = new FormUrlEncodedContent(value_check);
+                    var content = new FormUrlEncodedContent(value_check);
                     var responseMsg = await httpClient.PostAsync(url, content);
-
+                    
                     switch (responseMsg.StatusCode)
                     {
                         case System.Net.HttpStatusCode.InternalServerError:
@@ -211,8 +209,8 @@ namespace Wash2.Views.Login
             }
             _image = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
             {
-                Directory = "auto_" + idx,
-                Name = "auto.jpg"
+                Directory = "washers",
+                Name = "washer.jpg"
             });
             if (_image == null)
                 return;

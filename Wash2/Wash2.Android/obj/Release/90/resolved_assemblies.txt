@@ -74,11 +74,14 @@ C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\android\assets\Xamarin.
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\android\assets\Xamarin.Firebase.Iid.dll
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\android\assets\Xamarin.Firebase.Messaging.dll
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\android\assets\Xamarin.Forms.Core.dll
+C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\android\assets\Xamarin.Forms.Maps.Android.dll
+C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\android\assets\Xamarin.Forms.Maps.dll
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\android\assets\Xamarin.Forms.Platform.Android.dll
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\android\assets\Xamarin.Forms.Platform.dll
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\android\assets\Xamarin.Forms.Xaml.dll
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\android\assets\Xamarin.GooglePlayServices.Base.dll
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\android\assets\Xamarin.GooglePlayServices.Basement.dll
+C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\android\assets\Xamarin.GooglePlayServices.Maps.dll
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\android\assets\Xamarin.GooglePlayServices.Tasks.dll
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\android\assets\System.Data.dll
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\android\assets\System.Numerics.dll

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "931adcc6114730862f2757407e21c119c0b417a0"
+    "signature": "431c2e95b3ccf507fb527f58d2ef09e9ba1d396c"
   },
   "compilationOptions": {},
   "targets": {
@@ -20,6 +20,7 @@
           "Xam.Plugins.Forms.ImageCircle": "3.0.0.4",
           "Xamarin.Essentials": "1.5.1",
           "Xamarin.Forms": "4.5.0.356",
+          "Xamarin.Forms.Maps": "4.4.0.991864",
           "sqlite-net-pcl": "1.6.292"
         },
         "runtime": {
@@ -279,6 +280,17 @@
             "fileVersion": "4.5.0.143"
           }
         }
+      },
+      "Xamarin.Forms.Maps/4.4.0.991864": {
+        "dependencies": {
+          "Xamarin.Forms": "4.5.0.356"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Maps.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "4.4.0.500"
+          }
+        }
       }
     }
   },
@@ -462,6 +474,13 @@
       "sha512": "sha512-aOg3sUA2xuLhyhtLuihrDVFZ5ZCa71pgojyz/HdjEH7eW5HxEws+IIgvKTYUZbFOIGD7eK/f3x1lYj6HI/o+jg==",
       "path": "xamarin.forms/4.5.0.356",
       "hashPath": "xamarin.forms.4.5.0.356.nupkg.sha512"
+    },
+    "Xamarin.Forms.Maps/4.4.0.991864": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TBt388tA9MSyhju8z4XgjjZsaHqqD7IXyQ9yQYCfeIbLuXmNehtavqZOINFkdnLOEfr9iV/SrEhnD49Havwh+Q==",
+      "path": "xamarin.forms.maps/4.4.0.991864",
+      "hashPath": "xamarin.forms.maps.4.4.0.991864.nupkg.sha512"
     }
   }
 }

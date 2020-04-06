@@ -55,3 +55,4 @@ C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.AssemblyInfo.cs
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\XamlC.stamp
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.dll
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.pdb
+C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.csprojAssemblyReference.cache
