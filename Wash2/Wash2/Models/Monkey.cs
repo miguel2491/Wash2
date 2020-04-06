@@ -7,9 +7,12 @@ namespace Wash2.Models
     public class Monkey
     {
         public string Name { get; set; }
-        public string Location { get; set; }
-        public string Details { get; set; }
-        public string ImageUrl { get; set; }
+        public string Subname { get; set; }
+        public string Titulo { get; set; }
+        public string SubTitulo { get; set; }
+        public string Sub { get; set; }
+        public string TituloD2 { get; set; }
+        public string TituloD3 { get; set; }
         public bool IsFavorite { get; set; }
     }
 }

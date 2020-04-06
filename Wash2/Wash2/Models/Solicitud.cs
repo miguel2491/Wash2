@@ -16,6 +16,8 @@ namespace Wash2.Models
         public int calificacion { get; set; }
         public string comentario { get; set; }
         public string nombre { get; set; }
+        public string app { get; set; }
+        public string apm { get; set; }
         public int status { get; set; }
         //JOINS
         public string placas { get; set; }

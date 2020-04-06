@@ -44,9 +44,10 @@
     <Jar>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\67\jl\classes.jar</Jar>
     <Jar>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\68\jl\classes.jar</Jar>
     <Jar>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\69\jl\classes.jar</Jar>
-    <Jar>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\74\jl\classes.jar</Jar>
-    <Jar>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\75\jl\classes.jar</Jar>
     <Jar>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\76\jl\classes.jar</Jar>
+    <Jar>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\77\jl\classes.jar</Jar>
+    <Jar>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\78\jl\classes.jar</Jar>
+    <Jar>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\79\jl\classes.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
     <ResolvedResourceDirectory>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\1\jl\res</ResolvedResourceDirectory>
@@ -74,9 +75,10 @@
     <ResolvedResourceDirectory>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\62\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\66\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\69\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\71\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\74\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\75\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\73\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\76\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\77\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\78\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\90\lp\1\jl\assets</ResolvedAssetDirectory>
@@ -93,7 +95,7 @@
     <ResolvedAssetDirectory>obj\Debug\90\lp\32\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\90\lp\33\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\90\lp\66\jl\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\90\lp\71\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\90\lp\73\jl\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
@@ -122,8 +124,9 @@
     <ResolvedResourceDirectoryStamp>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\62.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\66.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\69.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\71.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\74.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\75.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\73.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\76.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\77.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\lp\78.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

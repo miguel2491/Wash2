@@ -37,13 +37,7 @@
                     </Label.FormattedText>
                 </Label>
             </StackLayout>
-            <Button Text="Estado de servicio"
-                x:Name="btnedoserv"
-                TextColor="#DCF8C6"
-                BackgroundColor="transparent"
-                    Clicked="Btnedoserv_Clicked"
-            />
-
+            
             <Button Text="Autos Lavados"
                 x:Name="btnautos" TextColor="White"
                 BackgroundColor="transparent"

@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls1="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              BackgroundColor="#225374"
              xmlns:lv="clr-namespace:LaavorRatingConception;assembly=RatingConception"
              mc:Ignorable="d"
@@ -17,32 +18,29 @@
                         HorizontalOptions="CenterAndExpand" />
             </StackLayout>
             <StackLayout Margin="10,10,10,10">
-                <Frame
-                    Margin="10"
-                    BorderColor="White"
-                    CornerRadius="100"
-                    HeightRequest="40"
-                    WidthRequest="40"
-                    IsClippedToBounds="True"
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center">
-                    <Image Source="iko.png"
-                        Aspect="AspectFill"
-                        HeightRequest="100"
-                        WidthRequest="100"
-                    />
-                </Frame>
+                <controls1:CircleImage 
+                            x:Name="img_usuario"
+                            Aspect="AspectFill"
+                            WidthRequest="100"
+                            HeightRequest="100"
+                        />
             </StackLayout>
             <StackLayout>
-                <Label Text="Nombre Alguien Aqui"
-                        FontSize="14"
-                        TextColor="#81e394"
-                        VerticalOptions="CenterAndExpand" 
-                        HorizontalOptions="CenterAndExpand" />
+                <Label 
+                    x:Name="Id_solicitud"
+                    IsVisible="False"
+                    />
+                <Label
+                    x:Name="Lbl_nombre"
+                    FontSize="14"
+                    TextColor="#81e394"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand" />
                 <lv:RatingConception 
                     ItemsNumber="5" DrawType="Star" 
                     ImageWidth="35" ImageHeight="35"  InitialValue="4" DesignType="Standard" ColorUI="YellowLight" 
                     x:Name="ratingStar"
+                    Voted="RatingStar_Voted"
                     Margin="0,15,0,15" />
             </StackLayout>
             <StackLayout Margin="15,10,15,5">
@@ -50,7 +48,7 @@
                     Placeholder="Deja Tu Comentario"
                     PlaceholderColor="White"
                     TextColor="White"
-                    x:Name="txt_comentario"
+                    x:Name="Comentario"
                     />
             </StackLayout>
             <StackLayout Margin="15,30,15,30">
@@ -63,6 +61,7 @@
                     BackgroundColor="#81e394"
                     FontAttributes="Bold"
                     x:Name="Btn_EnviarCal"
+                    Clicked="Btn_EnviarCal_Clicked"
                 />
             </StackLayout>
         </StackLayout>

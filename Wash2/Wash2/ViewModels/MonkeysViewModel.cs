@@ -48,26 +48,35 @@ namespace Wash2.ViewModels
         {
             source.Add(new Monkey
             {
-                Name = "WASH DRY APP",
-                Location = "SOMOS",
-                Details = "BIENVENIDO",
-                ImageUrl = "iko.png"
-            });
-
-            source.Add(new Monkey
-            {
-                Name = "¿Gana Dinero con Nosotros?",
-                Location = "",
-                Details = "Ganar Dinero con Nosotros es muy Sencillo",
-                ImageUrl = "iko.png"
+                Name = "SOMOS",
+                TituloD2 = "",
+                TituloD3 = "",
+                Subname = "WASH DRY APP",
+                Titulo = "BIENVENIDO",
+                SubTitulo = "SOMOS WASH DRY APP",
+                Sub = "Bienvenido"
             });
 
             source.Add(new Monkey
             {
                 Name = "",
-                Location = "Trabajar nunca fue tan fácil",
-                Details = "",
-                ImageUrl = "iko.png"
+                TituloD2 = "¿Gana dinero con Nosotros?",
+                TituloD3 = "Ganar dinero con nosotros es muy sencillo",
+                Subname = "",
+                Titulo = "",
+                SubTitulo = "",
+                Sub = ""
+            });
+
+            source.Add(new Monkey
+            {
+                Name = "",
+                TituloD2 = "Trabajar nunca fue tan sencillo",
+                TituloD3 = "",
+                Subname = "",
+                Titulo = "",
+                SubTitulo = "",
+                Sub = ""
             });
 
             Monkeys = new ObservableCollection<Monkey>(source);

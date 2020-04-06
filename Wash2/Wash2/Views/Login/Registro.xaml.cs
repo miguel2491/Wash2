@@ -94,6 +94,7 @@ namespace Wash2.Views.Login
             var telefonoL = Telefono.Text;
             var correoL = Correo.Text;
             var passwordL = Password.Text;
+            var foto = imgx.Source;
             regsdb.UpdateAll(idRegL, nombreL, appL, apmL, fca_nacL.ToString(), telefonoL, correoL, passwordL, 1);
             try
             {
@@ -121,9 +122,14 @@ namespace Wash2.Views.Login
                 }
                 if (password == confPass)
                 {
+                    var content = new MultipartFormDataContent();
+                    content.Add(new StreamContent(_image.GetStream()),
+                        "\"file\"",
+                        $"\"{_image.Path}\"");
                     var httpClient = new HttpClient();
-                    var url = "http://www.washdryapp.com/app/public/washer/guardar";
-
+                    //var url = "http://www.washdryapp.com/app/public/washer/guardar";
+                    var url = "http://www.washdryapp.com/app/public/washer/guardar_img";
+                    /*
                     var value_check = new Dictionary<string, string>
                 {
                     {"nombre", nombre },
@@ -136,7 +142,8 @@ namespace Wash2.Views.Login
                     {"token", tokens },
                     {"id_paquete", paquete.ToString() }
                 };
-                    var content = new FormUrlEncodedContent(value_check);
+                */
+                    //var content = new FormUrlEncodedContent(value_check);
                     var responseMsg = await httpClient.PostAsync(url, content);
 
                     switch (responseMsg.StatusCode)

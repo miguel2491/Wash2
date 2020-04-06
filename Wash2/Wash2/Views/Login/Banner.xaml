@@ -3,14 +3,92 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewmodels="clr-namespace:Wash2.ViewModels"
              x:Class="Wash2.Views.Login.Banner"
-             BackgroundColor="#225374"
+             BackgroundImageSource="fondo1.png"
              Title="Indicators">
     <ContentPage.BindingContext>
         <viewmodels:MonkeysViewModel />
     </ContentPage.BindingContext>
     <StackLayout>
+        <CarouselView x:Name="carouselView"
+                      ItemsSource="{Binding Monkeys}">
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout BackgroundColor="transparent">
+                        <Frame Margin="10,10,10,10"
+                               HeightRequest="500"
+                               WidthRequest="300"
+                               BackgroundColor="transparent"
+                               
+                               >
+                            <StackLayout>
+                                <StackLayout Margin="50,130,50,5">
+                                    <Label Text="{Binding Name}" 
+                                       HorizontalOptions="CenterAndExpand"
+                                       VerticalOptions="CenterAndExpand"
+                                       FontAttributes="Italic"    
+                                       TextColor="white"
+                                       FontSize="32"
+                                           />
+                                </StackLayout>
+                                <StackLayout Margin="2,-100,20,2">
+                                    <Label Text="{Binding TituloD2}" 
+                                       FontAttributes="Bold"
+                                       FontSize="20"
+                                       HorizontalTextAlignment="Center"
+                                       VerticalTextAlignment="Center"
+                                       HorizontalOptions="CenterAndExpand"
+                                       VerticalOptions="CenterAndExpand" />
+                                </StackLayout>
+                                <StackLayout Margin="2,30,20,2">
+                                    <Label Text="{Binding TituloD3}" 
+                                       TextColor="black"
+                                       HorizontalTextAlignment="Center"
+                                       VerticalTextAlignment="Center"
+                                       FontSize="20"
+                                       HorizontalOptions="CenterAndExpand"
+                                       VerticalOptions="CenterAndExpand" />
+                                </StackLayout>
+                                <StackLayout Margin="5,20,10,5">
+                                    <Label Text="{Binding Subname}" 
+                                       FontAttributes="Bold"
+                                       FontSize="34"
+                                       TextColor="white"
+                                       TextDecorations="Underline"
+                                       HorizontalOptions="CenterAndExpand"
+                                       VerticalOptions="CenterAndExpand" />
+                                </StackLayout>
+                                <StackLayout Margin="10,0,10,10">
+                                    <Label 
+                                        Text="{Binding Titulo}"
+                                        TextColor="#a8d4bc"
+                                        FontSize="20"
+                                        VerticalOptions="CenterAndExpand"
+                                        HorizontalOptions="CenterAndExpand" />
+                                </StackLayout>
+                                <StackLayout Margin="10,30,10,10">
+                                    <Label Text="{Binding SubTitulo}"
+                                       FontAttributes="Italic"
+                                       HorizontalOptions="Center"
+                                       FontSize="16"
+                                       MaxLines="5"
+                                       LineBreakMode="TailTruncation" />
+                                </StackLayout>
+                                <StackLayout>
+                                    <Label Text="{Binding Sub}"
+                                       FontAttributes="Italic"
+                                       HorizontalOptions="Center"
+                                       FontSize="16"
+                                       MaxLines="5"
+                                       LineBreakMode="TailTruncation" />
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
         <Label HorizontalOptions="Center"
-            VerticalOptions="CenterAndExpand" Margin="10,50,20,20">
+            VerticalOptions="CenterAndExpand" Margin="0,5,0,20">
             <Label.FormattedText>
                 <FormattedString>
                     <Span Text="SALTAR"
@@ -24,41 +102,5 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
-        <CarouselView x:Name="carouselView"
-                      ItemsSource="{Binding Monkeys}">
-            <CarouselView.ItemTemplate>
-                <DataTemplate>
-                    <StackLayout>
-                        <Frame HasShadow="True"
-                               BorderColor="DarkGray"
-                               CornerRadius="5"
-                               Margin="20"
-                               HeightRequest="300"
-                               HorizontalOptions="Center"
-                               VerticalOptions="CenterAndExpand">
-                            <StackLayout>
-                                <Label Text="{Binding Name}" 
-                                       FontAttributes="Bold"
-                                       HorizontalOptions="Center"
-                                       VerticalOptions="Center" />
-                                <Image Source="{Binding ImageUrl}" 
-                                       Aspect="AspectFill"
-                                       HeightRequest="150"
-                                       WidthRequest="150"
-                                       HorizontalOptions="Center" />
-                                <Label Text="{Binding Location}"
-                                       HorizontalOptions="Center" />
-                                <Label Text="{Binding Details}"
-                                       FontAttributes="Italic"
-                                       HorizontalOptions="Center"
-                                       MaxLines="5"
-                                       LineBreakMode="TailTruncation" />
-                            </StackLayout>
-                        </Frame>
-                    </StackLayout>
-                </DataTemplate>
-            </CarouselView.ItemTemplate>
-        </CarouselView>
-        
     </StackLayout>
 </ContentPage>

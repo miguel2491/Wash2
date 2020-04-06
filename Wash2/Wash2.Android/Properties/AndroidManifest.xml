@@ -9,6 +9,7 @@
 	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
 	<uses-permission android:name="android.permission.CAMERA" />
 	<uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
 	<application android:label="Washers" android:icon="@mipmap/icon">
 		<meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyCQ4cOCS62pVsgAM4aOIrbxXw76sWcqKM0" />
 		<provider android:name="android.support.v4.content.FileProvider" android:authorities="${applicationId}.fileprovider" android:exported="false" android:grantUriPermissions="true">

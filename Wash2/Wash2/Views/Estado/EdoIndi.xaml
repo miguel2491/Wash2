@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:controls1="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              BackgroundColor="#225374"
              x:Class="Wash2.Views.Estado.EdoIndi">
     <ContentPage.Content>
@@ -51,7 +52,7 @@
                     />
                 </StackLayout>
                 <StackLayout Margin="20,10,20,10">
-                    
+                    <maps:Map x:Name="MapView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HeightRequest="150" />
                 </StackLayout>
                 <StackLayout Margin="50,10,50,10">
                     <Grid>
@@ -63,7 +64,6 @@
                             <ColumnDefinition Width="Auto" />
                         </Grid.ColumnDefinitions>
                         <controls1:CircleImage 
-                            Source="menuCar.jpg" 
                             x:Name="img_perfil"
                             Aspect="AspectFill"
                             WidthRequest="50"
@@ -71,9 +71,8 @@
                         >
                         </controls1:CircleImage>
                         <Label 
-                            Text="DR STRANGE"
                             FontSize="12"
-                            WidthRequest="60"
+                            WidthRequest="110"
                             x:Name="Lbl_nombre"
                             FontAttributes="Bold"
                             TextColor="#81e394"
@@ -105,6 +104,7 @@
                             TextColor="#398274"
                             VerticalOptions="CenterAndExpand" 
                             HorizontalOptions="CenterAndExpand"
+                            Clicked="BtnFoto_Clicked"
                             />
                         <Button
                             x:Name="btnCheckOut"
@@ -116,6 +116,7 @@
                             FontSize="16"
                             BackgroundColor="#7de595"
                             TextColor="#398274"
+                            Clicked="BtnCheckOut_Clicked"
                             VerticalOptions="CenterAndExpand" 
                             HorizontalOptions="CenterAndExpand"
                             />

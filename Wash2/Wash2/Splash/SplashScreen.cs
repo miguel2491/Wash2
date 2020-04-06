@@ -20,8 +20,8 @@ namespace Wash2.Splash
             splashImage = new Image
             {
                 Source = "iko.png",
-                WidthRequest = 150,
-                HeightRequest = 150,
+                WidthRequest = 250,
+                HeightRequest = 250,
                 Opacity = 0
             };
 
