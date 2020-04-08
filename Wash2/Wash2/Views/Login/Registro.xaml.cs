@@ -13,6 +13,8 @@ using Wash2.SQLiteDB;
 using Wash2.Models;
 using Plugin.Media;
 using Plugin.Media.Abstractions;
+using System.IO;
+using System.Net.Http.Headers;
 
 namespace Wash2.Views.Login
 {
@@ -25,6 +27,7 @@ namespace Wash2.Views.Login
         private UserDB userdb;
         private MediaFile _image;
         private string idx;
+        private StreamImageSource imgStream;
 
         public Registro()
         {
@@ -120,14 +123,22 @@ namespace Wash2.Views.Login
                 }
                 if (password == confPass)
                 {
-                    //var content = new MultipartFormDataContent();
-                    /*content.Add(new StreamContent(_image.GetStream()),
-                    "\"file\"",
-                    $"\"{_image.Path}\"");*/
-                    //var img_b = imgx.Source;
+                    //Stream image = _image.GetStream();
+                    BinaryReader br = new BinaryReader(_image.GetStream());
+                    Byte[] bytes = br.ReadBytes((Int32)_image.GetStream().Length);
+                    string base64Str = Convert.ToBase64String(bytes, 0, bytes.Length);
+
+                    System.Net.WebClient Client = new System.Net.WebClient();
+                    Client.Headers.Add("Content-Type", "binary/octet-stream");
+
+                    byte[] result = Client.UploadFile("http://www.washdryapp.com/app/public/washer/guardar_img", "POST", _image.Path);
+                
+                    String s = System.Text.Encoding.UTF8.GetString(result, 0, result.Length);
+
+                    
                     var httpClient = new HttpClient();
-                    //var url = /washer/guardar_img;
-                    var url = "http://www.washdryapp.com/app/public/washer/guardar";
+                    //var url = /washer/guardar;
+                    var url = "http://www.washdryapp.com/app/public/washer/guardar_img";
                     
                     var value_check = new Dictionary<string, string>
                 {
@@ -139,10 +150,10 @@ namespace Wash2.Views.Login
                     {"correo", correo },
                     {"password", password },
                     {"token", tokens },
-                    {"id_paquete", "1" }
+                    {"foto_perfil", base64Str }
                 };
                     var content = new FormUrlEncodedContent(value_check);
-                    var responseMsg = await httpClient.PostAsync(url, content);
+                    var responseMsg = await httpClient.PostAsync(url, content1);
                     
                     switch (responseMsg.StatusCode)
                     {
@@ -175,7 +186,7 @@ namespace Wash2.Views.Login
             {
                 await DisplayAlert("Error", "Error : " + ex.ToString(), "OK");
             }
-            Application.Current.MainPage = new NavigationPage(new Login());
+            //Application.Current.MainPage = new NavigationPage(new Login());
         }
 
         private async void Paquetes_Clicked(object sender, EventArgs e)

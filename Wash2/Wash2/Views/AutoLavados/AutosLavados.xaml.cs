@@ -33,7 +33,7 @@ namespace Wash2.Views.AutoLavados
         {
             HttpClient client = new HttpClient();
 
-            var url = "http://www.washdryapp.com/app/public/washer/get_solicitud/" + id_washer;
+            var url = "http://www.washdryapp.com/app/public/washer/get_solicitud_lavado/" + id_washer;
             try
             {
                 var response = await client.GetAsync(url);
@@ -46,8 +46,16 @@ namespace Wash2.Views.AutoLavados
                         Console.WriteLine("----------------------------------------------_____:Here status 200");
                         HttpContent content = response.Content;
                         string xjson = await content.ReadAsStringAsync();
-                        var json_ = JsonConvert.DeserializeObject<List<Solicitud>>(xjson);
-                        ListAutos.ItemsSource = json_;
+                        if (xjson.Count() <= 0 || xjson.Length <= 2)
+                        {
+                            Lbl_autos.IsVisible = true;
+                        }
+                        else
+                        {
+                            Lbl_autos.IsVisible = false;
+                            var json_ = JsonConvert.DeserializeObject<List<Solicitud>>(xjson);
+                            ListAutos.ItemsSource = json_;
+                        }
                         //SolicitudList.ItemsSource = json_;
                         break;
                 }

@@ -26,5 +26,6 @@ namespace Wash2.Models
         public string ann { get; set; }
         public string paquete { get; set; }
         public string precio { get; set; }
+        public string usuario { get; set; }
     }
 }

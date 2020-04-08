@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             BackgroundImageSource="fondo2.png"
+             BackgroundImageSource="fondo3.png"
              x:Class="Wash2.Views.Login.Login">
     <ContentPage.Content>
         <StackLayout Margin="50,20,50,20">
@@ -18,9 +18,10 @@
             <Entry
                 Margin="10,10,10,10"
                 Placeholder="EMAIL"
-                PlaceholderColor="white"
-                TextColor="white"
                 x:Name="Email_login"
+                TextColor="white"
+                PlaceholderColor="#ffffff"
+                BackgroundColor="transparent"
                 />
 
             <Entry
