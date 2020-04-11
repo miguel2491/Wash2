@@ -94,7 +94,6 @@ namespace Wash2.Views.Solicitudes
                     await DisplayAlert("error", "yeah status 401 Unauthorized", "ok");
                     break;
             }
-            await DisplayAlert("", "ID"+idS+" <-> Calif "+voto+" <-> "+com, "ok");
         }
 
         private void RatingStar_Voted(object sender, EventArgs e)

@@ -15,6 +15,7 @@ using Plugin.Media;
 using Plugin.Media.Abstractions;
 using System.IO;
 using System.Net.Http.Headers;
+using System.Net;
 
 namespace Wash2.Views.Login
 {
@@ -22,12 +23,12 @@ namespace Wash2.Views.Login
     public partial class Registro : ContentPage
     {
         public Registros regs;
-        public Usuario user;
         private RegistrosDB regsdb;
+        public Usuario user;
         private UserDB userdb;
         private MediaFile _image;
         private string idx;
-        private StreamImageSource imgStream;
+        public string imagen_name;
 
         public Registro()
         {
@@ -123,19 +124,20 @@ namespace Wash2.Views.Login
                 }
                 if (password == confPass)
                 {
+                    //**PRUEBA
+
                     //Stream image = _image.GetStream();
-                    BinaryReader br = new BinaryReader(_image.GetStream());
-                    Byte[] bytes = br.ReadBytes((Int32)_image.GetStream().Length);
-                    string base64Str = Convert.ToBase64String(bytes, 0, bytes.Length);
-
-                    System.Net.WebClient Client = new System.Net.WebClient();
-                    Client.Headers.Add("Content-Type", "binary/octet-stream");
-
-                    byte[] result = Client.UploadFile("http://www.washdryapp.com/app/public/washer/guardar_img", "POST", _image.Path);
-                
-                    String s = System.Text.Encoding.UTF8.GetString(result, 0, result.Length);
-
+                    var content1 = new MultipartFormDataContent();
+                    content1.Add(new StreamContent(_image.GetStream()), "\"file\"", $"\"{_image.Path}\"");
                     
+                    var httpClient1 = new System.Net.Http.HttpClient();
+                    httpClient1.BaseAddress = new Uri("http://www.washdryapp.com");
+                    var url1 = "http://www.washdryapp.com/oficial/ImagenesPerfil.php";
+                    var responseMsg1 = await httpClient1.PostAsync(url1, content1);
+                    var remotePath = await responseMsg1.Content.ReadAsStringAsync();
+                    //var json_dd = JsonConvert.DeserializeObject<Imagenes>(remotePath);
+                    imagen_name = remotePath;
+                    //*************
                     var httpClient = new HttpClient();
                     //var url = /washer/guardar;
                     var url = "http://www.washdryapp.com/app/public/washer/guardar_img";
@@ -150,10 +152,10 @@ namespace Wash2.Views.Login
                     {"correo", correo },
                     {"password", password },
                     {"token", tokens },
-                    {"foto_perfil", base64Str }
+                    {"foto",  imagen_name}
                 };
                     var content = new FormUrlEncodedContent(value_check);
-                    var responseMsg = await httpClient.PostAsync(url, content1);
+                    var responseMsg = await httpClient.PostAsync(url, content);
                     
                     switch (responseMsg.StatusCode)
                     {
@@ -233,6 +235,15 @@ namespace Wash2.Views.Login
 
 
             });
+        }
+
+        private byte[] ImageFileToByteArray(string path)
+        {
+            FileStream fs = System.IO.File.OpenRead(path);
+            byte[] bytes = new byte[fs.Length];
+            fs.Read(bytes, 0, Convert.ToInt32(fs.Length));
+            fs.Close();
+            return bytes;
         }
     }
 }

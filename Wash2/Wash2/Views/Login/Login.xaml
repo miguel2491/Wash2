@@ -16,9 +16,9 @@
                    TextColor="#70c795"
                    HorizontalOptions="CenterAndExpand" />
             <Entry
-                Margin="10,10,10,10"
                 Placeholder="EMAIL"
                 x:Name="Email_login"
+                VerticalOptions="CenterAndExpand"
                 TextColor="white"
                 PlaceholderColor="#ffffff"
                 BackgroundColor="transparent"
