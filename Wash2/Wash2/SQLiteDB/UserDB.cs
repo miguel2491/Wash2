@@ -41,7 +41,7 @@ namespace Wash2.SQLiteDB
 
         }
 
-        public string UpdateMember(int id, int idB, string username, string nombre, string password, int idWasher,int status)
+        public string UpdateMember(int id, int idB, string username, string email, string nombre, string password, int idWasher, string foto,int status)
         {
             try {
                 var res = "Fallo";
@@ -54,8 +54,10 @@ namespace Wash2.SQLiteDB
                     d1.idB = idB;
                     d1.nombre = nombre;
                     d1.username = username;
+                    d1.email = email;
                     d1.password = password;
                     d1.idWasher = idWasher;
+                    d1.foto = foto;
                     d1.status = status;
                     conn.Update(d1);
                     res = "Correcto";

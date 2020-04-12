@@ -87,6 +87,8 @@
                                                     Aspect="AspectFill"
                                                     Grid.Row="0"
                                                     Grid.Column="0"
+                                                    VerticalOptions="Center"
+                                                    HorizontalOptions="Center"
                                                     WidthRequest="50"
                                                     HeightRequest="50">
                                                 </controls1:CircleImage>

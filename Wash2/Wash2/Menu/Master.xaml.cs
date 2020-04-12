@@ -22,7 +22,7 @@ namespace Wash2.Menu
 	{
         public Usuario user;
         private UserDB userdb;
-
+        public string rfoto;
         public Master ()
 		{
 
@@ -30,8 +30,17 @@ namespace Wash2.Menu
             userdb = new UserDB();
             var user_exist = userdb.GetMembers().ToList();
             var status = user_exist[0].status;
+            rfoto = user_exist[0].foto;
+
+            imgPerfil.Source = rfoto;
             Lbl_usuario.Text = user_exist[0].nombre + " " + user_exist[0].app+" "+user_exist[0].apm;
             //((NavigationPage)Application.Current.MainPage).BarBackgroundColor = Color.Coral;
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            imgPerfil.Source = rfoto;
         }
 
         private async void Perfil_Tapped(object sender, EventArgs args)

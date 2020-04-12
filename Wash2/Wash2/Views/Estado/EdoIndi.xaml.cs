@@ -14,6 +14,7 @@ using Wash2.Views.Solicitudes;
 using System.Net.Http;
 using Newtonsoft.Json;
 using Wash2.Models;
+using Wash2.SQLiteDB;
 
 namespace Wash2.Views.Estado
 {
@@ -21,13 +22,22 @@ namespace Wash2.Views.Estado
 	public partial class EdoIndi : ContentPage
 	{
         private MediaFile _image;
+        public string filename;
+        public string foto_;
         private int idx;
+        public Usuario user;
+        private UserDB userdb;
+
         public EdoIndi (int id_s)
 		{
 			InitializeComponent ();
             //_ = GetInfoCalificacion(id_s);
             _ = CurrentLocation(id_s);
+            Lbl_idSol.Text = Convert.ToString(id_s);
             idx = id_s;
+            userdb = new UserDB();
+            var user_ = userdb.GetMembers().ToList();
+            foto_ = user_[0].email;
         }
 
         protected override void OnAppearing()
@@ -53,6 +63,7 @@ namespace Wash2.Views.Estado
                         var xjson = await content.ReadAsStringAsync();
                         var json_ = JsonConvert.DeserializeObject<List<Solicitud>>(xjson);
                         img_perfil.Source = json_[0].foto;
+                        img_a.Source = json_[0].foto_washer;
                         Lbl_modelo.Text = json_[0].modelo;
                         Lbl_placa.Text = json_[0].placas;
                         Lbl_nombre.Text = json_[0].nombre + " " + json_[0].app + " " + json_[0].apm;
@@ -93,8 +104,8 @@ namespace Wash2.Views.Estado
             }
             _image = await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
             {
-                Directory = "Edo_" + idx,
-                Name = "Edo.jpg"
+                Directory = "Auto_",
+                Name = foto_+".jpg"
             });
             if (_image == null)
                 return;
@@ -110,6 +121,59 @@ namespace Wash2.Views.Estado
 
         private async void BtnCheckOut_Clicked(object sender, EventArgs e)
         {
+            /*Imagen*/
+            var imgExist = img_a.Source;
+            if (imgExist == null)
+            {
+                //GUARDAR IMAGEN
+                var content1 = new MultipartFormDataContent();
+                content1.Add(new StreamContent(_image.GetStream()), "\"file\"", $"\"{_image.Path}\"");
+
+                var httpClient1 = new System.Net.Http.HttpClient();
+                httpClient1.BaseAddress = new Uri("http://www.washdryapp.com");
+                var url1 = "http://www.washdryapp.com/oficial/ImagenesAutos.php";
+                var responseMsg1 = await httpClient1.PostAsync(url1, content1);
+                var remotePath = await responseMsg1.Content.ReadAsStringAsync();
+                filename = remotePath;
+                //*****Solicitud******
+                var httpClient = new HttpClient();
+                var url = "http://www.washdryapp.com/app/public/solicitud/solicitud_img";
+                var value_check = new Dictionary<string, string>
+                {
+                    {"id_solicitud", Convert.ToString(idx) },
+                    {"foto", filename}
+                };
+                var content = new FormUrlEncodedContent(value_check);
+                var responseMsg = await httpClient.PostAsync(url, content);
+
+                switch (responseMsg.StatusCode)
+                {
+                    case System.Net.HttpStatusCode.InternalServerError:
+                        await DisplayAlert("error", "error status 500 InternalServerError", "ok");
+                        break;
+                    case System.Net.HttpStatusCode.BadRequest:
+                        await DisplayAlert("error", "error status 400 Unauthorized", "ok");
+                        break;
+                    case System.Net.HttpStatusCode.Forbidden:
+                        await DisplayAlert("error", "error status 403  ", "ok");
+                        break;
+                    case System.Net.HttpStatusCode.NotFound:
+                        await DisplayAlert("error", "error status 404  ", "ok");
+                        break;
+                    case System.Net.HttpStatusCode.OK:
+                        string xjson = await responseMsg.Content.ReadAsStringAsync();
+                        await DisplayAlert("Success", "Se agrego Correctamente ", "ok");
+                        break;
+                    case System.Net.HttpStatusCode.Unauthorized:
+                        await DisplayAlert("error", "yeah status 401 Unauthorized", "ok");
+                        break;
+                }
+                //**************
+            }
+            else {
+
+            }
+            
             await ((MainPage)App.Current.MainPage).Detail.Navigation.PushAsync(new Calificacion(idx));
         }
     }

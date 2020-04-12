@@ -1,14 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls1="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              BackgroundColor="#225374"
              x:Class="Wash2.Views.Perfil.Perfil">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Margin="15,10,15,10">
+            <StackLayout Margin="15,10,15,5">
                 <StackLayout>
                     <Label 
                         x:Name="IdPaquete"
+                        IsVisible="False" 
+                     />
+                    <Label 
+                        x:Name="IdWasher"
                         IsVisible="False" 
                      />
                     <Label Text="PERFIL"
@@ -16,20 +21,15 @@
                         TextColor="#81e394"
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" />
-                    <Frame Margin="10"
-                        BorderColor="White"
-                        CornerRadius="100"
-                        HeightRequest="60"
-                        WidthRequest="60"
-                        IsClippedToBounds="True"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center">
-                        <Image Source="icono.png"
-                            Aspect="AspectFill"
-                            Margin="-20"
-                            HeightRequest="80"
-                            WidthRequest="80" />
-                    </Frame>
+                    <controls1:CircleImage 
+                        x:Name="imgPerfil"
+                        Aspect="AspectFit"
+                        BorderColor="White" BorderThickness="1"
+                        VerticalOptions="Start"
+                        HorizontalOptions="CenterAndExpand"
+                        WidthRequest="90"
+                        HeightRequest="180">
+                    </controls1:CircleImage>
                 </StackLayout>
                 <StackLayout>
                     <Label 
@@ -123,29 +123,17 @@
                     />
                 </StackLayout>
                 <StackLayout>
-                    <!--
-                    <Button Text="Fotos de INE"
+                    <Button Text="Foto"
                         HorizontalOptions="CenterAndExpand"
                         VerticalOptions="CenterAndExpand"
                         x:Name="btnIne"
                         BackgroundColor="#d0f3d3"
                         TextColor="#406e80"
-                            Clicked="BtnIne_Clicked"
+                        Clicked="BtnIne_Clicked"
                     />
                     <Image
-                    x:Name="imgx"
-                    WidthRequest="200"
-                   
-                    />
-                    -->
-                    <Button 
-                        Text="Paquete a Ofrecer"
-                        HorizontalOptions="CenterAndExpand"
-                        VerticalOptions="CenterAndExpand"
-                        x:Name="btnPaquete"
-                        BackgroundColor="#d0f3d3"
-                        TextColor="#406e80"
-                        Clicked="BtnPaquete_Clicked"    
+                        x:Name="imgx"
+                        WidthRequest="200"
                     />
                     <Button Text="ACTUALIZAR"
                         HorizontalOptions="CenterAndExpand"

@@ -96,9 +96,10 @@ namespace Wash2.Views.Login
                                 var password = pass;
                                 var email = userResult[0].email;
                                 var idWasher = userResult[0].idWasher;
+                                var foto = userResult[0].foto;
                                 var status = 1;
                                 
-                                userdb.UpdateMember(idUser, id, name, nombre, password, idWasher, status);
+                                userdb.UpdateMember(idUser, id, name, email,nombre, password, idWasher, foto,status);
                                 Application.Current.MainPage = new MainPage();
                             }
                         }

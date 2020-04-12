@@ -24,6 +24,7 @@ namespace Wash2.Models
         public string name { set; get; }
         public string google_id { set; get; }
         public string token { set; get; }
+        public string foto { set; get; }
         public int status { set; get; }
     }
 }

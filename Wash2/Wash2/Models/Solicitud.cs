@@ -12,6 +12,7 @@ namespace Wash2.Models
         public string latitud { get; set; }
         public string longitud { get; set; }
         public string foto { get; set; }
+        public string foto_washer { get; set; }
         public DateTime fecha { get; set; }
         public int calificacion { get; set; }
         public string comentario { get; set; }

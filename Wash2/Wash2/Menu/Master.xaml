@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
              xmlns:controls1="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              BackgroundColor="#359d9e"
              x:Class="Wash2.Menu.Master" Title="Master">
@@ -10,13 +9,19 @@
             Orientation="Vertical"
             Margin="30,20,30,10"
         >
-        <controls1:CircleImage 
-            Source="menuCar.jpg" 
-            Aspect="AspectFill"
-            WidthRequest="100"
-            HeightRequest="100">
-        </controls1:CircleImage>
-            <StackLayout Margin="10,20,10,5">
+            <StackLayout Margin="30,30,30,5">
+                <controls1:CircleImage 
+            x:Name="imgPerfil"
+            Aspect="AspectFit"
+            BorderColor="White" BorderThickness="1"
+            VerticalOptions="Start"
+            HorizontalOptions="CenterAndExpand"
+            WidthRequest="90"
+            HeightRequest="120">
+                </controls1:CircleImage>
+            </StackLayout>
+        
+            <StackLayout Margin="5,10,5,5">
                 <Label HorizontalOptions="StartAndExpand"
                     VerticalOptions="StartAndExpand">
                     <Label.FormattedText>

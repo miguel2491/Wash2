@@ -19,11 +19,14 @@
             </StackLayout>
             <StackLayout Margin="10,10,10,10">
                 <controls1:CircleImage 
-                            x:Name="img_usuario"
-                            Aspect="AspectFill"
-                            WidthRequest="90"
-                            HeightRequest="90"
-                        />
+                    x:Name="img_usuario"
+                    WidthRequest="130"
+                    HeightRequest="150"
+                    Aspect="AspectFill"  
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                >
+                </controls1:CircleImage>
             </StackLayout>
             <StackLayout>
                 <Label 

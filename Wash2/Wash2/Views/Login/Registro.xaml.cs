@@ -124,9 +124,7 @@ namespace Wash2.Views.Login
                 }
                 if (password == confPass)
                 {
-                    //**PRUEBA
-
-                    //Stream image = _image.GetStream();
+                    //GUARDAR IMAGEN
                     var content1 = new MultipartFormDataContent();
                     content1.Add(new StreamContent(_image.GetStream()), "\"file\"", $"\"{_image.Path}\"");
                     
@@ -135,7 +133,6 @@ namespace Wash2.Views.Login
                     var url1 = "http://www.washdryapp.com/oficial/ImagenesPerfil.php";
                     var responseMsg1 = await httpClient1.PostAsync(url1, content1);
                     var remotePath = await responseMsg1.Content.ReadAsStringAsync();
-                    //var json_dd = JsonConvert.DeserializeObject<Imagenes>(remotePath);
                     imagen_name = remotePath;
                     //*************
                     var httpClient = new HttpClient();
