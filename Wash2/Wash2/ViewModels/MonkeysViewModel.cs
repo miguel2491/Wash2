@@ -53,8 +53,8 @@ namespace Wash2.ViewModels
                 TituloD3 = "",
                 Subname = "WASH DRY APP",
                 Titulo = "BIENVENIDO",
-                SubTitulo = "SOMOS WASH DRY APP",
-                Sub = "Bienvenido"
+                SubTitulo = "",
+                Sub = ""
             });
 
             source.Add(new Monkey

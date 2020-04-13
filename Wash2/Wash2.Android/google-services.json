@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "1088855416229",
-    "firebase_url": "https://washdry-13228.firebaseio.com",
-    "project_id": "washdry-13228",
-    "storage_bucket": "washdry-13228.appspot.com"
+    "project_number": "155072326330",
+    "firebase_url": "https://washers.firebaseio.com",
+    "project_id": "washers",
+    "storage_bucket": "washers.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1088855416229:android:61fe00c041efe2b1761c4c",
+        "mobilesdk_app_id": "1:155072326330:android:5a0c54f33d47be1a707083",
         "android_client_info": {
           "package_name": "com.companyname.Wash2"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1088855416229-eecd117tviabc9cvabfuufu5fhck747q.apps.googleusercontent.com",
+          "client_id": "155072326330-0qgc0tj25akf353d3bpkcjtnng0iukvc.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB0NmYbvRuxu825M9EolVUSiM-3PBkagYQ"
+          "current_key": "AIzaSyASyM0VO_zvgrdc4ZK_VgFk0CIxTyPktiA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1088855416229-eecd117tviabc9cvabfuufu5fhck747q.apps.googleusercontent.com",
+              "client_id": "155072326330-0qgc0tj25akf353d3bpkcjtnng0iukvc.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -37,27 +37,27 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1088855416229:android:2d883a990b301526761c4c",
+        "mobilesdk_app_id": "1:155072326330:android:f9ddd2b1192dd73d707083",
         "android_client_info": {
-          "package_name": "com.companyname.washdry"
+          "package_name": "com.wash_dry.washdry"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1088855416229-eecd117tviabc9cvabfuufu5fhck747q.apps.googleusercontent.com",
+          "client_id": "155072326330-0qgc0tj25akf353d3bpkcjtnng0iukvc.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB0NmYbvRuxu825M9EolVUSiM-3PBkagYQ"
+          "current_key": "AIzaSyASyM0VO_zvgrdc4ZK_VgFk0CIxTyPktiA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1088855416229-eecd117tviabc9cvabfuufu5fhck747q.apps.googleusercontent.com",
+              "client_id": "155072326330-0qgc0tj25akf353d3bpkcjtnng0iukvc.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

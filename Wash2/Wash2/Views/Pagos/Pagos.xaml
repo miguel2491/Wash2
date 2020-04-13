@@ -20,15 +20,36 @@
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" />
                 </StackLayout>
+                <StackLayout Margin="70,10,70,10">
+                    <Frame CornerRadius="10" BackgroundColor="#7ee596">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30" />
+                                <ColumnDefinition Width="180" />
+                            </Grid.ColumnDefinitions>
+                            <ImageButton 
+                            Source="calendar.png"
+                            WidthRequest="5"
+                            HeightRequest="5"
+                            BackgroundColor="transparent"
+                            Grid.Row="0"
+                            Grid.Column="0"
+                        />
+
+                            <Label Text="CALENDARIO"
+                                FontSize="14"
+                                FontAttributes="Bold"
+                                TextColor="#255371"
+                                Grid.Row="0"
+                                Grid.Column="1"   
+                                HorizontalOptions="Start" />
+                        </Grid>
+                    </Frame>
+                </StackLayout>
                 <StackLayout Margin="10,10,10,10">
-                    <Button 
-                    VerticalOptions="CenterAndExpand"
-                    HorizontalOptions="CenterAndExpand"
-                    Text="CALENDARIO"
-                    TextColor="#255371"
-                    CornerRadius="20"
-                    BackgroundColor="#7ee596"
-                />
                     <DatePicker
                     x:Name="Fca"
                     HorizontalOptions="CenterAndExpand"
@@ -39,18 +60,23 @@
                     VerticalOptions="CenterAndExpand"
                     DateSelected="Fca_DateSelected"
                 />
-                <Entry 
+                </StackLayout>
+                <StackLayout Margin="110,10,80,10">
+                    <Label 
                     FontAttributes="Bold"
-                    Margin="10,10,10,10"
-                    Placeholder="$70"
-                    PlaceholderColor="white"
+                    Margin="15,20,15,30"
+                    Text="$70.00"
                     TextColor="White"
                     FontSize="20"    
                     VerticalTextAlignment="Center"
                     HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    WidthRequest="200"
+                    TextDecorations="Underline"
+                    
                 />
                 </StackLayout>
-                <StackLayout Margin="50,15,50,15">
+                <StackLayout Margin="50,10,50,10">
                     <Label 
                         Text="SALDO AL FINAL DE SEMANA"
                         FontSize="16"
@@ -58,7 +84,7 @@
                         TextColor="#81e394"
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" />
-                    <Grid Margin="15,1,15,1">
+                    <Grid Margin="30,1,30,1">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" />
                             <RowDefinition Height="Auto" />
@@ -72,7 +98,7 @@
                             Grid.Row="0"
                             Text="Ganancias"
                             TextColor="white"
-                            FontSize="12"
+                            FontSize="14"
                             VerticalOptions="Start"
                         />
                         <Label 
@@ -89,7 +115,7 @@
                             Grid.Row="1"
                             Text="Cobros"
                             TextColor="white"
-                            FontSize="12"
+                            FontSize="14"
                             VerticalOptions="CenterAndExpand"
                         />
                         <Label 

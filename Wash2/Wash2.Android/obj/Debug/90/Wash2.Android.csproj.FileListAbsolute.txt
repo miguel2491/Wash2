@@ -303,6 +303,8 @@ C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\res\drawable\logo_nombre.
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\res\drawable\fondo1.png
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\res\drawable\fondo2.png
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\res\drawable\fondo3.png
+C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\res\drawable\calendar.png
+C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\res\drawable\watch.png
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\R.cs.flag
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\R.txt
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\uploadflags.txt

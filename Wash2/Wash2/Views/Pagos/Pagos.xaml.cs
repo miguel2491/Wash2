@@ -24,6 +24,7 @@ namespace Wash2.Views.Pagos
         public Pagos ()
 		{
 			InitializeComponent ();
+            Title = "WASH DRY";
             userdb = new UserDB();
             var user_wash = userdb.GetMembers().ToList();
             var id_washer = user_wash[0].idWasher;

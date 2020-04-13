@@ -20,7 +20,7 @@
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" />
                 </StackLayout>
-                <StackLayout Margin="50,10,50,10">
+                <StackLayout Margin="70,10,70,10">
                     <Label Text="EN ESTE MOMENTO ESTÁS LAVANDO UN AUTO"
                         FontSize="16"
                         FontAttributes="Bold"
@@ -28,54 +28,117 @@
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" />
                 </StackLayout>
-                <StackLayout Margin="70,10,70,10" BackgroundColor="#547691">
-                    <Label Text="MODELO"
-                        FontSize="16"
-                        x:Name="Lbl_modelo"   
-                        FontAttributes="Bold"
-                        TextColor="#81e394"
-                        VerticalOptions="CenterAndExpand" 
-                        HorizontalOptions="CenterAndExpand" />
-                    <Label Text="PLACA"
-                        FontSize="16"
-                           x:Name="Lbl_placa"
-                        FontAttributes="Bold"
-                        TextColor="#81e394"
-                        VerticalOptions="CenterAndExpand" 
-                        HorizontalOptions="CenterAndExpand" />
+                <StackLayout Margin="70,1,70,1">
+                    <Frame 
+                        CornerRadius="10"
+                        BackgroundColor="#547691">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <Label 
+                                Grid.Row="0"
+                                Grid.Column="0"
+                                Text="MODELO"
+                                FontSize="12"
+                                x:Name="Lbl_modelo"   
+                                FontAttributes="Bold"
+                                TextColor="#81e394"
+                                VerticalOptions="CenterAndExpand" 
+                                HorizontalOptions="CenterAndExpand" />
+                            <Label 
+                                Grid.Row="0"
+                                Grid.Column="1"
+                                x:Name="Lbl_yyyy"
+                                FontSize="12" 
+                                FontAttributes="Bold"
+                                TextColor="#81e394"
+                                VerticalOptions="CenterAndExpand" 
+                                HorizontalOptions="CenterAndExpand" />
+                            <Label 
+                                Grid.Row="1"
+                                Grid.Column="0"
+                                Text="PLACAS"
+                                FontSize="12"
+                                FontAttributes="Bold"
+                                TextColor="#81e394"
+                                VerticalOptions="CenterAndExpand" 
+                                HorizontalOptions="CenterAndExpand" 
+                            />
+                            <Label 
+                                Grid.Row="1"
+                                Grid.Column="1"
+                                Text="PLACA"
+                                FontSize="12"
+                                x:Name="Lbl_placa"
+                                FontAttributes="Bold"
+                                TextColor="#81e394"
+                                VerticalOptions="CenterAndExpand" 
+                                HorizontalOptions="CenterAndExpand" 
+                            />
+                        </Grid>
+                    </Frame>
                 </StackLayout>
-                <StackLayout Margin="90,10,60,10">
-                    <Label
-                        x:Name="Lbl_tiempo"
-                        FontAttributes="Bold"
-                        FontSize="14"
-                        TextColor="white"
-                        VerticalOptions="CenterAndExpand"
-                        HorizontalOptions="CenterAndExpand"
-                        Text="20 MIN"
-                    />
+                <StackLayout Margin="90,1,60,1">
+                    <Frame CornerRadius="10" BackgroundColor="transparent">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30" />
+                                <ColumnDefinition Width="120" />
+                            </Grid.ColumnDefinitions>
+                            <ImageButton 
+                                Source="watch.png"
+                                WidthRequest="5"
+                                HeightRequest="5"
+                                BackgroundColor="transparent"
+                                Grid.Row="0"
+                                Grid.Column="0"
+                            />
+                            <Label
+                                Grid.Row="0"
+                                Grid.Column="1"
+                                x:Name="Lbl_tiempo"
+                                FontAttributes="Bold"
+                                FontSize="14"
+                                TextColor="white"
+                                VerticalOptions="Start"
+                                HorizontalOptions="Start"
+                                Text="20 MIN"
+                            />
+                        </Grid>
+                    </Frame>
                 </StackLayout>
-                <StackLayout Margin="20,10,20,10">
-                    <maps:Map x:Name="MapView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HeightRequest="150" />
+                <StackLayout Margin="20,5,20,10">
+                    <Frame HasShadow="True" Padding="3,3,3,3" BackgroundColor="#81e394" CornerRadius="10">
+                        <maps:Map x:Name="MapView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HeightRequest="150" />
+                    </Frame>
                 </StackLayout>
-                <StackLayout Margin="50,10,50,10">
+                <StackLayout Margin="50,10,5,10">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="Auto" />
                         </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="Auto" />
-                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="200" />
                         </Grid.ColumnDefinitions>
                         <controls1:CircleImage 
                             x:Name="img_perfil"
                             Aspect="AspectFit"
-                            WidthRequest="80"
-                            HeightRequest="80"
+                            WidthRequest="60"
+                            HeightRequest="50"
                         >
                         </controls1:CircleImage>
                         <Label 
-                            FontSize="12"
+                            FontSize="14"
                             WidthRequest="110"
                             x:Name="Lbl_nombre"
                             FontAttributes="Bold"

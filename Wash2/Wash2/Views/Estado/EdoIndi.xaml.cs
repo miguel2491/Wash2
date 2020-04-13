@@ -62,6 +62,7 @@ namespace Wash2.Views.Estado
                         HttpContent content = response.Content;
                         var xjson = await content.ReadAsStringAsync();
                         var json_ = JsonConvert.DeserializeObject<List<Solicitud>>(xjson);
+                        Lbl_yyyy.Text = json_[0].ann;
                         img_perfil.Source = json_[0].foto;
                         img_a.Source = json_[0].foto_washer;
                         Lbl_modelo.Text = json_[0].modelo;
@@ -77,10 +78,16 @@ namespace Wash2.Views.Estado
             }
 
             var pos = await CrossGeolocator.Current.GetPositionAsync();
+            double zoomLevel = 16;
+            double latlongDegrees = 360 / (Math.Pow(2, zoomLevel));
             MapView.MoveToRegion(
             MapSpan.FromCenterAndRadius(
-            new Position(pos.Latitude, pos.Longitude), Distance.FromMiles(1)));
+                new Position(pos.Latitude, pos.Longitude), Distance.FromMiles(.3)    
+                )
+            );
 
+
+                
 
             var pin = new Pin
             {

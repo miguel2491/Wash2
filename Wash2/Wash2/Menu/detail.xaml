@@ -5,33 +5,32 @@
              Title = "WASH DRY APP"
              BackgroundColor="#225374">
     <ContentPage.Content>
-        <StackLayout Margin="10,20,10,20">
-            <StackLayout Margin="20,50,20,20" >
+        <StackLayout Margin="0,20,0,0">
+            <StackLayout Margin="20,60,20,10" >
                 <Label IsVisible="False" Text="Hola" />
                 <Frame 
                     HasShadow="True"   
-                    BorderColor="white"
-                    OutlineColor="White"
-                    Padding="1"
+                    Padding="1,1,1,1"
+                    BackgroundColor="transparent"
+                    BorderColor="black"
+                    OutlineColor="#7ee596"
                     CornerRadius="10"
                     HeightRequest="255"
-                    WidthRequest="255"
-                    IsClippedToBounds="True"
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center">
-                        <Image Source="menuCar.jpg"
-                            Aspect="AspectFill"
-                            Margin="-20"
-                            HeightRequest="200"
-                            WidthRequest="240"
-                        />
+                    
+                    IsClippedToBounds="True">
+                    <Image 
+                        Source="menuCar.jpg"
+                        Aspect="Fill"
+                        HeightRequest="200"
+                        WidthRequest="300"
+                    />
                 </Frame>
             </StackLayout>
-            <StackLayout Margin="50,5,50,5">
+            <StackLayout Margin="60,5,60,5">
                 <Button 
                     CornerRadius="5"
                     Text="SOLICITUDES"
-                    WidthRequest="70"
+                    WidthRequest="50"
                     HeightRequest="50"
                     x:Name="btnSolicitudes"
                     TextColor="#255371"
@@ -39,9 +38,18 @@
                     Clicked="Solicitudes_Clicked"
                 />
             </StackLayout>
-            <Image
-                Margin="20,10,20,20"
-                Source="menu_green.png" />
+            <StackLayout 
+                Margin="0,100,0,0"
+                BackgroundColor="#7ee596"
+                VerticalOptions="End" 
+                HorizontalOptions="Fill" 
+                HeightRequest="80" 
+                RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}">
+                <Image
+                    Source="menu_green.png" 
+                    RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+                />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
