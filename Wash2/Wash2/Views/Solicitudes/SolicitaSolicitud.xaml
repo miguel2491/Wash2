@@ -45,20 +45,20 @@
                                             <ColumnDefinition Width="Auto" />
                                         </Grid.ColumnDefinitions>
                                         <Label FontAttributes="Bold" Text="{Binding modelo}" 
-                                           TextColor="#81e394" Padding="5,5,5,5" 
+                                           TextColor="White" Padding="5,5,5,5" 
                                            Grid.Row="0" Grid.Column="0" />
                                         <Label FontAttributes="Bold" Text="{Binding ann}" 
-                                           TextColor="#81e394" Padding="5,5,5,5" 
+                                           TextColor="White" Padding="5,5,5,5" 
                                            Grid.Row="0" Grid.Column="1" />
                                         <Label FontAttributes="Bold" Text="{Binding placas}" 
-                                           TextColor="#81e394" Padding="5,5,5,5" 
+                                           TextColor="White" Padding="5,5,5,5" 
                                            Grid.Row="0" Grid.Column="2" />
                                         <Label FontAttributes="Bold" Text="{Binding paquete}" 
-                                           TextColor="#81e394" Padding="5,5,5,5" 
+                                           TextColor="White" Padding="5,5,5,5" 
                                            Grid.Row="0" Grid.Column="3"
                                            FontSize="12"/>
                                         <Label FontAttributes="Bold" Text="{Binding precio}" 
-                                           TextColor="#81e394" Padding="5,5,5,5" 
+                                           TextColor="White" Padding="5,5,5,5" 
                                            Grid.Row="1" Grid.Column="3"
                                            FontSize="12"/>
                                     </Grid>

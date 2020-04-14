@@ -305,6 +305,7 @@ C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\res\drawable\fondo2.png
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\res\drawable\fondo3.png
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\res\drawable\calendar.png
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\res\drawable\watch.png
+C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\res\drawable\inicio.jpg
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\R.cs.flag
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\R.txt
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\uploadflags.txt
@@ -391,5 +392,7 @@ C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\android\assets\Xamarin.Es
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\android\assets\Xamarin.Forms.Core.pdb
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\android\assets\Xamarin.Forms.Xaml.pdb
+C:\xampp\htdocs\Wash2\Wash2\Wash2\bin\Debug\netstandard2.0\Wash2.dll
+C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\bin\Debug\Wash2.dll.mdb
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\linksrc\Plugin.Connectivity.dll.mdb
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\linksrc\Wash2.dll.mdb

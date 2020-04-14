@@ -5,9 +5,8 @@
              Title = "WASH DRY APP"
              BackgroundColor="#225374">
     <ContentPage.Content>
-        <StackLayout Margin="0,20,0,0">
-            <StackLayout Margin="20,60,20,10" >
-                <Label IsVisible="False" Text="Hola" />
+        <FlexLayout Direction="Column" JustifyContent="SpaceBetween">
+            <StackLayout Margin="20,60,20,2" >
                 <Frame 
                     HasShadow="True"   
                     Padding="1,1,1,1"
@@ -15,18 +14,15 @@
                     BorderColor="black"
                     OutlineColor="#7ee596"
                     CornerRadius="10"
-                    HeightRequest="255"
                     
                     IsClippedToBounds="True">
                     <Image 
-                        Source="menuCar.jpg"
-                        Aspect="Fill"
-                        HeightRequest="200"
+                        Source="inicio.jpg"
                         WidthRequest="300"
                     />
                 </Frame>
             </StackLayout>
-            <StackLayout Margin="60,5,60,5">
+            <StackLayout Margin="60,-100,60,-5">
                 <Button 
                     CornerRadius="5"
                     Text="SOLICITUDES"
@@ -39,17 +35,16 @@
                 />
             </StackLayout>
             <StackLayout 
-                Margin="0,100,0,0"
                 BackgroundColor="#7ee596"
-                VerticalOptions="End" 
-                HorizontalOptions="Fill" 
-                HeightRequest="80" 
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                HeightRequest="80"
                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}">
                 <Image
                     Source="menu_green.png" 
                     RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
                 />
             </StackLayout>
-        </StackLayout>
+        </FlexLayout>
     </ContentPage.Content>
 </ContentPage>

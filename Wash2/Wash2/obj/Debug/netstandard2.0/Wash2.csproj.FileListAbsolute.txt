@@ -30,7 +30,6 @@ C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\View
 C:\xampp\htdocs\Wash2\Wash2\Wash2\bin\Debug\netstandard2.0\Wash2.deps.json
 C:\xampp\htdocs\Wash2\Wash2\Wash2\bin\Debug\netstandard2.0\Wash2.dll
 C:\xampp\htdocs\Wash2\Wash2\Wash2\bin\Debug\netstandard2.0\Wash2.pdb
-C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.csprojAssemblyReference.cache
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Menu\detail.xaml.g.cs
@@ -56,3 +55,4 @@ C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.AssemblyInfo.cs
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\XamlC.stamp
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.dll
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.pdb
+C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.csprojAssemblyReference.cache
