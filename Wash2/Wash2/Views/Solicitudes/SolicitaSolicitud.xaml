@@ -21,6 +21,7 @@
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" />
                 </StackLayout>
+                <ActivityIndicator x:Name="activityBuse" IsRunning="True" VerticalOptions="Center" HorizontalOptions="Center"/>
                 <ListView 
                         x:Name="ListSolicitudes"                      
                         ItemsSource="{Binding Solicitud}"

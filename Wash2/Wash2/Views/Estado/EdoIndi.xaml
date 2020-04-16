@@ -20,6 +20,7 @@
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" />
                 </StackLayout>
+                
                 <StackLayout Margin="70,10,70,10">
                     <Label Text="EN ESTE MOMENTO ESTÁS LAVANDO UN AUTO"
                         FontSize="16"

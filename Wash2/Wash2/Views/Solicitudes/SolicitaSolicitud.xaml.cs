@@ -43,6 +43,7 @@ namespace Wash2.Views.Solicitudes
                         break;
                     case System.Net.HttpStatusCode.OK:
                         Console.WriteLine("----------------------------------------------_____:Here status 200");
+                        //activityBus.IsRunning = false;
                         HttpContent content = response.Content;
                         var xjson = await content.ReadAsStringAsync();
                         if (xjson.Count() <= 0 || xjson.Length <= 2)
@@ -62,12 +63,14 @@ namespace Wash2.Views.Solicitudes
                 await DisplayAlert("", "" + ex.ToString(), "ok");
                 return;
             }
+            
         }
 
         private async void ListSolicitud_ItemTapped(object sender, ItemTappedEventArgs e)
         {
             var idP = e.Item as Solicitud;
             var id_s = idP.id_solicitud;
+            //activityBus.IsRunning = true;
             bool answer = await DisplayAlert("Solicitud", "Aceptar Solicitud", "Si", "No");
             if (answer == true) {
                 var httpClient = new HttpClient();
@@ -89,6 +92,7 @@ namespace Wash2.Views.Solicitudes
                         case System.Net.HttpStatusCode.OK:
                             Console.WriteLine("----------------------------------------------_____:Here status 200");
                             await DisplayAlert("Correcto", "Solicitud Aceptada", "ok");
+                            //activityBus.IsRunning = false;
                             getOut(id_s);
                             
                             break;

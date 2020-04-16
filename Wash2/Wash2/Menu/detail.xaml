@@ -18,7 +18,7 @@
                     IsClippedToBounds="True">
                     <Image 
                         Source="inicio.jpg"
-                        WidthRequest="300"
+                        WidthRequest="600"
                     />
                 </Frame>
             </StackLayout>

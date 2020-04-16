@@ -23,7 +23,9 @@
         
             <StackLayout Margin="5,10,5,5">
                 <Label HorizontalOptions="StartAndExpand"
-                    VerticalOptions="StartAndExpand">
+                    VerticalOptions="StartAndExpand"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center">
                     <Label.FormattedText>
                         <FormattedString>
                             <Span 

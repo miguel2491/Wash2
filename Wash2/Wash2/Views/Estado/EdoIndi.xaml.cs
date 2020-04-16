@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Collections.Generic;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Forms.Maps;
@@ -31,8 +31,10 @@ namespace Wash2.Views.Estado
         public EdoIndi (int id_s)
 		{
 			InitializeComponent ();
+            
             //_ = GetInfoCalificacion(id_s);
             _ = CurrentLocation(id_s);
+            
             Lbl_idSol.Text = Convert.ToString(id_s);
             idx = id_s;
             userdb = new UserDB();
@@ -43,10 +45,12 @@ namespace Wash2.Views.Estado
         protected override void OnAppearing()
         {
             base.OnAppearing();
+            
         }
 
         public async Task CurrentLocation(int id_s)
         {
+            
             HttpClient client = new HttpClient();
             var url = "http://www.washdryapp.com/app/public/solicitud/lista_solicitud/" + id_s;
             try
