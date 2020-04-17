@@ -30,7 +30,8 @@ namespace Wash2.Views.Login
 
         private async void Iniciar_Sesion_Clicked(object sender, EventArgs e)
         {
-            
+            btnIniciarSesion.IsVisible = false;
+            activityLogin.IsRunning = true;
             try
             {
                 userdb = new UserDB();
@@ -76,8 +77,8 @@ namespace Wash2.Views.Login
                             var userResult = JsonConvert.DeserializeObject<List<Usuario>>(json);
                             if (userResult[0].nombre== "fail")
                             {
-                                Email_login.Focus();
-                                Pass.Focus();
+                                //Email_login.Focus();
+                                //Pass.Focus();
                                 Errormsn.IsVisible = true;
                                 Errormsn.Text = "Usuario o contraseña invalidos";
                                 await DisplayAlert("Error", "Usuario y Contraseña Incorrecto", "OK");
@@ -122,6 +123,8 @@ namespace Wash2.Views.Login
             catch (Exception ex){
                 await DisplayAlert("Error EX", "Error : " + ex.ToString(), "OK");
             }
+            activityLogin.IsRunning = false;
+            btnIniciarSesion.IsVisible = true;
         }
         private async void OnTapGestureRecognizerTapped(object sender, EventArgs args)
         {

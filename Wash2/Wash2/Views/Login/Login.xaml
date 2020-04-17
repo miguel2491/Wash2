@@ -1,10 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
              BackgroundImageSource="fondo3.png"
              x:Class="Wash2.Views.Login.Login">
     <ContentPage.Content>
-        <StackLayout Margin="50,20,50,20">
+        <StackLayout Margin="10,10,10,10">
             <Image Source="icono.png" 
                                        Aspect="AspectFill"
                                        HeightRequest="150"
@@ -14,16 +17,14 @@
                    Margin="20,20,20,20"
                    FontSize="26"
                    TextColor="#70c795"
+                   VerticalOptions="CenterAndExpand"
                    HorizontalOptions="CenterAndExpand" />
             <Entry
-                Placeholder="EMAIL"
+                Placeholder="CORREO"
+                PlaceholderColor="White"
+                TextColor="#ffffff"
                 x:Name="Email_login"
-                VerticalOptions="CenterAndExpand"
-                TextColor="white"
-                PlaceholderColor="#ffffff"
-                BackgroundColor="transparent"
                 />
-
             <Entry
                 Margin="10,10,10,10"
                 Placeholder="CONTRASEÑA"
@@ -31,14 +32,16 @@
                 TextColor="white"
                 PlaceholderColor="#ffffff"
                 IsPassword="True"/>
-            <Label
+            <StackLayout Margin="30,20,30,40">
+                <Label
                     x:Name="Errormsn"
                     IsVisible="False"
                     TextColor="red"
                     HorizontalTextAlignment="Center"
                     />
+            </StackLayout>
             <Label HorizontalOptions="End"
-       VerticalOptions="CenterAndExpand" Margin="-10,-50,0,-10">
+       VerticalOptions="CenterAndExpand" Margin="-10,-50,0,-5">
                 <Label.FormattedText>
                     <FormattedString>
                         <Span Text="¿Olvidaste la constraseña?"
@@ -52,14 +55,19 @@
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
-            <Button 
-                Margin="10,10,10,10"
-                Text="INGRESAR"
-                x:Name="btnIniciarSesion"
-                TextColor="#255371"
-                BackgroundColor="#7ee596"
-                Clicked="Iniciar_Sesion_Clicked"
-                />
+            <StackLayout>
+                <Button 
+                    Margin="10,5,10,10"
+                    Text="INGRESAR"
+                    x:Name="btnIniciarSesion"
+                    TextColor="#255371"
+                    BackgroundColor="#7ee596"
+                    Clicked="Iniciar_Sesion_Clicked"
+                />    
+                <ActivityIndicator x:Name="activityLogin" IsRunning="False" VerticalOptions="Center" HorizontalOptions="Center"/>
+            </StackLayout>
+            
+            
             <StackLayout Margin="20,20,20,5">
                 <Label  HorizontalOptions="Center"
                         VerticalOptions="CenterAndExpand">

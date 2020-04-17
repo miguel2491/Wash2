@@ -22,7 +22,7 @@
                     />
                 </Frame>
             </StackLayout>
-            <StackLayout Margin="60,-100,60,-5">
+            <StackLayout Margin="60,-90,60,5">
                 <Button 
                     CornerRadius="5"
                     Text="SOLICITUDES"
@@ -38,7 +38,7 @@
                 BackgroundColor="#7ee596"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" 
-                HeightRequest="80"
+                HeightRequest="60"
                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}">
                 <Image
                     Source="menu_green.png" 

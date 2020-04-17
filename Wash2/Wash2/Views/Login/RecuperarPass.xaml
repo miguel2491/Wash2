@@ -14,10 +14,12 @@
                 <Label Text="RECUPERAR CONTRASEÑA"
                    Margin="10,10,10,10"
                    FontSize="24"
+                   FontAttributes="Bold"
+                   VerticalTextAlignment="Center"    
                    TextColor="#70c795"
                    HorizontalOptions="CenterAndExpand" />
                 <Entry
-                    Placeholder="E-MAIL"
+                    Placeholder="CORREO"
                     PlaceholderColor="white"
                     TextColor="white"
                     x:Name="Correo_recupera"

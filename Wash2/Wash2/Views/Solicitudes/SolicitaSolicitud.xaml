@@ -11,12 +11,14 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="5,20,20,40">
-                <StackLayout>
+                <StackLayout Margin="30,20,20,20">
                     <Label Text="TUS AUTOS LAVADOS"
+                        HorizontalTextAlignment="Center"
+                        VerticalTextAlignment="Center"
                         FontSize="20"
                         FontAttributes="Bold"
                         x:Name="lblMainlavados"
-                           IsVisible="False"
+                        IsVisible="False"
                         TextColor="#81e394"
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" />

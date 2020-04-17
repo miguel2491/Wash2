@@ -46,13 +46,14 @@ namespace Wash2.Views.Solicitudes
                         //activityBus.IsRunning = false;
                         HttpContent content = response.Content;
                         var xjson = await content.ReadAsStringAsync();
-                        if (xjson.Count() <= 0 || xjson.Length <= 2)
+                        if (xjson.Length <= 2)
                         {
                             lblMainlavados.Text = "NO TIENES SOLICITUDES DE LAVADO AÚN";
                         }
                         else {
                             var json_ = JsonConvert.DeserializeObject<List<Solicitud>>(xjson);
                             ListSolicitudes.ItemsSource = json_;
+                            
                         }
                         lblMainlavados.IsVisible = true;
                         break;
@@ -63,7 +64,7 @@ namespace Wash2.Views.Solicitudes
                 await DisplayAlert("", "" + ex.ToString(), "ok");
                 return;
             }
-            
+            activityBuse.IsRunning = false;
         }
 
         private async void ListSolicitud_ItemTapped(object sender, ItemTappedEventArgs e)

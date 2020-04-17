@@ -9,6 +9,7 @@ namespace Wash2.Models
         public int id_solicitud { get; set; }
         public int id_washer { get; set; }
         public int id_usuario { get; set; }
+        public int id_auto { get; set; }
         public string latitud { get; set; }
         public string longitud { get; set; }
         public string foto { get; set; }
@@ -28,5 +29,6 @@ namespace Wash2.Models
         public string paquete { get; set; }
         public string precio { get; set; }
         public string usuario { get; set; }
+        public string tipo_vehiculo { get; set; }
     }
 }
