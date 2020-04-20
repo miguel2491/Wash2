@@ -188,6 +188,7 @@
                             VerticalOptions="CenterAndExpand" 
                             HorizontalOptions="CenterAndExpand"
                             />
+                        <ActivityIndicator x:Name="activityCheck" IsRunning="False" VerticalOptions="Center" HorizontalOptions="Center"/>
                     </Grid>
                 </StackLayout>
                 <StackLayout Margin="10,10,10,10">

@@ -68,10 +68,30 @@ namespace Wash2.Views.Estado
                         var json_ = JsonConvert.DeserializeObject<List<Solicitud>>(xjson);
                         Lbl_yyyy.Text = json_[0].ann;
                         img_perfil.Source = json_[0].foto;
-                        img_a.Source = json_[0].foto_washer;
                         Lbl_modelo.Text = json_[0].modelo;
                         Lbl_placa.Text = json_[0].placas;
-                        Lbl_nombre.Text = json_[0].nombre + " " + json_[0].app + " " + json_[0].apm;
+                        Lbl_nombre.Text = json_[0].usuario;
+                        var lat = Convert.ToDouble(json_[0].latitud);
+                        var lon = Convert.ToDouble(json_[0].longitud);
+                        var pos = await CrossGeolocator.Current.GetPositionAsync();
+                        //lat = Convert.ToDecimal(lat);
+
+                        double zoomLevel = 16;
+                        double latlongDegrees = 360 / (Math.Pow(2, zoomLevel));
+                        MapView.MoveToRegion(
+                        MapSpan.FromCenterAndRadius(
+                            new Position(lat, lon), Distance.FromMiles(.3)
+                            )
+                        );
+                        var pin = new Pin
+                        {
+                            Type = PinType.Place,
+                            Position = new Position(pos.Latitude, pos.Longitude),
+                            Label = "Mi ubicacion",
+                            Address = "  usted se encuentra aqui",
+
+                        };
+                        MapView.Pins.Add(pin);
                         break;
                 }
             }
@@ -80,28 +100,6 @@ namespace Wash2.Views.Estado
                 await DisplayAlert("", "" + ex.ToString(), "ok");
                 return;
             }
-
-            var pos = await CrossGeolocator.Current.GetPositionAsync();
-            double zoomLevel = 16;
-            double latlongDegrees = 360 / (Math.Pow(2, zoomLevel));
-            MapView.MoveToRegion(
-            MapSpan.FromCenterAndRadius(
-                new Position(pos.Latitude, pos.Longitude), Distance.FromMiles(.3)    
-                )
-            );
-
-
-                
-
-            var pin = new Pin
-            {
-                Type = PinType.Place,
-                Position = new Position(pos.Latitude, pos.Longitude),
-                Label = "Mi ubicacion",
-                Address = "  usted se encuentra aqui",
-
-            };
-            MapView.Pins.Add(pin);
         }
 
         private async void BtnFoto_Clicked(object sender, EventArgs e)
@@ -132,9 +130,10 @@ namespace Wash2.Views.Estado
 
         private async void BtnCheckOut_Clicked(object sender, EventArgs e)
         {
+            activityCheck.IsRunning = true;
+            btnCheckOut.IsEnabled = false;
             /*Imagen*/
-            var imgExist = img_a.Source;
-            if (imgExist == null)
+            if (_image != null)
             {
                 //GUARDAR IMAGEN
                 var content1 = new MultipartFormDataContent();
@@ -174,6 +173,7 @@ namespace Wash2.Views.Estado
                     case System.Net.HttpStatusCode.OK:
                         string xjson = await responseMsg.Content.ReadAsStringAsync();
                         await DisplayAlert("Success", "Se agrego Correctamente ", "ok");
+                        await ((MainPage)App.Current.MainPage).Detail.Navigation.PushAsync(new Calificacion(idx));
                         break;
                     case System.Net.HttpStatusCode.Unauthorized:
                         await DisplayAlert("error", "yeah status 401 Unauthorized", "ok");
@@ -182,10 +182,10 @@ namespace Wash2.Views.Estado
                 //**************
             }
             else {
-
+                await DisplayAlert("error", "Debes agregar la fotografia del carro terminado", "ok");
             }
-            
-            await ((MainPage)App.Current.MainPage).Detail.Navigation.PushAsync(new Calificacion(idx));
+            activityCheck.IsRunning = false;
+            btnCheckOut.IsEnabled = true;
         }
     }
 }

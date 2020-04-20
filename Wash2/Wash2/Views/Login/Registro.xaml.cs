@@ -54,7 +54,6 @@ namespace Wash2.Views.Login
             else if (RowCount == 1)
             {
                 var reg_exist = regsdb.GetRegistro().ToList();
-                Console.WriteLine("ID es =>" + reg_exist[0].id + " <-> " + reg_exist[0].paquete);
                 var idPaq = reg_exist[0].paquete;
                 var nombre = reg_exist[0].nombre;
                 var app = reg_exist[0].app;
@@ -88,58 +87,64 @@ namespace Wash2.Views.Login
 
         private async void Registrar_Clicked(object sender, EventArgs e)
         {
-            regsdb = new RegistrosDB();
-            var reg_existL = regsdb.GetRegistro().ToList();
-            var idRegL = reg_existL[0].id;
-            var nombreL = Nombre.Text;
-            var appL = Appaterno.Text;
-            var apmL = Apmaterno.Text;
-            var fca_nacL = Fca_nac.Date.ToString("yyyy-MM-dd");//Fca_nac.Date.ToString();
-            var telefonoL = Telefono.Text;
-            var correoL = Correo.Text;
-            var passwordL = Password.Text;
-            var foto = imgx.Source;
-            regsdb.UpdateAll(idRegL, nombreL, appL, apmL, fca_nacL.ToString(), telefonoL, correoL, passwordL, 1);
-            try
+            activityRegister.IsRunning = true;
+            btnRegistrar.IsVisible = false;
+            if (_image != null)
             {
-                var reg_exist = regsdb.GetRegistro().ToList();
-                var nombre = reg_exist[0].nombre;
-                var app = reg_exist[0].app;
-                var apm = reg_exist[0].apm;
-                var fca_nac = reg_exist[0].fecha;
-                var telefono = reg_exist[0].telefono;
-                var correo = reg_exist[0].correo;
-                var password = reg_exist[0].password;
-                var confPass = ConfirmaPass.Text;
-                var tokens = reg_exist[0].tokenReg;
-                if (tokens == null || tokens == "") {
-                    userdb = new UserDB();
-                    var user_token = userdb.GetMembers().ToList();
-                    var tokenUsuario = user_token[0].token;
-                    tokens = tokenUsuario;
-                }
-                if (password == "" || password == null) {
-                    password = Password.Text;
-                    confPass = ConfirmaPass.Text;
-                }
-                if (password == confPass)
+                regsdb = new RegistrosDB();
+                var reg_existL = regsdb.GetRegistro().ToList();
+                var idRegL = reg_existL[0].id;
+                var nombreL = Nombre.Text;
+                var appL = Appaterno.Text;
+                var apmL = Apmaterno.Text;
+                var fca_nacL = Fca_nac.Date.ToString("yyyy-MM-dd");//Fca_nac.Date.ToString();
+                var telefonoL = Telefono.Text;
+                var correoL = Correo.Text;
+                var passwordL = Password.Text;
+
+                regsdb.UpdateAll(idRegL, nombreL, appL, apmL, fca_nacL.ToString(), telefonoL, correoL, passwordL, 1);
+                try
                 {
-                    //GUARDAR IMAGEN
-                    var content1 = new MultipartFormDataContent();
-                    content1.Add(new StreamContent(_image.GetStream()), "\"file\"", $"\"{_image.Path}\"");
-                    
-                    var httpClient1 = new System.Net.Http.HttpClient();
-                    httpClient1.BaseAddress = new Uri("http://www.washdryapp.com");
-                    var url1 = "http://www.washdryapp.com/oficial/ImagenesPerfil.php";
-                    var responseMsg1 = await httpClient1.PostAsync(url1, content1);
-                    var remotePath = await responseMsg1.Content.ReadAsStringAsync();
-                    imagen_name = remotePath;
-                    //*************
-                    var httpClient = new HttpClient();
-                    //var url = /washer/guardar;
-                    var url = "http://www.washdryapp.com/app/public/washer/guardar_img";
-                    
-                    var value_check = new Dictionary<string, string>
+                    var reg_exist = regsdb.GetRegistro().ToList();
+                    var nombre = reg_exist[0].nombre;
+                    var app = reg_exist[0].app;
+                    var apm = reg_exist[0].apm;
+                    var fca_nac = reg_exist[0].fecha;
+                    var telefono = reg_exist[0].telefono;
+                    var correo = reg_exist[0].correo;
+                    var password = reg_exist[0].password;
+                    var confPass = ConfirmaPass.Text;
+                    var tokens = reg_exist[0].tokenReg;
+                    if (tokens == null || tokens == "")
+                    {
+                        userdb = new UserDB();
+                        var user_token = userdb.GetMembers().ToList();
+                        var tokenUsuario = user_token[0].token;
+                        tokens = tokenUsuario;
+                    }
+                    if (password == "" || password == null)
+                    {
+                        password = Password.Text;
+                        confPass = ConfirmaPass.Text;
+                    }
+                    if (password == confPass || password != "")
+                    {
+                        //GUARDAR IMAGEN
+                        var content1 = new MultipartFormDataContent();
+                        content1.Add(new StreamContent(_image.GetStream()), "\"file\"", $"\"{_image.Path}\"");
+
+                        var httpClient1 = new System.Net.Http.HttpClient();
+                        httpClient1.BaseAddress = new Uri("http://www.washdryapp.com");
+                        var url1 = "http://www.washdryapp.com/oficial/ImagenesPerfil.php";
+                        var responseMsg1 = await httpClient1.PostAsync(url1, content1);
+                        var remotePath = await responseMsg1.Content.ReadAsStringAsync();
+                        imagen_name = remotePath;
+                        //*************
+                        var httpClient = new HttpClient();
+                        //var url = /washer/guardar;
+                        var url = "http://www.washdryapp.com/app/public/washer/guardar_img";
+
+                        var value_check = new Dictionary<string, string>
                 {
                     {"nombre", nombre },
                     {"app", app},
@@ -151,41 +156,53 @@ namespace Wash2.Views.Login
                     {"token", tokens },
                     {"foto",  imagen_name}
                 };
-                    var content = new FormUrlEncodedContent(value_check);
-                    var responseMsg = await httpClient.PostAsync(url, content);
-                    
-                    switch (responseMsg.StatusCode)
-                    {
-                        case System.Net.HttpStatusCode.InternalServerError:
-                            await DisplayAlert("error", "error status 500 InternalServerError", "ok");
-                            break;
-                        case System.Net.HttpStatusCode.BadRequest:
-                            await DisplayAlert("error", "error status 400 Unauthorized", "ok");
-                            break;
-                        case System.Net.HttpStatusCode.Forbidden:
-                            await DisplayAlert("error", "error status 403  ", "ok");
-                            break;
-                        case System.Net.HttpStatusCode.NotFound:
-                            await DisplayAlert("error", "error status 404  ", "ok");
-                            break;
-                        case System.Net.HttpStatusCode.OK:
-                            string xjson = await responseMsg.Content.ReadAsStringAsync();
-                            regsdb.DeleteAllReg();
-                            await DisplayAlert("Success", "Se agrego Correctamente ", "ok");
-                            break;
-                        case System.Net.HttpStatusCode.Unauthorized:
-                            await DisplayAlert("error", "yeah status 401 Unauthorized", "ok");
-                            break;
+                        var content = new FormUrlEncodedContent(value_check);
+                        var responseMsg = await httpClient.PostAsync(url, content);
+
+                        switch (responseMsg.StatusCode)
+                        {
+                            case System.Net.HttpStatusCode.InternalServerError:
+                                await DisplayAlert("error", "Ocurrio un error, vuelve a intentar", "ok");
+                                break;
+                            case System.Net.HttpStatusCode.BadRequest:
+                                string x = await responseMsg.Content.ReadAsStringAsync();
+
+                                await DisplayAlert("error", "El correo ya existe con otro usuario", "ok");
+                                break;
+                            case System.Net.HttpStatusCode.Forbidden:
+                                await DisplayAlert("error", "error status 403  ", "ok");
+                                break;
+                            case System.Net.HttpStatusCode.NotFound:
+                                await DisplayAlert("error", "error status 404  ", "ok");
+                                break;
+                            case System.Net.HttpStatusCode.OK:
+                                string xjson = await responseMsg.Content.ReadAsStringAsync();
+                                regsdb.DeleteAllReg();
+                                await DisplayAlert("Success", "Se agrego Correctamente ", "ok");
+                                Application.Current.MainPage = new MainPage();
+                                break;
+                            case System.Net.HttpStatusCode.Unauthorized:
+                                await DisplayAlert("error", "yeah status 401 Unauthorized", "ok");
+                                break;
+                        }
                     }
-                }else {
-                    await DisplayAlert("error", "Contraseña no coinciden", "ok");
+                    else
+                    {
+                        await DisplayAlert("error", "Contraseña no coinciden", "ok");
+                    }
+
+                }
+                catch (Exception ex)
+                {
+                    await DisplayAlert("Error", "Ocurrio un error, vuelve a intentar mas tarde", "OK");
                 }
             }
-            catch (Exception ex)
-            {
-                await DisplayAlert("Error", "Error : " + ex.ToString(), "OK");
+            else {
+                await DisplayAlert("error", "Te Falta agregar Foto INE", "ok");
             }
             //Application.Current.MainPage = new NavigationPage(new Login());
+            activityRegister.IsRunning = false;
+            btnRegistrar.IsVisible = true;
         }
 
         private async void Paquetes_Clicked(object sender, EventArgs e)

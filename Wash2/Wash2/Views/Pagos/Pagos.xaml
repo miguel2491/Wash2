@@ -6,7 +6,8 @@
              x:Class="Wash2.Views.Pagos.Pagos">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout>
+            <StackLayout Margin="10,10,10,10">
+                <ActivityIndicator x:Name="activityPago" IsRunning="False" VerticalOptions="Center" HorizontalOptions="Center"/>
                 <StackLayout Margin="10,30,10,5">
                     <Label
                         x:Name="Lbl_Usuario"
@@ -99,7 +100,7 @@
                             Text="Ganancias"
                             TextColor="white"
                             FontSize="14"
-                            VerticalOptions="Start"
+                            VerticalOptions="CenterAndExpand"
                         />
                         <Label 
                             Grid.Column="1"
@@ -107,7 +108,7 @@
                             x:Name="Lbl_ganancias"
                             Text="0"
                             TextColor="white"
-                            FontSize="12"
+                            FontSize="14"
                             VerticalOptions="CenterAndExpand"
                         />
                         <Label 
@@ -124,7 +125,7 @@
                             Text="0"
                             x:Name="Lbl_cobros"
                             TextColor="white"
-                            FontSize="12"
+                            FontSize="14"
                             VerticalOptions="CenterAndExpand"
                         />
                     </Grid>

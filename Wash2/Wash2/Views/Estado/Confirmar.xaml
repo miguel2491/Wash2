@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#225374"
+             x:Class="Wash2.Views.Estado.Confirmar">
+    <ContentPage.Content>
+        <StackLayout Margin="10,10,10,10">
+            <StackLayout Margin="30,50,30,0">
+                <Label
+                    x:Name="Lbl_Id"
+                    IsVisible="False"
+                    />
+                <Button
+                    x:Name="btnConfirma"
+                    Text="CONFIRMAR LLEGADA"
+                    CornerRadius="10"
+                    BackgroundColor="#7de595"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    TextColor="#398274"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="CenterAndExpand"
+                    Clicked="BtnConfirma_Clicked"
+                />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

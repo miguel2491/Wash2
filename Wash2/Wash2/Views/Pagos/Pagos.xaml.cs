@@ -30,6 +30,7 @@ namespace Wash2.Views.Pagos
             var id_washer = user_wash[0].idWasher;
             Lbl_Usuario.Text = Convert.ToString(id_washer);
             _ = GetPagos();
+            activityPago.IsRunning = true;
         }
 
         public async Task GetPagos()
@@ -54,6 +55,7 @@ namespace Wash2.Views.Pagos
                         Console.WriteLine("----------------------------------------------_____:Here status 500");
                         break;
                     case System.Net.HttpStatusCode.OK:
+                        activityPago.IsRunning = false;
                         Console.WriteLine("----------------------------------------------_____:Here status 200");
                         HttpContent content2 = response.Content;
                         string xjson = await content2.ReadAsStringAsync();

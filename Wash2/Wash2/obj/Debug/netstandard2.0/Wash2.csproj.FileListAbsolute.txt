@@ -27,15 +27,13 @@ C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Xaml
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.dll
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.pdb
 C:\Users\Miguelin\Documents\APPS\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Views\Estado\EdoIndi.xaml.g.cs
-C:\xampp\htdocs\Wash2\Wash2\Wash2\bin\Debug\netstandard2.0\Wash2.deps.json
-C:\xampp\htdocs\Wash2\Wash2\Wash2\bin\Debug\netstandard2.0\Wash2.dll
-C:\xampp\htdocs\Wash2\Wash2\Wash2\bin\Debug\netstandard2.0\Wash2.pdb
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Menu\detail.xaml.g.cs
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Menu\Master.xaml.g.cs
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Views\AutoLavados\AutosLavados.xaml.g.cs
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Views\AutoLavados\DetalleSolicitud.xaml.g.cs
+C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Views\Estado\Confirmar.xaml.g.cs
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Views\Estado\EdoIndi.xaml.g.cs
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Views\Estado\EdoServicio.xaml.g.cs
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Views\Login\Banner.xaml.g.cs
@@ -52,6 +50,9 @@ C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Views\Solicitudes\Sol
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.csproj.CoreCompileInputs.cache
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.AssemblyInfoInputs.cache
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.AssemblyInfo.cs
+C:\xampp\htdocs\Wash2\Wash2\Wash2\bin\Debug\netstandard2.0\Wash2.deps.json
+C:\xampp\htdocs\Wash2\Wash2\Wash2\bin\Debug\netstandard2.0\Wash2.dll
+C:\xampp\htdocs\Wash2\Wash2\Wash2\bin\Debug\netstandard2.0\Wash2.pdb
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\XamlC.stamp
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.dll
 C:\xampp\htdocs\Wash2\Wash2\Wash2\obj\Debug\netstandard2.0\Wash2.pdb

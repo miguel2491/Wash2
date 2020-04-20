@@ -118,13 +118,17 @@
                     WidthRequest="200"
                    
                     />
-                <Button 
-                Text="REGISTRAR"
-                x:Name="btnRegistrar"
-                TextColor="#255371"
-                BackgroundColor="#7ee596"
-                Clicked="Registrar_Clicked"
-                />
+                <StackLayout>
+                    <Button 
+                        Text="REGISTRAR"
+                        x:Name="btnRegistrar"
+                        TextColor="#255371"
+                        BackgroundColor="#7ee596"
+                        Clicked="Registrar_Clicked"
+                    />
+                    <ActivityIndicator x:Name="activityRegister" IsRunning="False" VerticalOptions="Center" HorizontalOptions="Center"/>
+                </StackLayout>
+                
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

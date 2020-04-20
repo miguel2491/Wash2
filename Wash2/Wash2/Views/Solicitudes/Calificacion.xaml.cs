@@ -86,9 +86,10 @@ namespace Wash2.Views.Solicitudes
                     await DisplayAlert("error", "error status 404  ", "ok");
                     break;
                 case System.Net.HttpStatusCode.OK:
-                    string xjson = await responseMsg.Content.ReadAsStringAsync();
-                    await DisplayAlert("Success", "Calificación enviada", "ok");
-                    await Navigation.PushAsync(new Wash2.Views.Solicitudes.SolicitaSolicitud());
+                    //string xjson = await responseMsg.Content.ReadAsStringAsync();
+                    await DisplayAlert("Correcto", "Calificación enviada", "ok");
+                    //await Navigation.PushAsync(new Wash2.Views.AutoLavados.AutosLavados());
+                    Application.Current.MainPage = new MainPage();
                     break;
                 case System.Net.HttpStatusCode.Unauthorized:
                     await DisplayAlert("error", "yeah status 401 Unauthorized", "ok");

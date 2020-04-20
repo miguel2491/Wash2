@@ -53,7 +53,6 @@ namespace Wash2.Views.Solicitudes
                         else {
                             var json_ = JsonConvert.DeserializeObject<List<Solicitud>>(xjson);
                             ListSolicitudes.ItemsSource = json_;
-                            
                         }
                         lblMainlavados.IsVisible = true;
                         break;
@@ -110,7 +109,8 @@ namespace Wash2.Views.Solicitudes
 
         public async void getOut(int id_s)
         {
-            await Navigation.PushAsync(new Wash2.Views.Estado.EdoIndi(id_s));
+            //await Navigation.PushAsync(new Wash2.Views.Estado.EdoIndi(id_s));
+            await Navigation.PushAsync(new Wash2.Views.Estado.Confirmar(id_s));
         }
         
     }
