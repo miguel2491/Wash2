@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-
+using Wash2.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -37,7 +38,16 @@ namespace Wash2.Views.Estado
                     await DisplayAlert("error", "error status 500 InternalServerError", "ok");
                     break;
                 case System.Net.HttpStatusCode.BadRequest:
-                    await DisplayAlert("error", "error status 400 Unauthorized", "ok");
+                    HttpContent content2 = responseMsg.Content;
+                    string json = await content2.ReadAsStringAsync();
+                    if (json == "{\"status\":\"fail\"}")
+                    {
+                        await DisplayAlert("¡Ups!", "Solicitud Cancelada por el Cliente", "Aceptar");
+                    }
+                    else {
+                        await DisplayAlert("¡Error!", "Ocurrio un error, vuelva a intentarlo mas tarde", "Aceptar");
+                    }
+                    await Navigation.PushAsync(new Wash2.Views.Solicitudes.SolicitaSolicitud());
                     break;
                 case System.Net.HttpStatusCode.Forbidden:
                     await DisplayAlert("error", "error status 403  ", "ok");

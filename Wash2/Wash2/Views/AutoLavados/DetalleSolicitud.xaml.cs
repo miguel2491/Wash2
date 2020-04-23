@@ -28,7 +28,7 @@ namespace Wash2.Views.AutoLavados
         {
             HttpClient client = new HttpClient();
 
-            var url = "http://www.washdryapp.com/app/public/solicitud/lista_solicitud/" + id;
+            var url = "http://www.washdryapp.com/app/public/solicitud/washer_solicitud/" + id;
             try
             {
                 var response = await client.GetAsync(url);

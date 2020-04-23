@@ -98,7 +98,7 @@
                                                     TextColor="#128C7E"
                                                     Grid.Row="0" Grid.Column="1"   />
                                                 <lv:RatingConception ItemsNumber="5" DrawType="Star" 
-                                                    ImageWidth="20" ImageHeight="20"  
+                                                    ImageWidth="12" ImageHeight="14"  
                                                     InitialValue="{Binding calificacion}" DesignType="Standard"
                                                     ColorUI="YellowDark" 
                                                     BlockVote="True"                 

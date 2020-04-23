@@ -79,7 +79,7 @@
                                                     TextColor="#128C7E"
                                                     Grid.Row="0" Grid.Column="1"   />
                                     <lv:RatingConception ItemsNumber="5" DrawType="Star" 
-                                                    ImageWidth="20" ImageHeight="20"  
+                                                    ImageWidth="10" ImageHeight="12"  
                                                     DesignType="Standard"
                                                     ColorUI="YellowDark" 
                                                     BlockVote="True"
@@ -104,6 +104,7 @@
                             BackgroundColor="#1d5476"
                             TextType="Text"
                             TextColor="White"
+                            FontSize="12"
                             HorizontalTextAlignment="Center"
                             HorizontalOptions="Center"
                             VerticalOptions="Center"
@@ -164,13 +165,13 @@
                                 <ColumnDefinition Width="90" />
                             </Grid.ColumnDefinitions>
                             <Label Text="Tarifa de Lavado" TextColor="white" Grid.Column="0" Grid.Row="0"/>
-                            <Label Text="$70" TextColor="white" Grid.Column="1" Grid.Row="0"/>
+                            <Label Text="{Binding precio}" TextColor="white" Grid.Column="1" Grid.Row="0"/>
                             <Label Text="Subtotal" TextColor="white" Grid.Column="0" Grid.Row="1"/>
-                            <Label Text="$70" TextColor="white" Grid.Column="1" Grid.Row="1"/>
+                            <Label Text="{Binding precio}" TextColor="white" Grid.Column="1" Grid.Row="1"/>
                             <Label Text="Descuento" TextColor="white" Grid.Column="0" Grid.Row="2"/>
-                            <Label Text="$70" TextColor="white" Grid.Column="1" Grid.Row="2"/>
+                            <Label Text="{Binding precio}" TextColor="white" Grid.Column="1" Grid.Row="2"/>
                             <Label Text="TOTAL" HorizontalTextAlignment="Start" TextColor="#81e394" Grid.Column="0" Grid.Row="3"/>
-                            <Label Text="$70" TextColor="white" Grid.Column="1" Grid.Row="3"/>
+                            <Label Text="{Binding precio}" TextColor="white" Grid.Column="1" Grid.Row="3"/>
                         </Grid>
                     </StackLayout>
                     <StackLayout Margin="10,10,10,10">
