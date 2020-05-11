@@ -3,6 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              BackgroundColor="#225374"
              x:Class="Wash2.Views.Planes.Planes">
+    <NavigationPage.TitleView>
+        <Label Text="WASH DRY APP" FontSize="20" TextColor="Black" FontAttributes="Bold" Margin="10"/>
+    </NavigationPage.TitleView>
     <ContentPage.Content>
         <StackLayout Margin="50,20,50,20">
             <Label

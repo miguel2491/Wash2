@@ -29,6 +29,15 @@ namespace Wash2.Views.Solicitudes
             _ = GetAutos(idW);
         }
 
+        protected override bool OnBackButtonPressed()
+        {
+            Device.BeginInvokeOnMainThread(() =>
+            {
+                Application.Current.MainPage = new MainPage();
+            });
+            return true;
+        }
+
         public async Task GetAutos(int id_washer)
         {
             HttpClient client = new HttpClient();

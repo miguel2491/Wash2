@@ -20,7 +20,7 @@ namespace Wash2.Splash
             splashImage = new Image
             {
                 Source = "iko.png",
-                WidthRequest = 250,
+                WidthRequest = 280,
                 HeightRequest = 250,
                 Opacity = 0
             };
@@ -32,7 +32,8 @@ namespace Wash2.Splash
 
             sub.Children.Add(splashImage);
 
-            this.BackgroundColor = Color.FromHex("#225374");
+            //this.BackgroundColor = Color.FromHex("#225374");
+            this.BackgroundImageSource = "fondo2.png";
             this.Content = sub;
         }
         public Usuario user;

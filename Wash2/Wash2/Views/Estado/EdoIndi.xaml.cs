@@ -31,10 +31,7 @@ namespace Wash2.Views.Estado
         public EdoIndi (int id_s)
 		{
 			InitializeComponent ();
-            
-            //_ = GetInfoCalificacion(id_s);
             _ = CurrentLocation(id_s);
-            
             Lbl_idSol.Text = Convert.ToString(id_s);
             idx = id_s;
             userdb = new UserDB();
@@ -46,6 +43,19 @@ namespace Wash2.Views.Estado
         {
             base.OnAppearing();
             
+        }
+
+        protected override bool OnBackButtonPressed()
+        {
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                var result = await this.DisplayAlert("Aviso", "Realmente quieres regresar, cancelaras el proceso actual?", "Si", "No");
+                if (result)
+                {
+                    await ((MainPage)App.Current.MainPage).Detail.Navigation.PushAsync(new SolicitaSolicitud());
+                }
+            });
+            return true;
         }
 
         public async Task CurrentLocation(int id_s)
@@ -80,13 +90,13 @@ namespace Wash2.Views.Estado
                         double latlongDegrees = 360 / (Math.Pow(2, zoomLevel));
                         MapView.MoveToRegion(
                         MapSpan.FromCenterAndRadius(
-                            new Position(lat, lon), Distance.FromMiles(.3)
+                            new Position(lon, lat), Distance.FromMiles(.3)
                             )
                         );
                         var pin = new Pin
                         {
                             Type = PinType.Place,
-                            Position = new Position(pos.Latitude, pos.Longitude),
+                            Position = new Position(lon, lat),
                             Label = "Mi ubicacion",
                             Address = "  usted se encuentra aqui",
 
@@ -104,6 +114,7 @@ namespace Wash2.Views.Estado
 
         private async void BtnFoto_Clicked(object sender, EventArgs e)
         {
+            activityCheck.IsRunning = true;
             await CrossMedia.Current.Initialize();
 
             if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
@@ -126,12 +137,14 @@ namespace Wash2.Views.Estado
 
 
             });
+            activityCheck.IsRunning = false;
         }
 
         private async void BtnCheckOut_Clicked(object sender, EventArgs e)
         {
             activityCheck.IsRunning = true;
-            btnCheckOut.IsEnabled = false;
+            btnCheckOut.IsVisible = false;
+            btnFoto.IsVisible = false;
             /*Imagen*/
             if (_image != null)
             {
@@ -185,7 +198,8 @@ namespace Wash2.Views.Estado
                 await DisplayAlert("error", "Debes agregar la fotografia del carro terminado", "ok");
             }
             activityCheck.IsRunning = false;
-            btnCheckOut.IsEnabled = true;
+            btnCheckOut.IsVisible = true;
+            btnFoto.IsVisible = true;
         }
     }
 }

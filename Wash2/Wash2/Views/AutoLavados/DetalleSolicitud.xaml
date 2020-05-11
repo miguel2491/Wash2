@@ -8,6 +8,9 @@
              xmlns:lv="clr-namespace:LaavorRatingConception;assembly=RatingConception"
              mc:Ignorable="d"
              x:Class="Wash2.Views.AutoLavados.DetalleSolicitud">
+    <NavigationPage.TitleView>
+        <Label Text="WASH DRY APP" FontSize="20" TextColor="Black" FontAttributes="Bold" Margin="10"/>
+    </NavigationPage.TitleView>
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="10,20,10,20">
@@ -165,13 +168,13 @@
                                 <ColumnDefinition Width="90" />
                             </Grid.ColumnDefinitions>
                             <Label Text="Tarifa de Lavado" TextColor="white" Grid.Column="0" Grid.Row="0"/>
-                            <Label Text="{Binding precio}" TextColor="white" Grid.Column="1" Grid.Row="0"/>
+                            <Label Text="0" TextColor="white" x:Name="Lbl_tarifa" Grid.Column="1" Grid.Row="0"/>
                             <Label Text="Subtotal" TextColor="white" Grid.Column="0" Grid.Row="1"/>
-                            <Label Text="{Binding precio}" TextColor="white" Grid.Column="1" Grid.Row="1"/>
+                            <Label Text="0" x:Name="Lbl_subtotal" TextColor="white" Grid.Column="1" Grid.Row="1"/>
                             <Label Text="Descuento" TextColor="white" Grid.Column="0" Grid.Row="2"/>
-                            <Label Text="{Binding precio}" TextColor="white" Grid.Column="1" Grid.Row="2"/>
+                            <Label Text="$ 0.00" TextColor="white" Grid.Column="1" Grid.Row="2"/>
                             <Label Text="TOTAL" HorizontalTextAlignment="Start" TextColor="#81e394" Grid.Column="0" Grid.Row="3"/>
-                            <Label Text="{Binding precio}" TextColor="white" Grid.Column="1" Grid.Row="3"/>
+                            <Label Text="$ 0.00" TextColor="white" x:Name="Lbl_totalT" Grid.Column="1" Grid.Row="3"/>
                         </Grid>
                     </StackLayout>
                     <StackLayout Margin="10,10,10,10">

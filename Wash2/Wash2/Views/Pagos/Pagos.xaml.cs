@@ -24,7 +24,6 @@ namespace Wash2.Views.Pagos
         public Pagos ()
 		{
 			InitializeComponent ();
-            Title = "WASH DRY";
             userdb = new UserDB();
             var user_wash = userdb.GetMembers().ToList();
             var id_washer = user_wash[0].idWasher;
@@ -64,6 +63,7 @@ namespace Wash2.Views.Pagos
                             Lbl_ganancias.Text = "0";
                             Lbl_cobros.Text = "0";
                             Lbl_cobroTotal.Text = "0";
+                            
                         }
                         else
                         {
@@ -74,6 +74,7 @@ namespace Wash2.Views.Pagos
                             Lbl_ganancias.Text = Convert.ToString(json_[0].ganancias);
                             Lbl_cobros.Text = ganancia.ToString();
                             Lbl_cobroTotal.Text = ganancia.ToString();
+                            Saldo.Text = ganancia.ToString();
                         }
                         
                         //ListPagos.ItemsSource = json_;
@@ -100,6 +101,7 @@ namespace Wash2.Views.Pagos
             Lbl_ganancias.Text = "0";
             Lbl_cobros.Text = "0";
             Lbl_cobroTotal.Text = "0";
+            
             _ = GetPagos();
         }
     }

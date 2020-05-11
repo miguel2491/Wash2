@@ -54,7 +54,10 @@ namespace Wash2.Views.AutoLavados
                         Lbl_paquete.Text = json_[0].paquete;
                         r_calif.InitialValue = json_[0].calificacion;
                         Comentarios.Text = json_[0].comentario;
-
+                        Lbl_subtotal.Text = json_[0].monto;
+                        Lbl_tarifa.Text = json_[0].precio;
+                        var total = Convert.ToDecimal(json_[0].monto) + Convert.ToDecimal(json_[0].precio);
+                        Lbl_totalT.Text = Convert.ToString(total);
                         //SolicitudList.ItemsSource = json_;
                         break;
                 }

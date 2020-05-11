@@ -9,7 +9,10 @@
              xmlns:lv="clr-namespace:LaavorRatingConception;assembly=RatingConception"
              mc:Ignorable="d"
              x:Class="Wash2.Views.AutoLavados.AutosLavados">
-        <ScrollView>
+    <NavigationPage.TitleView>
+        <Label Text="WASH DRY APP" FontSize="20" TextColor="Black" FontAttributes="Bold" Margin="10"/>
+    </NavigationPage.TitleView>
+    <ScrollView>
             <StackLayout Margin="10,10,10,10">
                 <Label Text="TUS AUTOS LAVADOS"
                         FontSize="20"

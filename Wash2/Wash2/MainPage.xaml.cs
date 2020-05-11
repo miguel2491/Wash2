@@ -15,7 +15,6 @@ namespace Wash2
         public MainPage()
         {
             InitializeComponent();
-            ((NavigationPage)Application.Current.MainPage).BarBackgroundColor = Color.Coral;
             this.Master = new Master();
             this.Detail = new NavigationPage(new detail());
             App.MasterD = this;

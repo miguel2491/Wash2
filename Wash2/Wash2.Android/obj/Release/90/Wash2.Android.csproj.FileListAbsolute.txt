@@ -290,6 +290,8 @@ C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\res\drawable\fondo3.png
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\res\drawable\calendar.png
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\res\drawable\watch.png
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\res\drawable\inicio.jpg
+C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\res\drawable\img2.png
+C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\res\drawable\img1.png
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\bin\Release\Wash2.Android.dll
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\linksrc\Wash2.Android.dll.mdb
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Release\90\linksrc\Plugin.Connectivity.dll.mdb

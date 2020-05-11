@@ -30,5 +30,6 @@ namespace Wash2.Models
         public string precio { get; set; }
         public string usuario { get; set; }
         public string tipo_vehiculo { get; set; }
+        public string monto { get; set; }
     }
 }

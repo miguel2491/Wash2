@@ -14,6 +14,7 @@ using Wash2.Views.Estado;
 using Wash2.Views.Perfil;
 using Wash2.SQLiteDB;
 using Wash2.Models;
+using Plugin.Connectivity;
 
 namespace Wash2.Menu
 {
@@ -37,11 +38,23 @@ namespace Wash2.Menu
             //((NavigationPage)Application.Current.MainPage).BarBackgroundColor = Color.Coral;
         }
 
-        protected override void OnAppearing()
+        protected override async void OnAppearing()
         {
             base.OnAppearing();
             imgPerfil.Source = rfoto;
+            if (!CrossConnectivity.Current.IsConnected)
+            {
+                await DisplayAlert("Error", "Por favor activa tus datos o conectate a una red", "ok");
+                userdb = new UserDB();
+                var user_exist = userdb.GetMembers().ToList();
+                userdb.CerrarSesion(user_exist[0].id, 0);
+                Application.Current.MainPage = new NavigationPage(new Login());
+            }
         }
+
+        
+
+        
 
         private async void Perfil_Tapped(object sender, EventArgs args)
         {

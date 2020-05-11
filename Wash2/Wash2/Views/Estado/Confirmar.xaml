@@ -3,6 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              BackgroundColor="#225374"
              x:Class="Wash2.Views.Estado.Confirmar">
+    <NavigationPage.TitleView>
+        <Label Text="WASH DRY APP" FontSize="20" TextColor="Black" FontAttributes="Bold" Margin="10"/>
+    </NavigationPage.TitleView>
     <ContentPage.Content>
         <StackLayout Margin="10,10,10,10">
             <StackLayout Margin="30,50,30,0">
@@ -22,6 +25,7 @@
                     HorizontalOptions="CenterAndExpand"
                     Clicked="BtnConfirma_Clicked"
                 />
+                <ActivityIndicator x:Name="activityConfirmar" IsRunning="False" VerticalOptions="Center" HorizontalOptions="Center"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

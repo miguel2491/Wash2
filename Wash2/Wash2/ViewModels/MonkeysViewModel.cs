@@ -60,10 +60,10 @@ namespace Wash2.ViewModels
             source.Add(new Monkey
             {
                 Name = "",
-                TituloD2 = "¿Gana dinero con Nosotros?",
-                TituloD3 = "Ganar dinero con nosotros es muy sencillo",
+                TituloD2 = "GANA DINERO CON NOSOTROS",
+                TituloD3 = "EN WASH DRY PUEDES GENERAR PUEDES GENERAR INGRESOS TRABAJANDO COMO WASHER (LAVADOR DE AUTOS)",
                 Subname = "",
-                Titulo = "",
+                Titulo = "ES MUY SENCILLO, REGÍSTRATE Y ESPERA NUESTRA LLAMADA",
                 SubTitulo = "",
                 Sub = ""
             });
@@ -71,8 +71,8 @@ namespace Wash2.ViewModels
             source.Add(new Monkey
             {
                 Name = "",
-                TituloD2 = "Trabajar nunca fue tan sencillo",
-                TituloD3 = "",
+                TituloD2 = "UNA VEZ QUE RECIBAS NUESTRA LLAMADA Y SIGAS EL PROCESO ESTARÁS LISTO PARA SER PARTE DE NUESTRA FAMILIA.",
+                TituloD3 = "WASH DRY APP LA MEJOR APLICACIÓN DE LAVADO DE AUTO A DOMICILIO.",
                 Subname = "",
                 Titulo = "",
                 SubTitulo = "",

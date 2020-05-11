@@ -29,6 +29,16 @@ namespace Wash2.Views.AutoLavados
             _ = GetAutos(idW);
         }
 
+        protected override bool OnBackButtonPressed()
+        {
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                await this.Navigation.PopAsync();
+            });
+            return true;
+
+        }
+
         public async Task GetAutos(int id_washer)
         {
             HttpClient client = new HttpClient();

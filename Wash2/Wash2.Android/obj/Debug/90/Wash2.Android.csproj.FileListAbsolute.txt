@@ -391,7 +391,7 @@ C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\XbdMerge\ea5c07c4.proguar
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\XbdMerge\1f4fd9cc.proguard.stamp
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\XbdMerge\d9f2c52f.proguard.stamp
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\XbdMerge\04db0838.proguard.stamp
-C:\xampp\htdocs\Wash2\Wash2\Wash2\bin\Debug\netstandard2.0\Wash2.dll
-C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\bin\Debug\Wash2.dll.mdb
+C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\res\drawable\img2.png
+C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\res\drawable\img1.png
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\linksrc\Plugin.Connectivity.dll.mdb
 C:\xampp\htdocs\Wash2\Wash2\Wash2.Android\obj\Debug\90\linksrc\Wash2.dll.mdb

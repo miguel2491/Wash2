@@ -24,7 +24,7 @@ namespace Wash2.Views.Solicitudes
 
         public async Task GetInfoCalificacion(int id)
         {
-
+            await DisplayAlert("Aviso", "Recuerda confirmar tu pago antes de calificar al cliente", "ok");
             HttpClient client = new HttpClient();
 
             var url = "http://www.washdryapp.com/app/public/solicitud/cliente/" + id;
@@ -88,8 +88,8 @@ namespace Wash2.Views.Solicitudes
                 case System.Net.HttpStatusCode.OK:
                     //string xjson = await responseMsg.Content.ReadAsStringAsync();
                     await DisplayAlert("Correcto", "Calificación enviada", "ok");
-                    //await Navigation.PushAsync(new Wash2.Views.AutoLavados.AutosLavados());
-                    Application.Current.MainPage = new MainPage();
+
+                    await Navigation.PushAsync(new Wash2.Views.AutoLavados.AutosLavados());
                     break;
                 case System.Net.HttpStatusCode.Unauthorized:
                     await DisplayAlert("error", "yeah status 401 Unauthorized", "ok");
@@ -103,6 +103,19 @@ namespace Wash2.Views.Solicitudes
             int index = rating.IndexVoted;
             int value = rating.Value;
             voto = value;
+        }
+
+        protected override bool OnBackButtonPressed()
+        {
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                var result = await this.DisplayAlert("Aviso", "Realmente quieres regresar, cancelaras el proceso actual?", "Si", "No");
+                if (result)
+                {
+                    await ((MainPage)App.Current.MainPage).Detail.Navigation.PushAsync(new SolicitaSolicitud());
+                }
+            });
+            return true;
         }
     }
 }

@@ -13,6 +13,7 @@ using Wash2.Models;
 using Newtonsoft.Json;
 using static System.Net.WebRequestMethods;
 using Wash2.SQLiteDB;
+using Plugin.Connectivity;
 
 namespace Wash2.Views.Login
 {
@@ -26,14 +27,28 @@ namespace Wash2.Views.Login
 		{
             NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent ();
+            btnIniciarSesion.IsVisible = true;
+        }
+
+        protected override async void OnAppearing()
+        {
+            if (!CrossConnectivity.Current.IsConnected)
+            {
+                await DisplayAlert("Error", "Por favor activa tus datos o conectate a una red", "ok");
+                btnIniciarSesion.IsVisible = false;
+            }
+            else {
+                btnIniciarSesion.IsVisible = true;
+            }
         }
 
         private async void Iniciar_Sesion_Clicked(object sender, EventArgs e)
         {
-            btnIniciarSesion.IsVisible = false;
-            activityLogin.IsRunning = true;
             try
             {
+                btnIniciarSesion.IsVisible = false;
+                activityLogin.IsRunning = true;
+
                 userdb = new UserDB();
                 var user_exist = userdb.GetMembers().ToList();
 
@@ -101,7 +116,7 @@ namespace Wash2.Views.Login
                                 var status = 1;
                                 
                                 userdb.UpdateMember(idUser, id, name, email,nombre, password, idWasher, foto,status);
-                                Application.Current.MainPage = new MainPage();
+                                App.Current.MainPage = new MainPage();
                             }
                         }
                         catch (Exception ex){

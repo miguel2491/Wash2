@@ -2,8 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Wash2.Menu.detail"
-             Title = "WASH DRY APP"
              BackgroundColor="#225374">
+  <NavigationPage.TitleView>
+    <Label Text="WASH DRY APP" FontSize="20" TextColor="Black" FontAttributes="Bold" Margin="10"/>
+  </NavigationPage.TitleView>
     <ContentPage.Content>
         <FlexLayout Direction="Column" JustifyContent="SpaceBetween">
             <StackLayout Margin="20,60,20,2" >

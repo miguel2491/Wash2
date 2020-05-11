@@ -18,9 +18,18 @@ namespace Wash2.Menu
 		{
 
             InitializeComponent ();
-            ((NavigationPage)Application.Current.MainPage).BarBackgroundColor = Color.Coral;
         }
-        
+
+        protected override bool OnBackButtonPressed()
+        {
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                var result = await this.DisplayAlert("Aviso", "Realmente quieres salir?", "Si", "No");
+                if (result) System.Environment.Exit(0);
+
+            });
+            return true;
+        }
 
         private async void Solicitudes_Clicked(object sender, EventArgs e)
         {

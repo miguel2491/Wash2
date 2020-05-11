@@ -5,6 +5,9 @@
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              BackgroundColor="#225374"
              x:Class="Wash2.Views.Estado.EdoIndi">
+    <NavigationPage.TitleView>
+        <Label Text="WASH DRY APP" FontSize="20" TextColor="Black" FontAttributes="Bold" Margin="10"/>
+    </NavigationPage.TitleView>
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="10,20,10,20">
@@ -20,7 +23,6 @@
                         VerticalOptions="CenterAndExpand" 
                         HorizontalOptions="CenterAndExpand" />
                 </StackLayout>
-                
                 <StackLayout Margin="70,10,70,10">
                     <Label Text="EN ESTE MOMENTO ESTÁS LAVANDO UN AUTO"
                         FontSize="16"
@@ -188,8 +190,8 @@
                             VerticalOptions="CenterAndExpand" 
                             HorizontalOptions="CenterAndExpand"
                             />
-                        <ActivityIndicator x:Name="activityCheck" IsRunning="False" VerticalOptions="Center" HorizontalOptions="Center"/>
                     </Grid>
+                    <ActivityIndicator x:Name="activityCheck" IsRunning="False"  VerticalOptions="Center" HorizontalOptions="Center"/>
                 </StackLayout>
                 <StackLayout Margin="10,10,10,10">
                     <Image

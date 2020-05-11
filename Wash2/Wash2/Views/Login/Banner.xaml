@@ -32,8 +32,8 @@
                                 </StackLayout>
                                 <StackLayout Margin="2,-100,20,2">
                                     <Label Text="{Binding TituloD2}" 
-                                       FontAttributes="Bold"
                                        FontSize="20"
+                                       TextColor="White"
                                        HorizontalTextAlignment="Center"
                                        VerticalTextAlignment="Center"
                                        HorizontalOptions="CenterAndExpand"
@@ -41,7 +41,7 @@
                                 </StackLayout>
                                 <StackLayout Margin="2,30,20,2">
                                     <Label Text="{Binding TituloD3}" 
-                                       TextColor="black"
+                                       TextColor="White"
                                        HorizontalTextAlignment="Center"
                                        VerticalTextAlignment="Center"
                                        FontSize="20"
@@ -60,7 +60,7 @@
                                 <StackLayout Margin="10,0,10,10">
                                     <Label 
                                         Text="{Binding Titulo}"
-                                        TextColor="#a8d4bc"
+                                        TextColor="#FAFEFD"
                                         FontSize="20"
                                         VerticalOptions="CenterAndExpand"
                                         HorizontalOptions="CenterAndExpand" />

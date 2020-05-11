@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Wash2.Models;
+using Wash2.Views.Solicitudes;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -23,6 +24,7 @@ namespace Wash2.Views.Estado
 
         private async void BtnConfirma_Clicked(object sender, EventArgs e)
         {
+            activityConfirmar.IsRunning = true;
             var httpClient = new HttpClient();
             var url = "http://www.washdryapp.com/app/public/solicitud/confirmaLlegada";
             var value_check = new Dictionary<string, string>
@@ -62,6 +64,19 @@ namespace Wash2.Views.Estado
                     await DisplayAlert("error", "yeah status 401 Unauthorized", "ok");
                     break;
             }
+            activityConfirmar.IsRunning = false;
+        }
+
+        protected override bool OnBackButtonPressed()
+        {
+            Device.BeginInvokeOnMainThread(async () =>
+            {
+                var result = await this.DisplayAlert("Aviso", "Realmente quieres regresar, cancelaras el proceso actual?", "Si", "No");
+                if (result) {
+                    await ((MainPage)App.Current.MainPage).Detail.Navigation.PushAsync(new SolicitaSolicitud());
+                }
+            });
+            return true;
         }
     }
 }
