@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              BackgroundColor="#225374"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              x:Class="Wash2.Views.Estado.Confirmar">
     <NavigationPage.TitleView>
         <Label Text="WASH DRY APP" FontSize="20" TextColor="Black" FontAttributes="Bold" Margin="10"/>
@@ -26,6 +27,11 @@
                     Clicked="BtnConfirma_Clicked"
                 />
                 <ActivityIndicator x:Name="activityConfirmar" IsRunning="False" VerticalOptions="Center" HorizontalOptions="Center"/>
+            </StackLayout>
+            <StackLayout Margin="10,10,10,10">
+                <Frame HasShadow="True" Padding="3,3,3,3" BackgroundColor="#81e394" CornerRadius="10">
+                    <maps:Map x:Name="Mapx" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HeightRequest="200"  IsShowingUser="true" />
+                </Frame>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
