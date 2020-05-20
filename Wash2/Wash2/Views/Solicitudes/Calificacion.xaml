@@ -7,6 +7,7 @@
              BackgroundColor="#225374"
              xmlns:lv="clr-namespace:LaavorRatingConception;assembly=RatingConception"
              mc:Ignorable="d"
+             NavigationPage.HasBackButton="False" 
              x:Class="Wash2.Views.Solicitudes.Calificacion">
     <NavigationPage.TitleView>
         <Label Text="WASH DRY APP" FontSize="20" TextColor="Black" FontAttributes="Bold" Margin="10"/>

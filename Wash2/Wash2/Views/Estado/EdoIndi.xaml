@@ -124,6 +124,126 @@
                         <maps:Map x:Name="MapView" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HeightRequest="150" />
                     </Frame>
                 </StackLayout>
+                <StackLayout Margin="30,10,10,10">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Label 
+                            Text="Paquete Seleccionado"
+                            FontSize="14"
+                            WidthRequest="110"
+                            FontAttributes="Bold"
+                            TextColor="#81e394"
+                            BackgroundColor="#547691"
+                            VerticalOptions="CenterAndExpand" 
+                            HorizontalOptions="CenterAndExpand"
+                            Grid.Row="0" Grid.Column="0"
+                            />
+                        <Label 
+                            FontSize="14"
+                            WidthRequest="110"
+                            x:Name="Lbl_paquete_sel"
+                            FontAttributes="Bold"
+                            TextColor="#81e394"
+                            VerticalOptions="CenterAndExpand" 
+                            HorizontalOptions="CenterAndExpand"
+                            Grid.Row="0" Grid.Column="1"
+                            />
+                        <Label 
+                            Text="Fragancia"
+                            FontSize="14"
+                            WidthRequest="110"
+                            FontAttributes="Bold"
+                            TextColor="#81e394"
+                            BackgroundColor="#547691"
+                            VerticalOptions="CenterAndExpand" 
+                            HorizontalOptions="CenterAndExpand"
+                            Grid.Row="1" Grid.Column="0"
+                            />
+                        <Label 
+                            FontSize="14"
+                            WidthRequest="110"
+                            x:Name="Lbl_fragancia"
+                            FontAttributes="Bold"
+                            TextColor="#81e394"
+                            VerticalOptions="CenterAndExpand" 
+                            HorizontalOptions="CenterAndExpand"
+                            Grid.Row="1" Grid.Column="1"
+                            />
+                        <Label 
+                            Text="Fecha de Servicio"
+                            FontSize="14"
+                            WidthRequest="110"
+                            FontAttributes="Bold"
+                            TextColor="#81e394"
+                            BackgroundColor="#547691"
+                            VerticalOptions="CenterAndExpand" 
+                            HorizontalOptions="CenterAndExpand"
+                            Grid.Row="2" Grid.Column="0"
+                            />
+                        <Label 
+                            FontSize="14"
+                            WidthRequest="110"
+                            x:Name="Lbl_fecha_servicio"
+                            FontAttributes="Bold"
+                            TextColor="#81e394"
+                            VerticalOptions="CenterAndExpand" 
+                            HorizontalOptions="CenterAndExpand"
+                            Grid.Row="2" Grid.Column="1"
+                            />
+                        <Label 
+                            Text="Forma de Pago"
+                            FontSize="14"
+                            WidthRequest="110"
+                            FontAttributes="Bold"
+                            TextColor="#81e394"
+                            BackgroundColor="#547691"
+                            VerticalOptions="CenterAndExpand" 
+                            HorizontalOptions="CenterAndExpand"
+                            Grid.Row="4" Grid.Column="0"
+                            />
+                        <Label 
+                            FontSize="14"
+                            WidthRequest="110"
+                            x:Name="Lbl_forma_pago"
+                            FontAttributes="Bold"
+                            TextColor="#81e394"
+                            VerticalOptions="CenterAndExpand" 
+                            HorizontalOptions="CenterAndExpand"
+                            Grid.Row="4" Grid.Column="1"
+                            />
+                        <Label 
+                            Text="Total a Pagar"
+                            FontSize="14"
+                            WidthRequest="110"
+                            FontAttributes="Bold"
+                            TextColor="#81e394"
+                            BackgroundColor="#547691"
+                            VerticalOptions="CenterAndExpand" 
+                            HorizontalOptions="CenterAndExpand"
+                            Grid.Row="5" Grid.Column="0"
+                            />
+                        <Label 
+                            FontSize="14"
+                            WidthRequest="110"
+                            x:Name="Lbl_total_pagar"
+                            FontAttributes="Bold"
+                            TextColor="#81e394"
+                            VerticalOptions="CenterAndExpand" 
+                            HorizontalOptions="CenterAndExpand"
+                            Grid.Row="5" Grid.Column="1"
+                            />
+                    </Grid>
+                </StackLayout>
                 <StackLayout Margin="50,10,5,10">
                     <Grid>
                         <Grid.RowDefinitions>

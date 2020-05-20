@@ -19,6 +19,7 @@ namespace Wash2.Views.Solicitudes
 		public Calificacion (int id_s)
 		{
 			InitializeComponent ();
+            NavigationPage.SetHasNavigationBar(this, false);
             _ = GetInfoCalificacion(id_s);
         }
 

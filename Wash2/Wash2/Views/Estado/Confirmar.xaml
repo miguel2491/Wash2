@@ -33,6 +33,16 @@
                     <maps:Map x:Name="Mapx" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" HeightRequest="200"  IsShowingUser="true" />
                 </Frame>
             </StackLayout>
+            <StackLayout Margin="20,10,10,20">
+                <Label
+                    x:Name="Lbl_direccion"
+                    FontSize="14"
+                    FontAttributes="Bold"
+                    TextColor="#81e394"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                    />
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

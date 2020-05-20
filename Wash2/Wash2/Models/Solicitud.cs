@@ -12,6 +12,7 @@ namespace Wash2.Models
         public int id_auto { get; set; }
         public string latitud { get; set; }
         public string longitud { get; set; }
+        public string direccion { get; set; }
         public string foto { get; set; }
         public string foto_washer { get; set; }
         public DateTime fecha { get; set; }
@@ -31,5 +32,8 @@ namespace Wash2.Models
         public string usuario { get; set; }
         public string tipo_vehiculo { get; set; }
         public string monto { get; set; }
+        public string fragancia { get; set; }
+        public string total_pagar { get; set; }
+        public string forma_pago { get; set; }
     }
 }

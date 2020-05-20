@@ -27,6 +27,7 @@ namespace Wash2.Views.Solicitudes
             var user_exist = userdb.GetMembers().ToList();
             var idW = user_exist[0].idWasher;
             _ = GetAutos(idW);
+            
         }
 
         protected override bool OnBackButtonPressed()

@@ -81,6 +81,11 @@ namespace Wash2.Views.Estado
                         Lbl_modelo.Text = json_[0].modelo;
                         Lbl_placa.Text = json_[0].placas;
                         Lbl_nombre.Text = json_[0].usuario;
+                        Lbl_paquete_sel.Text = json_[0].paquete + " " + json_[0].precio;
+                        Lbl_fragancia.Text = json_[0].fragancia;
+                        Lbl_fecha_servicio.Text = json_[0].fecha.Date.ToString("yyyy-MM-dd");
+                        Lbl_forma_pago.Text = json_[0].forma_pago;
+                        Lbl_total_pagar.Text = json_[0].precio;
                         var lat = Convert.ToDouble(json_[0].latitud);
                         var lon = Convert.ToDouble(json_[0].longitud);
                         var pos = await CrossGeolocator.Current.GetPositionAsync();
@@ -90,13 +95,13 @@ namespace Wash2.Views.Estado
                         double latlongDegrees = 360 / (Math.Pow(2, zoomLevel));
                         MapView.MoveToRegion(
                         MapSpan.FromCenterAndRadius(
-                            new Position(lon, lat), Distance.FromMiles(.3)
+                            new Position(lat, lon), Distance.FromMiles(.3)
                             )
                         );
                         var pin = new Pin
                         {
                             Type = PinType.Place,
-                            Position = new Position(lon, lat),
+                            Position = new Position(lat, lon),
                             Label = "Mi ubicacion",
                             Address = "  usted se encuentra aqui",
 

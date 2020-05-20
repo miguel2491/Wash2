@@ -24,18 +24,6 @@ namespace Wash2.Views.Estado
 			InitializeComponent ();
             _ = CurrentLocation();
             idS = id_s;
-            Device.StartTimer(TimeSpan.FromMinutes(1), () => //Will start after 1 min
-            {
-                Task.Run(() =>
-                {
-                    //Mapx.IsVisible = false;
-                    Console.WriteLine("CADA MINUTE");
-                    // do something with time...
-                    
-                });
-
-                return false; // To repeat timer,always return true.If you want to stop the timer,return false
-            });
         }
 
         public async Task CurrentLocation()
@@ -65,6 +53,7 @@ namespace Wash2.Views.Estado
                         var json_ = JsonConvert.DeserializeObject<List<Solicitud>>(xjson);
                         var lat = Convert.ToDouble(json_[0].latitud);
                         var lon = Convert.ToDouble(json_[0].longitud);
+                        Lbl_direccion.Text = json_[0].direccion;
                         //lat = Convert.ToDecimal(lat);
                         var pin = new Pin
                         {
@@ -84,7 +73,7 @@ namespace Wash2.Views.Estado
                             Geopath =
                             {
                                 new Position(pos.Latitude, pos.Longitude),
-                                new Position(lon, lat)
+                                new Position(lat, lon)
                             }
                         };
                         Mapx.MapElements.Add(polyline);
@@ -99,8 +88,6 @@ namespace Wash2.Views.Estado
             }
 
         }
-
-
 
         private async void BtnConfirma_Clicked(object sender, EventArgs e)
         {
